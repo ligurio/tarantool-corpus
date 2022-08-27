@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 16
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 16
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 16
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 16
+              }
+            }
+            expr {
+              number: 16
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              number: 16
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 16
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 16
+        }
+      }
+    }
+    semicolon: true
+  }
+}

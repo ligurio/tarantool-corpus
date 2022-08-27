@@ -1,0 +1,203 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 2048
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 47360
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 1526726656
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 4194304
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 4294967292
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 5636091
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 2048
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 16774912
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 16774912
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "repeat"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 1526726656
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 4194304
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\231"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 2048
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 2048
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 2048
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,122 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "%"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

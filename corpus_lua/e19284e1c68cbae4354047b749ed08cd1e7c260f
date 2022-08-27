@@ -1,0 +1,69 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "require"
+            }
+          }
+        }
+        varNext {
+          name: "for"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Int64"
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 4
+        }
+        expr {
+          false: 4
+        }
+        expr {
+          ellipsis: 4
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 677576704
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+}

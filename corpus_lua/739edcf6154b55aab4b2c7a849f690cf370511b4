@@ -1,0 +1,53 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 42949672960
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+}

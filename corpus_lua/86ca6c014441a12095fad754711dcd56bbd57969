@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "Optional"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+      }
+      exprList {
+        expr {
+          nil: 1862299392
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

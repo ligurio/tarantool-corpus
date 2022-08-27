@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "coroutine.isyieldable"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 134217736
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+      }
+    }
+  }
+}

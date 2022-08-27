@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 754974720
+              }
+            }
+            expr {
+              true: 754974720
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "math.maxinteger"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 754974720
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 754974720
+    }
+  }
+}

@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              nil: 1073741824
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              nil: 1073741824
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "\303\001\000\000\000\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              nil: 1073741824
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1073741824
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

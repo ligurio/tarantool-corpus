@@ -1,0 +1,223 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 989855744
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "o"
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 9
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 17592186044416
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Sint3"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 30
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 100663297
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          name: "Sint3"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+          true: 100663297
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

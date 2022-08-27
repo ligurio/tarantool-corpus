@@ -1,0 +1,45 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "="
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\000\331\000\024"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 63488
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

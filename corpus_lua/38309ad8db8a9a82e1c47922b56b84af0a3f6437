@@ -1,0 +1,173 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 134217728
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "Enum"
+        }
+        varNext {
+          name: "z"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              nil: 1935764512
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "b"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2097152
+        }
+        lastExpr {
+          str: ":"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "-1i"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 134217728
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "function"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

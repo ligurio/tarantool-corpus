@@ -1,0 +1,190 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

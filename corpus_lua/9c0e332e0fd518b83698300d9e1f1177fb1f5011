@@ -1,0 +1,81 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 5888
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+}

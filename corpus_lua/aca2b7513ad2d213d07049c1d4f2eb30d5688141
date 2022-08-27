@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "& return "
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 4539632822435971072
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 26463045857312768
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "&"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

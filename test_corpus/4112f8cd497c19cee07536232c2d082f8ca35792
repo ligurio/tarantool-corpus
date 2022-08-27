@@ -1,0 +1,81 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 2251799813685248
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 252
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      break: 7471356
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,197 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              nil: 1
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "C"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "else"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\325"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          nil: 2105348
+        }
+        expr {
+        }
+        expr {
+          number: 16384
+        }
+        expr {
+          nil: 16741380
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          number: 1056561954816
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 721420288
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 268280837177344
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 67108868
+        }
+        expr {
+        }
+        expr {
+          nil: 2105348
+        }
+        expr {
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

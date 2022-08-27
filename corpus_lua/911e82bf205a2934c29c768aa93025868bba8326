@@ -1,0 +1,148 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 9016241776345751584
+              }
+            }
+            expr {
+              str: "Floloatat"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 8
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 9016241776345751584
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\323\323\323\323\323\323\323\323\323\323\323"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

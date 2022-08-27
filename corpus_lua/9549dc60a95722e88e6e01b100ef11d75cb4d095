@@ -1,0 +1,52 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Idempotent"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "until"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 8448
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

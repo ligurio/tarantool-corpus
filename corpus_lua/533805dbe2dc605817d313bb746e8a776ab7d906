@@ -1,0 +1,143 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              true: 256
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 2105348
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          false: 687360
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 256
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        expr {
+          true: 83951616
+        }
+        lastExpr {
+          true: 2020565508
+        }
+      }
+    }
+    semicolon: false
+  }
+}

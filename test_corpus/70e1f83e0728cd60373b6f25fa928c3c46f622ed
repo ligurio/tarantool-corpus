@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "type"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221."
+        }
+        expr {
+          false: 4143972352
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "type"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

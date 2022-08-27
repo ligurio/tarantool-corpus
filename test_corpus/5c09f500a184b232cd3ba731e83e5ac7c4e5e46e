@@ -1,0 +1,211 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          name: "\321"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              false: 16646144
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              false: 16646144
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 8796093022208
+        }
+        expr {
+          false: 16646144
+        }
+        expr {
+          false: 16646144
+        }
+        lastExpr {
+          ellipsis: 32
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              false: 16646144
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 16646144
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 8796093022208
+        }
+        expr {
+          false: 16646144
+        }
+        expr {
+          number: 8589934592
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          name: "\321"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              false: 16646144
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              false: 16646144
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 8796093022208
+        }
+        expr {
+          false: 16646144
+        }
+        expr {
+          false: 16646144
+        }
+        lastExpr {
+          ellipsis: 32
+        }
+      }
+    }
+    semicolon: true
+  }
+}

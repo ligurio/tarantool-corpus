@@ -1,0 +1,78 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+              str: "__mod"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "__mod"
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "__mod"
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

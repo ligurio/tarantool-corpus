@@ -1,0 +1,78 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_______________"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "?"
+              }
+            }
+            expr {
+              str: "?"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 8388608
+              }
+            }
+            expr {
+              str: "/?"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_______________"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "?"
+              }
+            }
+            expr {
+              str: "?"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 8388608
+              }
+            }
+            expr {
+              str: "/?"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+}

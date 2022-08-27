@@ -1,0 +1,52 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\037"
+        }
+        varNext {
+          name: "\377\037"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 1024
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 10
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 10
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "."
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

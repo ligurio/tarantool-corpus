@@ -1,0 +1,81 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 671088640
+        }
+        expr {
+          ellipsis: 33554432
+        }
+        expr {
+          nil: 4194304
+        }
+        expr {
+          ellipsis: 671088640
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        varNext {
+          name: "0     expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              false: 8223488\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              false: 0\n            }\n          }\n        }\n        varNext {\n          name: \"z\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              false: 7471104\n            }\n          }\n        }\n      }\n      exprList {\n        lastExpr {\n          nil: 671088640\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"[[\"\n        }\n        varNext {\n          name: \",\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                nil: 0\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                nil: 0\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                ellipsis: 0\n              }\n            }\n            expr {\n              false: 97\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                ellipsis: 2105344\n              }\n            }\n            expr {\n              ellipsis: 0\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        var"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 97
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "JsString"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "JsString"
+        }
+        varNext {
+          name: "\377"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 33554432
+        }
+      }
+    }
+    semicolon: true
+  }
+}

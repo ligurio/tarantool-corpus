@@ -1,0 +1,131 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_______________________________________________________________________________________________________________________________"
+        }
+      }
+      exprList {
+        expr {
+          true: 4294967290
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          number: 16
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 1788241408
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "U"
+        }
+        varNext {
+          name: "Byte"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          str: "_______________________________________________________________________________________________________________________________"
+        }
+        lastExpr {
+          false: 2063597569
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_______________________________________________________________________________________________________________________________"
+        }
+      }
+      exprList {
+        expr {
+          nil: 1785685504
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 8202
+    }
+    semicolon: true
+  }
+}

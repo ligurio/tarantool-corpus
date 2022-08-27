@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\0000kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+        }
+        varNext {
+          name: "\'1\'"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            str: ""
+          }
+        }
+      }
+    }
+  }
+}

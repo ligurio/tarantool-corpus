@@ -1,0 +1,222 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          ellipsis: 16
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "+"
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          false: 16
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\273"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: ".hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "K"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "."
+        }
+        expr {
+          str: "\211"
+        }
+        expr {
+          str: "\273"
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+  }
+}

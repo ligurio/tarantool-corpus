@@ -1,0 +1,140 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "K"
+        }
+        varNext {
+          name: "\036\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+        }
+        lastExpr {
+          false: 2097152
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "JsString"
+        }
+        varNext {
+          name: "tre"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "true"
+        }
+      }
+      exprList {
+        expr {
+          number: 137975824384
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "2"
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\000\027"
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "ue"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

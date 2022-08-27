@@ -1,0 +1,42 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\375"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              nil: 4294967295
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

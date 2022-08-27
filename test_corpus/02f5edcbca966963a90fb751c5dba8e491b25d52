@@ -1,0 +1,83 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 25600
+        }
+        expr {
+        }
+        lastExpr {
+          str: "debug.getmetatable"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "and"
+        }
+      }
+      exprList {
+        expr {
+          false: 61
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          true: 536936442
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 61
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

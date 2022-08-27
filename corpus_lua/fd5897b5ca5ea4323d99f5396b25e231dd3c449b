@@ -1,0 +1,159 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000"
+        }
+        varNext {
+        }
+        varNext {
+          name: "%"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          ellipsis: 65536
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 9042521065783296
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 281474976710656
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 9042521065783296
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 38
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 9042521065783296
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 65536
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 9042521065783296
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          name: "\000"
+        }
+        varNext {
+          name: "\022"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 65536
+        }
+      }
+    }
+    semicolon: true
+  }
+}

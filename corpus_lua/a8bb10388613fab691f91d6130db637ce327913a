@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Idempotent"
+        }
+        varNext {
+          name: "exprList"
+        }
+        varNext {
+          name: "exprList"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

@@ -1,0 +1,54 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "?"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "?"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\377"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

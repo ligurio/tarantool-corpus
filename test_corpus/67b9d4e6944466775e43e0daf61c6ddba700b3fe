@@ -1,0 +1,28 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "in"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "&"
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

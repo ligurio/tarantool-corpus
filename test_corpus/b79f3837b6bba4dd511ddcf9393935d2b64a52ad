@@ -1,0 +1,63 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 524288
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 16
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 754974720
+    }
+  }
+}

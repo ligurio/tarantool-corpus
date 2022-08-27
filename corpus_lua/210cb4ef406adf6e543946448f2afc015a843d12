@@ -1,0 +1,82 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 4
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          str: "Repeated"
+        }
+        lastExpr {
+          false: 1
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Btte"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "_______________________________________________________________________________________________________________________________"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          false: 4
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

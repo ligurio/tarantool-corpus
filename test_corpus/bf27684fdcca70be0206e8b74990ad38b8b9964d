@@ -1,0 +1,80 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 4393754492928
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "io.lines"
+        }
+        varNext {
+          name: "io.lines"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1900544
+              }
+            }
+            expr {
+              number: 1900544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 2359296
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+          number: 2949120
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

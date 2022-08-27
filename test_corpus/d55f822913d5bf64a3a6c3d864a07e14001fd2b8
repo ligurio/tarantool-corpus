@@ -1,0 +1,46 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "JsNormal"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 262144
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

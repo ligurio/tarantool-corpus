@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.tmpname"
+        }
+        varNext {
+          name: "encode"
+        }
+        varNext {
+          name: "#"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            false: 6627344
+          }
+        }
+      }
+    }
+  }
+}

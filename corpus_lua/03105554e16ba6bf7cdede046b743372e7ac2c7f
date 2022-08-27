@@ -1,0 +1,124 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225"
+              }
+            }
+            expr {
+              str: "load"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "q"
+        }
+        varNext {
+          name: "?            }\n            expr {\n              str: \"load\"\n            }\n          }\n        }\n        varNext {\n          name: \"?\"\n        }\n        varNext {\n          name: \"\\005_\"\n        }\n      }\n      exprList {\n        expr {\n        }\n        lastExpr {\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"r#Goup\"\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"\"\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          name: \"\\000\\000\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"Group\"\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          name: \"os.r\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000emove\"\n        }\n        varNext {\n          name: \"debug.gethook\"\n        }\n      }\n      exprList {\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              str: \"load\"\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              ellipsis: 0\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              str: \"BBBBBBBBBBBBBBBBBBBBBB\"\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"Group\"\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n         "
+        }
+        varNext {
+          name: "\025_"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 2456314624
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 6488064
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

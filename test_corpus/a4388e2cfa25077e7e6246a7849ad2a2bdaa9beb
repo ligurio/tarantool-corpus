@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          str: "__mu\377"
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+}

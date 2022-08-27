@@ -1,0 +1,175 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\017\374"
+        }
+        varNext {
+          name: "setmetatable"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 1752457581
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 1701601119
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 687392
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\017\374"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 1701601119
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 686911
+        }
+        expr {
+          str: "__bor"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

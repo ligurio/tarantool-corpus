@@ -1,0 +1,216 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.clock"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "os.clock"
+        }
+      }
+      exprList {
+        expr {
+          false: 512
+        }
+        lastExpr {
+          false: 512
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.clock"
+        }
+        varNext {
+          name: "1"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          number: 1828716544
+        }
+        expr {
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "1"
+        }
+        expr {
+        }
+        lastExpr {
+          false: 83820544
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 4211016192
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 191
+        }
+        expr {
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "os.clock"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 255
+        }
+        expr {
+          nil: 6488157
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 4294901761
+    }
+  }
+}

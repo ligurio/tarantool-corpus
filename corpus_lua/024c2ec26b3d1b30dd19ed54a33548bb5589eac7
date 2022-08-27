@@ -1,0 +1,74 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+        varNext {
+          name: "Int64"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          true: 10240
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 8257536
+        }
+        expr {
+        }
+        lastExpr {
+          false: 10240
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          false: 10240
+        }
+      }
+    }
+    semicolon: true
+  }
+}

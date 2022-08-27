@@ -1,0 +1,122 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "]"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\033\000\000\000"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "nil"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "1\000\000\000\000\000\000\000"
+        }
+        varNext {
+          name: "1\000\000\000\000\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "<<"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2685
+        }
+        lastExpr {
+          str: "("
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 2685
+        }
+      }
+    }
+  }
+}

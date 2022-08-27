@@ -1,0 +1,102 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\035"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\035"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\035"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          true: 23
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\035"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          true: 23
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 23
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

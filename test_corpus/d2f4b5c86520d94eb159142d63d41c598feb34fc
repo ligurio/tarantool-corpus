@@ -1,0 +1,29 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\376\377\377\377\377\377\377"
+        }
+        varNext {
+          name: "string.gmatch"
+        }
+      }
+      exprList {
+        expr {
+          true: 6619140
+        }
+        lastExpr {
+          number: 30506377183756288
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

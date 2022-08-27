@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Sint3"
+        }
+      }
+      exprList {
+        expr {
+          str: "5"
+        }
+        expr {
+          number: 32768
+        }
+        lastExpr {
+          str: "\317"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "and"
+        }
+        varNext {
+          name: "and"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "and"
+        }
+        varNext {
+          name: "V"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

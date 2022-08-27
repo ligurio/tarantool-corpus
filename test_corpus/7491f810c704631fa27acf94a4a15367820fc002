@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "debug.debug"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 576460753914036224
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 137438953472
+        }
+        lastExpr {
+          number: 576460752303423488
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 16325550401675629
+              }
+            }
+            expr {
+              ellipsis: 40448
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 576460752303423488
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

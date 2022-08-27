@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "exprList"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 8192
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          str: "_______________________________________________________________________________________________________________________________"
+        }
+        lastExpr {
+          false: 1
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Byte"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Byte"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

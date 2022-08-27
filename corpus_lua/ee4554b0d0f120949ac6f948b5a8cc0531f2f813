@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          str: "JsNormal"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

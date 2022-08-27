@@ -1,0 +1,205 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "+"
+        }
+        varNext {
+          name: "\035\000\000\000"
+        }
+        varNext {
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: "true"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 268435456
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "true"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          false: 63488
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          name: "\324"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 63488
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 268435456
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "true"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 33554432
+            }
+          }
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\000\027"
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: "true"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

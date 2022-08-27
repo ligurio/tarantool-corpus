@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              false: 16646144
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 1701601119
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "~="
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "*"
+        }
+        varNext {
+          name: "xpcall"
+        }
+      }
+      exprList {
+        expr {
+          false: 16646144
+        }
+        expr {
+          number: 208907209277440
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "__mul"
+              }
+            }
+            expr {
+              str: "__mul"
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 0
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,88 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Byte"
+        }
+        varNext {
+          name: "\020\000\000\000"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "="
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "."
+        }
+        lastExpr {
+          str: "Byte"
+        }
+      }
+    }
+  }
+}

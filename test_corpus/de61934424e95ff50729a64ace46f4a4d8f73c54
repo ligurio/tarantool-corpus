@@ -1,0 +1,25 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "local"
+        }
+        varNext {
+        }
+        varNext {
+          name: "cal"
+        }
+      }
+      exprList {
+        expr {
+          str: "local"
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

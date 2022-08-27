@@ -1,0 +1,175 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          number: 1828716544
+        }
+        lastExpr {
+          false: 16128
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 16128
+        }
+        expr {
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "#"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 67108864
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 15871
+        }
+        lastExpr {
+          true: 16128
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "J"
+        }
+        varNext {
+          name: "S"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 7308613718008622848
+        }
+        lastExpr {
+          true: 16128
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              number: 7308613718008622848
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 255
+        }
+        lastExpr {
+          true: 255
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\000\000\000\021"
+        }
+      }
+      exprList {
+        expr {
+          number: 2308792998911016960
+        }
+        expr {
+        }
+        lastExpr {
+          false: 3014912
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

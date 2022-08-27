@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "math.cos"
+        }
+        expr {
+          str: "math.cos"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

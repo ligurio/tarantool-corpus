@@ -1,0 +1,151 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 6841088
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 63
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\000\000\000\000\000\000ipsis: 10289152\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n        }\n        lastExpr {\n          nil: 1845493760\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n   \000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "setmetatable"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\017\374"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 721420288
+            }
+          }
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\017\374"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 63
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

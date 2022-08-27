@@ -1,0 +1,83 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 137438953472
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+          number: 137438953472
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 137438953472
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+          number: 137438953472
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

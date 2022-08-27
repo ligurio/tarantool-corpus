@@ -1,0 +1,66 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Sfixed6"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 262144
+              }
+            }
+            expr {
+              nil: 262144
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

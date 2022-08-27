@@ -1,0 +1,153 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 4
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 2
+        }
+        expr {
+          false: 34304
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 8448
+        }
+        lastExpr {
+          str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 4
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "@"
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "@"
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

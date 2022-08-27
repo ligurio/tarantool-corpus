@@ -1,0 +1,191 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ",BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "tt\000\000\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "Repeated"
+        }
+        varNext {
+          name: ",BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "tt\000\000\000\000\000"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ":"
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ",BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+        varNext {
+        }
+        varNext {
+          name: "tt\000\000\000\000\000"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

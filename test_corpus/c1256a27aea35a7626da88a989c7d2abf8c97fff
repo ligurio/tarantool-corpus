@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 8
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2048
+    }
+  }
+}

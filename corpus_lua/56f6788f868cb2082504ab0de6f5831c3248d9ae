@@ -1,0 +1,162 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 4
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 16
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 327680
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          nil: 4
+        }
+        lastExpr {
+          nil: 2
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 2
+        }
+      }
+    }
+  }
+}

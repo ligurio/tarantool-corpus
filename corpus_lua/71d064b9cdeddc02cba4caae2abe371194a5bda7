@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Byte"
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Byte"
+        }
+      }
+      exprList {
+        expr {
+          false: 268435456
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 268435456
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

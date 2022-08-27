@@ -1,0 +1,269 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\235"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+              str: "\252"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "\252"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 45
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 45
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 6488064
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              false: 1744830466
+            }
+          }
+        }
+        varNext {
+          name: "\273"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              false: 1744830466
+            }
+          }
+        }
+        varNext {
+          name: "\273"
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          str: ""
+        }
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\235"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "return."
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "\252"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\235"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "return."
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "\252"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+    semicolon: true
+  }
+}

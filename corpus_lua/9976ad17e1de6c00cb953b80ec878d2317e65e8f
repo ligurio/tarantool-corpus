@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Group"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Group"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 8388725
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "!"
+        }
+      }
+      exprList {
+        expr {
+          nil: 59
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+}

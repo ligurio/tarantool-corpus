@@ -1,0 +1,38 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 3145728
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "lua_grammar.Chunk"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 3145728
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

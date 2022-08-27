@@ -1,0 +1,100 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+      }
+      exprList {
+        expr {
+          str: "Kchunk {\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"exprList\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                number: 9216\n              }\n            }\n            expr {\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n          str: \"K\"\n        }\n        lastExpr {\n          nil: 0\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"t\\000\\000\\000\"\n        }\n        varNext {\n        }\n      }\n      exprList {\n        expr {\n          number: 39\n        }\n        expr {\n          str: \"_______________________________________________________________________________________________________________________________\"\n        }\n        lastExpr {\n          true: 0\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"RepeateRepe\"\n        }\n        varNext {\n          name: \"Repeate\"\n        }\n      }\n      exprList {\n        lastExpr {\n          true: 1\n        }\n      }\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"Byte\"\n        }\n      }\n      exprList {\n        expr {\n          ellipsis: 1\n        }\n        lastExpr {\n          false: 0\n        }\n      }\n    }\n    semicolon: true\n  }\n}\n"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "K"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "B\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000BBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBy\000BBBBBBBBBBBBBBB\002B"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "mmmmmmmmmmmmmmmmmmm"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "BBBBB\000\000\000\000\000\000\000\003y\000BBBBBBBBBBBBBBB\002B"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

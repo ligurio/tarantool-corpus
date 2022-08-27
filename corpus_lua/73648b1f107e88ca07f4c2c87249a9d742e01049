@@ -1,0 +1,70 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2105344
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          true: 1919903232
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "+"
+        }
+        varNext {
+        }
+        varNext {
+          name: "math.sqrt"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 32
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "5\334w\211\226\332\240\345"
+        }
+      }
+      exprList {
+        expr {
+          nil: 8192
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

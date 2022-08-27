@@ -1,0 +1,145 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "exprList"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "true"
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+          name: "\240"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "ue"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "ue"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "true"
+        }
+        varNext {
+          name: "tru\317\356C\001\227\017\304\003e"
+        }
+        varNext {
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "true"
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "ue"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "ue"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+}

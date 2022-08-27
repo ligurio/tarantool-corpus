@@ -1,0 +1,110 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+        }
+        varNext {
+          name: "??"
+        }
+        varNext {
+          name: "\005\000"
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\005\000"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "\005\000"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 1
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "?"
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

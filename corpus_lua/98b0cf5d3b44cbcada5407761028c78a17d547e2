@@ -1,0 +1,43 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          nil: 31232
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          nil: 31232
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

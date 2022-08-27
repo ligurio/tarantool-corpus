@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "?"
+              }
+            }
+            expr {
+              str: "?"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "?"
+              }
+            }
+            expr {
+              str: "?"
+            }
+          }
+        }
+        varNext {
+          name: "?"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+}

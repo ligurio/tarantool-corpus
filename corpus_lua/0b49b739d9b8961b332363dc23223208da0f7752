@@ -1,0 +1,99 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              true: 524288
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: -38654705664
+        }
+        lastExpr {
+          number: -38654705664
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ",BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+        varNext {
+        }
+        varNext {
+          name: "tt\000\000\000\000\000"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_______________"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          str: "\000\000\000\000\000\000\0000"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

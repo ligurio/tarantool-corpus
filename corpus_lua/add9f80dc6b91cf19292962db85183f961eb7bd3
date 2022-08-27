@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "YYYYYYYYYYYYYY"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 8192
+        }
+        expr {
+          number: 8192
+        }
+        expr {
+          number: 8192
+        }
+        lastExpr {
+          number: 8192
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          number: 8192
+        }
+        expr {
+          number: 8192
+        }
+        expr {
+          number: 8192
+        }
+        lastExpr {
+          number: 8192
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

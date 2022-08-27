@@ -1,0 +1,150 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\005\000"
+        }
+        varNext {
+          name: "exprlist"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: "?"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2560
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\213"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 535808
+        }
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

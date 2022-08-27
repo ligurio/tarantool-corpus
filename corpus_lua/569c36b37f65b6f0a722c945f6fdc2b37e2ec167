@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\007\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 2
+            }
+          }
+        }
+        varNext {
+          name: "\370"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          nil: 8388608
+        }
+        lastExpr {
+          ellipsis: 268435456
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "+"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 268435456
+        }
+      }
+    }
+  }
+}

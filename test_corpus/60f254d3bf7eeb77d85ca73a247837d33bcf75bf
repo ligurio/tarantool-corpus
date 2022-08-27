@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\377\377\377\377\377"
+        }
+        varNext {
+          name: "True"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 70086669656850432
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+              number: 134217728
+            }
+          }
+        }
+        varNext {
+          name: "package.loadlib"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "package.loadlib"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,39 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "language"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "language"
+        }
+        varNext {
+          name: "language"
+        }
+      }
+      exprList {
+        expr {
+          number: 7310584035475877737
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          false: 64
+        }
+        lastExpr {
+          str: "{\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n                str: \"@\"\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n        }\n      }\n      exprList {\n        @"
+        }
+      }
+    }
+  }
+}

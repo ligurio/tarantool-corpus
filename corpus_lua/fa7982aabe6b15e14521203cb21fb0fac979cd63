@@ -1,0 +1,120 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "assera"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 65536
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "assera"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 65536
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 10
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 29184
+            }
+          }
+        }
+        varNext {
+          name: "Byt\343"
+        }
+        varNext {
+          name: "\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          true: 0
+        }
+        expr {
+        }
+        expr {
+          nil: 1
+        }
+        expr {
+        }
+        lastExpr {
+          nil: 1
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

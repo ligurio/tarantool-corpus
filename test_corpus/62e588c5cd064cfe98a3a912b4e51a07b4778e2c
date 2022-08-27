@@ -1,0 +1,192 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 4294967292
+        }
+        expr {
+          ellipsis: 4194303999
+        }
+        expr {
+          str: "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+        }
+        expr {
+          true: 32768
+        }
+        expr {
+          true: 2827
+        }
+        expr {
+          str: "os.clock"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+              true: 11862016
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "package.cpath"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 1
+              }
+            }
+            expr {
+              true: 11862016
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "package.loadlib"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 4194303997
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+              true: 11862016
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "os.clock"
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 4294967292
+        }
+        expr {
+          ellipsis: 4194303999
+        }
+        expr {
+          str: "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+        }
+        expr {
+          true: 32768
+        }
+        expr {
+          true: 2827
+        }
+        expr {
+          str: "os.clock"
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+}

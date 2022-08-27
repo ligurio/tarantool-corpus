@@ -1,0 +1,193 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\020"
+        }
+      }
+      exprList {
+        expr {
+          nil: 67108864
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          ellipsis: 536870912
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\243\000\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 335544320
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\377"
+        }
+      }
+      exprList {
+        expr {
+          str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        lastExpr {
+          ellipsis: 1024
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "["
+        }
+      }
+      exprList {
+        expr {
+          str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        lastExpr {
+          ellipsis: 1280
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 67108864
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 4259837
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+  }
+}

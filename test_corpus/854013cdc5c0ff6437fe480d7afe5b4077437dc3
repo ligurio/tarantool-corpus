@@ -1,0 +1,106 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 4
+              }
+            }
+            expr {
+              ellipsis: 4
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              str: " \000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          true: 33554432
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: -130
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: -130
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          ellipsis: 32000
+        }
+        lastExpr {
+          false: 2560
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

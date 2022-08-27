@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Idempotent"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 1024
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

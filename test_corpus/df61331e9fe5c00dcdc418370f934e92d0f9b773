@@ -1,0 +1,69 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: ".true@"
+        }
+        varNext {
+          name: "\250"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\005\004"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          name: "fals"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+          str: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 1024
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,53 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "uri"
+              }
+            }
+            expr {
+              ellipsis: 2105344
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 10
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 2432696320
+    }
+    semicolon: true
+  }
+}

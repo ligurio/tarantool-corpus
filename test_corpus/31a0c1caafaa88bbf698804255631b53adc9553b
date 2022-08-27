@@ -1,0 +1,96 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.clock"
+        }
+        varNext {
+          name: "\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216"
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "rawget"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 11862016
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.clock"
+        }
+        varNext {
+          name: "then"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 16384
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

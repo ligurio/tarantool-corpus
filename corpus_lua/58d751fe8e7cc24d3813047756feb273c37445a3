@@ -1,0 +1,50 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "-1i"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "-12i"
+        }
+        varNext {
+          name: "-1i"
+        }
+      }
+      exprList {
+        expr {
+          false: 2621440
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 2621440
+        }
+      }
+    }
+    semicolon: true
+  }
+}

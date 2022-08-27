@@ -1,0 +1,66 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "z"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          number: 2
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 131072
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+          str: "z"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

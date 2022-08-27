@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221"
+        }
+        expr {
+          ellipsis: 7424
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 131072
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

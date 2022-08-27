@@ -1,0 +1,158 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "debug.getlocal"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 33554432
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\234"
+        }
+        expr {
+          number: 8589934592
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "debug.getlocal"
+        }
+        varNext {
+        }
+        varNext {
+          name: "debug.setlocal"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+              number: 4611692624087089152
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 16
+              }
+            }
+            expr {
+              number: 16
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 648527142434373632
+        }
+        expr {
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\256\231\3101c\272h"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 16
+              }
+            }
+            expr {
+              number: 562949953421312
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 562949953421312
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1660944384
+              }
+            }
+            expr {
+              nil: 16646144
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 8589934592
+        }
+        expr {
+          number: 8589934592
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "Repeated"
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          true: 26119
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          true: 39424
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "Repeated"
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          true: 26119
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          true: 39424
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            true: 27911
+          }
+          lastExpr {
+            true: 39424
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              number: 255
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 1073741824
+        }
+        expr {
+          ellipsis: 1073741824
+        }
+        lastExpr {
+          number: 32
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 1073741824
+    }
+  }
+}

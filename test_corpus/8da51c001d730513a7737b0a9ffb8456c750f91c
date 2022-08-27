@@ -1,0 +1,29 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 102
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "package.cpath*"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

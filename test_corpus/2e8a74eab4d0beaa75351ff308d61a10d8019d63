@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "%"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          false: 251
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+          name: "\177"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          false: 251
+        }
+      }
+    }
+    semicolon: true
+  }
+}

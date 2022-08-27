@@ -1,0 +1,24 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "lua_grammar.Chunk"
+        }
+      }
+    }
+  }
+}

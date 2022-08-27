@@ -1,0 +1,88 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "exprList"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 9216
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          str: "_______________________________________________________________________________________________________________________________"
+        }
+        lastExpr {
+          true: 10
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "RepeateRepe"
+        }
+        varNext {
+          name: "Repeate"
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 1
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Byte"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 1
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

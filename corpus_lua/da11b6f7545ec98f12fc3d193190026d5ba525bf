@@ -1,0 +1,25 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 5
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

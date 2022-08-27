@@ -1,0 +1,59 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          ellipsis: 32
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+          name: "\177"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+          name: "\177"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 251
+        }
+      }
+    }
+    semicolon: true
+  }
+}

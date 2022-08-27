@@ -1,0 +1,252 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "`````````````````````````````````"
+        }
+        varNext {
+          name: "\223"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          name: "Aw\001\000\000\000\000\000"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 220
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 4029952
+            }
+          }
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374\374"
+        }
+        varNext {
+          name: "\223"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 9984
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 252
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "`````````````````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "``````````````````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 26
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 220
+              }
+            }
+            expr {
+              false: 6841088
+            }
+          }
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 252
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: false
+  }
+}

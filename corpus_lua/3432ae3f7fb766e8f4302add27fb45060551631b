@@ -1,0 +1,52 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\265\265\265\265"
+        }
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 8388608
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "&"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 8388608
+        }
+      }
+    }
+  }
+}

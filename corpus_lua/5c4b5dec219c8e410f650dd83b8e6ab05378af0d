@@ -1,0 +1,97 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\370"
+        }
+        varNext {
+        }
+        varNext {
+          name: ","
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\007\000\000\000\000\000\000\000"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\000\000\000\177\377\377\000"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

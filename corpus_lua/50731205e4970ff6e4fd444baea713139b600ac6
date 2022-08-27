@@ -1,0 +1,298 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "+"
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          ellipsis: 25344
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          ellipsis: 25344
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 32
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "utf8.codes"
+        }
+      }
+      exprList {
+        expr {
+          str: ".\033"
+        }
+        expr {
+          nil: 67108864
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "m"
+        }
+      }
+      exprList {
+        expr {
+          str: ".\033"
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225"
+        }
+        varNext {
+          name: "\273"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: ".\033"
+        }
+        expr {
+          str: "\211"
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "+"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          ellipsis: 25344
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          ellipsis: 25344
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "2"
+              }
+            }
+            expr {
+              nil: 16
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\273"
+        }
+        expr {
+          str: "8c"
+        }
+        expr {
+          ellipsis: 25344
+        }
+        lastExpr {
+          number: 2965620354623471616
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 32
+              }
+            }
+            expr {
+              str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "basic"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 805306368
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 25344
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+  }
+}

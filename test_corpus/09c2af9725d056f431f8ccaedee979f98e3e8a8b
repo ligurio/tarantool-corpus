@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 32000
+        }
+        expr {
+          ellipsis: 32000
+        }
+        expr {
+          true: 8192
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+}

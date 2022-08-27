@@ -1,0 +1,147 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\036"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\273"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          false: 67108864
+        }
+        lastExpr {
+          true: 4096
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          number: 128034677158753
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 9042521603341600
+              }
+            }
+            expr {
+              str: "\001\036"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 128034677158753
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          number: 1532690432
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 1751318528
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

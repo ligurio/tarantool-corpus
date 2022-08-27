@@ -1,0 +1,183 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\212"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          str: "?"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+          name: "\005_"
+        }
+        varNext {
+          name: "!"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "("
+        }
+        varNext {
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+        }
+        varNext {
+          name: "exprlist"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\200\377\377\377\377\377\377\377"
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\212"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          str: "?"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+        }
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+}

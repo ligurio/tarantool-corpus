@@ -1,0 +1,63 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "@"
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          str: "\311"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "@"
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "\377\377\377\377\377\377\377\002"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,76 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 2097152
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 65536
+              }
+            }
+            expr {
+              str: "J"
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "Byte"
+        }
+        expr {
+          number: 27021597764222976
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "J"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+          number: 12384898975268864
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

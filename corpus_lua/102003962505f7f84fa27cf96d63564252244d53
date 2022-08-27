@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "Idempotent"
+        }
+        varNext {
+          name: "exprList"
+        }
+        varNext {
+          name: "\000\000\0007"
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+          str: "Ideenmpotent"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\335"
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

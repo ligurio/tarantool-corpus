@@ -1,0 +1,137 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000"
+        }
+        varNext {
+          name: "__mul"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 10
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "assert"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "Bchunk {\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"exprList\"\n        }\n      }\n      exprList {\n        expr {\n        }\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"assert\"\n        }\n      }\n      exprList {\n        expr {\n          number: 0\n        }\n        lastExpr {\n          false: 1\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n        }\n      }\n      exprList {\n        lastExpr {\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n                number: 0\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                nil: 1\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          name: \"Byte\"\n        }\n        varNext {\n          name: \"\\000\"\nyt        }\n        varNext {\n          name: \"assert\"\n        }\n        varNext {\n    \343    }\n        varNext {\n          name: \"uri\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                false: 1\n              }\n            }\n            expr {\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n        }\n        expr {\n          str: \"j\\000\\000\\000\"\n        }\n        expr {\n        }\n        expr {\n          nil: 1\n        }\n        expr {\n        }\n        lastExpr {\n          nil: 1\n        }\n      }\n    }\n  }\n  last {\n    stat {\n      return {\n      }\n    }\n    semicolon: true\n  }\n}\n"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 16711680
+            }
+          }
+        }
+        varNext {
+          name: "Byt\343"
+        }
+        varNext {
+          name: "\000io.linhs"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          nil: 2105344
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

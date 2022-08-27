@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\002\000\000\000\000\000\000\000"
+        }
+        lastExpr {
+          str: "z"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "z"
+        }
+        varNext {
+          name: "z"
+        }
+      }
+      exprList {
+        expr {
+          str: "z"
+        }
+        expr {
+          str: "z"
+        }
+        lastExpr {
+          number: 33554432
+        }
+      }
+    }
+  }
+}

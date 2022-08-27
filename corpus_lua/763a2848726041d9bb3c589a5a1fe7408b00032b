@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 2752512
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "at\370"
+        }
+      }
+      exprList {
+        expr {
+          nil: 8224
+        }
+        expr {
+          false: 7
+        }
+        expr {
+        }
+        lastExpr {
+          number: 65536
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "+"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "+"
+        }
+      }
+      exprList {
+        expr {
+          true: 2752512
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 8224
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

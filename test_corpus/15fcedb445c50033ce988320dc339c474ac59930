@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "semath.typee"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "~"
+        }
+        varNext {
+        }
+        varNext {
+          name: "semath.typee"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\017\374"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\376\377\377\377"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 63
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

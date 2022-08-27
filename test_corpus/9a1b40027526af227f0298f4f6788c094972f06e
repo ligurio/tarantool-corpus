@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 126
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "io.write"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 126
+        }
+      }
+    }
+    semicolon: false
+  }
+}

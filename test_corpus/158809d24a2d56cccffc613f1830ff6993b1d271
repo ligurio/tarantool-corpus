@@ -1,0 +1,21 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "666666666666666"
+        }
+        varNext {
+          name: "\303"
+        }
+      }
+      exprList {
+        expr {
+          str: "\243\000\000\000\000\000\000\000"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

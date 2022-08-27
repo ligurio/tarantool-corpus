@@ -1,0 +1,154 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 16384
+              }
+            }
+            expr {
+              true: 16384
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "="
+              }
+            }
+            expr {
+              str: "Sfixed6"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 16384
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "="
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 16384
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              nil: 16384
+            }
+          }
+        }
+        varNext {
+          name: "="
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 620756992
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 49
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315\315"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 16384
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "sql"
+        }
+        varNext {
+          name: "="
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 141868138496
+        }
+      }
+    }
+  }
+}

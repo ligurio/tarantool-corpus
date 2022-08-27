@@ -1,0 +1,79 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "Repeated"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "kage.config"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000I"
+              }
+            }
+            expr {
+              str: "Floifloatat"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "local"
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "g"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

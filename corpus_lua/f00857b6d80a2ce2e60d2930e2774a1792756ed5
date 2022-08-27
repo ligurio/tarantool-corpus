@@ -1,0 +1,147 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 65536
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\000\000\000\000\000\000\006"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "!"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 720896
+            }
+          }
+        }
+        varNext {
+          name: "\327"
+        }
+      }
+      exprList {
+        expr {
+          str: "\000\000\000\000\000\000\000\006"
+        }
+        expr {
+          str: "K"
+        }
+        lastExpr {
+          ellipsis: 65536
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 256
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 8192
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 7
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          false: 1280
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 256
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 8192
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 7
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

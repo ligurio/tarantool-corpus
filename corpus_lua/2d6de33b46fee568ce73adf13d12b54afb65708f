@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\377"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 989855744
+              }
+            }
+            expr {
+              false: 989855744
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Sfi6"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "Sfixed6"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 65532
+        }
+      }
+    }
+  }
+}

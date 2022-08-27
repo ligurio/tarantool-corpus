@@ -1,0 +1,20 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 7
+          }
+          expr {
+            str: "\"\"\"\"@\"\"\"\"\""
+          }
+          lastExpr {
+            true: 7
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

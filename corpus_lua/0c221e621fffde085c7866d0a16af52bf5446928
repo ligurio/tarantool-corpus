@@ -1,0 +1,88 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "."
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "."
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 1024
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 35
+        }
+        expr {
+          str: "."
+        }
+        lastExpr {
+          nil: 1936482662
+        }
+      }
+    }
+    semicolon: true
+  }
+}

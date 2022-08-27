@@ -1,0 +1,43 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "-16i"
+        }
+        varNext {
+          name: "-12i stat {\n      varList {\n        var {\n        }\n        varNext {\n          name: \"-12i\"\n        }\n        varNext {\n        }\n      }\n      exprList {\n        expr {\n          false: 2621440\n        }\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n        }\n      }\n      exprList {\n        lastExpr {\n          false: 2621440\n        }\n      }\n    }\n    semicolo"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "-12i"
+        }
+        lastExpr {
+          str: "-12i"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "require"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

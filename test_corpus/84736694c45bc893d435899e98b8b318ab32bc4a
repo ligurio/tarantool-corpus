@@ -1,0 +1,29 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.rename"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 141868138496
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

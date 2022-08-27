@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 1
+          }
+          expr {
+            nil: 512
+          }
+          lastExpr {
+            nil: 544
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

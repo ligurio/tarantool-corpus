@@ -1,0 +1,211 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\000\000\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          false: 3538944
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+        varNext {
+          name: "\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223\223"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 3538944
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "f\004\000"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          str: "\000\000\000\000\000\000\000I"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              number: 17179869184
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "f\004\000"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          true: 3538944
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          ellipsis: 4160813072
+        }
+        expr {
+          true: 268435456
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+        }
+        expr {
+          true: 16
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          number: 17179869184
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+}

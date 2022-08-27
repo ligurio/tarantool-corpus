@@ -1,0 +1,100 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "\271"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "\271"
+        }
+      }
+      exprList {
+        expr {
+          false: 16580352
+        }
+        lastExpr {
+          nil: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "mmmmmmmmmmmmmmmmmmm"
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBB<BBBBBBB"
+        }
+      }
+      exprList {
+        expr {
+          false: 67108864
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

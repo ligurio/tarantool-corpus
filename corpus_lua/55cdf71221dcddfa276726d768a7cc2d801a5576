@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 3919369143557968640
+              }
+            }
+            expr {
+              str: "#"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 29
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\370"
+        }
+        lastExpr {
+          str: ":"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

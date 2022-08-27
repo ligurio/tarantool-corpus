@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ",BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+        varNext {
+        }
+        varNext {
+          name: "tt\000\000\000\000\000"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "Floloatat"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

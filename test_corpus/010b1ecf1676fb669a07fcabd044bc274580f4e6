@@ -1,0 +1,16 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 0
+          }
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+  }
+}

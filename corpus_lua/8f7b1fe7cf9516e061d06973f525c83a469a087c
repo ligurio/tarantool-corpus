@@ -1,0 +1,70 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "exprLi\377\377\377\377\377\377rLi\377"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 3
+        }
+        lastExpr {
+          false: 1073741824
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "-0breaki"
+        }
+        varNext {
+          name: "\000"
+        }
+        varNext {
+          name: "math.max"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 4211081215
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

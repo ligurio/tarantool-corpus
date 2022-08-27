@@ -1,0 +1,249 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        expr {
+          true: 0
+        }
+        expr {
+        }
+        expr {
+          nil: 8202
+        }
+        lastExpr {
+          str: "\211("
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: ".\033"
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          ellipsis: 1
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 268435456
+        }
+        expr {
+          str: "\211("
+        }
+        lastExpr {
+          nil: 1093402624
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          number: 8192
+        }
+        expr {
+          number: 8192
+        }
+        expr {
+          number: 8192
+        }
+        lastExpr {
+          number: 8192
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          str: ".\033"
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          number: 3152812924931238583
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+        varNext {
+          name: "\273"
+        }
+        varNext {
+          name: "\273"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\377"
+        }
+        varNext {
+          name: "?"
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+        }
+        expr {
+          nil: 268435456
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202"
+        }
+        varNext {
+          name: ")"
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        lastExpr {
+          ellipsis: 40
+        }
+      }
+    }
+  }
+}

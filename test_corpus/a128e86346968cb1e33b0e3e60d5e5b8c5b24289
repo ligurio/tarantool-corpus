@@ -1,0 +1,91 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "  ljename"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          name: "1"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "os.rename"
+        }
+        varNext {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        expr {
+          str: "  lnreame"
+        }
+        lastExpr {
+          str: "  ljename"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "  lrename"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,76 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1073741824
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "#"
+        }
+        varNext {
+          name: "#"
+        }
+      }
+      exprList {
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+        }
+        lastExpr {
+          nil: 6627344
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "#"
+        }
+        varNext {
+          name: "#chunk {\n  stat {\n    stat {\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n                str: \"io.read\"\n              }\n            }\n            expr {\n              true: 2048\n            }\n          }\n        }\n      }\n      exprList {\n        lastExpr {\n          nil: 0\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n                str: \"po.read\"\n              }\n            }\n            expr {\n              ellipsis: 2048\n            }\n          }\n        }\n      }\n      exprList {\n        lastExpr {\n          str: \"tostring\"\n        }\n      }\n    }\n  }\n  last {\n    stat {\n      break: 134217728\n    }\n    semicolon: true\n  }\n}\n"
+        }
+      }
+      exprList {
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        lastExpr {
+          nil: 6627344
+        }
+      }
+    }
+    semicolon: true
+  }
+}

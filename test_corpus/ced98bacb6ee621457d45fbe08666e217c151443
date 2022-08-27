@@ -1,0 +1,27 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "666666666666666"
+        }
+        varNext {
+          name: "math.maxinteger"
+        }
+        varNext {
+          name: "\303"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 4096
+        }
+        expr {
+          ellipsis: 4096
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

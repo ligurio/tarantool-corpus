@@ -1,0 +1,39 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\000"
+        }
+        varNext {
+          name: "\000"
+        }
+      }
+      exprList {
+        expr {
+          number: 64
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+  }
+}

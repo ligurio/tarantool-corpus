@@ -1,0 +1,98 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 2097152
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\003\"1\"\003\003L"
+        }
+        varNext {
+          name: "\003\"1\"\003\003L"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 42
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 39424
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 39424
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 39424
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

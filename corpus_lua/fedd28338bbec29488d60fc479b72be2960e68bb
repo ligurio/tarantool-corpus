@@ -1,0 +1,27 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "os.t-pname"
+        }
+      }
+    }
+  }
+}

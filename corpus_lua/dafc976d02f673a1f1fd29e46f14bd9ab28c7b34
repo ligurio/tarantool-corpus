@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        lastExpr {
+          str: "\261\001\000\000\000\000\000\000F"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 544342016
+    }
+  }
+}

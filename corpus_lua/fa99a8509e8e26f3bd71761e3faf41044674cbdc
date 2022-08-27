@@ -1,0 +1,122 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: "\377"
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "d"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234\234"
+          }
+          lastExpr {
+            str: "Bool"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

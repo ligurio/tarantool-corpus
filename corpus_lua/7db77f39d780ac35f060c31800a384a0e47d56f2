@@ -1,0 +1,160 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: ";"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 4
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+        }
+        varNext {
+          name: ">"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 2365587456
+            }
+          }
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "\005_"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ";"
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+        }
+        varNext {
+          name: "exprlist"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "!"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 4
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+}

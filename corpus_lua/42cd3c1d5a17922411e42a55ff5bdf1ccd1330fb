@@ -1,0 +1,63 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 25346
+        }
+        expr {
+          number: 39
+        }
+        expr {
+          number: 39
+        }
+        expr {
+          number: 39
+        }
+        lastExpr {
+          number: 39
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+      }
+      exprList {
+        expr {
+          number: 39
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+      }
+      exprList {
+        expr {
+          number: 39
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

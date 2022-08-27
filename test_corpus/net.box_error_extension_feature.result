@@ -1,0 +1,84 @@
+net = require('net.box')
+---
+...
+msgpack = require('msgpack')
+---
+...
+errinj = box.error.injection
+---
+...
+box.schema.user.grant('guest', 'super')
+---
+...
+c = net.connect(box.cfg.listen)
+---
+...
+type(c:eval('return box.error.new(box.error.UNKNOWN)')) -- cdata
+---
+- cdata
+...
+c:close()
+---
+...
+errinj.set('ERRINJ_NETBOX_DISABLE_ID', true) -- do not send IPROTO_ID request
+---
+- ok
+...
+c = net.connect(box.cfg.listen)
+---
+...
+type(c:eval('return box.error.new(box.error.UNKNOWN)')) -- string
+---
+- string
+...
+c:close()
+---
+...
+errinj.set('ERRINJ_NETBOX_DISABLE_ID', false)
+---
+- ok
+...
+errinj.set('ERRINJ_NETBOX_FLIP_FEATURE', 2) -- clear error_extension feature
+---
+- ok
+...
+c = net.connect(box.cfg.listen)
+---
+...
+type(c:eval('return box.error.new(box.error.UNKNOWN)')) -- string
+---
+- string
+...
+-- msgpack.cfg options are applied to CALL result
+encode_load_metatables = msgpack.cfg.encode_load_metatables
+---
+...
+encode_use_tostring = msgpack.cfg.encode_use_tostring
+---
+...
+msgpack.cfg{                                                                \
+    encode_load_metatables = false,                                         \
+    encode_use_tostring = false,                                            \
+}
+---
+...
+type(c:eval('return box.error.new(box.error.UNKNOWN)')) -- error
+---
+- error: unsupported Lua type 'cdata'
+...
+msgpack.cfg{                                                                \
+    encode_load_metatables = encode_load_metatables,                        \
+    encode_use_tostring = encode_use_tostring,                              \
+}
+---
+...
+c:close()
+---
+...
+errinj.set('ERRINJ_NETBOX_FLIP_FEATURE', -1)
+---
+- ok
+...
+box.schema.user.revoke('guest', 'super')
+---
+...

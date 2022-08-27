@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 63331869759897639
+              }
+            }
+            expr {
+              number: 39
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          ellipsis: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "     }\n            }\n            expr {\n            }\n          }\n    oBol"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          false: 4
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 4
+          }
+          lastExpr {
+            str: "oBol"
+          }
+        }
+      }
+    }
+  }
+}

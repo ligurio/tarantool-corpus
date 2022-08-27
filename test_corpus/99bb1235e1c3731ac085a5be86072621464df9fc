@@ -1,0 +1,223 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 327680
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "]math.deg"
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          number: 281474976710656
+        }
+        lastExpr {
+          ellipsis: 4
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 4
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 327680
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 281474976710656
+        }
+        expr {
+          true: 253
+        }
+        expr {
+          true: 67108864
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        expr {
+          true: 67108864
+        }
+        lastExpr {
+          ellipsis: 1024
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          false: 268435456
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 1819242306
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Sint64"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 4079104
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+    semicolon: true
+  }
+}

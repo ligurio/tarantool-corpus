@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "\177"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "elseif"
+        }
+      }
+      exprList {
+        expr {
+          nil: 589824
+        }
+        expr {
+          ellipsis: 7424
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\177"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

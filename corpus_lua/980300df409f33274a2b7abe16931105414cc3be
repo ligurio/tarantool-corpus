@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "pairs"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "i1-"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "pairs"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "i1-"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 137614917632
+        }
+        lastExpr {
+          str: "io"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

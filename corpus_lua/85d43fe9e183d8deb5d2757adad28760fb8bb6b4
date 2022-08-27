@@ -1,0 +1,77 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 29440
+        }
+        expr {
+          number: 39
+        }
+        expr {
+          number: 39
+        }
+        expr {
+          number: 39
+        }
+        lastExpr {
+          number: 39
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "K"
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 29440
+        }
+        expr {
+          number: 39
+        }
+        expr {
+          number: 39
+        }
+        expr {
+          number: 39
+        }
+        lastExpr {
+          number: 39
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

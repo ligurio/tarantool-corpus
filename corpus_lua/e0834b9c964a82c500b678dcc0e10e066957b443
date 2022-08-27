@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 2490368
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 536870912
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 536870912
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+}

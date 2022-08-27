@@ -1,0 +1,72 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "NoSi {\nffects"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 620756991
+            }
+          }
+        }
+        varNext {
+          name: "NoSideEffects"
+        }
+      }
+      exprList {
+        expr {
+          true: 2097152
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        expr {
+          str: "  lnreame"
+        }
+        lastExpr {
+          str: "  ljename"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "  lrename"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

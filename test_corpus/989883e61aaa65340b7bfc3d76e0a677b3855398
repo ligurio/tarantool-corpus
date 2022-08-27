@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\017\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 525312
+        }
+        lastExpr {
+          number: 72057593920487424
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1701869940
+        }
+      }
+    }
+  }
+}

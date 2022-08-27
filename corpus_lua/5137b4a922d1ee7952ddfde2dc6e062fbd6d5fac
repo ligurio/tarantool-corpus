@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "d"
+        }
+        varNext {
+          name: "-i"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        lastExpr {
+          nil: 536871003
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: -72057594037927936
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            str: "Bool"
+          }
+        }
+      }
+    }
+  }
+}

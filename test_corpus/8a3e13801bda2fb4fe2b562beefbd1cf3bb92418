@@ -1,0 +1,258 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 4194303999
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 4194303999
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+        }
+        expr {
+        }
+        expr {
+          str: "os.clock"
+        }
+        lastExpr {
+          number: 30506377183756288
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 11862016
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+              number: 769
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 11862016
+              }
+            }
+            expr {
+              number: 769
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 1819374336
+        }
+        expr {
+        }
+        expr {
+          true: 11862016
+        }
+        expr {
+          number: 769
+        }
+        expr {
+          str: "os.clock"
+        }
+        lastExpr {
+          number: 30506377183756288
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 117440512
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+              number: 769
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 117440512
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 200
+              }
+            }
+            expr {
+              number: 769
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

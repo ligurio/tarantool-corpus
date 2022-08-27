@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\213"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\213"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "\005\000"
+        }
+      }
+      exprList {
+        expr {
+          true: 3080192
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

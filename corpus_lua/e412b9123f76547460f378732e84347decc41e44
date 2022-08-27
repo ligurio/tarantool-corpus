@@ -1,0 +1,151 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 16
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          ellipsis: 721420288
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          ellipsis: 1073741840
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 2516582416
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          nil: 67108864
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 262146
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          ellipsis: 33554432
+        }
+        lastExpr {
+          ellipsis: 16
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 536870912
+        }
+        expr {
+          number: 17179869184
+        }
+        expr {
+          number: 167503724544
+        }
+        expr {
+          ellipsis: 16
+        }
+        lastExpr {
+          false: 33
+        }
+      }
+    }
+  }
+}

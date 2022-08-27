@@ -1,0 +1,47 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              ellipsis: 538970624
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              ellipsis: 538970624
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 538970624
+        }
+        expr {
+          str: "string.reve"
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

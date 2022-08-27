@@ -1,0 +1,222 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 4294967292
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          str: "`"
+        }
+        expr {
+          ellipsis: 536870956
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "google.protobuf.Any"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 67108896
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 67108864
+        }
+        lastExpr {
+          ellipsis: 394240
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 536871936
+        }
+        expr {
+          ellipsis: 2048
+        }
+        expr {
+          true: 1073741824
+        }
+        expr {
+          ellipsis: 8224
+        }
+        expr {
+          ellipsis: 3276800
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          ellipsis: 67108868
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 4294967292
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          str: "`"
+        }
+        expr {
+          ellipsis: 536870912
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "["
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          true: 167772160
+        }
+        expr {
+          str: "Sint32"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 4294967292
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+          str: "`"
+        }
+        expr {
+          ellipsis: 536870912
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+  }
+}

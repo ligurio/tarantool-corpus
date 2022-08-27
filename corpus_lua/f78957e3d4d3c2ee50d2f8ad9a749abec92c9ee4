@@ -1,0 +1,28 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: ""
+          }
+          lastExpr {
+            str: "{}"
+          }
+        }
+      }
+    }
+  }
+}

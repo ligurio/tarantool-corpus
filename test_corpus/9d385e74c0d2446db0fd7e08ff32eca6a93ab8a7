@@ -1,0 +1,47 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "local"
+        }
+        varNext {
+          name: "local"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 2308792998911016960
+        }
+        expr {
+          number: 2387039743901733
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          number: 2308792998911016997
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 46336
+    }
+    semicolon: true
+  }
+}

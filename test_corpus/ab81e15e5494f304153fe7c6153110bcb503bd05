@@ -1,0 +1,39 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "table.insert"
+        }
+      }
+      exprList {
+        expr {
+          false: 147
+        }
+        lastExpr {
+          true: 147
+        }
+      }
+    }
+    semicolon: true
+  }
+}

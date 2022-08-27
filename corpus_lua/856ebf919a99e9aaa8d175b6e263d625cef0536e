@@ -1,0 +1,47 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 39424
+        }
+        expr {
+          true: 39424
+        }
+        lastExpr {
+          false: 39424
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\237\237\237A"
+          }
+          expr {
+          }
+          lastExpr {
+            true: 39424
+          }
+        }
+      }
+    }
+  }
+}

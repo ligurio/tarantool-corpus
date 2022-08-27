@@ -1,0 +1,69 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 43
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          ellipsis: 31232
+        }
+        expr {
+          number: 137438953472
+        }
+        expr {
+          number: 120259092480
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 39
+        }
+      }
+    }
+  }
+}

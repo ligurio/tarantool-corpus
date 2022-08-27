@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "math"
+        }
+        varNext {
+          name: "v"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 8192
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

@@ -1,0 +1,20 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "file:flush"
+        }
+        varNext {
+          name: "Byte"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "nt"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

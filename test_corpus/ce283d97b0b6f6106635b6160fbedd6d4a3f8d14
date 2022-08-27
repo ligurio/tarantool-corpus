@@ -1,0 +1,59 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "NoSideEffects"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "  lrekame\001\000\000\007"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        expr {
+          nil: 4194304
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "  lrename"
+        }
+      }
+    }
+  }
+}

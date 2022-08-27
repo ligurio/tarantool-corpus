@@ -1,0 +1,70 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "JsNormalz"
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "z"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "JsNormalz"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          false: 7
+        }
+        lastExpr {
+          false: 2
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

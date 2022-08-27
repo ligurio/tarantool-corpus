@@ -1,0 +1,165 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\212"
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 17664
+        }
+        expr {
+          true: 0
+        }
+        expr {
+        }
+        lastExpr {
+          str: "?"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: ")"
+        }
+        varNext {
+          name: "\005_"
+        }
+        varNext {
+          name: "!"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          false: 838860800
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ";"
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+        }
+        varNext {
+          name: "exprlist"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ";"
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+        }
+        varNext {
+          name: "exprlist"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\212"
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 17664
+        }
+        expr {
+          str: "q\234\214D\262QF\010"
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+}

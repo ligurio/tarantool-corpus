@@ -1,0 +1,113 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+      }
+      exprList {
+        expr {
+          number: 2
+        }
+        lastExpr {
+          nil: 4244635648
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "gotochunk {\n  stat {\n    stat {\n      varList {\n        var {\n        }\n        varNext {\n          name: \"\\376\\376\\376\\376\\376\\376\\376\\376\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              nil: 4244635648\n            }\n          }\n        }\n        varNext {\n        }\n      }\n      exprList {\n        expr {\n          number: 7521920673824899072\n        }\n        lastExpr {\n          number: 7521855802638860288\n        }\n      }\n    }\n  }\n}\n"
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+          name: "\377"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 792633534417207296
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "\001\000\000\000\000\000\000\000"
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 4244635648
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+          name: "\377"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 40
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 1793
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          false: 10240
+        }
+      }
+    }
+    semicolon: true
+  }
+}

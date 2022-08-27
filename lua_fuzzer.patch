@@ -1,0 +1,48 @@
+diff --git a/test/fuzz/lua_fuzzer/CMakeLists.txt b/test/fuzz/lua_fuzzer/CMakeLists.txt
+index ca30dd4eb..6bac4658d 100644
+--- a/test/fuzz/lua_fuzzer/CMakeLists.txt
++++ b/test/fuzz/lua_fuzzer/CMakeLists.txt
+@@ -15,8 +15,6 @@ foreach(lib ${LPM_LIBRARIES})
+     find_library(${lib} REQUIRED_FILES)
+ endforeach(lib)
+ 
+-find_library(LuaJIT REQUIRED)
+-
+ protobuf_generate(LANGUAGE cpp
+                   TARGET lua_grammar-proto
+                   PROTOS lua_grammar.proto)
+@@ -27,8 +25,6 @@ target_link_libraries(lua_grammar-proto
+ 
+ target_link_libraries(lua_fuzzer 
+                       PUBLIC 
+-                      box 
+-                      core 
+                       lua_grammar-proto 
+                       ${LPM_LIBRARIES} 
+                       ${LUAJIT_LIBRARIES} 
+diff --git a/test/fuzz/lua_fuzzer/lua_fuzzer.cc b/test/fuzz/lua_fuzzer/lua_fuzzer.cc
+index d3ef478ec..05d34713d 100644
+--- a/test/fuzz/lua_fuzzer/lua_fuzzer.cc
++++ b/test/fuzz/lua_fuzzer/lua_fuzzer.cc
+@@ -16,7 +16,13 @@ DEFINE_PROTO_FUZZER(const lua_grammar::LuaBlock &message)
+ {
+     lua_State *L = luaL_newstate();
+     if (L == NULL)
+-        abort();
++        return;
++
++    /* See https://luajit.org/running.html
++     * https://github.com/tarantool/tarantool/issues/6782
++     */
++    const char *jit_opts = "jit.opt.start('hotloop=1', 'hotexit=1', 'recunroll=1', 'callunroll=1')";
++    luaL_dostring(L, jit_opts);
+ 
+     std::string code = LuaBlockToString(message);
+ 
+@@ -28,4 +34,4 @@ DEFINE_PROTO_FUZZER(const lua_grammar::LuaBlock &message)
+     std::cerr << "Generated code:\n" << code << std::endl;
+ 
+     lua_settop(L, 0);
+-}
+\ No newline at end of file
++}

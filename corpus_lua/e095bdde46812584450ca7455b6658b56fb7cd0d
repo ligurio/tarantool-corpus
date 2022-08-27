@@ -1,0 +1,26 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "ts5e"
+        }
+        varNext {
+          name: "ts5e"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\360"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: false
+  }
+}

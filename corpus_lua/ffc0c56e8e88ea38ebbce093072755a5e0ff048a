@@ -1,0 +1,44 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377goto"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 4
+        }
+        expr {
+          nil: 33554432
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "do"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 33554432
+        }
+      }
+    }
+    semicolon: true
+  }
+}

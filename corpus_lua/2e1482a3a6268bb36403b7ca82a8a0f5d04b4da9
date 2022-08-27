@@ -1,0 +1,59 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\000\000\000\000\000\000\000"
+        }
+        varNext {
+        }
+        varNext {
+          name: "lua_grammar.Chunk"
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\341\004\000\000\000\000\000\000"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\341\004\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\032"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

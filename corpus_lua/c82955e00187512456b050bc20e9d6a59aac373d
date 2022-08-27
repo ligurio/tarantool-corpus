@@ -1,0 +1,75 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 1792
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 1280
+        }
+        expr {
+          false: 1280
+        }
+        expr {
+          false: 268435456
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000I"
+        }
+      }
+      exprList {
+        expr {
+          str: "\000\000"
+        }
+        expr {
+          false: 32
+        }
+        expr {
+          false: 1792
+        }
+        expr {
+          false: 268435456
+        }
+        lastExpr {
+          false: 32
+        }
+      }
+    }
+  }
+}

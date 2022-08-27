@@ -1,0 +1,20 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000"
+        }
+        varNext {
+          name: "assert"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 65536
+        }
+      }
+    }
+    semicolon: true
+  }
+}

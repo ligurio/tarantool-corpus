@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          false: 4194320
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 153931627888640
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "666666666666666"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 25344
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2063599616
+    }
+    semicolon: true
+  }
+}

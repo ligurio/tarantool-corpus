@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221\221"
+        }
+        expr {
+          true: 1701601119
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

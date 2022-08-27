@@ -1,0 +1,84 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 2
+            }
+          }
+        }
+        varNext {
+          name: "at\370"
+        }
+      }
+      exprList {
+        expr {
+          nil: 1280
+        }
+        expr {
+          nil: 8224
+        }
+        expr {
+          false: 7
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 1547122432
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\374"
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+          name: "\374"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 8224
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 2
+        }
+        lastExpr {
+          false: 7
+        }
+      }
+    }
+  }
+}

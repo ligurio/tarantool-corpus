@@ -1,0 +1,71 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "pairs"
+        }
+        varNext {
+          name: "\000\000\2268"
+        }
+        varNext {
+          name: "string.upper"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 637534216
+        }
+        expr {
+          str: "__band"
+        }
+        expr {
+          ellipsis: 12
+        }
+        expr {
+          nil: 637534208
+        }
+        lastExpr {
+          nil: 128
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "string.upper"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 8
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 671088640
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

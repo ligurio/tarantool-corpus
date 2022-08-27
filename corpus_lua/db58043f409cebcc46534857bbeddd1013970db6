@@ -1,0 +1,22 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "true"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          str: "true var {\n          expr {\n            prefix ]\n              expr {\n              }\n            }\n            expr {\n              nil: 2\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n        }\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

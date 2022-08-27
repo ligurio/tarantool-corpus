@@ -1,0 +1,105 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Int64"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+        }
+        expr {
+          true: 67108868
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 126
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          true: 126
+        }
+        expr {
+          str: "\000\000unt\275l"
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

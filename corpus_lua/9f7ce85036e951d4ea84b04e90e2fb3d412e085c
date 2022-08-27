@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          str: "\377"
+        }
+        lastExpr {
+          str: "Sint3"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\377"
+          }
+          lastExpr {
+            str: "Sint3"
+          }
+        }
+      }
+    }
+  }
+}

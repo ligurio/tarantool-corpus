@@ -1,0 +1,83 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "loopunroll"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 67108864
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "loopunroll"
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          ellipsis: 67108864
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "loopunroll"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          str: "loopunroll"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "loopunroll"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2424832
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 6841088
+        }
+      }
+    }
+    semicolon: true
+  }
+}

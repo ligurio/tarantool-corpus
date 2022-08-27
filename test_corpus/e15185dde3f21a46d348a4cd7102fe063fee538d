@@ -1,0 +1,51 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 562949953421312
+        }
+        expr {
+          ellipsis: 8192
+        }
+        lastExpr {
+          number: 562949953421312
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 562949953421312
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

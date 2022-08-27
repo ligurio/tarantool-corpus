@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "0000000000000000000000000000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: ","
+        }
+        varNext {
+          name: ","
+        }
+      }
+      exprList {
+        expr {
+          str: "["
+        }
+        lastExpr {
+          str: "math.floor"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

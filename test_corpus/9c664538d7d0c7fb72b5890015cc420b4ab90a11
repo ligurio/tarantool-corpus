@@ -1,0 +1,53 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.rename"
+        }
+        varNext {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 117
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 58546795155816448
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

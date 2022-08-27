@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "Sfixed6"
+            }
+          }
+        }
+        varNext {
+          name: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+        }
+        varNext {
+        }
+        varNext {
+          name: "Bool"
+        }
+        varNext {
+          name: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 655360
+        }
+      }
+    }
+  }
+}

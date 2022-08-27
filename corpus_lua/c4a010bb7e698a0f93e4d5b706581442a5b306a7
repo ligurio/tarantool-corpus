@@ -1,0 +1,85 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 39424
+        }
+        expr {
+          true: 26119
+        }
+        expr {
+          false: 4
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+        varNext {
+          name: "Repeated"
+        }
+      }
+      exprList {
+        expr {
+          true: 39424
+        }
+        expr {
+          true: 26119
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            true: 27911
+          }
+          lastExpr {
+            true: 39424
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

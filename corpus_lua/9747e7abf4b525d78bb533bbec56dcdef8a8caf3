@@ -1,0 +1,108 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: "2"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "2"
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\000\027"
+        }
+        varNext {
+        }
+        varNext {
+          name: "2"
+        }
+        varNext {
+          name: "?"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          nil: 536870912
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+        }
+        varNext {
+          name: ":"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "\213"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "-0i"
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "-0i"
+        }
+        varNext {
+          name: "Byte"
+        }
+        varNext {
+          name: "-0i"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\001\000\000\000\000\000\000\027"
+        }
+        varNext {
+          name: "\005\000"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

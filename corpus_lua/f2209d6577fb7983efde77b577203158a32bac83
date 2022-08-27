@@ -1,0 +1,149 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ".."
+        }
+        varNext {
+          name: "."
+        }
+      }
+      exprList {
+        expr {
+          false: 67108864
+        }
+        expr {
+          str: ""
+        }
+        expr {
+          str: "."
+        }
+        lastExpr {
+          nil: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          str: "."
+        }
+        lastExpr {
+          str: "\330"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "(Repeated"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 128
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\203K"
+        }
+        expr {
+          false: 67108864
+        }
+        expr {
+          ellipsis: 262144
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          str: "K"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "."
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "."
+              }
+            }
+            expr {
+              str: "."
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

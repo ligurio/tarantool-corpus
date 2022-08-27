@@ -1,0 +1,91 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 65527
+        }
+        expr {
+        }
+        expr {
+          true: 8
+        }
+        lastExpr {
+          number: 576460752303423488
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "Float\370"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 7
+        }
+        lastExpr {
+          ellipsis: 268435456
+        }
+      }
+    }
+  }
+}

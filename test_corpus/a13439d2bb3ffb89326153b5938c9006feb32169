@@ -1,0 +1,235 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 35229385359360
+        }
+        expr {
+          true: 25344
+        }
+        lastExpr {
+          false: 1025
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 8317976087748698477
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 1936679277
+        }
+        expr {
+          nil: 16128
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 2949120
+            }
+          }
+        }
+        varNext {
+          name: "Aw\001\000\000\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          number: 2308792998911016960
+        }
+        expr {
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 3858759680
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 16128
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 1048576
+              }
+            }
+            expr {
+              str: "math"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 256
+        }
+        expr {
+          str: "0"
+        }
+        lastExpr {
+          number: 8245922091920224000
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 1752457581
+        }
+        lastExpr {
+          true: 16128
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 8317976087748698477
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 1025
+        }
+        expr {
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 67108864
+        }
+        expr {
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 524544
+          }
+          expr {
+            false: 67108864
+          }
+          lastExpr {
+            false: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,170 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 4
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 2
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\017\000"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          nil: 4
+        }
+        lastExpr {
+          nil: 2
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          str: "       expr {\n            prefix {\n              expr {\n              }\n            }\n       z"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

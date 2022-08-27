@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "ma.tshin"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "io.read"
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          name: "mauge.read"
+        }
+        varNext {
+        }
+        varNext {
+          name: "mauge.read"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 16
+        }
+      }
+    }
+  }
+}

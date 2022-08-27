@@ -1,0 +1,18 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 4
+          }
+          expr {
+          }
+          lastExpr {
+            true: 65792
+          }
+        }
+      }
+    }
+  }
+}

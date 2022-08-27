@@ -1,0 +1,161 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 2
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "t"
+        }
+        expr {
+          nil: 91
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          nil: 16776192
+        }
+        lastExpr {
+          true: 16776192
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 16
+        }
+        expr {
+          true: 32768
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 16
+        }
+        lastExpr {
+          nil: 16
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "t"
+        }
+        expr {
+          number: 5987072
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        lastExpr {
+          str: "K"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          true: 65536
+        }
+        expr {
+          true: 16
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 16
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 16
+        }
+        expr {
+          number: 5987072
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+}

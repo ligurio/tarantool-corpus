@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\242"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        lastExpr {
+          number: 137438953472
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 1
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "nd"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 257
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        lastExpr {
+          number: 137438953472
+        }
+      }
+    }
+  }
+}

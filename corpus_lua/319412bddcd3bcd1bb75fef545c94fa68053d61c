@@ -1,0 +1,189 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "ur\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377i"
+        }
+        varNext {
+          name: "Group"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 25344
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "uri"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 2099249152
+              }
+            }
+            expr {
+              ellipsis: 25344
+            }
+          }
+        }
+        varNext {
+          name: "zz"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          str: "}}}}chunk {\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"K\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"+\"\n              }\n            }\n            expr {\n              str: \"\"\n            }\n          }\n        }\n        varNext {\n          name: \".\"\n        }\n      }\n      exprList {\n        expr {\n        }\n        expr {\n          ellipsis: 0\n        }\n        expr {\n          ellipsis: 25344\n        }\n        expr {\n          ellipsis: 16\n        }\n        expr {\n          nil: 0\n        }\n        lastExpr {\n          ellipsis: 25344\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              false: 32\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                false: 2\n              }\n            }\n            expr {\n              true: 16\n            }\n          }\n        }\n        varNext {\n          name: \"utf8.codes\"\n        }\n      }\n      exprList {\n        expr {\n          str: \".\\033\"\n        }\n        expr {\n          nil: 67108864\n        }\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"K\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n        }\n        varNext {\n        }\n        varNext {\n          name: \"m\"\n        }\n      }\n      exprList {\n        expr {\n          str: \".\\033\"\n        }\n        expr {\n        }\n        lastExpr {\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\\225\"\n        }\n        varNext {\n          name: \"\\273\"\n        }\n        varNext {\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                ellipsis: 0\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n        }\n      }\n      exprList {\n        expr {\n          str: \".\\033\"\n        }\n        expr {\n          str: \"\\211\"\n        }\n        lastExpr {\n          number: 0\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"K\"\n        }\n        varNext {\n          name: \".\"\n        }\n      }\n      exprList {\n        expr {\n        }\n        expr {\n          ellipsis: 0\n        }\n        expr {\n          ellipsis: 25344\n        }\n        expr {\n          ellipsis: 16\n        }\n        expr {\n          nil: 0\n        }\n        lastExpr {\n          ellipsis: 25344\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"K\"\n        }\n        varNext {\n        }\n        varNext {\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"2\"\n              }\n            }\n            expr {\n              nil: 16\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n              }\n            }\n            expr {\n              str: \".\"\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n          str: \"\\273\"\n        }\n        expr {\n          str: \"8c\"\n        }\n        expr {\n          true: 16\n        }\n        lastExpr {\n          number: 2965620354623471616\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"m\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                str: \"basic\"\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                ellipsis: 805306368\n              }\n            }\n            expr {\n            }\n          }\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                nil: 25344\n              }\n            }\n            expr {\n              nil: 0\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n          str: \"\"\n        }\n        lastExpr {\n          number: 17179869184\n        }\n      }\n    }\n  }\n}\n"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t}}}"
+        }
+        varNext {
+        }
+        varNext {
+          name: "K"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 2
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 65536
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 1048576
+            }
+          }
+        }
+        varNext {
+          name: "b"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2097152
+        }
+        lastExpr {
+          true: 184549377
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377-1i"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 134217759
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

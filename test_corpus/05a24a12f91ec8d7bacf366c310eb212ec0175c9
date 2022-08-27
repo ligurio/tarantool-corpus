@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"
+        }
+        varNext {
+          name: "coroutine.wrap"
+        }
+        varNext {
+          name: "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"
+        }
+      }
+      exprList {
+        expr {
+          false: 637534208
+        }
+        expr {
+          str: "\000"
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 4096
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

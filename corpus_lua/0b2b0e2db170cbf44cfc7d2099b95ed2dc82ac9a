@@ -1,0 +1,48 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\376\377\377\377"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 255
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 16400
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 255
+          }
+          lastExpr {
+            false: 589824
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

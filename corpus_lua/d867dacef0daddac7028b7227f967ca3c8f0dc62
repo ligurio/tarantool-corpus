@@ -1,0 +1,67 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "h"
+              }
+            }
+            expr {
+              str: "goto"
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\377\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 34304
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\377\000"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 268435456
+        }
+      }
+    }
+    semicolon: false
+  }
+}

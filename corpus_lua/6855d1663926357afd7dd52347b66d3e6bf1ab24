@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\006\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          nil: 2065724536
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 2065724536
+        }
+        expr {
+        }
+        expr {
+          true: 2065724536
+        }
+        expr {
+        }
+        expr {
+          true: 2065724536
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

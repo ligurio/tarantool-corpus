@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 32768
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "NoSideEfe"
+        }
+      }
+      exprList {
+        expr {
+          nil: 32768
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "t\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          true: 32768
+        }
+        lastExpr {
+          false: 1
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "Byte"
+        }
+        varNext {
+          name: "\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "B9te"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          str: "Group"
+        }
+        lastExpr {
+          nil: 67108864
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

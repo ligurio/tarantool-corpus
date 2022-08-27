@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          number: 17179869184
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          nil: 16
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+}

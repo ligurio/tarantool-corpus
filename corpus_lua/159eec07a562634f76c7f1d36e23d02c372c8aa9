@@ -1,0 +1,38 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "package.loadlib"
+        }
+        varNext {
+          name: "["
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 10
+        }
+        lastExpr {
+          false: 10
+        }
+      }
+    }
+    semicolon: false
+  }
+}

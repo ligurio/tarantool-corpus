@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+        }
+        varNext {
+          name: "??"
+        }
+        varNext {
+          name: "goto"
+        }
+      }
+      exprList {
+        expr {
+          str: "?"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\001\000\000\000\000\000\000\002"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "goto"
+        }
+      }
+      exprList {
+        expr {
+          str: "?"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

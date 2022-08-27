@@ -1,0 +1,69 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "-1i"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 8060928
+        }
+        lastExpr {
+          number: 6
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "-1i"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "-1i"
+        }
+      }
+      exprList {
+        expr {
+          number: 72057039987146753
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

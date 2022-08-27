@@ -1,0 +1,97 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 2
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 2
+            }
+          }
+        }
+        varNext {
+          name: "Float\370"
+        }
+      }
+      exprList {
+        expr {
+          nil: 1280
+        }
+        expr {
+          str: "\377\000"
+        }
+        expr {
+          false: 7
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        lastExpr {
+          ellipsis: 1547122432
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\374"
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+          name: "\374"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        expr {
+          ellipsis: 268435456
+        }
+        lastExpr {
+          ellipsis: 268435456
+        }
+      }
+    }
+  }
+}

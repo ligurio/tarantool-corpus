@@ -1,0 +1,101 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 2105344
+            }
+          }
+        }
+        varNext {
+          name: "\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 4611686018427387904
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "z"
+        }
+        lastExpr {
+          str: "z"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 39424
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          true: 4
+        }
+        lastExpr {
+          true: 39424
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 0
+          }
+          expr {
+            true: 39424
+          }
+          lastExpr {
+            true: 39424
+          }
+        }
+      }
+    }
+  }
+}

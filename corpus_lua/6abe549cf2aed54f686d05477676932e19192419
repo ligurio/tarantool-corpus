@@ -1,0 +1,96 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "lua_grammar.Chunk"
+        }
+        lastExpr {
+          str: "lua_grammar.Chunk"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 125
+              }
+            }
+            expr {
+              ellipsis: 32899072
+            }
+          }
+        }
+        varNext {
+          name: "Group"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 6124895493223874560
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 25344
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "load"
+        }
+        varNext {
+          name: "luaar.Chuar.Chunk__add"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

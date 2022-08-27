@@ -1,0 +1,80 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "lua_grammar.Chunk"
+        }
+        lastExpr {
+          str: "lua_grammar.Chunk"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\230"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "mmmmmmmmmm\223\227mmmmmmm"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\260\260\260\260\260\260\260\260\260\260\260\260\260\260\260\260\260\260"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Group"
+              }
+            }
+            expr {
+              nil: 1073741824
+            }
+          }
+        }
+        varNext {
+          name: "\330***************************************************************************"
+        }
+        varNext {
+          name: "\002"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1073741824
+        }
+      }
+    }
+  }
+}

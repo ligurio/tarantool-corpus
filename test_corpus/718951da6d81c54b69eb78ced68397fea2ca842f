@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "("
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 637534208
+        }
+        lastExpr {
+          str: "!\001\000\000"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,38 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 1635123200
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 1660944384
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "msgpack"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 1845493760
+              }
+            }
+            expr {
+              false: 123
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 123
+        }
+        expr {
+          str: "\351"
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

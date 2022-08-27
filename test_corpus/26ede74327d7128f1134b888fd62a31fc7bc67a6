@@ -1,0 +1,133 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "#"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 8208
+        }
+        expr {
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          nil: 6627344
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "#"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\""
+        }
+        varNext {
+          name: ")"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 8208
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 255
+        }
+        expr {
+          nil: 16
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          nil: 6627344
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "#"
+        }
+      }
+      exprList {
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 255
+        }
+        expr {
+          nil: 25872
+        }
+        expr {
+          nil: 6627344
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

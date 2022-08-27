@@ -1,0 +1,102 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "mmmmmmmmmmmmmmmmmmm"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBB<BBBBBBB"
+        }
+      }
+      exprList {
+        expr {
+          false: 67108864
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBB"
+        }
+      }
+      exprList {
+        expr {
+          false: 16580352
+        }
+        lastExpr {
+          nil: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBGroupBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "mmmmmmmmmmmmmmmmmmm"
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

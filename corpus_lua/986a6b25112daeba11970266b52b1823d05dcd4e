@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 68719476736
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 68719476736
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "A"
+        }
+        varNext {
+          name: "A"
+        }
+      }
+      exprList {
+        expr {
+          str: "A"
+        }
+        expr {
+          str: "Sint6"
+        }
+        lastExpr {
+          number: 68719476736
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

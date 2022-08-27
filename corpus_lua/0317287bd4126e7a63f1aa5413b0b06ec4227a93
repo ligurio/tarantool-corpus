@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\217\217\217\217\217\217\217\217"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "["
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\217\217\217\217\217\217\217\217"
+        }
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        lastExpr {
+          true: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "["
+        }
+        varNext {
+          name: "["
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\014\000"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 1048823
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+}

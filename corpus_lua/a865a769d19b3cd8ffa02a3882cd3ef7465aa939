@@ -1,0 +1,92 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 262400
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "__index"
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "__`______"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 131072
+        }
+        expr {
+          str: "an\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365d"
+        }
+        lastExpr {
+          str: ".debug.upvaluejoin"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "________"
+        }
+        varNext {
+          name: "_______________"
+        }
+      }
+      exprList {
+        expr {
+          number: 2105212967
+        }
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+}

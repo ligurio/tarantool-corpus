@@ -1,0 +1,24 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\000"
+        }
+        varNext {
+          name: "\177"
+        }
+        varNext {
+          name: "z"
+        }
+      }
+      exprList {
+        expr {
+          str: "z"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

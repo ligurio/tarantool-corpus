@@ -1,0 +1,42 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "exprList"
+        }
+        varNext {
+          name: "exprList"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          nil: 32
+        }
+        lastExpr {
+          str: "Ideenmpotent"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "Bool"
+              }
+            }
+            expr {
+              false: 1929379840
+            }
+          }
+        }
+        varNext {
+          name: "\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217"
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: "YYYYYYYYYYYYYY"
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 32
+        }
+        expr {
+        }
+        lastExpr {
+          str: "\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217\217"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

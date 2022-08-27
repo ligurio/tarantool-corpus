@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\231"
+        }
+        varNext {
+          name: "zz"
+        }
+        varNext {
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+          name: "BBB\000\014BBBBBBBBBBBBBBBBBBB"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "e"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBCBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "tt\000\000\000\000\000"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+}

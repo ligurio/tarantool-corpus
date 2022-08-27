@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "-1i"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "8c"
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251\251"
+        }
+        varNext {
+          name: "-1i"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

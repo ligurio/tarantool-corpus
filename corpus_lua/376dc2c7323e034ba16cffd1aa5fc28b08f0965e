@@ -1,0 +1,27 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\003\003\003L"
+        }
+        expr {
+          str: "\203\003\003L"
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          str: "\203\003\003L"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "NoSideEffects"
+        }
+        varNext {
+          name: "  lunreame"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 2097152
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352"
+        }
+        varNext {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        expr {
+          str: "  lnreame"
+        }
+        expr {
+          str: "  ljename"
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          str: "\000\000\000\000\000\000\000\000"
+        }
+        lastExpr {
+          str: "setmetatable"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "  lrename"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

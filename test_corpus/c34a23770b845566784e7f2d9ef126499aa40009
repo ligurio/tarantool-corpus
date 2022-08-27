@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "0.3E2"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 17179869184
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            str: "0.3E2"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

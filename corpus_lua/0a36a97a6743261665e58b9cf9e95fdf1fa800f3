@@ -1,0 +1,57 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          name: "nt"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          str: "nt"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+        varNext {
+          name: "nt"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          str: "nt"
+        }
+      }
+    }
+  }
+}

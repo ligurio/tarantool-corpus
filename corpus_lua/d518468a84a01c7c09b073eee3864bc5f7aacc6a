@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "true"
+        }
+        varNext {
+          name: "K"
+        }
+        varNext {
+          name: "true"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          str: "true"
+        }
+      }
+    }
+  }
+}

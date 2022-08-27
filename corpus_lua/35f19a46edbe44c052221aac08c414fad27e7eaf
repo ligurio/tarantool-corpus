@@ -1,0 +1,51 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "__idiv"
+        }
+        varNext {
+          name: "CodeSize"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1660945409
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1025
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "CodeSize"
+        }
+        varNext {
+          name: "-1i"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1660945409
+        }
+      }
+    }
+  }
+}

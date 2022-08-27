@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "and"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\335"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 4096
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: false
+  }
+}

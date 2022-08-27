@@ -1,0 +1,81 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "666666666666666"
+        }
+        varNext {
+          name: "\303\001\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1073741824
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "#chunk {\n  stat {\n    stat {\n      varList {\n        var {\n        }\n      }\n      exprList {\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"666666666666666\"\n        }\n        varNext {\n          expr {\n            prefix {\n              expr {\n                number: 0\n              }\n            }\n            expr {\n            }\n          }\n        }\n      }\n      exprList {\n        expr {\n          str: \"\\243\\000\\000\\000\\000\\000\\000\\000\"\n        }\n        expr {\n          ellipsis: 4096\n        }\n        lastExpr {\n          str: \"\\243\\000\\000\\000\\000\\000\\000\\000\"\n        }\n      }\n    }\n  }\n  last {\n    stat {\n      break: 50176\n    }\n    semicolon: true\n  }\n}\n"
+        }
+        varNext {
+          name: "#"
+        }
+      }
+      exprList {
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        lastExpr {
+          nil: 50176
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "666666666666666"
+        }
+        varNext {
+          name: "#"
+        }
+        varNext {
+          name: "#"
+        }
+      }
+      exprList {
+        expr {
+          str: "io.stdin"
+        }
+        expr {
+          str: "io.read"
+        }
+        expr {
+          nil: 6627344
+        }
+        expr {
+          nil: 6627344
+        }
+        lastExpr {
+          nil: 6627344
+        }
+      }
+    }
+    semicolon: true
+  }
+}

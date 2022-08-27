@@ -1,0 +1,55 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "!"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 183
+        }
+        expr {
+        }
+        expr {
+          str: "Sint3"
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "goto"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 4
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 4
+          }
+          lastExpr {
+            str: "Bool"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "{}"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 112
+        }
+        expr {
+          ellipsis: 112
+        }
+        expr {
+          false: 1447970143
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 512
+        }
+        expr {
+          str: "tonumber"
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          ellipsis: 112
+        }
+        lastExpr {
+          false: 1969775360
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021{}"
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            nil: 2293760
+          }
+        }
+      }
+    }
+  }
+}

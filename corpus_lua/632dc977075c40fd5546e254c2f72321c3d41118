@@ -1,0 +1,45 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Sfixed6"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "Sfixchunk {\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"mmmmmmmmmmmmmmmmmmm\"\n        }\n        varNext {\n        }\n        varNext {\n          name: \"\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBBB<BBBBBBB\"\n        }\n      }\n      exprList {\n        expr {\n          false: 67108864\n        }\n        lastExpr {\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"\"\n        }\n        varNext {\n          name: \"mmmmmmmmmmmmmmm\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBB\"\n        }\n        varNext {\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBB\"\n        }\n      }\n      exprList {\n        expr {\n          false: 16580352\n        }\n        lastExpr {\n          nil: 67108864\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      varList {\n        var {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\n          name: \"mmmmmmmmmmmmmmmmmmm\"\n        }\n        varNext {\n        }\n        varNext {\n          name: \"\"\n        }\n        varNext {\n          name: \"BBBBBBBBBBBBBBBBBBBBBB\"\n        }\n        varNext {\ned          name: \"BBBBBBBBBBBBB\"\n        }\n      }\n      exprList {\n        lastEx6pr {\n        }\n      }\n    }\n    semicolon: true\n  }\n}\n"
+              }
+            }
+            expr {
+              str: "\002\002\002\002\002\002\002\002\002\002\002"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+}

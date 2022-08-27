@@ -1,0 +1,88 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "  ljename"
+        }
+      }
+      exprList {
+        expr {
+          str: "package.loadlib"
+        }
+        expr {
+          str: "package.loadlib"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 6488064
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+      }
+      exprList {
+        expr {
+          nil: 6488064
+        }
+        lastExpr {
+          false: 2048
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "  ljename"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 671088640
+        }
+        expr {
+        }
+        lastExpr {
+          str: "  lrename"
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

@@ -1,0 +1,162 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 2
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 16
+        }
+        expr {
+          false: 268435456
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 16121872
+        }
+        lastExpr {
+          str: "b"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 16
+        }
+        expr {
+          true: 32768
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 16
+        }
+        lastExpr {
+          nil: 16
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Sint64"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "t"
+        }
+        expr {
+          str: "b"
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          ellipsis: 16
+        }
+        expr {
+          true: 268435456
+        }
+        expr {
+          true: 268435456
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          true: 268435456
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 16121872
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "K"
+        }
+        expr {
+          str: "K"
+        }
+        expr {
+          number: 504684633242206208
+        }
+        expr {
+          true: 16
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+    semicolon: false
+  }
+}

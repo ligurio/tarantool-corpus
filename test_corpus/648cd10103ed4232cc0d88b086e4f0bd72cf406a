@@ -1,0 +1,89 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 49664
+              }
+            }
+            expr {
+              number: 49664
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "pairs"
+              }
+            }
+            expr {
+              nil: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+        }
+        lastExpr {
+          nil: 131072
+        }
+      }
+    }
+    semicolon: true
+  }
+}

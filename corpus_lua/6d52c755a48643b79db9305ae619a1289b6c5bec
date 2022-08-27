@@ -1,0 +1,107 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "\377\000"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "+"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\377\000"
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        expr {
+          true: 1919903232
+        }
+        expr {
+          number: 8
+        }
+        lastExpr {
+          str: "\360Repeated"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "coroutine.isyieldable"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "\360Repeated"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 4
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "("
+        }
+        varNext {
+          name: "f"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+        varNext {
+          name: "Float"
+        }
+      }
+      exprList {
+        expr {
+          str: "\360Re\360Repprtedpprted"
+        }
+        expr {
+          ellipsis: 4294967295
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

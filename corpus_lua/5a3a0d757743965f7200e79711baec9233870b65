@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "_______________________________________________________________________________________________________________________________"
+              }
+            }
+            expr {
+              false: 1948269056
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 1
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "z"
+        }
+        varNext {
+          name: "string.pack"
+        }
+        varNext {
+          name: "d\002\000\000\000\000\000\000"
+        }
+        varNext {
+          name: "exprList"
+        }
+        varNext {
+          name: "string.pack"
+        }
+        varNext {
+          name: "?"
+        }
+      }
+      exprList {
+        expr {
+          false: 1948269056
+        }
+        lastExpr {
+          nil: 1
+        }
+      }
+    }
+  }
+}

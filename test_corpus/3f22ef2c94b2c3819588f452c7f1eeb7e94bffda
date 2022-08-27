@@ -1,0 +1,121 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 6841088
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 1752457581
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 1701601119
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "setmetatable"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "semath.typee"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\376\377\377\377"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 63
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

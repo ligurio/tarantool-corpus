@@ -1,0 +1,26 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            number: 137438953472
+          }
+          expr {
+            number: 0
+          }
+          expr {
+            number: 0
+          }
+          expr {
+          }
+          lastExpr {
+            number: 137438953472
+          }
+        }
+      }
+    }
+  }
+}

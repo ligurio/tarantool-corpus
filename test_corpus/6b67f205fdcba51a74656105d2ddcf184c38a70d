@@ -1,0 +1,86 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 1073741824
+              }
+            }
+            expr {
+              true: 1073741824
+            }
+          }
+        }
+        varNext {
+          name: "H\356"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 1073741824
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\356"
+        }
+        lastExpr {
+          number: 28557020175366245
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "H\356"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 7308332183991877632
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

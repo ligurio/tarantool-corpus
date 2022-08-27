@@ -1,0 +1,19 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\377"
+        }
+        lastExpr {
+          nil: 65536
+        }
+      }
+    }
+    semicolon: false
+  }
+}

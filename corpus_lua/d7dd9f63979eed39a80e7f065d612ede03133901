@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 4
+            }
+          }
+        }
+        varNext {
+          name: "\037\000\000\000"
+        }
+      }
+      exprList {
+        expr {
+          false: 1
+        }
+        lastExpr {
+          ellipsis: 1
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

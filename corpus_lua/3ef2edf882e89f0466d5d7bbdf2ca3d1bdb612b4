@@ -1,0 +1,92 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "-2i"
+        }
+        varNext {
+          name: "-3i"
+        }
+        varNext {
+        }
+        varNext {
+          name: "-3i"
+        }
+        varNext {
+          name: "-3i"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "-3i"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "t!"
+        }
+        varNext {
+          name: "-3i"
+        }
+        varNext {
+          name: "-3i"
+        }
+        varNext {
+          name: "-3i"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 39424
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\001"
+        }
+        varNext {
+          name: "-3i"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 474208010240
+            }
+          }
+        }
+        varNext {
+          name: "repeat"
+        }
+      }
+      exprList {
+        expr {
+          str: "\231"
+        }
+        lastExpr {
+          number: 474208010240
+        }
+      }
+    }
+    semicolon: true
+  }
+}

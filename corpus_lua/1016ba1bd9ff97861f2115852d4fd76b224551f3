@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "&"
+        }
+        varNext {
+          name: "&"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "&"
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          ellipsis: 268435456
+        }
+      }
+    }
+  }
+}

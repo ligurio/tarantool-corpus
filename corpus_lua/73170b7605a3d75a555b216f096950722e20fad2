@@ -1,0 +1,50 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "-i"
+        }
+        varNext {
+          name: "\\007\"\n        }\n        v-i"
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          str: "Sint3"
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            str: "Bl"
+          }
+        }
+      }
+    }
+  }
+}

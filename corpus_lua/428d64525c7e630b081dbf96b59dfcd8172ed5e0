@@ -1,0 +1,52 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "lufile:writea_grammar.Chunk"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+            }
+          }
+        }
+        varNext {
+          name: "lufile:writea_grammar:.Chunk"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 1634887427
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              false: 1634887424
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

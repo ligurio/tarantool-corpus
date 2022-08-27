@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 67108868
+              }
+            }
+            expr {
+              str: "Group"
+            }
+          }
+        }
+        varNext {
+          name: "Idempotentlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
+        }
+      }
+      exprList {
+        expr {
+          number: 4
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+}

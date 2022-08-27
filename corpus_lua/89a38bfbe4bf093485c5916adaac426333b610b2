@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "z"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 4294967295
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "z"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          number: 8192000
+        }
+        lastExpr {
+          false: 4294967295
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

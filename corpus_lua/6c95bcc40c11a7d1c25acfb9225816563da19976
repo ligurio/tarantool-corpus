@@ -1,0 +1,159 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: ";"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 4
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 16
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 4294967291
+            }
+          }
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 32
+        }
+        lastExpr {
+          ellipsis: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ";"
+        }
+        varNext {
+          name: "!"
+        }
+        varNext {
+        }
+        varNext {
+          name: "exprlist"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "!"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          true: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "goto"
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+          false: 4294967291
+        }
+      }
+    }
+    semicolon: true
+  }
+}

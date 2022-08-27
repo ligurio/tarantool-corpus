@@ -1,0 +1,89 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          name: "\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+        varNext {
+          name: "\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216\216"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ":"
+        }
+        varNext {
+          name: "then"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 16384
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

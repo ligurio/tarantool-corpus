@@ -1,0 +1,169 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "BBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "mmmmmmmmmmmm"
+        }
+        varNext {
+          name: "BBBBBBBBBB\325"
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBB<BBBBBBB"
+        }
+      }
+      exprList {
+        expr {
+          str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "mmmmmmmmmmmmmmm"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBB"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "K"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 9216
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 4
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                nil: 32
+              }
+            }
+            expr {
+              str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+            }
+          }
+        }
+        varNext {
+          name: "file:setvbuf"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 805306368
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "+"
+        }
+      }
+      exprList {
+        expr {
+          str: "basic"
+        }
+        expr {
+        }
+        expr {
+          true: 262144
+        }
+        lastExpr {
+          number: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 939524097
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

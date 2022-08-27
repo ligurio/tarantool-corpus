@@ -1,0 +1,67 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 268435456
+              }
+            }
+            expr {
+              number: 10995116289536
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 10995116277760
+        }
+        lastExpr {
+          str: "\376\377\377\377\377\377\377\177"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          number: 10995116277760
+        }
+        expr {
+          number: 10995116277760
+        }
+        lastExpr {
+          number: 10995116277760
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          number: 10995116277760
+        }
+        expr {
+          number: 10995116277760
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

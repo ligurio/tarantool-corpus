@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 1
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          true: 512
+        }
+        lastExpr {
+          str: "z"
+        }
+      }
+    }
+  }
+}

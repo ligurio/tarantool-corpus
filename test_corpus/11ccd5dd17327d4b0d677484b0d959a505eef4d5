@@ -1,0 +1,27 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\035\000\000\000"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "\243\000\000varNext {\n        }\n      }\n      exprList {\n        expr {\n          nil: 0\n        }\n        expr {\n        }\n        expr {\n          true: 40448\n        }\n\000\000\000\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "("
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

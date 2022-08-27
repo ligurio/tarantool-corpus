@@ -1,0 +1,271 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 1828716544
+        }
+        lastExpr {
+          number: 7308613718008622848
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "Aw\001\000\000\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 512
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 255
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 2949120
+            }
+          }
+        }
+        varNext {
+          name: "\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334"
+        }
+      }
+      exprList {
+        expr {
+          true: 1024
+        }
+        lastExpr {
+          true: 16128
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 1696604192
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 256
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 35229385359360
+        }
+        expr {
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 16128
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          false: 255
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 512
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "0"
+        }
+        expr {
+          nil: 255
+        }
+        expr {
+          str: "["
+        }
+        expr {
+        }
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 524544
+              }
+            }
+            expr {
+              str: "\020\000\000\000"
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 8192
+        }
+        expr {
+          number: 2308792998911016960
+        }
+        expr {
+          false: 255
+        }
+        expr {
+          nil: 6488157
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 524544
+          }
+          lastExpr {
+            number: 35229385359360
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

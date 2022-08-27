@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          name: "nil"
+        }
+        varNext {
+          name: "]=\306=]"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\000"
+        }
+        lastExpr {
+          str: "\000"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "4\000\000\000"
+        }
+        varNext {
+          name: "]===]"
+        }
+        varNext {
+          name: "nil"
+        }
+        varNext {
+          name: "]=\306=]"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+}

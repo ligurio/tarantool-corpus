@@ -1,0 +1,115 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+      }
+      exprList {
+        expr {
+          false: 268435456
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          nil: 2097152
+        }
+        expr {
+        }
+        expr {
+          true: 4
+        }
+        expr {
+          nil: 131328
+        }
+        expr {
+        }
+        expr {
+          nil: 40448
+        }
+        lastExpr {
+          true: 40452
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              ellipsis: 117506048
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\000\022"
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 589824
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 620756992
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          ellipsis: 4127195136
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "repeat"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_________c___fals__"
+        }
+        varNext {
+          name: "\377\377\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 2097152
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "_________c___fals__"
+        }
+        varNext {
+          name: "\377\377\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 536870912
+    }
+  }
+}

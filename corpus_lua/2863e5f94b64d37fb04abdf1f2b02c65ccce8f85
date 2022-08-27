@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\010\000"
+        }
+        varNext {
+          name: "io.stderr"
+        }
+        varNext {
+          name: "Idempotent"
+        }
+        varNext {
+          name: "string.dump"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\010\000"
+        }
+        varNext {
+          name: "io.stderr"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "BBBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+          name: "BBBBBBBBBBBBBBBBBBBBB"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\010\000"
+        }
+        varNext {
+          name: "io.stderr"
+        }
+        varNext {
+          name: "Idempotent"
+        }
+        varNext {
+          name: "string.dump"
+        }
+      }
+      exprList {
+        lastExpr {
+          ellipsis: 0
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 2432696320
+    }
+  }
+}

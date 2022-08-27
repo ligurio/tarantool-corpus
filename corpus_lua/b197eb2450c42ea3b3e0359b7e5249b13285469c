@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 1929379904
+        }
+        expr {
+          nil: 25344
+        }
+        expr {
+          str: "\357"
+        }
+        lastExpr {
+          nil: 11
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 1929379904
+          }
+          expr {
+            number: 0
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+            nil: 11
+          }
+        }
+      }
+    }
+  }
+}

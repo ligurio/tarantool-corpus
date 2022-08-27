@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+        varNext {
+          name: "*"
+        }
+        varNext {
+          name: ")"
+        }
+        varNext {
+          name: "*"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "."
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

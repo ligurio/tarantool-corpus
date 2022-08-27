@@ -1,0 +1,115 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "??"
+        }
+        varNext {
+          name: "\005\000"
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\277"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: "??"
+        }
+        varNext {
+          name: "\005\000"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "?"
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "?"
+        }
+        varNext {
+          name: "\213"
+        }
+        varNext {
+          name: "\232"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          number: 14696572485456640
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "("
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

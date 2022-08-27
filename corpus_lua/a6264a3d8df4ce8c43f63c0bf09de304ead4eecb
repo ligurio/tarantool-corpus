@@ -1,0 +1,76 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "YYYYYYYYYYYYYY"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          true: 1048576
+        }
+        lastExpr {
+          nil: 2105344
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "Sint3"
+            }
+          }
+        }
+        varNext {
+          name: "+"
+        }
+        varNext {
+          name: "Group"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 268437248
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "5\334w\211\226\332\240\345"
+        }
+      }
+      exprList {
+        expr {
+          nil: 8192
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}
