@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\205"
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001:"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "n"
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          true: 291844
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 291844
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+}

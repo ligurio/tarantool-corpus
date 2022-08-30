@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "JsNormal"
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 771751936
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "JsNormal"
+        }
+      }
+      exprList {
+        expr {
+          true: 4
+        }
+        lastExpr {
+          nil: 4259844
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 4
+          }
+          lastExpr {
+            nil: 4259844
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

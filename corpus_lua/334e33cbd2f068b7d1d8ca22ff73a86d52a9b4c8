@@ -1,0 +1,63 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\377\3770.3E2\377\032"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "A"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "Q"
+        }
+        varNext {
+          name: "??"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\237"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          ellipsis: 67108864
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "A"
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "]"
+        }
+      }
+    }
+  }
+}

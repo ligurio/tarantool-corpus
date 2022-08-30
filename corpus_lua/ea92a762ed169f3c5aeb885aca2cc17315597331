@@ -1,0 +1,166 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 4
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 2
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 2097152002
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          nil: 4
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 11822
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          nil: 262144
+        }
+        expr {
+          str: "\000\377\377\177\000\000\000\000"
+        }
+        expr {
+          nil: 4
+        }
+        expr {
+          str: "~"
+        }
+        expr {
+          nil: 2097156
+        }
+        lastExpr {
+          nil: 2
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 2
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          ellipsis: 2
+        }
+        expr {
+          nil: 0
+        }
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "z"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "Group"
+        }
+      }
+      exprList {
+        expr {
+        }
+        lastExpr {
+          true: 2
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+  }
+}

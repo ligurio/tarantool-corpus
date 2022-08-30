@@ -1,0 +1,27 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\000\000\007"
+        }
+        varNext {
+        }
+        varNext {
+          name: "\001\000\000\007"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 524288
+        }
+        lastExpr {
+          str: "lua_grammar.Chunk"
+        }
+      }
+    }
+    semicolon: false
+  }
+}
