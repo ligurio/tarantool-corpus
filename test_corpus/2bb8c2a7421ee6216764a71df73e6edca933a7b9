@@ -1,0 +1,259 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 4144896
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          false: 4261412864
+        }
+        lastExpr {
+          false: 6160384
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+          name: "("
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 1819374336
+              }
+            }
+            expr {
+              false: 1819374336
+            }
+          }
+        }
+        varNext {
+          name: "\313"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\313"
+        }
+        expr {
+          str: "\313"
+        }
+        lastExpr {
+          str: "/"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 1819374336
+              }
+            }
+            expr {
+              false: 4144896
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 6160384
+        }
+        expr {
+          false: 4261412864
+        }
+        lastExpr {
+          false: 6160384
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\\"
+        }
+        varNext {
+          name: "\301"
+        }
+      }
+      exprList {
+        expr {
+          false: 16128
+        }
+        expr {
+          false: 8
+        }
+        expr {
+        }
+        expr {
+          false: 73728
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 255
+        }
+        expr {
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 4144896
+            }
+          }
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 4144896
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        lastExpr {
+          false: 556794240
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 4144896
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          false: 11862271
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          false: 1090519295
+        }
+        expr {
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 16384
+    }
+  }
+}

@@ -1,0 +1,142 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                ellipsis: 0
+              }
+            }
+            expr {
+              ellipsis: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+        }
+        expr {
+          ellipsis: 1847590912
+        }
+        expr {
+          ellipsis: 1847590912
+        }
+        expr {
+          nil: 64512
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          ellipsis: 1761607680
+        }
+        expr {
+          number: 0
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 64512
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 3305111552
+              }
+            }
+            expr {
+              number: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 8192
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 2105376
+        }
+        expr {
+          ellipsis: 1847590912
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 5
+        }
+        expr {
+        }
+        expr {
+          false: 5
+        }
+        expr {
+          nil: 262144
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\001\005"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 0
+        }
+      }
+    }
+  }
+}

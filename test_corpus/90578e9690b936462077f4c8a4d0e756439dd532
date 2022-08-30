@@ -1,0 +1,156 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 252
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "io.read"
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 252
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "io.read"
+        }
+        varNext {
+        }
+        varNext {
+          name: "Sint3"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "----------"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "string.packsize"
+        }
+        varNext {
+          name: "----------"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

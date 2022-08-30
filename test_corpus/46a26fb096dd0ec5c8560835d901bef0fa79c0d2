@@ -1,0 +1,311 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 32000
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 256
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 6488157
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+          str: "\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352\352"
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+        }
+        expr {
+          false: 524288
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: "\000\000\000\000\000\000\000\000"
+        }
+        varNext {
+          name: ":"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        expr {
+          str: "0"
+        }
+        expr {
+        }
+        expr {
+          false: 247
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              nil: 65536
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              false: 256
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 1696604192
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "__add"
+        }
+        expr {
+          false: 536870912
+        }
+        lastExpr {
+          false: 255
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 8192
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          false: 1912602624
+        }
+        expr {
+        }
+        lastExpr {
+          false: 255
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 131072
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+          ellipsis: 0
+        }
+        expr {
+        }
+        expr {
+          false: 524288
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: "__add"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 5
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 16128
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+        varNext {
+          name: "1"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+          number: 1099511635245
+        }
+        expr {
+          false: 255
+        }
+        expr {
+          nil: 6488157
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+  }
+}

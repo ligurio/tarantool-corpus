@@ -1,0 +1,105 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 4611686018427387904
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          nil: 8208
+        }
+        expr {
+        }
+        expr {
+          nil: 538993936
+        }
+        expr {
+        }
+        expr {
+          false: 64
+        }
+        expr {
+          nil: 63
+        }
+        expr {
+        }
+        lastExpr {
+          false: 0
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          number: 124554051584
+        }
+        lastExpr {
+          number: 2323577307136
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "bg.deus"
+        }
+      }
+      exprList {
+        expr {
+          nil: 0
+        }
+        expr {
+          nil: 255
+        }
+        expr {
+          nil: 538993936
+        }
+        expr {
+          true: 262144
+        }
+        expr {
+          nil: 6627344
+        }
+        lastExpr {
+          nil: 6627344
+        }
+      }
+    }
+  }
+}

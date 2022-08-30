@@ -1,0 +1,197 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\213"
+        }
+        expr {
+          str: ""
+        }
+        expr {
+          str: "1"
+        }
+        expr {
+          str: ""
+        }
+        lastExpr {
+          str: "#"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        expr {
+          str: "1"
+        }
+        expr {
+        }
+        expr {
+          str: "!\001\000"
+        }
+        lastExpr {
+          str: "1"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "1"
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        expr {
+          str: "\177"
+        }
+        expr {
+          true: 5111808
+        }
+        expr {
+          str: "`````````````````````"
+        }
+        expr {
+          str: "1"
+        }
+        lastExpr {
+          str: "1"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\213"
+        }
+        expr {
+          str: "1"
+        }
+        expr {
+          str: "1"
+        }
+        expr {
+          str: "!\001"
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "1"
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "1"
+        }
+        lastExpr {
+          str: "\213"
+        }
+      }
+    }
+  }
+}

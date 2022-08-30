@@ -1,0 +1,222 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "A=>"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000o"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: "!\001\004\002"
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+          true: 67108864
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+          str: "A=>"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+          str: "type!\001\004\002"
+        }
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          str: " "
+        }
+        expr {
+          str: "!\001Sin#3\000\000"
+        }
+        expr {
+          true: 1
+        }
+        lastExpr {
+          str: "A=>"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "A=>"
+              }
+            }
+            expr {
+              str: "A=>"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              str: "!\001\000o"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: "\001\005"
+        }
+        expr {
+        }
+        expr {
+          true: 262144
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        lastExpr {
+          str: "!\001\000o"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "-=:"
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000o"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "A=>"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

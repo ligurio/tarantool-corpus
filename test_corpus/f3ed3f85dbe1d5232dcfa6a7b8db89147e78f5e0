@@ -1,0 +1,55 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "file:les"
+        }
+      }
+      exprList {
+        expr {
+          nil: 8224
+        }
+        expr {
+        }
+        lastExpr {
+          ellipsis: 32
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+          name: "\177"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "or"
+        }
+        varNext {
+          name: "\177"
+        }
+      }
+      exprList {
+        lastExpr {
+          false: 251
+        }
+      }
+    }
+    semicolon: true
+  }
+}

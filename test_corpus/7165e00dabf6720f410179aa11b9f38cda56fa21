@@ -1,0 +1,158 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "coroutine.wrap"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "coroutine.wrap"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+        varNext {
+        }
+        varNext {
+          name: "`"
+        }
+        varNext {
+          name: "__idiv"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "y"
+        }
+        varNext {
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "d"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "coroutine.wrap"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "`"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "`"
+        }
+        varNext {
+          name: "\035"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

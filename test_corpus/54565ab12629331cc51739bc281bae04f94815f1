@@ -1,0 +1,24 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "os.rename"
+        }
+      }
+      exprList {
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          nil: 16576
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 16576
+    }
+  }
+}

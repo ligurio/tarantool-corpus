@@ -1,0 +1,278 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          name: "\377\377\377\377\377\377\377\377"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+          ellipsis: 512
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 32
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+          true: 1852797802
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          str: " "
+        }
+        expr {
+          str: "!\001\000\000"
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+          number: 73984
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "0"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+    semicolon: true
+  }
+}

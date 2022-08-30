@@ -1,0 +1,152 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+        varNext {
+        }
+        varNext {
+          name: "y"
+        }
+        varNext {
+          name: "y"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "y"
+        }
+        varNext {
+        }
+        varNext {
+          name: "?"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "d"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "\244s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "d"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+        varNext {
+          name: "coroutine.wrap"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "@"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 8392
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 32
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+      }
+      exprList {
+        expr {
+          true: 1023410176
+        }
+        expr {
+          true: 33554432
+        }
+        expr {
+          true: 16646144
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+          name: "cfg"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 32
+              }
+            }
+            expr {
+              true: 23808
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                true: 0
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+          true: 0
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "*"
+        }
+      }
+      exprList {
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

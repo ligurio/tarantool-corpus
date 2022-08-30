@@ -1,0 +1,260 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1900544
+              }
+            }
+            expr {
+              number: 24
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 24
+        }
+        expr {
+          number: 2314861203586613248
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 115777057390592
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 1900544
+        }
+        expr {
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          number: 137438953472
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "table.unpack"
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 1900544
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "B"
+        }
+      }
+      exprList {
+        expr {
+          number: 8589934592
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          ellipsis: 536870912
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              number: 115777057390592
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 24
+        }
+        expr {
+          number: 0
+        }
+        expr {
+          number: 1900544
+        }
+        lastExpr {
+          number: 444099395584
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "\231os.execute\231\231\231\231\231\211\231\231\231"
+        }
+      }
+      exprList {
+        expr {
+          number: 0
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 8589934592
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1900544
+              }
+            }
+            expr {
+              number: 4296867840
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1900544
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 8589934592
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+  }
+}

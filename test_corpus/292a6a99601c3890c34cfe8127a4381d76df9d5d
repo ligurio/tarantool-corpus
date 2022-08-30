@@ -1,0 +1,167 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "s"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\365"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "`"
+        }
+      }
+      exprList {
+        lastExpr {
+          nil: 5
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "J"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+          name: "s"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "`"
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+          name: "``````````A`````````````````````````"
+        }
+        varNext {
+          name: "`````````````````````"
+        }
+        varNext {
+          name: "\000"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+          name: "``````````````````0```"
+        }
+        varNext {
+          name: "s"
+        }
+        varNext {
+          name: "J"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "s"
+        }
+        varNext {
+          name: "J"
+        }
+        varNext {
+          name: "J"
+        }
+        varNext {
+          name: "a\3264\033\177\"X\313"
+        }
+        varNext {
+          name: "."
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+          str: ""
+        }
+        expr {
+          nil: 32000
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+}

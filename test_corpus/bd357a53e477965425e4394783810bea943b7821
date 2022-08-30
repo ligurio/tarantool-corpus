@@ -1,0 +1,232 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 131072
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              false: 131072
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 327673
+        }
+        expr {
+          false: 6488319
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          number: 25344
+        }
+        expr {
+        }
+        expr {
+          false: 7602432
+        }
+        expr {
+          false: 261888
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 7602432
+        }
+        expr {
+          ellipsis: 10
+        }
+        expr {
+          str: "__add"
+        }
+        expr {
+          false: 256
+        }
+        expr {
+          false: 256
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          ellipsis: 0
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 544
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          false: 8192
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          name: ""
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+        }
+        expr {
+          false: 255
+        }
+        expr {
+          false: 256
+        }
+        lastExpr {
+          false: 1073741824
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 255
+              }
+            }
+            expr {
+              true: 0
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 544
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+        }
+        expr {
+        }
+        lastExpr {
+          false: 8192
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 6488319
+              }
+            }
+            expr {
+              false: 0
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 8224
+        }
+        expr {
+          false: 590079
+        }
+        expr {
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          false: 536320
+        }
+      }
+    }
+  }
+}

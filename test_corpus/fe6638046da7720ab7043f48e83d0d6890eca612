@@ -1,0 +1,197 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          name: "\005\000\000\000"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "load"
+              }
+            }
+            expr {
+              str: "("
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+        }
+        expr {
+          str: "("
+        }
+        expr {
+          nil: 7891200
+        }
+        expr {
+          str: "\001+"
+        }
+        lastExpr {
+          str: "type!\001\004\002"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+          str: "#"
+        }
+        expr {
+          str: "A=>"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "!\001\000o"
+        }
+        expr {
+          str: "#"
+        }
+        expr {
+          str: "("
+        }
+        expr {
+          str: "load"
+        }
+        lastExpr {
+          str: "#"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+          str: "A=>"
+        }
+        expr {
+          str: "A=>"
+        }
+        expr {
+        }
+        expr {
+          str: "#"
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        lastExpr {
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "A=>"
+              }
+            }
+            expr {
+              str: "A=>"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+              str: "A=>"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "  u=e"
+        }
+        expr {
+          str: "A=>"
+        }
+        expr {
+        }
+        expr {
+          str: "#"
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        lastExpr {
+          str: "#"
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "load"
+              }
+            }
+            expr {
+              str: "("
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+        }
+        expr {
+          str: "!\001\000o"
+        }
+        lastExpr {
+          str: "\033\000\000\000"
+        }
+      }
+    }
+  }
+}

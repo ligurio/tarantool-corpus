@@ -1,0 +1,224 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 12032
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+        varNext {
+          name: "j"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 255
+        }
+        lastExpr {
+          false: 255
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+              false: 12799
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 536870912
+        }
+        expr {
+          false: 8224
+        }
+        expr {
+          false: 0
+        }
+        lastExpr {
+          false: 773849343
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          false: 536870912
+        }
+        expr {
+          false: 3801088
+        }
+        lastExpr {
+          false: 255
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+          name: ""
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          false: 1677721599
+        }
+        expr {
+        }
+        expr {
+          false: 1358954495
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        expr {
+          false: 538968319
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 255
+        }
+        expr {
+          false: 255
+        }
+        lastExpr {
+          false: 524544
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                false: 25344
+              }
+            }
+            expr {
+              false: 255
+            }
+          }
+        }
+        varNext {
+          name: "_G"
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                false: 0
+              }
+            }
+            expr {
+              false: 524544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          false: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          false: 8192
+        }
+        expr {
+          nil: 0
+        }
+        expr {
+          false: 0
+        }
+        expr {
+          true: 0
+        }
+        lastExpr {
+          false: 536870912
+        }
+      }
+    }
+    semicolon: true
+  }
+}

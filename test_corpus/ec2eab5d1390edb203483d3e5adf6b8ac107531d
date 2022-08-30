@@ -1,0 +1,235 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "!\001\000\000"
+              }
+            }
+            expr {
+              str: " "
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: " "
+              }
+            }
+            expr {
+              str: " "
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\004"
+        }
+        expr {
+        }
+        lastExpr {
+          str: "on"
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: " "
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: " "
+        }
+        expr {
+        }
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "kson"
+              }
+            }
+            expr {
+              str: "on"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          str: ""
+        }
+        expr {
+          str: "!\001\000\000"
+        }
+        lastExpr {
+          number: 73984
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "kson"
+              }
+            }
+            expr {
+              str: " "
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+              }
+            }
+            expr {
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: "on"
+        }
+        expr {
+        }
+        expr {
+          str: "\033\000\004"
+        }
+        lastExpr {
+          str: "kson"
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: " "
+              }
+            }
+            expr {
+              str: ""
+            }
+          }
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        expr {
+          str: " "
+        }
+        expr {
+          str: "\033\000\000"
+        }
+        expr {
+          str: "ka+b"
+        }
+        expr {
+          str: "kson"
+        }
+        expr {
+          str: ""
+        }
+        expr {
+          number: 0
+        }
+        lastExpr {
+          str: ""
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+        }
+        varNext {
+        }
+      }
+      exprList {
+        lastExpr {
+          str: "\033\000\000"
+        }
+      }
+    }
+  }
+}

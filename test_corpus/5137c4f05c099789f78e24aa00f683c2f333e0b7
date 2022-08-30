@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: "\033\000\000\000"
+              }
+            }
+            expr {
+              str: "!\001\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        lastExpr {
+          number: 73984
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                str: ""
+              }
+            }
+            expr {
+              str: "\033\000\000\000"
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                str: "\033\000\000\000"
+              }
+            }
+            expr {
+              str: "!\001\000\000"
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          str: "\033\000\000\000"
+        }
+        lastExpr {
+          str: "!\001\000\000"
+        }
+      }
+    }
+  }
+}

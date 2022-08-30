@@ -1,0 +1,285 @@
+chunk {
+  stat {
+    stat {
+      varList {
+        var {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1900544
+              }
+            }
+            expr {
+              number: 1900544
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              number: 8589934592
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+          name: "repea"
+        }
+      }
+      exprList {
+        expr {
+          number: 1900544
+        }
+        expr {
+          nil: 1024
+        }
+        expr {
+          number: 562949953421312
+        }
+        expr {
+          number: 512
+        }
+        expr {
+          number: 8589934592
+        }
+        expr {
+          number: 8589934592
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 1900544
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "repea"
+        }
+      }
+      exprList {
+        lastExpr {
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: ""
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              number: 1900544
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 0
+              }
+            }
+            expr {
+              number: 1900544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 8589934592
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 8589934592
+        }
+        expr {
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          name: "io.linetrues"
+        }
+        varNext {
+          name: "io.lines"
+        }
+        varNext {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                nil: 1024
+              }
+            }
+            expr {
+              number: 1900544
+            }
+          }
+        }
+      }
+      exprList {
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 512
+        }
+        expr {
+          number: 8589934592
+        }
+        expr {
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+          name: "S"
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "io\226lines"
+        }
+        varNext {
+        }
+      }
+      exprList {
+        expr {
+        }
+        expr {
+          number: 512
+        }
+        expr {
+          false: 0
+        }
+        expr {
+        }
+        lastExpr {
+          number: 8589934592
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      varList {
+        var {
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 8589934592
+              }
+            }
+            expr {
+            }
+          }
+        }
+        varNext {
+          expr {
+            prefix {
+              expr {
+                number: 1900544
+              }
+            }
+            expr {
+              number: 1900544
+            }
+          }
+        }
+        varNext {
+        }
+        varNext {
+        }
+        varNext {
+          name: "repea"
+        }
+      }
+      exprList {
+        expr {
+          number: 512
+        }
+        expr {
+          number: 1900544
+        }
+        expr {
+          number: 661575958528
+        }
+        expr {
+        }
+        lastExpr {
+          true: 1024
+        }
+      }
+    }
+  }
+}
