@@ -1,0 +1,165 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    false: 0
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                  true: 0
+                                }
+                              }
+                              sep {
+                                semicolon: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            exprDouble {
+                                              leftExpr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        exprDouble {
+                                                          leftExpr {
+                                                            false: 0
+                                                          }
+                                                          rightExpr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        exprDouble {
+                                                          leftExpr {
+                                                          }
+                                                          rightExpr {
+                                                            nil: 0
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        comma: 174
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        exprDouble {
+                                                          leftExpr {
+                                                            false: 4194304000
+                                                          }
+                                                          rightExpr {
+                                                            true: 4194304000
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        semicolon: 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              rightExpr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            semicolon: 4194304000
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 4194304000
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 4194304000
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

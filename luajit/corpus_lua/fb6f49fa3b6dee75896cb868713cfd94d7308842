@@ -1,0 +1,172 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "debug.getmetatable"
+          lastName: "*"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                        func {
+                          body {
+                            list {
+                            }
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    list {
+                                      varList {
+                                        var {
+                                          expr {
+                                            prefix {
+                                              var {
+                                                exprName {
+                                                  prefix {
+                                                    var {
+                                                      name: "coroutine.wrap"
+                                                    }
+                                                  }
+                                                  name: ""
+                                                }
+                                              }
+                                            }
+                                            expr {
+                                            }
+                                          }
+                                        }
+                                        varNext {
+                                          exprName {
+                                            prefix {
+                                              var {
+                                                name: "cfg"
+                                              }
+                                            }
+                                            name: "coroutine.wrap"
+                                          }
+                                        }
+                                      }
+                                      exprList {
+                                        expr {
+                                          true: 8192
+                                        }
+                                        lastExpr {
+                                        }
+                                      }
+                                    }
+                                  }
+                                  semicolon: false
+                                }
+                                last {
+                                  stat {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "coroutine.wrap"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            func {
+              body {
+                list {
+                  ellipsis: "cfg"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                    exprName {
+                                      prefix {
+                                        var {
+                                          name: "coroutine.wrap"
+                                        }
+                                      }
+                                      name: ""
+                                    }
+                                  }
+                                }
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                          exprList {
+                            expr {
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                      semicolon: false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 16775936
+    }
+  }
+}

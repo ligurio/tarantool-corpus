@@ -1,0 +1,1698 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              expr {
+                str: ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "a+b"
+                      names: "and"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "tonumber"
+                      lastName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "a+b"
+                                  names: "and"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "tonumber"
+                                  lastName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      expr {
+                                                        table {
+                                                          list {
+                                                            firstField {
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                expr {
+                                                                  str: "Doub"
+                                                                }
+                                                              }
+                                                              sep {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        expr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                                expr {
+                                                                  table {
+                                                                    list {
+                                                                      firstField {
+                                                                      }
+                                                                      fields {
+                                                                        field {
+                                                                          expr {
+                                                                            str: "Doub"
+                                                                          }
+                                                                        }
+                                                                        sep {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                                sep {
+                                                                }
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                }
+                                                                sep {
+                                                                  semicolon: 6386803
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                      }
+                                                      sep {
+                                                        semicolon: 6386803
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "math.tan"
+                                }
+                                body {
+                                  list {
+                                    list {
+                                      names {
+                                        firstName: ""
+                                        names: "\000"
+                                        names: "\377\377\377\377\377\377\377\177"
+                                        names: "9"
+                                      }
+                                    }
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    number: 0
+                                  }
+                                  expr {
+                                    number: 50102545854496768
+                                  }
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                            table {
+                                              list {
+                                                firstField {
+                                                }
+                                                fields {
+                                                  field {
+                                                    expr {
+                                                      str: ""
+                                                    }
+                                                  }
+                                                  sep {
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            expr {
+                                              nil: 1668248691
+                                            }
+                                          }
+                                          sep {
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                          }
+                                          sep {
+                                            comma: 0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "file:write"
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: ""
+                          }
+                          ellipsis: "and"
+                        }
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "tonumber"
+                                  names: "Doub"
+                                  lastName: "\030\000\000\000"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    expr {
+                                      prefix {
+                                      }
+                                      expr {
+                                      }
+                                    }
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                    str: "Doub"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        expr {
+                                                        }
+                                                      }
+                                                      sep {
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                      }
+                                                      sep {
+                                                        comma: 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "math.tan"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                            table {
+                                              list {
+                                                firstField {
+                                                }
+                                                fields {
+                                                  field {
+                                                    expr {
+                                                      str: "Doub"
+                                                    }
+                                                  }
+                                                  sep {
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            expr {
+                                              table {
+                                                list {
+                                                  firstField {
+                                                    expr {
+                                                      table {
+                                                        list {
+                                                          firstField {
+                                                          }
+                                                          fields {
+                                                            field {
+                                                              expr {
+                                                                str: "Doub"
+                                                              }
+                                                            }
+                                                            sep {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  fields {
+                                                    field {
+                                                      expr {
+                                                      }
+                                                    }
+                                                    sep {
+                                                    }
+                                                  }
+                                                  fields {
+                                                    field {
+                                                    }
+                                                    sep {
+                                                      semicolon: 6386803
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                          }
+                                          sep {
+                                            semicolon: 6386803
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "math.tan"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "and"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              expr {
+                                table {
+                                  list {
+                                    firstField {
+                                    }
+                                    fields {
+                                      field {
+                                        expr {
+                                          str: ""
+                                        }
+                                      }
+                                      sep {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                  func {
+                                    body {
+                                      list {
+                                        ellipsis: "------------------------------------------------------------------------------------------------"
+                                      }
+                                      block {
+                                        chunk {
+                                          stat {
+                                            stat {
+                                              func {
+                                                name {
+                                                  firstName: "a+b"
+                                                  names: "and"
+                                                }
+                                                body {
+                                                  block {
+                                                    chunk {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                              func {
+                                                name {
+                                                  firstName: "tonumber"
+                                                  lastName: ""
+                                                }
+                                                body {
+                                                  block {
+                                                    chunk {
+                                                      stat {
+                                                        stat {
+                                                          func {
+                                                            name {
+                                                              firstName: "a+b"
+                                                              names: "and"
+                                                            }
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          func {
+                                                            name {
+                                                              firstName: "tonumber"
+                                                              lastName: ""
+                                                            }
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          func {
+                                                            name {
+                                                              firstName: ""
+                                                            }
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                  last {
+                                                                    stat {
+                                                                      return {
+                                                                        exprList {
+                                                                          expr {
+                                                                            table {
+                                                                              list {
+                                                                                firstField {
+                                                                                  expr {
+                                                                                    table {
+                                                                                      list {
+                                                                                        firstField {
+                                                                                        }
+                                                                                        fields {
+                                                                                          field {
+                                                                                            expr {
+                                                                                              str: "Doub"
+                                                                                            }
+                                                                                          }
+                                                                                          sep {
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                                fields {
+                                                                                  field {
+                                                                                    expr {
+                                                                                      table {
+                                                                                        list {
+                                                                                          firstField {
+                                                                                            expr {
+                                                                                              table {
+                                                                                                list {
+                                                                                                  firstField {
+                                                                                                  }
+                                                                                                  fields {
+                                                                                                    field {
+                                                                                                      expr {
+                                                                                                        str: "Doub"
+                                                                                                      }
+                                                                                                    }
+                                                                                                    sep {
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                          fields {
+                                                                                            field {
+                                                                                              expr {
+                                                                                              }
+                                                                                            }
+                                                                                            sep {
+                                                                                            }
+                                                                                          }
+                                                                                          fields {
+                                                                                            field {
+                                                                                            }
+                                                                                            sep {
+                                                                                              comma: 6386803
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                  sep {
+                                                                                  }
+                                                                                }
+                                                                                fields {
+                                                                                  field {
+                                                                                  }
+                                                                                  sep {
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          lastExpr {
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                    semicolon: false
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: false
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          func {
+                                                            name {
+                                                              firstName: "math.tan"
+                                                            }
+                                                            body {
+                                                              list {
+                                                                list {
+                                                                  names {
+                                                                    firstName: ""
+                                                                    names: "9"
+                                                                  }
+                                                                }
+                                                              }
+                                                              block {
+                                                                chunk {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: false
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      last {
+                                                        stat {
+                                                          return {
+                                                            exprList {
+                                                              expr {
+                                                                table {
+                                                                  list {
+                                                                    firstField {
+                                                                      expr {
+                                                                        table {
+                                                                          list {
+                                                                            firstField {
+                                                                            }
+                                                                            fields {
+                                                                              field {
+                                                                                expr {
+                                                                                  str: ""
+                                                                                }
+                                                                              }
+                                                                              sep {
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                    fields {
+                                                                      field {
+                                                                        expr {
+                                                                          nil: 1668248691
+                                                                        }
+                                                                      }
+                                                                      sep {
+                                                                      }
+                                                                    }
+                                                                    fields {
+                                                                      field {
+                                                                      }
+                                                                      sep {
+                                                                        comma: 0
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              lastExpr {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            semicolon: true
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                            semicolon: true
+                                          }
+                                          stat {
+                                            stat {
+                                              list {
+                                                varList {
+                                                  var {
+                                                    expr {
+                                                      prefix {
+                                                      }
+                                                      expr {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                                exprList {
+                                                  lastExpr {
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                              localFunc {
+                                                name: "file:write"
+                                                body {
+                                                  list {
+                                                    list {
+                                                      names {
+                                                        firstName: ""
+                                                      }
+                                                      ellipsis: "and"
+                                                    }
+                                                  }
+                                                  block {
+                                                    chunk {
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          func {
+                                                            name {
+                                                              firstName: "tonumber"
+                                                              names: "Doub"
+                                                              lastName: "\030\000\000\000"
+                                                            }
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                  last {
+                                                                    stat {
+                                                                    }
+                                                                    semicolon: true
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          list {
+                                                            varList {
+                                                              var {
+                                                                expr {
+                                                                  prefix {
+                                                                  }
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                            exprList {
+                                                              lastExpr {
+                                                                str: "D__shloub"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          localFunc {
+                                                            name: ""
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                  stat {
+                                                                    stat {
+                                                                    }
+                                                                  }
+                                                                  stat {
+                                                                    stat {
+                                                                    }
+                                                                  }
+                                                                  stat {
+                                                                    stat {
+                                                                    }
+                                                                    semicolon: true
+                                                                  }
+                                                                  stat {
+                                                                    stat {
+                                                                    }
+                                                                    semicolon: true
+                                                                  }
+                                                                  last {
+                                                                    stat {
+                                                                      return {
+                                                                        exprList {
+                                                                          expr {
+                                                                            table {
+                                                                              list {
+                                                                                firstField {
+                                                                                }
+                                                                                fields {
+                                                                                  field {
+                                                                                    expr {
+                                                                                    }
+                                                                                  }
+                                                                                  sep {
+                                                                                  }
+                                                                                }
+                                                                                fields {
+                                                                                  field {
+                                                                                  }
+                                                                                  sep {
+                                                                                    comma: 0
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          lastExpr {
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                    semicolon: true
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: false
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          func {
+                                                            name {
+                                                              firstName: "math.tan"
+                                                            }
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: false
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      last {
+                                                        stat {
+                                                          return {
+                                                            exprList {
+                                                              expr {
+                                                                table {
+                                                                  list {
+                                                                    firstField {
+                                                                      expr {
+                                                                        table {
+                                                                          list {
+                                                                            firstField {
+                                                                            }
+                                                                            fields {
+                                                                              field {
+                                                                                expr {
+                                                                                  str: "Doub"
+                                                                                }
+                                                                              }
+                                                                              sep {
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                    fields {
+                                                                      field {
+                                                                        expr {
+                                                                          table {
+                                                                            list {
+                                                                              firstField {
+                                                                                expr {
+                                                                                  table {
+                                                                                    list {
+                                                                                      firstField {
+                                                                                      }
+                                                                                      fields {
+                                                                                        field {
+                                                                                          expr {
+                                                                                            str: "Doub"
+                                                                                          }
+                                                                                        }
+                                                                                        sep {
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                              fields {
+                                                                                field {
+                                                                                  expr {
+                                                                                  }
+                                                                                }
+                                                                                sep {
+                                                                                }
+                                                                              }
+                                                                              fields {
+                                                                                field {
+                                                                                }
+                                                                                sep {
+                                                                                  semicolon: 6386803
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                      sep {
+                                                                      }
+                                                                    }
+                                                                    fields {
+                                                                      field {
+                                                                      }
+                                                                      sep {
+                                                                        semicolon: 6386803
+                                                                      }
+                                                                    }
+                                                                    lastSep {
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              lastExpr {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: false
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                            semicolon: true
+                                          }
+                                          stat {
+                                            stat {
+                                              list {
+                                                varList {
+                                                  var {
+                                                  }
+                                                }
+                                                exprList {
+                                                  lastExpr {
+                                                    str: "J\000\000\000\000\000\000\000"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            semicolon: true
+                                          }
+                                          stat {
+                                            stat {
+                                              func {
+                                                name {
+                                                  firstName: "math.tan"
+                                                }
+                                                body {
+                                                  block {
+                                                    chunk {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            semicolon: false
+                                          }
+                                          stat {
+                                            stat {
+                                              func {
+                                                name {
+                                                  firstName: ""
+                                                  names: "and"
+                                                }
+                                                body {
+                                                  block {
+                                                    chunk {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            semicolon: false
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                            semicolon: true
+                                          }
+                                          last {
+                                            stat {
+                                              return {
+                                                exprList {
+                                                  expr {
+                                                    table {
+                                                      list {
+                                                        firstField {
+                                                          expr {
+                                                            table {
+                                                              list {
+                                                                firstField {
+                                                                }
+                                                                fields {
+                                                                  field {
+                                                                    expr {
+                                                                      str: ""
+                                                                    }
+                                                                  }
+                                                                  sep {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        fields {
+                                                          field {
+                                                            expr {
+                                                              func {
+                                                                body {
+                                                                  list {
+                                                                    ellipsis: "------------------------------------------------------------------------------------------------"
+                                                                  }
+                                                                  block {
+                                                                    chunk {
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          sep {
+                                                          }
+                                                        }
+                                                        fields {
+                                                          field {
+                                                          }
+                                                          sep {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  lastExpr {
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            semicolon: false
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "file:write"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "and"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "tonumber"
+                      names: "\222\222\222\222\222\222\222\222\222\222\222\222\222\222\222\222\222\222"
+                      lastName: "a"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                        ellipsis: "\035\000"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        table {
+                          list {
+                            firstField {
+                              name {
+                                name: "\007\000\000\000"
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "math.tan"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              expr {
+                                table {
+                                  list {
+                                    firstField {
+                                    }
+                                    fields {
+                                      field {
+                                        expr {
+                                          str: ""
+                                        }
+                                      }
+                                      sep {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                  func {
+                                    body {
+                                      block {
+                                        chunk {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                semicolon: 6386803
+                              }
+                            }
+                            lastSep {
+                              semicolon: 67108864
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                      }
+                      expr {
+                        false: 0
+                      }
+                      expr {
+                        number: 134217728
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

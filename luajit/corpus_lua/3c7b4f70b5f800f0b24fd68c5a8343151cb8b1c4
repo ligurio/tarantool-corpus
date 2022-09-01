@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\242\017\000\000\000\000\000\000"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "math.floor"
+        body {
+          list {
+            ellipsis: "\377"
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        number: 4194304
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 1
+    }
+    semicolon: true
+  }
+}

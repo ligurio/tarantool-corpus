@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "utf8.char"
+          }
+          varNext {
+            name: "ipairs"
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: false
+  }
+}

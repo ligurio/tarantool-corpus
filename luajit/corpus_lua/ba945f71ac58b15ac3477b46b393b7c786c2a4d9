@@ -1,0 +1,177 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                      func {
+                        body {
+                          block {
+                            chunk {
+                              stat {
+                                stat {
+                                  localFunc {
+                                    name: "\035\000\000\000"
+                                    body {
+                                      block {
+                                        chunk {
+                                          stat {
+                                            stat {
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                              localFunc {
+                                                name: "debug.getlocal"
+                                                body {
+                                                  block {
+                                                    chunk {
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          localFunc {
+                                                            name: "debug.getlocal"
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                          localFunc {
+                                                            name: "debug.getlocal"
+                                                            body {
+                                                              block {
+                                                                chunk {
+                                                                  last {
+                                                                    stat {
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: false
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                      }
+                                                      stat {
+                                                        stat {
+                                                        }
+                                                        semicolon: true
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                              localFunc {
+                                                name: "debug.getlocal"
+                                                body {
+                                                  block {
+                                                    chunk {
+                                                      last {
+                                                        stat {
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            semicolon: true
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                            semicolon: false
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                          }
+                                          stat {
+                                            stat {
+                                            }
+                                            semicolon: true
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                lastSep {
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

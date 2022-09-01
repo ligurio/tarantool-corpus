@@ -1,0 +1,117 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            str: "\377\377\377\377\377\377\377\377\377\377\377"
+          }
+          expr {
+          }
+          expr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: "Sfixed6"
+                    }
+                  }
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                            }
+                            expr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              number: 16252928
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\000\000\000\000\000\000\000\000"
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                  }
+                                  fields {
+                                    field {
+                                      expr {
+                                        number: 137438953472
+                                      }
+                                    }
+                                    sep {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                              str: ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

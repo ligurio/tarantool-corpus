@@ -1,0 +1,177 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "?"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\377\377"
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350"
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            ellipsis: 7077888
+          }
+          expr {
+            str: "\377"
+          }
+          expr {
+          }
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "a+b"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              name: "ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc?"
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    exprList {
+                      expr {
+                        str: "\377\377"
+                      }
+                      expr {
+                        func {
+                          body {
+                            list {
+                              ellipsis: "\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350"
+                            }
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        str: "\377"
+                      }
+                      expr {
+                      }
+                      lastExpr {
+                        str: "\377"
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            str: ""
+          }
+          expr {
+            str: "\377"
+          }
+          expr {
+          }
+          expr {
+            str: ""
+          }
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

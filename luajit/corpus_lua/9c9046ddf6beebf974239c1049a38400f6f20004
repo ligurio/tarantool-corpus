@@ -1,0 +1,119 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\010"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        number: 939524097
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "z"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        false: 55552
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    nil: 1751318528
+                                  }
+                                  rightExpr {
+                                    nil: 36
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                              }
+                            }
+                            lastSep {
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

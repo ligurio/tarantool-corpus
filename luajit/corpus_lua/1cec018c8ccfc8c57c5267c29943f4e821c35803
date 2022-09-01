@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                name: "\352\352\352\352\352\352\352\352\352\352\352\352\352\352"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 4398046511104
+          }
+        }
+      }
+    }
+  }
+}

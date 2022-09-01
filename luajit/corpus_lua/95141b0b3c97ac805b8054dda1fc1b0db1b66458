@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+            nil: 2
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            str: "Bool"
+          }
+          expr {
+            nil: 2
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+            nil: 4
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

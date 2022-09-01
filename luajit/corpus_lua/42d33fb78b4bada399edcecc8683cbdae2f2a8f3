@@ -1,0 +1,79 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                      name {
+                        name: ""
+                        expr {
+                          str: "\377\377\377\377"
+                        }
+                      }
+                    }
+                    fields {
+                      field {
+                        name {
+                          name: "\377\377\377\377"
+                          expr {
+                          }
+                        }
+                      }
+                      sep {
+                      }
+                    }
+                    lastSep {
+                      semicolon: 2097152
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+          }
+          expr {
+            true: 2097152
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+            nil: 4
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

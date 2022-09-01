@@ -1,0 +1,28 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 20
+          }
+          expr {
+            ellipsis: 4
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            str: "Bool"
+          }
+          expr {
+            nil: 2
+          }
+          lastExpr {
+            nil: 4
+          }
+        }
+      }
+    }
+  }
+}

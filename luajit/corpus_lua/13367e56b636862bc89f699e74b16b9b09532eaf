@@ -1,0 +1,34 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\250"
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000\000\000\000\000\000I"
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "Doub"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "Doub"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "["
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: "3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+                names: "\000\000\000\000"
+                names: "`"
+              }
+              ellipsis: "z"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

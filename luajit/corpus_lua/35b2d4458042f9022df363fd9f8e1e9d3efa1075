@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            ellipsis: 4194437
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    name {
+                      name: "&"
+                      expr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      true: 2359296
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    expr {
+                      number: 8460120751666626560
+                    }
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

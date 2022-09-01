@@ -1,0 +1,24 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000]\000"
+          }
+          expr {
+            number: -1407374883553280
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+                false: 8192
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

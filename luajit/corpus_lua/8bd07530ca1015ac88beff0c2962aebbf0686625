@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "math.exp"
+          names: "file:write"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+  }
+}

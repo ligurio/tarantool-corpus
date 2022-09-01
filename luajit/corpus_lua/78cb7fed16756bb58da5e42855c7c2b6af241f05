@@ -1,0 +1,89 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      prefExpr {
+                        var {
+                          exprName {
+                            prefix {
+                            }
+                            name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            nil: 4193845248
+          }
+          expr {
+            nil: 16318464
+          }
+          expr {
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      prefExpr {
+                        var {
+                          exprName {
+                            prefix {
+                            }
+                            name: "Z\303"
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

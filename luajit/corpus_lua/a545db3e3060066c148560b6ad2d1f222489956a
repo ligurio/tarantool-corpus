@@ -1,0 +1,114 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              exprName {
+                                prefix {
+                                  expr {
+                                    str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                            varNext {
+                              exprName {
+                                prefix {
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          exprList {
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    list {
+                                      names {
+                                        firstName: "\377\377\377\035"
+                                      }
+                                    }
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "QQQQQQQQQQQQQQQQQQQQQQQQQQ"
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,181 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            ellipsis: ""
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        number: 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\343"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 183
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "type"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232"
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232\232"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\350"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+}

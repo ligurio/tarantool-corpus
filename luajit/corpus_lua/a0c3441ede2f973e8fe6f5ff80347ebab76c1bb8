@@ -1,0 +1,114 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "."
+          lastName: "\000"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "."
+                      lastName: "\000"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    name: "package.loadlib"
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                    ellipsis: 6881280
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "loadfile"
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            ellipsis: 6881280
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 0
+          }
+          expr {
+            str: "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+          }
+          expr {
+            nil: 23296
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    prefExpr {
+                      var {
+                        exprName {
+                          prefix {
+                          }
+                          name: "loadfile"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

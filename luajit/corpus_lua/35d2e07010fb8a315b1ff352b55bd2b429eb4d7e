@@ -1,0 +1,141 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "lua_grammar.Chunk"
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "lua_grammar.Chunk"
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "lua_grammar.Chunk"
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "lua_grammar.Chunk"
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

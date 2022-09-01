@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "package.loadlib"
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "package.loadlib"
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

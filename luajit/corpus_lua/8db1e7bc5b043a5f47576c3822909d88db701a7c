@@ -1,0 +1,132 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "true"
+          names: "#"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        exprName {
+                          prefix {
+                            var {
+                              expr {
+                                prefix {
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                            nil: 262144
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    exprList {
+                      expr {
+                        func {
+                          body {
+                            list {
+                              ellipsis: "\003"
+                            }
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      expr {
+                        str: "true"
+                      }
+                      lastExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                expr {
+                                  func {
+                                    body {
+                                      block {
+                                        chunk {
+                                          last {
+                                            stat {
+                                              break: 0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

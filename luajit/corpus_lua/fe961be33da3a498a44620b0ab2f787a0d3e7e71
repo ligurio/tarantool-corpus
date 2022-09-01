@@ -1,0 +1,76 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 0
+              }
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            number: 0
+          }
+          expr {
+            true: 36
+          }
+          lastExpr {
+            ellipsis: 36
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 0
+              }
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 0
+          }
+          expr {
+            true: 36
+          }
+          lastExpr {
+            ellipsis: 36
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

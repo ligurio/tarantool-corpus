@@ -1,0 +1,30 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          expr {
+            ellipsis: 4
+          }
+          expr {
+            nil: 10
+          }
+          lastExpr {
+            nil: 4
+          }
+        }
+      }
+    }
+  }
+}

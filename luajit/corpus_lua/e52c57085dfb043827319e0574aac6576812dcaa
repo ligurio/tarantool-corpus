@@ -1,0 +1,80 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                str: "lua_grammar.LuaBloc"
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                str: "lua_grammar.LuaBloc"
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

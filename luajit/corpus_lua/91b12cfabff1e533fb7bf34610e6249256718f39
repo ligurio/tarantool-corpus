@@ -1,0 +1,48 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                    comma: 4294967295
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                    comma: 4294967295
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 4096
+                  }
+                }
+                lastSep {
+                  comma: 4096
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "table.remove"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 15360
+          }
+          expr {
+            false: 15360
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            true: 15360
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 3866624
+              }
+            }
+          }
+          varNext {
+            name: "\000\000\000\000\000\010\000\000"
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "string.pack"
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\000\000"
+          }
+          varNext {
+            name: "\000\000\000\000\000\000\000\000"
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          expr {
+            number: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

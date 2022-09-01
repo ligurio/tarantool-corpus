@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "a+b"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        str: "A"
+                      }
+                      expr {
+                        str: "A"
+                      }
+                      lastExpr {
+                        str: "Achunk {\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"\"\n        }\n        body {\n          block {\n            chunk {\n            }\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  last {\n    stat {\n      return {\n        exprList {\n          expr {\n            str: \"A\"\n          }\n          lastExpr {\n            str: \"A\"\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n}\n"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

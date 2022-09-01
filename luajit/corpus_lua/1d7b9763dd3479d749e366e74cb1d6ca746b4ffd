@@ -1,0 +1,51 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "}"
+          }
+        }
+        exprList {
+          expr {
+            true: 0
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    str: "debug.getupvalue"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            ellipsis: "\377\377\377\001"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

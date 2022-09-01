@@ -1,0 +1,117 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\250"
+          lastName: "e"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        nil: 133
+                      }
+                      expr {
+                        false: 0
+                      }
+                      expr {
+                        prefExpr {
+                          var {
+                            exprName {
+                              prefix {
+                                expr {
+                                }
+                              }
+                              name: "string.gmatch"
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        number: 35184372088832
+                      }
+                      expr {
+                      }
+                      lastExpr {
+                        prefExpr {
+                          var {
+                            exprName {
+                              prefix {
+                              }
+                              name: "\034"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 133
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            false: 0
+          }
+          expr {
+            prefExpr {
+              expr {
+                true: 2112000
+              }
+            }
+          }
+          expr {
+            number: 35184372088832
+          }
+          expr {
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

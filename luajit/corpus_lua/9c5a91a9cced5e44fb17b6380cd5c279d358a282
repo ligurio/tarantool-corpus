@@ -1,0 +1,89 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                str: "\377\377\377\373"
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+          }
+          varNext {
+            name: "\000\000\000 "
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: ""
+                            names: "true"
+                          }
+                        }
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      expr {
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

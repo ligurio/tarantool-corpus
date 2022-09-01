@@ -1,0 +1,34 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    expr {
+                      ellipsis: 262144
+                    }
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+          expr {
+            str: "\377"
+          }
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+  }
+}

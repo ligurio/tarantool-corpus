@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "00000000000000000000"
+          }
+          expr {
+          }
+          lastExpr {
+            str: "00000000000000000000"
+          }
+        }
+      }
+    }
+  }
+}

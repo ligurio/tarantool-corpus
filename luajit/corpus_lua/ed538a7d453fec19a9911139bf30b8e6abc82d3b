@@ -1,0 +1,92 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              exprDouble {
+                                leftExpr {
+                                  prefExpr {
+                                    var {
+                                      expr {
+                                        prefix {
+                                        }
+                                        expr {
+                                          number: 1536
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                rightExpr {
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                comma: 63
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+          varNext {
+            name: "\377"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+  }
+}

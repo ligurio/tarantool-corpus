@@ -1,0 +1,142 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 1024
+          }
+          expr {
+            str: "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+          }
+          expr {
+          }
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 4294967289
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                number: 25344
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  var {
+                                                    name: "Z\303"
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  expr {
+                                                    table {
+                                                      list {
+                                                        firstField {
+                                                        }
+                                                        lastSep {
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                    }
+                                                    lastSep {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                true: 1024
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              true: 4294967289
+                            }
+                            expr {
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

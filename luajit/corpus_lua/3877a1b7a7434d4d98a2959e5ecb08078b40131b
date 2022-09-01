@@ -1,0 +1,98 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "string.upper"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: ""
+                    }
+                    ellipsis: "string.upper"
+                  }
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: ""
+                    }
+                    ellipsis: "string.upper"
+                  }
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: "\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202\202"
+                    }
+                  }
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

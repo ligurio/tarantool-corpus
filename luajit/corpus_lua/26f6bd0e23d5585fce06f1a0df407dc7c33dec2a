@@ -1,0 +1,47 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "io.stdout"
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "/"
+            }
+          }
+        }
+        exprList {
+          expr {
+            number: 39
+          }
+          expr {
+          }
+          expr {
+            number: 39
+          }
+          expr {
+            number: 39
+          }
+          expr {
+            nil: 16
+          }
+          expr {
+          }
+          expr {
+            ellipsis: 16
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

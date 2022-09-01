@@ -1,0 +1,135 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "package.loadlib"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "string.char"
+          lastName: "f"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        number: -360535360305889280
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "strinchunk {\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n          }\n        }\n        exprList {\n          lastExpr {\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"\"\n        }\n        body {\n          list {\n            list {\n              names {\n                firstName: \"\"\n                names: \"\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\\320\"\n              }\n            }\n          }\n          block {\n            chunk {\n              stat {\n                stat {\n                }\n                semicolon: false\n              }\n              last {\n                stat {\n                  return {\n                    exprList {\n                      expr {\n   g                     table {\n                          list {\n                            firstField {\n                            }\n                            fields {\n                              field {\n                                name {\n                                  name: \"\"\n                                  expr {\n                                    table {\n                                      list {\n                                        firstField {\n                                        }\n                                        fields {\n                                          field {\n                                            name {\n                                              name: \"\"\n                                              expr {\n                                                table {\n                                                  list {\n                                                    firstField {\n                                                      name {\n                                                        name: \"\"\n                                                        expr {\n                                                          table {\n                                                            list {\n                                                              firstField {\n                                                              }\n                                                            }\n                                                          }\n                                                        }\n                                                      }\n                                                    }\n                                                    fields {\n                                                      field {\n                                                        expr {\n                                                          table {\n                                                            list {\n                                                              firstField {\n                                                              }\n                                                              fields {\n                                                                field {\n                                                                  exprDouble {\n                                                                    leftExpr {\n                                                                      str: \"table.move\"\n                                                                    }\n                                                                    rightExpr {\n                                                                    }\n                                                                  }\n                                                                }\n                                                                sep {\n                        .char                                        }\n                            "
+          lastName: "#"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        number: -360535360305889280
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "math.deg"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "for"
+                      }
+                      varNext {
+                        name: "package.loadlib"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+}

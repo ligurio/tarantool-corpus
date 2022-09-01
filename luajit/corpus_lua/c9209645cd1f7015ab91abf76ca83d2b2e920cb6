@@ -1,0 +1,25 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "ipairs"
+          }
+          varNext {
+            name: "ipairs"
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

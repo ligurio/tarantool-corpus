@@ -1,0 +1,252 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          name {
+                                            name: ""
+                                            expr {
+                                              table {
+                                                list {
+                                                  firstField {
+                                                    name {
+                                                      name: "IdempotencyUn"
+                                                      expr {
+                                                        number: 16
+                                                      }
+                                                    }
+                                                  }
+                                                  fields {
+                                                    field {
+                                                      name {
+                                                        name: ""
+                                                        expr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                                name {
+                                                                  name: ""
+                                                                  expr {
+                                                                    table {
+                                                                      list {
+                                                                        firstField {
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                            name {
+                                                                              name: ""
+                                                                              expr {
+                                                                                table {
+                                                                                  list {
+                                                                                    firstField {
+                                                                                      name {
+                                                                                        name: ""
+                                                                                        expr {
+                                                                                          table {
+                                                                                            list {
+                                                                                              firstField {
+                                                                                              }
+                                                                                              fields {
+                                                                                                field {
+                                                                                                  name {
+                                                                                                    name: ""
+                                                                                                    expr {
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                                sep {
+                                                                                                  semicolon: 0
+                                                                                                }
+                                                                                              }
+                                                                                              lastSep {
+                                                                                                semicolon: 0
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                    fields {
+                                                                                      field {
+                                                                                        name {
+                                                                                          name: ""
+                                                                                          expr {
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                      sep {
+                                                                                      }
+                                                                                    }
+                                                                                    fields {
+                                                                                      field {
+                                                                                        name {
+                                                                                          name: ""
+                                                                                          expr {
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                      sep {
+                                                                                        semicolon: 989855744
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          sep {
+                                                                            semicolon: 989855744
+                                                                          }
+                                                                        }
+                                                                        lastSep {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                  name {
+                                                                    name: "\3521\352\352\352\352\352\352\352\352\352\352\352\352"
+                                                                    expr {
+                                                                    }
+                                                                  }
+                                                                }
+                                                                sep {
+                                                                  semicolon: 4009754624
+                                                                }
+                                                              }
+                                                              lastSep {
+                                                                comma: 989855744
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    sep {
+                                                      semicolon: 0
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: ""
+                                              expr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            comma: 1660944384
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: ""
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        name {
+                                                          name: ""
+                                                          expr {
+                                                            nil: 0
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            comma: 989855744
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 989855744
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    name {
+                      name: "assert"
+                      expr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

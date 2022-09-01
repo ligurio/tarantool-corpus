@@ -1,0 +1,80 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      func {
+                        body {
+                          list {
+                            ellipsis: "$"
+                          }
+                          block {
+                            chunk {
+                              last {
+                                stat {
+                                  return {
+                                    exprList {
+                                      expr {
+                                        table {
+                                          list {
+                                            firstField {
+                                            }
+                                            fields {
+                                              field {
+                                                expr {
+                                                  func {
+                                                    body {
+                                                      list {
+                                                        ellipsis: "$"
+                                                      }
+                                                      block {
+                                                        chunk {
+                                                          last {
+                                                            stat {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              sep {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      lastExpr {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

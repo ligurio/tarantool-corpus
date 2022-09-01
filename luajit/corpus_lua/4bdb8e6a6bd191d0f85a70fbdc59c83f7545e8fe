@@ -1,0 +1,50 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "0"
+        }
+        body {
+          list {
+            ellipsis: ""
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 8104338779448566125
+          }
+        }
+      }
+    }
+  }
+}

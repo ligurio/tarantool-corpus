@@ -1,0 +1,74 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+            ellipsis: 268435456
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+            ellipsis: 268435456
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "K\000\000\000\000\000\000\000\027"
+          }
+          expr {
+          }
+          expr {
+            ellipsis: 268435456
+          }
+          expr {
+          }
+          expr {
+            nil: 268435456
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "."
+          names: "os.clock"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: "file:write"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "Sint64"
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    prefExpr {
+                                      var {
+                                        name: "io"
+                                      }
+                                    }
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

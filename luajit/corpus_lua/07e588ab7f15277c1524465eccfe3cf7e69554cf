@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ")"
+          lastName: "break"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            ellipsis: 3866624
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,179 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\001\000\000\000\000\000\000\005"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "!"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    str: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000 \000\000\000\000\000\000\000\000\000\000"
+                                  }
+                                  lastExpr {
+                                    prefExpr {
+                                      var {
+                                        name: "!"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              name: "{"
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              exprName {
+                                prefix {
+                                  expr {
+                                    number: 28556934289191791
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          name: "(chunk {\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"!\"\n        }\n        body {\n          block {\n            chunk {\n              stat {\n                stat {\n                  func {\n                    name {\n                      firstName: \"!\"\n                    }\n                    body {\n                      block {\n                        chunk {\n                          last {\n                            stat {\n                              return {\n                                exprList {\n                                  expr {\n                                    str: \"\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000 \\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\"\n                                  }\n                                  lastExpr {\n                                    prefExpr {\n                                      var {\n                                        name: \"!\"\n                                      }\n                                    }\n                                  }\n                                }\n                              }\n                            }\n                          }\n                        }\n                      }\n                    }\n                  }\n                }\n                semicolon: true\n              }\n              stat {\n                stat {\n                  list {\n                    varList {\n                      var {\n                      }\n                      varNext {\n                        exprName {\n                          prefix {\n                            var {\n                              name: \"{\"\n                            }\n                          }\n                          name: \"\"\n                        }\n                      }\n                    }\n                    exprList {\n                      lastExpr {\n                      }\n                    }\n                  }\n                }\n                semicolon: false\n              }\n              stat {\n                stat {\n                  list {\n                    varList {\n                      var {\n                      }\n                      varNext {\n                        exprName {\n                          prefix {\n                            var {\n                              name: \"{\"\n                            }\n                          }\n                          name: \"(\"\n                        }\n                      }\n                    }\n                    exprList {\n                      lastExpr {\n                      }\n                    }\n                  }\n                }\n                semicolon: true\n              }\n              stat {\n                stat {\n                  func {\n                    name {\n                      firstName: \"!\"\n                    }\n                    body {\n                      block {\n                        chunk {\n                          last {\n                            stat {\n                              break: 2717908992\n                            }\n                          }\n                        }\n                      }\n                    }\n                  }\n                }\n                semicolon: true\n              }\n            }\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n          }\n          varNext {\n            exprName {\n              prefix {\n                var {\n                  name: \"{\"\n                }\n              }\n              name: \"\"\n            }\n          }\n        }\n        exprList {\n          lastExpr {\n          }\n        }\n      }\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n          }\n          varNext {\n            exprName {\n              prefix {\n                var {\n                  name: \"{\"\n                }\n              }\n              name: \"(\"\n            }\n          }\n        }\n        exprList {\n          lastExpr {\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"!\"\n        }\n        body {\n          block {\n            chunk {\n              last {\n                stat {\n                  break: 2717908992\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n}\n"
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "!"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              break: 2717908992
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2717908992
+    }
+  }
+}

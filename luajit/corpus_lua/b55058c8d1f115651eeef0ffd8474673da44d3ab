@@ -1,0 +1,22 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                  }
+                  name: "Z"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

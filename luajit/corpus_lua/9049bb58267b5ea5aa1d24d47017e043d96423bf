@@ -1,0 +1,82 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  str: "Sint64"
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          expr {
+            number: 0
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                name: "__shr"
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "__shr"
+          }
+          varNext {
+            name: "\000\000"
+          }
+          varNext {
+            name: "__shr"
+          }
+          varNext {
+            name: "\000\000"
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

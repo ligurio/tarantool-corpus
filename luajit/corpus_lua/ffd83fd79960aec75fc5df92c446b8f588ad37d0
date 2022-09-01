@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000\000\000"
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    prefExpr {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                                expr {
+                                  prefix {
+                                  }
+                                  expr {
+                                    prefExpr {
+                                      var {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,60 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: ""
+          }
+          expr {
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                            }
+                          }
+                          exprList {
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                    exprDouble {
+                                      leftExpr {
+                                        number: 1852139636
+                                      }
+                                      rightExpr {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            ellipsis: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

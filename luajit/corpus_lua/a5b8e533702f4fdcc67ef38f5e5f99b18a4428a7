@@ -1,0 +1,100 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305\305"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      expr {
+                        number: 65536
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                    semicolon: 122
+                  }
+                }
+                lastSep {
+                  comma: 536870912
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                lastSep {
+                  semicolon: 536870912
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 4278190080
+          }
+        }
+      }
+    }
+  }
+}

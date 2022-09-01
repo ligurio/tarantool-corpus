@@ -1,0 +1,72 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 0
+          }
+          expr {
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            nil: 0
+          }
+          expr {
+            nil: 0
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        func {
+                          name {
+                            firstName: ""
+                            lastName: "\377\377\377\377\377\377\377\375"
+                          }
+                          body {
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    list {
+                                      varList {
+                                        var {
+                                        }
+                                      }
+                                      exprList {
+                                        lastExpr {
+                                        }
+                                      }
+                                    }
+                                  }
+                                  semicolon: true
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 158
+          }
+        }
+      }
+    }
+  }
+}

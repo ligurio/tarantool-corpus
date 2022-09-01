@@ -1,0 +1,85 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 538976288
+          }
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    expr {
+                      prefExpr {
+                        var {
+                          exprName {
+                            prefix {
+                              expr {
+                                prefExpr {
+                                  var {
+                                    exprName {
+                                      prefix {
+                                        expr {
+                                          number: 150994944
+                                        }
+                                      }
+                                      name: ":"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            name: ":"
+                          }
+                        }
+                      }
+                    }
+                  }
+                  name: ":"
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "lua_grammar.LuaBloc"
+          }
+        }
+        exprList {
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

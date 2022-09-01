@@ -1,0 +1,147 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                expr {
+                  nil: 536870912
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                func {
+                  body {
+                    block {
+                      chunk {
+                        stat {
+                          stat {
+                            list {
+                              varList {
+                                var {
+                                  exprName {
+                                    prefix {
+                                      var {
+                                        name: "\000\005"
+                                      }
+                                    }
+                                    name: ""
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                    }
+                                    name: "_"
+                                  }
+                                }
+                              }
+                              exprList {
+                                expr {
+                                  prefExpr {
+                                    expr {
+                                      func {
+                                        body {
+                                          list {
+                                            ellipsis: "~"
+                                          }
+                                          block {
+                                            chunk {
+                                              stat {
+                                                stat {
+                                                }
+                                              }
+                                              last {
+                                                stat {
+                                                }
+                                                semicolon: true
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                lastExpr {
+                                }
+                              }
+                            }
+                          }
+                        }
+                        last {
+                          stat {
+                          }
+                          semicolon: true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      expr {
+                        nil: 536870912
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 1702195828
+          }
+          lastExpr {
+            str: "\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245\245"
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

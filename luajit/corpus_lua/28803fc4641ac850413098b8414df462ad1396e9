@@ -1,0 +1,74 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "02"
+          lastName: "02"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 4294770688
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "lua_gram_grammar.Lc"
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 0
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            nil: 25344
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

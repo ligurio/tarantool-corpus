@@ -1,0 +1,109 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            ellipsis: 4194437
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      str: "Doub"
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      semicolon: 128
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                }
+                                fields {
+                                  field {
+                                    expr {
+                                      str: "Doub"
+                                    }
+                                  }
+                                  sep {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 6386803
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

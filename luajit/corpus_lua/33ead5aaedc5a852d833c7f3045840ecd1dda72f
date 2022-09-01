@@ -1,0 +1,46 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 536870912
+          }
+          expr {
+            table {
+            }
+          }
+          expr {
+            number: 0
+          }
+          expr {
+            str: "\'"
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    func {
+                      body {
+                        list {
+                          ellipsis: ""
+                        }
+                        block {
+                          chunk {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

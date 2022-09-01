@@ -1,0 +1,26 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            str: "#"
+          }
+          lastExpr {
+            str: "#"
+          }
+        }
+      }
+    }
+  }
+}

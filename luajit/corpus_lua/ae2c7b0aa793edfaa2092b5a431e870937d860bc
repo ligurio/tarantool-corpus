@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "utf8.char"
+          }
+          varNext {
+            name: "ipairs"
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 536870912
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 4194238464
+    }
+  }
+}

@@ -1,0 +1,84 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "package.path"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: "/\000\000\000\000\000\000\000"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        exprName {
+                          prefix {
+                            expr {
+                              str: "Sint64"
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                      varNext {
+                        name: "\000\000"
+                      }
+                      varNext {
+                        name: "\000\000"
+                      }
+                      varNext {
+                        name: ""
+                      }
+                      varNext {
+                        name: "\000\200"
+                      }
+                      varNext {
+                        name: "\000\000"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 25344
+    }
+  }
+}

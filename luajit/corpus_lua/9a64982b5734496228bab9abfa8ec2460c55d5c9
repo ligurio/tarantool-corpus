@@ -1,0 +1,69 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  expr {
+                    prefExpr {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                                exprName {
+                                  prefix {
+                                    var {
+                                      exprName {
+                                        prefix {
+                                        }
+                                        name: "package.path"
+                                      }
+                                    }
+                                  }
+                                  name: ""
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

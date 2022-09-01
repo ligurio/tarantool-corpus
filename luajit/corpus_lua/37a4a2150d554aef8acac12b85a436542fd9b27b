@@ -1,0 +1,143 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    ellipsis: 2686976
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              expr {
+                true: 0
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: ""
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 4294967289
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\242\017\000\000\000\000ic"
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                            }
+                            expr {
+                            }
+                            expr {
+                              str: "\377"
+                            }
+                            expr {
+                              prefExpr {
+                                expr {
+                                  true: 7077888
+                                }
+                              }
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350\350"
+                                  }
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          break: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                  }
+                                  lastSep {
+                                    comma: 4294967289
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\242\017\000\000\000\000ic"
+                                  }
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

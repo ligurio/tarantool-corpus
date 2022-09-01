@@ -1,0 +1,81 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "__mul"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "Doub"
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                str: "\313"
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\n\000\000\000\000\000\000\000Doub"
+          }
+          lastExpr {
+            str: "\n\000\000\000\000\000\000\000Doub"
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "\n\000\000\000\000\000\000\000Doub"
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 8192
+    }
+    semicolon: true
+  }
+}

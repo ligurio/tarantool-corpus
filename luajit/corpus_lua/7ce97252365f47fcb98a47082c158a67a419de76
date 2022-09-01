@@ -1,0 +1,60 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                          }
+                                        }
+                                        lastSep {
+                                          semicolon: 536870912
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                lastSep {
+                                  semicolon: 536870912
+                                }
+                              }
+                            }
+                          }
+                        }
+                        lastSep {
+                          semicolon: 536870912
+                        }
+                      }
+                    }
+                  }
+                }
+                lastSep {
+                  semicolon: 536870912
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}
