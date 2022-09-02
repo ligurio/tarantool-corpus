@@ -1,1 +1,0 @@
-autobootstrap_guest.lua
