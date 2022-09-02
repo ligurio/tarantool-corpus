@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "=="
+          }
+        }
+        exprList {
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                  ellipsis: "math.sqrt"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                              ellipsis: 0
+                            }
+                          }
+                        }
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

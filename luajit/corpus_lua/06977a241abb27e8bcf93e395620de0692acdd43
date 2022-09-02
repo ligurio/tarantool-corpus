@@ -1,0 +1,272 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: "select"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "Sint32"
+          lastName: "google.protobub.Any"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "google.protobub.Any"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "}"
+          }
+        }
+        exprList {
+          expr {
+            str: "\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021\021"
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "google.protobub.Any"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: "Y"
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\000\000]=\000\000]\000"
+          }
+          expr {
+            prefExpr {
+              expr {
+                true: 4294967286
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                        expr {
+                        }
+                      }
+                      expr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "__concat"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    false: 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\000\000\000\000"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

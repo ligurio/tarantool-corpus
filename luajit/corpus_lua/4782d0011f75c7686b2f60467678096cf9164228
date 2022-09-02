@@ -1,0 +1,34 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "cfg"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 58880
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 58880
+    }
+    semicolon: true
+  }
+}

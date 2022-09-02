@@ -1,0 +1,153 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      expr {
+                        number: 2
+                      }
+                    }
+                    expr {
+                      number: 2
+                    }
+                  }
+                }
+              }
+              name: "\377"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            number: 2105346
+                          }
+                        }
+                      }
+                    }
+                    expr {
+                      str: "\377"
+                    }
+                  }
+                }
+              }
+              name: "\377"
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  true: 59904
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            str: "c"
+          }
+          expr {
+          }
+          expr {
+            ellipsis: 1751318528
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "math.ceil"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                            expr {
+                              true: 59904
+                            }
+                          }
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

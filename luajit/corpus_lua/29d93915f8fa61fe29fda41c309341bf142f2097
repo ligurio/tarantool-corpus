@@ -1,0 +1,301 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "io.tmpfile"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "io.tmpfile"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      comma: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            true: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        str: "333333333333333333333\301\301\301\301\301\301\301\301\301\3013333333333333333333333333333333333333333333333333333333333333333333333333333"
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              name {
+                                name: "lua_grammar.Chunk"
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        number: 0
+                      }
+                      expr {
+                        str: "3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+                      }
+                      lastExpr {
+                        prefExpr {
+                          var {
+                            expr {
+                              prefix {
+                              }
+                              expr {
+                                func {
+                                  body {
+                                    list {
+                                      ellipsis: "33333333333333333333333333333333333333"
+                                    }
+                                    block {
+                                      chunk {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "io.tmpfile"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\377"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      comma: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            name: ";"
+          }
+        }
+        exprList {
+          expr {
+            true: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            str: "%"
+          }
+        }
+      }
+    }
+  }
+}

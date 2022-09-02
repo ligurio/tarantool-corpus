@@ -1,0 +1,384 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        name: "\006\000"
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                      }
+                      expr {
+                        ellipsis: 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        name: "\016"
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                        var {
+                          expr {
+                            prefix {
+                              var {
+                                name: "\352\352\352\352\352\352\352\352\352\352\352\352\352\352"
+                              }
+                            }
+                            expr {
+                              str: "                                          "
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        nil: 538976256
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  nil: 1969775360
+                }
+              }
+              expr {
+                nil: 536870912
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            true: 536870912
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        expr {
+                                          prefix {
+                                            var {
+                                              exprName {
+                                                prefix {
+                                                }
+                                                name: ""
+                                              }
+                                            }
+                                          }
+                                          expr {
+                                          }
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                      func {
+                                        body {
+                                          block {
+                                            chunk {
+                                              stat {
+                                                stat {
+                                                }
+                                                semicolon: true
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                prefExpr {
+                                  expr {
+                                    prefExpr {
+                                      var {
+                                        expr {
+                                          prefix {
+                                          }
+                                          expr {
+                                            func {
+                                              body {
+                                                block {
+                                                  chunk {
+                                                    stat {
+                                                      stat {
+                                                      }
+                                                      semicolon: true
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        expr {
+                          prefExpr {
+                          }
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    prefExpr {
+                      var {
+                        exprName {
+                          prefix {
+                          }
+                          name: "CodeSize"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        prefExpr {
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                }
+                                lastSep {
+                                  semicolon: 32
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\016"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\335"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 2097152
+    }
+  }
+}

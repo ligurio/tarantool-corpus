@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            number: 2305843009213693952
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

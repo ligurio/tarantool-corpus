@@ -1,0 +1,433 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377."
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 9
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377"
+          names: "if"
+          lastName: "Qint6"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "\377\377"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "\377\377"
+                      }
+                    }
+                    exprList {
+                      expr {
+                        nil: 25344
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              last {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377\377\377\377\377\377\377\027"
+          names: "if"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "\377"
+                      names: "if"
+                      lastName: "Qint6"
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                }
+                                exprList {
+                                  expr {
+                                    true: 9
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    name: "\377\377"
+                                  }
+                                }
+                                exprList {
+                                  expr {
+                                    nil: 25344
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          last {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "coroutine.wrap"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "coroutine.wrap"
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "\377"
+                                  names: "if"
+                                  lastName: "Qint6"
+                                }
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                name: "\377\377"
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                              }
+                                            }
+                                            exprList {
+                                              expr {
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                name: "\377\377"
+                                              }
+                                            }
+                                            exprList {
+                                              expr {
+                                                nil: 25344
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    name: "\377"
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                    true: 9
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                }
+                                exprList {
+                                  expr {
+                                    true: 11785
+                                  }
+                                  expr {
+                                    true: 9
+                                  }
+                                  expr {
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        nil: 0
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "\377\377"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "math.modf"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "math.modf"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

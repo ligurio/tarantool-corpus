@@ -1,0 +1,213 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "untiltine.wrap"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "coroutine.wrap"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        true: 536870912
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "Snt6"
+                      names: "if"
+                      lastName: "("
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "coroutine.wrap"
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: "Snt6"
+                                              names: "package.searchers"
+                                              names: "if"
+                                              lastName: "("
+                                            }
+                                            body {
+                                              list {
+                                              }
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                          names: "]"
+                                                        }
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  func {
+                                                                    name {
+                                                                      firstName: "&"
+                                                                    }
+                                                                    body {
+                                                                      list {
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: "Snt6"
+                                              names: "if"
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "Snt6"
+                      names: "if"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 25344
+    }
+    semicolon: true
+  }
+}

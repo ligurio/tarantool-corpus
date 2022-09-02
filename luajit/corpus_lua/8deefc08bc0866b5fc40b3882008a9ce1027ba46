@@ -1,0 +1,111 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "I\177\250\010,\241\351Z"
+                    body {
+                      list {
+                        ellipsis: "os.rename"
+                      }
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "JsNumber"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

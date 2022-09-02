@@ -1,0 +1,195 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\001\000\000\032"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\352\352\352\352\352\352\352\352\352\352\352\352\352\352"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "\352\352\352\352\352\352\352\352\352\352\352\352\352\352"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "\352\352\352\352\3525c\330\323\007Jf\307\352\352\352\352\352\352\352\352\352"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            ellipsis: 2248146944
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

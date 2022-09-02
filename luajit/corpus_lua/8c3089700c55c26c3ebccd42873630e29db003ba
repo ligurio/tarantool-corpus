@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "file:write"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 0
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+              }
+            }
+          }
+          expr {
+            true: 0
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                        }
+                        lastSep {
+                          comma: 0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

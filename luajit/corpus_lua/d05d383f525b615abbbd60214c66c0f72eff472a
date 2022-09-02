@@ -1,0 +1,149 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225\225"
+                                  names: "debug.sethook"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "decode"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

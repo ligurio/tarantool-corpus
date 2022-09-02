@@ -1,0 +1,17 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: ""
+          }
+          lastExpr {
+            str: "B;ool"
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,86 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\241\257\177\372\216\340\234\202"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

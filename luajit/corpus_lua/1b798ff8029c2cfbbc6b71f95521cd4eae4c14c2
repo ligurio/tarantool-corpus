@@ -1,0 +1,90 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "------------------------------------------------------------------------------------------------"
+          names: "------------------------------------------------------------------------------------------------"
+          names: "\377\377\377\377\377\377\016\203"
+          lastName: "------------------------------------------------------------------------------------------------"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ":"
+              }
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        prefExpr {
+                          var {
+                            expr {
+                              prefix {
+                                expr {
+                                  func {
+                                    body {
+                                      block {
+                                        chunk {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        nil: 0
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

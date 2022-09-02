@@ -1,0 +1,550 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    name {
+                      name: "__call"
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              expr {
+                                func {
+                                  body {
+                                    list {
+                                      ellipsis: "and"
+                                    }
+                                    block {
+                                      chunk {
+                                        last {
+                                          stat {
+                                            return {
+                                              exprList {
+                                                expr {
+                                                  ellipsis: 0
+                                                }
+                                                expr {
+                                                  false: 8192
+                                                }
+                                                lastExpr {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                            table {
+                                              list {
+                                                firstField {
+                                                }
+                                                fields {
+                                                  field {
+                                                    name {
+                                                      name: "__call"
+                                                      expr {
+                                                        table {
+                                                          list {
+                                                            firstField {
+                                                              expr {
+                                                                func {
+                                                                  body {
+                                                                    list {
+                                                                      ellipsis: "and"
+                                                                    }
+                                                                    block {
+                                                                      chunk {
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                name {
+                                                                  name: "__call"
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                              }
+                                                              sep {
+                                                                comma: 0
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                expr {
+                                                                }
+                                                              }
+                                                              sep {
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                name {
+                                                                  name: ""
+                                                                  expr {
+                                                                    table {
+                                                                      list {
+                                                                        firstField {
+                                                                          expr {
+                                                                            func {
+                                                                              body {
+                                                                                list {
+                                                                                  ellipsis: "and"
+                                                                                }
+                                                                                block {
+                                                                                  chunk {
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                            name {
+                                                                              name: "__call"
+                                                                              expr {
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          sep {
+                                                                            comma: 0
+                                                                          }
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                            expr {
+                                                                            }
+                                                                          }
+                                                                          sep {
+                                                                            semicolon: 64
+                                                                          }
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                            name {
+                                                                              name: ""
+                                                                              expr {
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          sep {
+                                                                            comma: 0
+                                                                          }
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                          }
+                                                                          sep {
+                                                                            comma: 0
+                                                                          }
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                          }
+                                                                          sep {
+                                                                            semicolon: 64
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              sep {
+                                                                comma: 0
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                expr {
+                                                                  prefExpr {
+                                                                    var {
+                                                                      expr {
+                                                                        prefix {
+                                                                          var {
+                                                                            name: "Speed"
+                                                                          }
+                                                                        }
+                                                                        expr {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              sep {
+                                                                comma: 0
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  sep {
+                                                    comma: 0
+                                                  }
+                                                }
+                                                fields {
+                                                  field {
+                                                    expr {
+                                                    }
+                                                  }
+                                                  sep {
+                                                  }
+                                                }
+                                                fields {
+                                                  field {
+                                                    name {
+                                                      name: ""
+                                                      expr {
+                                                        table {
+                                                          list {
+                                                            firstField {
+                                                              expr {
+                                                                func {
+                                                                  body {
+                                                                    list {
+                                                                      ellipsis: "and"
+                                                                    }
+                                                                    block {
+                                                                      chunk {
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                name {
+                                                                  name: "__call"
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                              }
+                                                              sep {
+                                                                comma: 0
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                expr {
+                                                                }
+                                                              }
+                                                              sep {
+                                                                semicolon: 64
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                name {
+                                                                  name: ""
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                              }
+                                                              sep {
+                                                                comma: 0
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                              }
+                                                              sep {
+                                                                comma: 0
+                                                              }
+                                                            }
+                                                            fields {
+                                                              field {
+                                                              }
+                                                              sep {
+                                                                semicolon: 64
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  sep {
+                                                    comma: 0
+                                                  }
+                                                }
+                                                fields {
+                                                  field {
+                                                    expr {
+                                                      prefExpr {
+                                                        var {
+                                                          expr {
+                                                            prefix {
+                                                              var {
+                                                                name: "Speed"
+                                                              }
+                                                            }
+                                                            expr {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  sep {
+                                                    comma: 0
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: "__call"
+                                              expr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            comma: 0
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            expr {
+                                            }
+                                          }
+                                          sep {
+                                            semicolon: 64
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: ""
+                                              expr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            comma: 0
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                          }
+                                          sep {
+                                            comma: 0
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                          }
+                                          sep {
+                                            semicolon: 64
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                  number: 0
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              expr {
+                                func {
+                                  body {
+                                    list {
+                                      ellipsis: "and"
+                                    }
+                                    block {
+                                      chunk {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: "__call"
+                                  expr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                }
+                              }
+                              sep {
+                                semicolon: 64
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                semicolon: 64
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      prefExpr {
+                        var {
+                          expr {
+                            prefix {
+                              expr {
+                                func {
+                                  body {
+                                    list {
+                                      ellipsis: "and"
+                                    }
+                                    block {
+                                      chunk {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

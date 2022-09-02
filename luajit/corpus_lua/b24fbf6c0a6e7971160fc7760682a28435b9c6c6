@@ -1,0 +1,34 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

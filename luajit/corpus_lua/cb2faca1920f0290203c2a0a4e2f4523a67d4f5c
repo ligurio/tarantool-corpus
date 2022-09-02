@@ -1,0 +1,61 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ".7F"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ".7F"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ".F"
+        body {
+          list {
+            ellipsis: ".7F"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,17 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\'1\'"
+          }
+          lastExpr {
+            str: "\'1\'"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

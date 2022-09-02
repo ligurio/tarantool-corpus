@@ -1,0 +1,144 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "CodeSize"
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 7929856
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240\240"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "CodeSize"
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              break: 0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        func {
+                          body {
+                            list {
+                              ellipsis: "W"
+                            }
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

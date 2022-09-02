@@ -1,0 +1,54 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\262"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            ellipsis: 10
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

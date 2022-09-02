@@ -1,0 +1,375 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\340"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    expr {
+                      prefExpr {
+                        var {
+                          expr {
+                            prefix {
+                              var {
+                              }
+                            }
+                            expr {
+                              false: 4194304000
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+                number: 4
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        ellipsis: "\361"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            false: 32
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      exprName {
+                                        prefix {
+                                          var {
+                                            expr {
+                                              prefix {
+                                                var {
+                                                  name: "__"
+                                                }
+                                              }
+                                              expr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        name: ""
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                prefExpr {
+                                  var {
+                                    expr {
+                                      prefix {
+                                        var {
+                                          name: "\000\000\000\000"
+                                        }
+                                      }
+                                      expr {
+                                        prefExpr {
+                                          var {
+                                            expr {
+                                              prefix {
+                                              }
+                                              expr {
+                                                str: "\345"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        expr {
+                          str: "?"
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    true: 1744830464
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: "\266"
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    expr {
+                      prefExpr {
+                        var {
+                          expr {
+                            prefix {
+                              var {
+                              }
+                            }
+                            expr {
+                              prefExpr {
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                nil: 32
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\000]\000"
+          }
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                          }
+                        }
+                        expr {
+                          str: "?"
+                        }
+                      }
+                    }
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,52 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 4160749568
+          }
+          lastExpr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                    }
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                              str: "#"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

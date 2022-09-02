@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        name: "A"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

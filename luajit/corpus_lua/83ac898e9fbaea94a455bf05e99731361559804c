@@ -1,0 +1,336 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\006\000"
+        }
+        body {
+          list {
+            ellipsis: "\006\000"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "J\000\000\000\000\017\000\000"
+          lastName: "J\000\000\000\000\000\000\000"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "\006\000"
+                    }
+                    body {
+                      list {
+                        ellipsis: ""
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    true: 0
+                                  }
+                                  lastExpr {
+                                    str: "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\006\000"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        false: 0
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "\006\000"
+                    }
+                    body {
+                      list {
+                        ellipsis: ""
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    true: 2697216
+                                  }
+                                  lastExpr {
+                                    str: "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "\006\000"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    true: 0
+                                  }
+                                  lastExpr {
+                                    str: "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        name: "\000\000\000:\000\000\000\000"
+                      }
+                      varNext {
+                        name: "\000\000"
+                      }
+                    }
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              exprDouble {
+                                leftExpr {
+                                }
+                                rightExpr {
+                                  str: "g"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                        str: "\000"
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "\006\000"
+                      names: "\006\000"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    true: 0
+                                  }
+                                  lastExpr {
+                                    str: "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

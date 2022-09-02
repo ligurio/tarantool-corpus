@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                expr {
+                  false: 0
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "math.deg"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 2097152
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

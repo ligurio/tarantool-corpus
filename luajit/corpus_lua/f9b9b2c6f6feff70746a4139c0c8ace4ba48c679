@@ -1,0 +1,97 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "coroutine.wrap"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              exprDouble {
+                                leftExpr {
+                                }
+                                rightExpr {
+                                  ellipsis: 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        true: 6841088
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "coroutine.wrap"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

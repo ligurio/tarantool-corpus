@@ -1,0 +1,115 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "lua_grammar.Chunk"
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "lua_grammar.Chunk"
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "lua_grammar.Chunk"
+                }
+              }
+              expr {
+                nil: 0
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

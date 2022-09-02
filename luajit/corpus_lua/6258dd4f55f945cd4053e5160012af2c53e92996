@@ -1,0 +1,54 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      table {
+                        list {
+                          firstField {
+                          }
+                          lastSep {
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                      table {
+                        list {
+                          firstField {
+                          }
+                          lastSep {
+                            comma: 2424832
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 721420465
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

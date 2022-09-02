@@ -1,0 +1,224 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "Doub"
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    number: 8192
+                                  }
+                                  expr {
+                                    number: 8192
+                                  }
+                                  lastExpr {
+                                    number: 8192
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                    ellipsis: "Doub"
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              list {
+                                                ellipsis: "Doub"
+                                              }
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          list {
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  localFunc {
+                                                                    name: "Doub"
+                                                                    body {
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                              last {
+                                                                stat {
+                                                                  return {
+                                                                    exprList {
+                                                                      expr {
+                                                                        number: 8192
+                                                                      }
+                                                                      expr {
+                                                                        number: 8192
+                                                                      }
+                                                                      lastExpr {
+                                                                        number: 8192
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                number: 8192
+                                              }
+                                              expr {
+                                                number: 8192
+                                              }
+                                              lastExpr {
+                                                number: 8192
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              last {
+                stat {
+                  break: 67108864
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+}

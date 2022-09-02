@@ -1,0 +1,113 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        nil: 4
+                      }
+                      lastExpr {
+                        number: 137977929728
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: "\315"
+              }
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        nil: 4
+                      }
+                      lastExpr {
+                        str: ""
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

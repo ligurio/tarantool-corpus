@@ -1,0 +1,44 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 7957695015192261990
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                        }
+                        expr {
+                          prefExpr {
+                            var {
+                              name: "math.exp"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    number: 7957695015192261990
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

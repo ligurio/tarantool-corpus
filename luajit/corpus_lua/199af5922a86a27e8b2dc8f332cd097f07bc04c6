@@ -1,0 +1,66 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: "lan                       }\n                                                              }\n                                                              stat {\n                                                                stat {\n                                                                }\n                                                              }\n                                                              stat {\n                                                                stat {\n                                                                }\n                                                              }\n                                                              stat {\n                                                                stat {\n                                                                  localFunc {\n                                                                    name: \"file:write\"\n                                                                    body {\n                                                                      block {\n                                                                        chunk {\n                                                                        }\n                                                                      }\n                                                                    }\n                                                                  }\n                                                                }\n                                                              }\n                                                              stat {\n                                                                stat {\n                                                                  localFunc {\n                                                                    name: \"\"\n                                                                    body {\n                                                                      block {\n                                                                        chunk {\n                                                                          stat {\n                                                                            stat {\n                                                                              localFunc {\n                                                                                name: \"file:write\"\n                                                                                body {\n                                                                                  block {\n                                                                                    chunkguage"
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 67108863
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: "language"
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 67108863
+                  }
+                }
+                lastSep {
+                  comma: 16
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

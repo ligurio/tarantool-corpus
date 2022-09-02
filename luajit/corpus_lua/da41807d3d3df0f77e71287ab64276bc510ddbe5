@@ -1,0 +1,310 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                }
+              }
+              name: "A"
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 16777216
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "\000\000\000\000"
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    name: "A"
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                }
+              }
+              expr {
+                number: 422877021184
+              }
+            }
+          }
+          varNext {
+            name: "("
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                    }
+                    name: "\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365\365"
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                func {
+                  body {
+                    block {
+                      chunk {
+                        stat {
+                          stat {
+                            localFunc {
+                              name: ""
+                              body {
+                                list {
+                                  ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                                }
+                                block {
+                                  chunk {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            false: 61
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          list {
+            ellipsis: "Bofile:flushol"
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "\000\000\000\000"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "\000\000\000\000"
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    name: "A"
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 422877021184
+              }
+            }
+          }
+          varNext {
+            name: "("
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  nil: 768
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

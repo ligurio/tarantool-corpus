@@ -1,0 +1,22 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+            }
+          }
+          lastExpr {
+            number: 32768
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

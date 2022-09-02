@@ -1,0 +1,63 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "()"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      nil: 0
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            str: ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>chunk {\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      localFunc {\n        name: \"\"\n        body {\n          block {\n            chunk {\n            }\n  >>>>>>>>>>>>>>>>>>>        }\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n          }\n        }\n        exprList {\n          lastExpr {\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      localFunc {\n        name: \"\"\n        body {\n          list {\n            ellipsis: \"+\"\n          }\n          block {\n            chunk {\n            }\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n          }\n        }\n        exprList {\n          lastExpr {\n          }\n        }\n      }\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"\"\n          names: \"\\2278\"\n        }\n        body {\n          block {\n            chunk {\n            }\n          }\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"\"\n        }\n        body {\n     >>>     block {\n            chunk {\n              stat {\n                stat {\n                  localFunc {\n                    name: \"\"\n                    body {\n                      list {\n                        ellipsis: \"+\"\n                      }\n                   >>>>>>>>>>>>>>>>>>>>   block {\n                        chunk {\n                        }\n                      }\n                    }\n                  }\n                }\n                semicolon: true\n              }\n              last {\n                stat {\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n    s>>>>>>emicolon: true\n  }\n>>>>>>>}\n"
+          }
+          lastExpr {
+            prefExpr {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

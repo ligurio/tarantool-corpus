@@ -1,0 +1,43 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "math.sqrt"
+          }
+          varNext {
+            name: "=="
+          }
+          varNext {
+            name: "=="
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "file:read"
+          names: "math.sqrt"
+          lastName: "=="
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

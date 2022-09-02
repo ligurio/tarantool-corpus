@@ -1,0 +1,29 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "return"
+          }
+        }
+        exprList {
+          expr {
+            table {
+            }
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 6488064
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,208 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: ""
+          names: ""
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              break: 0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  names: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: false
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+                                              names: "\323"
+                                              names: ""
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                    semicolon: false
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                          names: "\323"
+                                                          names: ""
+                                                        }
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                }
+                                                                semicolon: false
+                                                              }
+                                                              stat {
+                                                                stat {
+                                                                  localFunc {
+                                                                    name: ""
+                                                                    body {
+                                                                      block {
+                                                                        chunk {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              break: 538968064
+                            }
+                            semicolon: false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

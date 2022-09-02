@@ -1,0 +1,161 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: ""
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                        ellipsis: ""
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "L"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    func {
+                      body {
+                        list {
+                          list {
+                            names {
+                              firstName: ""
+                            }
+                            ellipsis: "L"
+                          }
+                        }
+                        block {
+                          chunk {
+                            last {
+                              stat {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                lastSep {
+                  semicolon: 4194304061
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: "\255"
+                    }
+                  }
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            true: 2310144
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: ""
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

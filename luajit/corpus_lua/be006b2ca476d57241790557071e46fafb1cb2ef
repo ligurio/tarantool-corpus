@@ -1,0 +1,146 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "string.rep"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "2"
+                    }
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: "in"
+                          }
+                        }
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  names: "2"
+                                }
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              list {
+                                              }
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                          names: "2"
+                                                        }
+                                                        body {
+                                                          list {
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  break: 8223488
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

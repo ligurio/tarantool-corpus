@@ -1,0 +1,178 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        exprName {
+                          prefix {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                    expr {
+                                      prefix {
+                                      }
+                                      expr {
+                                        nil: 0
+                                      }
+                                    }
+                                  }
+                                }
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              expr {
+                                prefix {
+                                }
+                                expr {
+                                  prefExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          name: "\210\210"
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: "?"
+                        }
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      varNext {
+                        name: "\210\210"
+                      }
+                      varNext {
+                        name: "?"
+                      }
+                      varNext {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        prefExpr {
+                          var {
+                          }
+                        }
+                      }
+                      lastExpr {
+                        str: ""
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            prefExpr {
+                            }
+                          }
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: "\210\210"
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+                        }
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            str: "F"
+                          }
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: "\250}"
+                        }
+                      }
+                      varNext {
+                        name: "?"
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    exprList {
+                      expr {
+                        prefExpr {
+                          var {
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: false
+  }
+}

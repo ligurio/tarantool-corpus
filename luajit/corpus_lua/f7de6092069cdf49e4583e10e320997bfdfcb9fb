@@ -1,0 +1,174 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "Speed"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "Speed"
+          }
+          varNext {
+          }
+          varNext {
+            name: "\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334\334"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: "\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242\242"
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                    }
+                    name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                expr {
+                  prefExpr {
+                    var {
+                      exprName {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  name: "Sfixed"
+                                }
+                              }
+                              expr {
+                              }
+                            }
+                          }
+                        }
+                        name: ""
+                      }
+                    }
+                  }
+                }
+              }
+              name: "io.flush"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

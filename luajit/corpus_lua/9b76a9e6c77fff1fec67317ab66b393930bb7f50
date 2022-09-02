@@ -1,0 +1,199 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "d\'bug.setuservalue"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: "\'\001\000\000\000\000\000\000\000"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "\006\026\000\000\000\000\000\000"
+                      names: "d\'bug.setuservalue"
+                    }
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: "\'\001\000\000\000\000\000\000\000"
+                          }
+                          ellipsis: "debug.setuservalue"
+                        }
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  names: "debug.setuservalue"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  names: "debug.setuservalue"
+                                  names: "6666google.protobuf.A66666666666666"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  lastExpr {
+                                    prefExpr {
+                                      expr {
+                                        ellipsis: 15677
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "d\'bug.setuservalue"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "\352"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  lastExpr {
+                                    ellipsis: 0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        prefExpr {
+                          expr {
+                            ellipsis: 15677
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+  }
+}

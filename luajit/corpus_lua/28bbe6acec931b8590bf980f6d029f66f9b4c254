@@ -1,0 +1,26 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "debug.traceback"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 15420
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,153 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    prefExpr {
+                                      var {
+                                        name: "local"
+                                      }
+                                    }
+                                  }
+                                  rightExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            exprDouble {
+                                              leftExpr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      exprDouble {
+                                                        leftExpr {
+                                                          true: 1769108736
+                                                        }
+                                                        rightExpr {
+                                                        }
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        expr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                                expr {
+                                                                  prefExpr {
+                                                                    var {
+                                                                      expr {
+                                                                        prefix {
+                                                                        }
+                                                                        expr {
+                                                                          table {
+                                                                            list {
+                                                                              firstField {
+                                                                                expr {
+                                                                                  func {
+                                                                                    body {
+                                                                                      block {
+                                                                                        chunk {
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                                sep {
+                                                                  comma: 8224
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              rightExpr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                          }
+                                        }
+                                        lastSep {
+                                          semicolon: 64000
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 4194304000
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                semicolon: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

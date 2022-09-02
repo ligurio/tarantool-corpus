@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "lua_grammar.Chunk"
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    prefExpr {
+                    }
+                  }
+                }
+                lastSep {
+                  semicolon: 128
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

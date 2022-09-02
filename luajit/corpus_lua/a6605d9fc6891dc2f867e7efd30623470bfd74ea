@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "file:writ\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000e"
+        body {
+          list {
+            ellipsis: "\034"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      expr {
+                        true: 1024
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              expr {
+                number: 2305843009213693952
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

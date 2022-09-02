@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

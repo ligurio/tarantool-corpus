@@ -1,0 +1,289 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "debug.getlocal"
+          names: "debug.debug"
+          lastName: "debug.getlocal"
+        }
+        body {
+          list {
+            ellipsis: "debug.getlocal"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "debug.getlocal"
+                      names: "debug.debug"
+                      lastName: "debug.getlocal"
+                    }
+                    body {
+                      list {
+                        ellipsis: "debug.getlocal"
+                      }
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  lastExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                          }
+                                          sep {
+                                            comma: 8192
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "debug.getlocal"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "debug.debug"
+                      names: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                      lastName: "debug.getlocal"
+                    }
+                    body {
+                      list {
+                        ellipsis: "debug.getlocal"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "debug.getlocal"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.getlocal"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "debug.debug"
+          names: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+          lastName: "debug.getlocal"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            ellipsis: 0
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        prefExpr {
+                          var {
+                            exprName {
+                              prefix {
+                              }
+                              name: "utf8"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        func {
+                          body {
+                            list {
+                              list {
+                                names {
+                                  firstName: ""
+                                }
+                                ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                              }
+                            }
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    list {
+                                      varList {
+                                        var {
+                                        }
+                                        varNext {
+                                          expr {
+                                            prefix {
+                                            }
+                                            expr {
+                                              ellipsis: 0
+                                            }
+                                          }
+                                        }
+                                      }
+                                      exprList {
+                                        lastExpr {
+                                          prefExpr {
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                last {
+                                  stat {
+                                    return {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.getlocal"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+}

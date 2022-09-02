@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "BBBBBBBBBBBBBBBBBBBBBB"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

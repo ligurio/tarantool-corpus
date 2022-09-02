@@ -1,0 +1,153 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        ellipsis: "\035\000\000\000"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: "d"
+            }
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\035\000\000\000"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\035\000\000\000"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        ellipsis: "W"
+                      }
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        ellipsis: "W"
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\035\000\000\000"
+            }
+          }
+        }
+        exprList {
+          expr {
+            number: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "\000\000"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

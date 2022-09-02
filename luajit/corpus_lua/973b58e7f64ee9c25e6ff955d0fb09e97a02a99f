@@ -1,0 +1,149 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                    exprName {
+                      prefix {
+                        expr {
+                        }
+                      }
+                      name: "\210"
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\210\210"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  prefExpr {
+                    var {
+                    }
+                  }
+                }
+              }
+              expr {
+                prefExpr {
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                }
+              }
+              name: "\210\210"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      prefExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "\250"
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

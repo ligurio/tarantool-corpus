@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "-"
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 32768
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

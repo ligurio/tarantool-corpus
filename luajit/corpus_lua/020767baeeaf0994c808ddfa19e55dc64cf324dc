@@ -1,0 +1,128 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\250"
+          lastName: "package.cpath"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "\250"
+                      lastName: "package.cpath"
+                    }
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: ""
+                          }
+                        }
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "coroutine.wrap"
+                                  lastName: "~"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    nil: 67108864
+                                  }
+                                  expr {
+                                    func {
+                                      body {
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                                func {
+                                                  name {
+                                                    firstName: "coroutine.wrap"
+                                                    lastName: "~"
+                                                  }
+                                                  body {
+                                                    block {
+                                                      chunk {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                  }
+                                  expr {
+                                    false: 15859712
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 4
+    }
+    semicolon: false
+  }
+}

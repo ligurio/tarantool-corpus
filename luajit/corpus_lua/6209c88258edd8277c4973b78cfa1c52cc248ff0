@@ -1,0 +1,62 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            false: 808452096
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "__shr"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 7929856
+    }
+  }
+}

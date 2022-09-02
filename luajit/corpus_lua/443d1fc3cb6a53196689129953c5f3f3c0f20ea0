@@ -1,0 +1,148 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                    name: "Idempotenc"
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                false: 1073741824
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                    }
+                    name: "\372"
+                  }
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            name: "\000\000\000\000"
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                        var {
+                          name: "\\"
+                        }
+                      }
+                      expr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      false: 1073741824
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "Doub"
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 1073741824
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

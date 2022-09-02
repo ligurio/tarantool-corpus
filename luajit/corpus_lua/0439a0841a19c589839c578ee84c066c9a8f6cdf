@@ -1,0 +1,17 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 268435456
+    }
+    semicolon: true
+  }
+}

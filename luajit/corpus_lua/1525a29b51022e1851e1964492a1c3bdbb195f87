@@ -1,0 +1,185 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "language"
+          lastName: "\006\000"
+        }
+        body {
+          list {
+            ellipsis: "\006\000"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "\000\000\000\000"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "!"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "J\000\000\000\000\000\000\000"
+          lastName: "J\000\000\000\000\000\000\000"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "!"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "J\000\000\000\000\000\000\000"
+          names: "\376\000"
+          lastName: "\227"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207\207!"
+                    body {
+                      list {
+                        ellipsis: "\377\377\377\377\377\377\377\016"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

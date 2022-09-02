@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "Bool"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        number: 425201762304
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "-"
+          }
+        }
+        exprList {
+          expr {
+            number: 249108103168
+          }
+          expr {
+            false: 0
+          }
+          lastExpr {
+            number: 15676
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,77 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  name {
+                    name: ""
+                    expr {
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 1900544
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 65536
+    }
+  }
+}

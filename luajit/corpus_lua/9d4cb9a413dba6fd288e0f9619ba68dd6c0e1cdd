@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            name: "package.searchers"
+          }
+        }
+        exprList {
+          expr {
+            nil: 128
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

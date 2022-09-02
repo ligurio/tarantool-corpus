@@ -1,0 +1,45 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                      nil: 0
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      prefExpr {
+                        expr {
+                          number: 8104338779448566125
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

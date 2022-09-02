@@ -1,0 +1,53 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: "\003\000\000\000"
+              }
+              ellipsis: ")"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 8
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      number: 8
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

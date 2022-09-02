@@ -1,0 +1,108 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                        prefExpr {
+                          expr {
+                            prefExpr {
+                              var {
+                                expr {
+                                  prefix {
+                                    var {
+                                      name: "end"
+                                    }
+                                  }
+                                  expr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            true: 7929856
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

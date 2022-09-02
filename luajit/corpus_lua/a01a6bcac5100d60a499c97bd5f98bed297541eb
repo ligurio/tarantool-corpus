@@ -1,0 +1,135 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\377\377"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                      }
+                      expr {
+                        func {
+                          body {
+                            list {
+                            }
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                                last {
+                                  stat {
+                                    return {
+                                      exprList {
+                                        expr {
+                                          func {
+                                            body {
+                                              list {
+                                                list {
+                                                  names {
+                                                    firstName: "\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201\201"
+                                                  }
+                                                }
+                                              }
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        expr {
+                                        }
+                                        expr {
+                                          func {
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        lastExpr {
+                                          prefExpr {
+                                            var {
+                                              expr {
+                                                prefix {
+                                                }
+                                                expr {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                ellipsis: 15677
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+                nil: 29545
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,91 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "2"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "2"
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "!"
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                    }
+                    body {
+                      list {
+                        ellipsis: " H\337\034\\\360\341\243"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+    semicolon: true
+  }
+}

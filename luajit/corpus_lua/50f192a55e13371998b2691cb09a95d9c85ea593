@@ -1,0 +1,127 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377"
+          names: "\377"
+          lastName: "\376"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 128
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            name: "555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555"
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            ellipsis: 1630286453
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\275"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377"
+          names: "\377"
+          lastName: "\376"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+}

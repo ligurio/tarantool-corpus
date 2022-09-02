@@ -1,0 +1,207 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "file:write"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "file:write"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "file:write"
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                              }
+                                              varNext {
+                                                name: "\377\377\377\377\377\377\377\177"
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: false
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "file:write"
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "file:write"
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      list {
+                                                        varList {
+                                                          var {
+                                                            expr {
+                                                              prefix {
+                                                                expr {
+                                                                  prefExpr {
+                                                                    var {
+                                                                      expr {
+                                                                        prefix {
+                                                                        }
+                                                                        expr {
+                                                                          table {
+                                                                            list {
+                                                                              firstField {
+                                                                                exprDouble {
+                                                                                  leftExpr {
+                                                                                    func {
+                                                                                      body {
+                                                                                        list {
+                                                                                          ellipsis: "\377\377\377\000"
+                                                                                        }
+                                                                                        block {
+                                                                                          chunk {
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                  rightExpr {
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              expr {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        exprList {
+                                                          lastExpr {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "file:write"
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

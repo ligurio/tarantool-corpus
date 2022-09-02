@@ -1,0 +1,134 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                        expr {
+                          prefExpr {
+                            expr {
+                              nil: 0
+                            }
+                          }
+                        }
+                      }
+                      fields {
+                        field {
+                        }
+                        sep {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                        expr {
+                          prefExpr {
+                            expr {
+                              nil: 0
+                            }
+                          }
+                        }
+                      }
+                      fields {
+                        field {
+                        }
+                        sep {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                func {
+                  body {
+                    list {
+                      ellipsis: ""
+                    }
+                    block {
+                      chunk {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                        expr {
+                          prefExpr {
+                            expr {
+                              nil: 0
+                            }
+                          }
+                        }
+                      }
+                      fields {
+                        field {
+                        }
+                        sep {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

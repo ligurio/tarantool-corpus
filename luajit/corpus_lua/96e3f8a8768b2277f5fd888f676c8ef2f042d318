@@ -1,0 +1,110 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                            table {
+                                              list {
+                                                firstField {
+                                                  expr {
+                                                    table {
+                                                      list {
+                                                        firstField {
+                                                          expr {
+                                                            table {
+                                                              list {
+                                                                firstField {
+                                                                  expr {
+                                                                  }
+                                                                }
+                                                                lastSep {
+                                                                  semicolon: 537395200
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        lastSep {
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        lastSep {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                lastSep {
+                                }
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                            comma: 0
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                          }
+                        }
+                        lastSep {
+                        }
+                      }
+                    }
+                  }
+                }
+                lastSep {
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,42 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 80
+          }
+          expr {
+            ellipsis: 80
+          }
+          expr {
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,30 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 8192
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                  }
+                  name: "utf8"
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 8192
+          }
+        }
+      }
+    }
+  }
+}

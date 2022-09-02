@@ -1,0 +1,178 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "}}}}}}}}}}}}}}}}}}}}}"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "os.clock"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  list {
+                                    ellipsis: "A"
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    nil: 6776419
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    prefExpr {
+                                    }
+                                  }
+                                  expr {
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    func {
+                                      body {
+                                        block {
+                                          chunk {
+                                            last {
+                                              stat {
+                                                return {
+                                                  exprList {
+                                                    expr {
+                                                      prefExpr {
+                                                        expr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    expr {
+                                                      nil: 4
+                                                    }
+                                                    expr {
+                                                      nil: 2
+                                                    }
+                                                    expr {
+                                                      nil: 228
+                                                    }
+                                                    expr {
+                                                      nil: 2
+                                                    }
+                                                    expr {
+                                                      nil: 16788993
+                                                    }
+                                                    lastExpr {
+                                                      number: 771751936
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                    number: 34621422135410688
+                                  }
+                                  lastExpr {
+                                    false: 228
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: -6235496766912033007
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            nil: 2
+          }
+          expr {
+            nil: 228
+          }
+          expr {
+            nil: 2
+          }
+          expr {
+            nil: 16788993
+          }
+          lastExpr {
+            number: 771751936
+          }
+        }
+      }
+    }
+  }
+}

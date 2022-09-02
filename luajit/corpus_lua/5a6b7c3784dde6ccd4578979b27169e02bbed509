@@ -1,0 +1,732 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "Doub"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "assert"
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          list {
+                                                            ellipsis: "Doub"
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  localFunc {
+                                                                    name: ""
+                                                                    body {
+                                                                      list {
+                                                                        ellipsis: "Doub"
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                              localFunc {
+                                                                                name: ""
+                                                                                body {
+                                                                                  list {
+                                                                                    ellipsis: "Doub"
+                                                                                  }
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          list {
+                                                                                            varList {
+                                                                                              var {
+                                                                                              }
+                                                                                            }
+                                                                                            exprList {
+                                                                                              lastExpr {
+                                                                                                number: 0
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                          last {
+                                                                            stat {
+                                                                              return {
+                                                                                exprList {
+                                                                                  expr {
+                                                                                    number: 8192
+                                                                                  }
+                                                                                  expr {
+                                                                                    number: 8192
+                                                                                  }
+                                                                                  lastExpr {
+                                                                                    number: 8192
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                              last {
+                                                                stat {
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  last {
+                                                    stat {
+                                                      return {
+                                                        exprList {
+                                                          expr {
+                                                            number: 8192
+                                                          }
+                                                          expr {
+                                                          }
+                                                          lastExpr {
+                                                            number: 8192
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "Doub"
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              list {
+                                              }
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: "."
+                                                        }
+                                                        body {
+                                                          list {
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  localFunc {
+                                                                    name: ""
+                                                                    body {
+                                                                      list {
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                              localFunc {
+                                                                                name: ""
+                                                                                body {
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          localFunc {
+                                                                                            name: ""
+                                                                                            body {
+                                                                                              list {
+                                                                                                ellipsis: "Doub"
+                                                                                              }
+                                                                                              block {
+                                                                                                chunk {
+                                                                                                  stat {
+                                                                                                    stat {
+                                                                                                      list {
+                                                                                                        varList {
+                                                                                                          var {
+                                                                                                          }
+                                                                                                        }
+                                                                                                        exprList {
+                                                                                                          lastExpr {
+                                                                                                            number: 8192
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                        semicolon: true
+                                                                                      }
+                                                                                      last {
+                                                                                        stat {
+                                                                                        }
+                                                                                        semicolon: false
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                          last {
+                                                                            stat {
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              stat {
+                                                                stat {
+                                                                  func {
+                                                                    name {
+                                                                      firstName: ""
+                                                                    }
+                                                                    body {
+                                                                      list {
+                                                                        ellipsis: "or"
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                              func {
+                                                                                name {
+                                                                                  firstName: ""
+                                                                                }
+                                                                                body {
+                                                                                  list {
+                                                                                  }
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          func {
+                                                                                            name {
+                                                                                              firstName: ""
+                                                                                            }
+                                                                                            body {
+                                                                                              list {
+                                                                                                ellipsis: "lua_grammar.Chunk"
+                                                                                              }
+                                                                                              block {
+                                                                                                chunk {
+                                                                                                  stat {
+                                                                                                    stat {
+                                                                                                      func {
+                                                                                                        name {
+                                                                                                          firstName: ""
+                                                                                                        }
+                                                                                                        body {
+                                                                                                          list {
+                                                                                                            ellipsis: "or"
+                                                                                                          }
+                                                                                                          block {
+                                                                                                            chunk {
+                                                                                                              stat {
+                                                                                                                stat {
+                                                                                                                  func {
+                                                                                                                    name {
+                                                                                                                      firstName: ""
+                                                                                                                    }
+                                                                                                                    body {
+                                                                                                                      list {
+                                                                                                                      }
+                                                                                                                      block {
+                                                                                                                        chunk {
+                                                                                                                          stat {
+                                                                                                                            stat {
+                                                                                                                              func {
+                                                                                                                                name {
+                                                                                                                                  firstName: ""
+                                                                                                                                }
+                                                                                                                                body {
+                                                                                                                                  list {
+                                                                                                                                    ellipsis: "lua_grammar.Chunk"
+                                                                                                                                  }
+                                                                                                                                  block {
+                                                                                                                                    chunk {
+                                                                                                                                      stat {
+                                                                                                                                        stat {
+                                                                                                                                          func {
+                                                                                                                                            name {
+                                                                                                                                              firstName: ""
+                                                                                                                                            }
+                                                                                                                                            body {
+                                                                                                                                              list {
+                                                                                                                                                ellipsis: "lua_grammar.Chunk"
+                                                                                                                                              }
+                                                                                                                                              block {
+                                                                                                                                                chunk {
+                                                                                                                                                  stat {
+                                                                                                                                                    stat {
+                                                                                                                                                      list {
+                                                                                                                                                        varList {
+                                                                                                                                                          var {
+                                                                                                                                                          }
+                                                                                                                                                        }
+                                                                                                                                                        exprList {
+                                                                                                                                                          lastExpr {
+                                                                                                                                                            table {
+                                                                                                                                                              list {
+                                                                                                                                                                firstField {
+                                                                                                                                                                  expr {
+                                                                                                                                                                    ellipsis: 0
+                                                                                                                                                                  }
+                                                                                                                                                                }
+                                                                                                                                                              }
+                                                                                                                                                            }
+                                                                                                                                                          }
+                                                                                                                                                        }
+                                                                                                                                                      }
+                                                                                                                                                    }
+                                                                                                                                                  }
+                                                                                                                                                  last {
+                                                                                                                                                    stat {
+                                                                                                                                                    }
+                                                                                                                                                    semicolon: false
+                                                                                                                                                  }
+                                                                                                                                                }
+                                                                                                                                              }
+                                                                                                                                            }
+                                                                                                                                          }
+                                                                                                                                        }
+                                                                                                                                      }
+                                                                                                                                      stat {
+                                                                                                                                        stat {
+                                                                                                                                        }
+                                                                                                                                      }
+                                                                                                                                      last {
+                                                                                                                                        stat {
+                                                                                                                                        }
+                                                                                                                                        semicolon: false
+                                                                                                                                      }
+                                                                                                                                    }
+                                                                                                                                  }
+                                                                                                                                }
+                                                                                                                              }
+                                                                                                                            }
+                                                                                                                          }
+                                                                                                                          last {
+                                                                                                                            stat {
+                                                                                                                            }
+                                                                                                                            semicolon: false
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                }
+                                                                                                                semicolon: false
+                                                                                                              }
+                                                                                                            }
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                  last {
+                                                                                                    stat {
+                                                                                                    }
+                                                                                                    semicolon: false
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                      last {
+                                                                                        stat {
+                                                                                        }
+                                                                                        semicolon: false
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: false
+                                                                          }
+                                                                          last {
+                                                                            stat {
+                                                                            }
+                                                                            semicolon: false
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: false
+                                                  }
+                                                  last {
+                                                    stat {
+                                                      return {
+                                                        exprList {
+                                                          expr {
+                                                            true: 1024
+                                                          }
+                                                          expr {
+                                                            number: 8192
+                                                          }
+                                                          lastExpr {
+                                                            number: 8192
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              list {
+                                              }
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          list {
+                                                            list {
+                                                              names {
+                                                                firstName: ""
+                                                              }
+                                                              ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                                                            }
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  localFunc {
+                                                                    name: ""
+                                                                    body {
+                                                                      list {
+                                                                        ellipsis: "Doub"
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                              list {
+                                                                                varList {
+                                                                                  var {
+                                                                                  }
+                                                                                }
+                                                                                exprList {
+                                                                                  lastExpr {
+                                                                                    number: 0
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              last {
+                                                                stat {
+                                                                  return {
+                                                                    exprList {
+                                                                      expr {
+                                                                        number: 8192
+                                                                      }
+                                                                      expr {
+                                                                        number: 8192
+                                                                      }
+                                                                      lastExpr {
+                                                                        number: 8192
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          list {
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  localFunc {
+                                                                    name: ""
+                                                                    body {
+                                                                      list {
+                                                                        ellipsis: "Doub"
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                              localFunc {
+                                                                                name: ""
+                                                                                body {
+                                                                                  list {
+                                                                                    ellipsis: "Doub"
+                                                                                  }
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          list {
+                                                                                            varList {
+                                                                                              var {
+                                                                                              }
+                                                                                            }
+                                                                                            exprList {
+                                                                                              lastExpr {
+                                                                                                number: 0
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                          last {
+                                                                            stat {
+                                                                              return {
+                                                                                exprList {
+                                                                                  expr {
+                                                                                    number: 8192
+                                                                                  }
+                                                                                  expr {
+                                                                                    number: 8192
+                                                                                  }
+                                                                                  lastExpr {
+                                                                                    number: 8192
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                              last {
+                                                                stat {
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                      last {
+                                        stat {
+                                          break: 67108864
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  break: 67108864
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    nil: 67108864
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

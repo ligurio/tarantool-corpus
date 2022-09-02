@@ -1,0 +1,81 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                      table {
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        prefExpr {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                      }
+                                    }
+                                    expr {
+                                      true: 4
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                true: 4
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,53 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "*"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        name: "corout.wrap"
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,121 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              name {
+                                name: ""
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                comma: 268435456
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 989898496
+                  }
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: -432345564227567617
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

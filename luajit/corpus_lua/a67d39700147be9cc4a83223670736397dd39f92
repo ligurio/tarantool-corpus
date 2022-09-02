@@ -1,0 +1,189 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "and"
+        }
+        body {
+          list {
+            ellipsis: "math.abs"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        expr {
+                          prefix {
+                            expr {
+                              str: "A"
+                            }
+                          }
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                    expr {
+                      prefExpr {
+                        var {
+                          expr {
+                            prefix {
+                              var {
+                              }
+                            }
+                            expr {
+                              prefExpr {
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      expr {
+                                        prefix {
+                                          expr {
+                                            str: "A"
+                                          }
+                                        }
+                                        expr {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+                true: 1744830720
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            nil: 61
+          }
+          expr {
+          }
+          lastExpr {
+            nil: 9216
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            ellipsis: "math.abs"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\377\377\377\377\377\377\377\177"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

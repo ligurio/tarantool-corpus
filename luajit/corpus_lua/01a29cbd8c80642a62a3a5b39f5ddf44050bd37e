@@ -1,0 +1,342 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\361"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\000\000\000\000"
+          }
+          varNext {
+            name: "~"
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      name: "\000\000\000\000"
+                    }
+                  }
+                  expr {
+                    prefExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: "~"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: "cfg"
+            }
+          }
+        }
+        exprList {
+          expr {
+            number: 8192
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  nil: 8192
+                }
+              }
+              expr {
+                str: "\000\000\000\000"
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\000]\000"
+          }
+          expr {
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                        expr {
+                        }
+                      }
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\2258"
+          names: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: "\377"
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 1969775360
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        name: "\000\000\000\000"
+                                      }
+                                    }
+                                    expr {
+                                      table {
+                                        list {
+                                          firstField {
+                                          }
+                                          lastSep {
+                                            comma: 0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                prefExpr {
+                                  var {
+                                    expr {
+                                      prefix {
+                                        var {
+                                          name: "\000\000\000\000"
+                                        }
+                                      }
+                                      expr {
+                                        prefExpr {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        expr {
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    true: 1744830464
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357\357"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\361"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

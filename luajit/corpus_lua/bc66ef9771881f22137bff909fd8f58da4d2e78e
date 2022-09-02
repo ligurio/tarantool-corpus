@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    func {
+                      body {
+                        list {
+                          ellipsis: "IIIII"
+                        }
+                        block {
+                          chunk {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 4
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 1761607680
+    }
+    semicolon: true
+  }
+}

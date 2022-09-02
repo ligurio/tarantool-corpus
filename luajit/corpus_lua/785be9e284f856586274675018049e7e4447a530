@@ -1,0 +1,74 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 63
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    ellipsis: 0
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      table {
+                        list {
+                          firstField {
+                            expr {
+                              ellipsis: 0
+                            }
+                          }
+                          fields {
+                            field {
+                              expr {
+                              }
+                            }
+                            sep {
+                              semicolon: 2097152
+                            }
+                          }
+                          lastSep {
+                            semicolon: 4227858432
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 2097152
+                  }
+                }
+                lastSep {
+                  semicolon: 4227858432
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

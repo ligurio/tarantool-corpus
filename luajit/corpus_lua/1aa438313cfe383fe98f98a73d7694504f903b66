@@ -1,0 +1,613 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.traceback"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.traceback"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "dofile"
+                      names: "\000\000\000\000\000\001u\270"
+                      lastName: "\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  lastName: "\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                        }
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                          lastName: "dofile"
+                                                        }
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                              last {
+                                                                stat {
+                                                                  return {
+                                                                    exprList {
+                                                                      lastExpr {
+                                                                        table {
+                                                                          list {
+                                                                            firstField {
+                                                                            }
+                                                                            lastSep {
+                                                                              semicolon: 0
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                        }
+                                                        body {
+                                                          list {
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          list {
+                                                            list {
+                                                              names {
+                                                                firstName: ""
+                                                              }
+                                                              ellipsis: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                                                            }
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: false
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      list {
+                                                        varList {
+                                                          var {
+                                                          }
+                                                        }
+                                                        exprList {
+                                                          expr {
+                                                            ellipsis: 67108864
+                                                          }
+                                                          lastExpr {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          list {
+                                                            list {
+                                                              names {
+                                                                firstName: "Idempotenc"
+                                                                names: "end"
+                                                              }
+                                                            }
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                              names: "package.searchers"
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "="
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: false
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                  last {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                      last {
+                                        stat {
+                                          break: 3
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  lastName: "`"
+                                }
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    func {
+                                      body {
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                                localFunc {
+                                                  name: ""
+                                                  body {
+                                                    block {
+                                                      chunk {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                  }
+                                  lastExpr {
+                                    func {
+                                      body {
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                              }
+                                              semicolon: true
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      names: "\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241\241"
+                    }
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: "]"
+                          }
+                        }
+                      }
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        prefExpr {
+                          var {
+                            expr {
+                              prefix {
+                              }
+                              expr {
+                                str: ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

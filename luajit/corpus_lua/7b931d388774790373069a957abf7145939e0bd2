@@ -1,0 +1,274 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                        }
+                        fields {
+                          field {
+                            expr {
+                              str: ""
+                            }
+                          }
+                          sep {
+                            comma: 0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      table {
+                        list {
+                          firstField {
+                            name {
+                              name: ""
+                              expr {
+                                table {
+                                  list {
+                                    firstField {
+                                    }
+                                    fields {
+                                      field {
+                                      }
+                                      sep {
+                                        semicolon: 0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          fields {
+                            field {
+                              expr {
+                                str: ""
+                              }
+                            }
+                            sep {
+                              comma: 6776419
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        true: 1024
+                      }
+                      rightExpr {
+                        table {
+                          list {
+                            firstField {
+                              expr {
+                                table {
+                                  list {
+                                    firstField {
+                                    }
+                                    fields {
+                                      field {
+                                        expr {
+                                          str: ""
+                                        }
+                                      }
+                                      sep {
+                                        comma: 0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                        name {
+                                          name: ""
+                                          expr {
+                                            table {
+                                              list {
+                                                firstField {
+                                                }
+                                                fields {
+                                                  field {
+                                                  }
+                                                  sep {
+                                                    semicolon: 0
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      fields {
+                                        field {
+                                          expr {
+                                            str: ""
+                                          }
+                                        }
+                                        sep {
+                                          comma: 6776419
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    true: 1024
+                                  }
+                                  rightExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          name {
+                                            name: ""
+                                            expr {
+                                              table {
+                                                list {
+                                                  firstField {
+                                                  }
+                                                  fields {
+                                                    field {
+                                                    }
+                                                    sep {
+                                                      semicolon: 0
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        fields {
+                                          field {
+                                            expr {
+                                              str: ""
+                                            }
+                                          }
+                                          sep {
+                                            comma: 6776419
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

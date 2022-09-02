@@ -1,0 +1,70 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: ";"
+          lastName: ""
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: ""
+              }
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 2097152
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\210\377\000\000\000\000\000\000"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\210\377\000\000\000\000\000\000"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2097152
+    }
+  }
+}

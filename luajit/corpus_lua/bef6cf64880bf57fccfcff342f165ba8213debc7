@@ -1,0 +1,14 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: false
+  }
+}

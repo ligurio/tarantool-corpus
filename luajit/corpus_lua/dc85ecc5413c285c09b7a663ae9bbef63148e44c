@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      number: 562949953421312
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

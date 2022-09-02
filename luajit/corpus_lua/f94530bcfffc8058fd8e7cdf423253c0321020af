@@ -1,0 +1,648 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\322\374\374\374\374\374\374\374\374"
+          names: "\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356"
+          lastName: "\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356\356"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        name: "0"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 6488064
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: ""
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      name {
+                                                        name: ""
+                                                        expr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                  name {
+                                                                    name: ""
+                                                                    expr {
+                                                                      table {
+                                                                        list {
+                                                                          firstField {
+                                                                            name {
+                                                                              name: ""
+                                                                              expr {
+                                                                                table {
+                                                                                  list {
+                                                                                    firstField {
+                                                                                    }
+                                                                                    fields {
+                                                                                      field {
+                                                                                        name {
+                                                                                          name: ""
+                                                                                          expr {
+                                                                                            table {
+                                                                                              list {
+                                                                                                firstField {
+                                                                                                  name {
+                                                                                                    name: ""
+                                                                                                    expr {
+                                                                                                      table {
+                                                                                                        list {
+                                                                                                          firstField {
+                                                                                                          }
+                                                                                                          fields {
+                                                                                                            field {
+                                                                                                              name {
+                                                                                                                name: ""
+                                                                                                                expr {
+                                                                                                                  table {
+                                                                                                                    list {
+                                                                                                                      firstField {
+                                                                                                                        name {
+                                                                                                                          name: ","
+                                                                                                                          expr {
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                      fields {
+                                                                                                                        field {
+                                                                                                                          name {
+                                                                                                                            name: ""
+                                                                                                                            expr {
+                                                                                                                            }
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                        sep {
+                                                                                                                          comma: 0
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                      lastSep {
+                                                                                                                        comma: 989855744
+                                                                                                                      }
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                }
+                                                                                                              }
+                                                                                                            }
+                                                                                                            sep {
+                                                                                                              comma: 0
+                                                                                                            }
+                                                                                                          }
+                                                                                                          lastSep {
+                                                                                                            comma: 0
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                                fields {
+                                                                                                  field {
+                                                                                                    exprDouble {
+                                                                                                      leftExpr {
+                                                                                                      }
+                                                                                                      rightExpr {
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                  sep {
+                                                                                                  }
+                                                                                                }
+                                                                                                fields {
+                                                                                                  field {
+                                                                                                  }
+                                                                                                  sep {
+                                                                                                    comma: 0
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                      sep {
+                                                                                        comma: 989855744
+                                                                                      }
+                                                                                    }
+                                                                                    lastSep {
+                                                                                      semicolon: 0
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          lastSep {
+                                                                            comma: 989855744
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                sep {
+                                                                  semicolon: 4
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        name {
+                                                          name: ""
+                                                          expr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        semicolon: 0
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        name {
+                                                          name: ""
+                                                          expr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        comma: 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            comma: 0
+                                          }
+                                        }
+                                        lastSep {
+                                          semicolon: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              name {
+                                name: ""
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                      }
+                                      fields {
+                                        field {
+                                          name {
+                                            name: ""
+                                            expr {
+                                              table {
+                                                list {
+                                                  firstField {
+                                                    name {
+                                                      name: ":"
+                                                      expr {
+                                                      }
+                                                    }
+                                                  }
+                                                  fields {
+                                                    field {
+                                                      name {
+                                                        name: ""
+                                                        expr {
+                                                        }
+                                                      }
+                                                    }
+                                                    sep {
+                                                      comma: 0
+                                                    }
+                                                  }
+                                                  lastSep {
+                                                    comma: 989855744
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        sep {
+                                          comma: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: ""
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      name {
+                                                        name: ""
+                                                        expr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                  name {
+                                                                    name: ""
+                                                                    expr {
+                                                                      table {
+                                                                        list {
+                                                                          firstField {
+                                                                            name {
+                                                                              name: ""
+                                                                              expr {
+                                                                                table {
+                                                                                  list {
+                                                                                    firstField {
+                                                                                    }
+                                                                                    fields {
+                                                                                      field {
+                                                                                        name {
+                                                                                          name: ""
+                                                                                          expr {
+                                                                                            table {
+                                                                                              list {
+                                                                                                firstField {
+                                                                                                  name {
+                                                                                                    name: ""
+                                                                                                    expr {
+                                                                                                      table {
+                                                                                                        list {
+                                                                                                          firstField {
+                                                                                                          }
+                                                                                                          fields {
+                                                                                                            field {
+                                                                                                              name {
+                                                                                                                name: ""
+                                                                                                                expr {
+                                                                                                                  table {
+                                                                                                                    list {
+                                                                                                                      firstField {
+                                                                                                                        name {
+                                                                                                                          name: ","
+                                                                                                                          expr {
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                      fields {
+                                                                                                                        field {
+                                                                                                                          name {
+                                                                                                                            name: ""
+                                                                                                                            expr {
+                                                                                                                            }
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                        sep {
+                                                                                                                          comma: 0
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                      lastSep {
+                                                                                                                        comma: 989855744
+                                                                                                                      }
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                }
+                                                                                                              }
+                                                                                                            }
+                                                                                                            sep {
+                                                                                                              comma: 0
+                                                                                                            }
+                                                                                                          }
+                                                                                                          lastSep {
+                                                                                                            comma: 0
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                                fields {
+                                                                                                  field {
+                                                                                                    exprDouble {
+                                                                                                      leftExpr {
+                                                                                                      }
+                                                                                                      rightExpr {
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                  sep {
+                                                                                                  }
+                                                                                                }
+                                                                                                fields {
+                                                                                                  field {
+                                                                                                  }
+                                                                                                  sep {
+                                                                                                    comma: 0
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                      sep {
+                                                                                        comma: 989855744
+                                                                                      }
+                                                                                    }
+                                                                                    lastSep {
+                                                                                      semicolon: 0
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          lastSep {
+                                                                            comma: 989855744
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                sep {
+                                                                  semicolon: 4
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        name {
+                                                          name: ""
+                                                          expr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        semicolon: 0
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        name {
+                                                          name: ""
+                                                          expr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        comma: 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            comma: 0
+                                          }
+                                        }
+                                        lastSep {
+                                          semicolon: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

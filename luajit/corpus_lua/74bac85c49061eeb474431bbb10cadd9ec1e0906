@@ -1,0 +1,41 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                  ellipsis: "sql"
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 1
+          }
+          lastExpr {
+            false: 1
+          }
+        }
+      }
+    }
+  }
+}

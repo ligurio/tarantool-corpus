@@ -1,0 +1,24 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            str: "\010\000\000\000"
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

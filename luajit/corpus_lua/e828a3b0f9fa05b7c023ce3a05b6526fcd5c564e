@@ -1,0 +1,135 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  ellipsis: 0
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            number: 2251799813685248
+          }
+          expr {
+            str: "Doub"
+          }
+          expr {
+            number: 0
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: 2251799813685248
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      number: 2251799813685248
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      number: 2251799813685248
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "Doub"
+          }
+          expr {
+            number: 0
+          }
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

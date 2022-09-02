@@ -1,0 +1,90 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    true: 67108863
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                semicolon: 0
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    true: 67108863
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 67108863
+                              }
+                            }
+                            lastSep {
+                              comma: 67108863
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 67108863
+                  }
+                }
+                lastSep {
+                  comma: 67108863
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

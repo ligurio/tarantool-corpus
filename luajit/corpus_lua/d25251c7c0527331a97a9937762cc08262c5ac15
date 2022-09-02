@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "io@po0en"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

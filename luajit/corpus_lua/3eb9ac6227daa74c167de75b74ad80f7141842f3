@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ".F"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ".F"
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

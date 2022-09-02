@@ -1,0 +1,147 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            false: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.getlocal"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\246"
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.getlocal"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326\326"
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "file:write"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\246"
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      break: 183
+    }
+    semicolon: true
+  }
+}

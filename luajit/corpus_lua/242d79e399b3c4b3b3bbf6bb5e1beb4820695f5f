@@ -1,0 +1,73 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\377"
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 1929379904
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 1929379904
+                  }
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          expr {
+            str: "\000"
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

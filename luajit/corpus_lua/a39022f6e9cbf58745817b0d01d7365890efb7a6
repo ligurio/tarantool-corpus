@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "rawset"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

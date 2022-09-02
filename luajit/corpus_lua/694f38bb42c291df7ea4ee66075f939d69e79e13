@@ -1,0 +1,98 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: ""
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\377"
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        prefExpr {
+                          var {
+                            exprName {
+                              prefix {
+                                expr {
+                                  prefExpr {
+                                    expr {
+                                      prefExpr {
+                                        var {
+                                          exprName {
+                                            prefix {
+                                            }
+                                            name: "@"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              name: ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\000\000\000\000\000\000\000\000"
+          lastName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

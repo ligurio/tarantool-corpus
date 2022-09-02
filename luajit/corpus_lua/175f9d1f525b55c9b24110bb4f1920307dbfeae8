@@ -1,0 +1,59 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    fields {
+                      field {
+                      }
+                      sep {
+                      }
+                    }
+                    lastSep {
+                      comma: 131072
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 8243102915232690036
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  semicolon: 131072
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ")"
+          lastName: "break"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 4
+    }
+  }
+}

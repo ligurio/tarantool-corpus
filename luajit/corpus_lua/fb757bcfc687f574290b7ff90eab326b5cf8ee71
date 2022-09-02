@@ -1,0 +1,38 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  name: "local"
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            str: "local"
+          }
+        }
+      }
+    }
+  }
+}

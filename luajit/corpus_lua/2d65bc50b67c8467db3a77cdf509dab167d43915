@@ -1,0 +1,19 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 134217728
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

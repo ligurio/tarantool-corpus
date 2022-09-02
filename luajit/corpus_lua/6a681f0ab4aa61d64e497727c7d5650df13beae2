@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        name: "and"
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      true: 0
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

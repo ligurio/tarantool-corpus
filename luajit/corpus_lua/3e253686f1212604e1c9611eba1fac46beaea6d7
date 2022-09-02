@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

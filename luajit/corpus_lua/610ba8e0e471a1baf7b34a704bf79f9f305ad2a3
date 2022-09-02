@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\014,\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014\014"
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      break: 2098176
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,31 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      ellipsis: 0
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 1702063205
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

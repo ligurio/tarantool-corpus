@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "io.write"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

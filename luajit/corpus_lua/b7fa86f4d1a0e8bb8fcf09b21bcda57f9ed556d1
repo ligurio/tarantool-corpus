@@ -1,0 +1,138 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "\036\000"
+                      lastName: "\036\000"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "\036\000"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: "\036\000"
+                                                        }
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  func {
+                                                                    name {
+                                                                      firstName: ""
+                                                                    }
+                                                                    body {
+                                                                      list {
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: false
+                                                              }
+                                                              last {
+                                                                stat {
+                                                                  break: 393472
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: false
+                                                  }
+                                                  last {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              lastExpr {
+                                                str: "\235"
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

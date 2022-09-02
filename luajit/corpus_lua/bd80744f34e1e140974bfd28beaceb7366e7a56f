@@ -1,0 +1,152 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "math.tan"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                        }
+                        fields {
+                          field {
+                            expr {
+                            }
+                          }
+                          sep {
+                            comma: 4294967295
+                          }
+                        }
+                        fields {
+                          field {
+                            expr {
+                            }
+                          }
+                          sep {
+                            comma: 4294967295
+                          }
+                        }
+                        fields {
+                          field {
+                            expr {
+                            }
+                          }
+                          sep {
+                            comma: 4096
+                          }
+                        }
+                        lastSep {
+                          comma: 4096
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 7566433
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

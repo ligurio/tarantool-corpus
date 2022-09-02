@@ -1,0 +1,132 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                    }
+                  }
+                  expr {
+                    prefExpr {
+                      var {
+                        expr {
+                          prefix {
+                            var {
+                            }
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                                expr {
+                                  prefix {
+                                    var {
+                                    }
+                                  }
+                                  expr {
+                                    prefExpr {
+                                      var {
+                                        expr {
+                                          prefix {
+                                            var {
+                                            }
+                                          }
+                                          expr {
+                                            prefExpr {
+                                              var {
+                                                name: "\000\000\000\000"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "math.random"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+    semicolon: true
+  }
+}

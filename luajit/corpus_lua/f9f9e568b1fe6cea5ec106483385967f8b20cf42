@@ -1,0 +1,373 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "os.clock"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                    nil: 0
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 99
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    table {
+                                    }
+                                  }
+                                  expr {
+                                    table {
+                                    }
+                                  }
+                                  expr {
+                                    nil: 1
+                                  }
+                                  lastExpr {
+                                    nil: 4
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "os.clock"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "os.clock"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                    nil: 0
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    ellipsis: 1
+                                  }
+                                  expr {
+                                    table {
+                                    }
+                                  }
+                                  expr {
+                                    nil: 1
+                                  }
+                                  lastExpr {
+                                    nil: 4
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "os.clock"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "os.clock"
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "os.clock"
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                  last {
+                                                    stat {
+                                                      return {
+                                                        exprList {
+                                                          expr {
+                                                            nil: 262148
+                                                          }
+                                                          expr {
+                                                            func {
+                                                              body {
+                                                                block {
+                                                                  chunk {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          expr {
+                                                          }
+                                                          expr {
+                                                            prefExpr {
+                                                              expr {
+                                                                nil: 0
+                                                              }
+                                                            }
+                                                          }
+                                                          expr {
+                                                            nil: 4
+                                                          }
+                                                          expr {
+                                                          }
+                                                          expr {
+                                                            nil: 1
+                                                          }
+                                                          lastExpr {
+                                                            nil: 4
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                nil: 4
+                                              }
+                                              expr {
+                                                nil: 4
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  expr {
+                                                    prefExpr {
+                                                      var {
+                                                        name: "\377\377\377\377\377\377\377\377"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                nil: 4
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                nil: 1
+                                              }
+                                              lastExpr {
+                                                nil: 4
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    nil: 2
+                                  }
+                                  expr {
+                                    nil: 1
+                                  }
+                                  lastExpr {
+                                    nil: 4
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        nil: 4
+                      }
+                      expr {
+                        nil: 4
+                      }
+                      expr {
+                      }
+                      expr {
+                        nil: 4
+                      }
+                      expr {
+                        nil: 4
+                      }
+                      expr {
+                        nil: 2
+                      }
+                      expr {
+                        nil: 1
+                      }
+                      lastExpr {
+                        nil: 4
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 4
+    }
+  }
+}

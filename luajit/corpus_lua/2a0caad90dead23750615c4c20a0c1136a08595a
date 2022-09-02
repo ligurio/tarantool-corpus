@@ -1,0 +1,181 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                }
+              }
+              expr {
+                prefExpr {
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\210\210"
+            }
+          }
+          varNext {
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      prefExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "\250"
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+          }
+          varNext {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      expr {
+                        ellipsis: 53
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      prefExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "\250"
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            name: "?"
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    expr {
+                      prefExpr {
+                        var {
+                        }
+                      }
+                    }
+                  }
+                  name: "\210"
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          lastExpr {
+            false: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,39 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "{         var {\n          }\n        }\n        exprList {\n          lastExpr {\n            number: 12\n          }\n        }\n      }\n    }\n  }\n  sta"
+          names: "+"
+          lastName: "{"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

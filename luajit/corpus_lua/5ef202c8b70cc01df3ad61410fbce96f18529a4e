@@ -1,0 +1,136 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                      }
+                      fields {
+                        field {
+                          expr {
+                            ellipsis: 3604224
+                          }
+                        }
+                        sep {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            name: "\305"
+          }
+          varNext {
+            name: ""
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 7929856
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 16384
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      str: "L"
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            true: 7929856
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      ellipsis: 3604224
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

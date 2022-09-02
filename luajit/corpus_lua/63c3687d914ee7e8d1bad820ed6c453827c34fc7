@@ -1,0 +1,116 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              lastExpr {
+                                                ellipsis: 0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              ellipsis: 80
+                            }
+                            expr {
+                            }
+                            expr {
+                              ellipsis: 262144
+                            }
+                            expr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              lastExpr {
+                                                ellipsis: 0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

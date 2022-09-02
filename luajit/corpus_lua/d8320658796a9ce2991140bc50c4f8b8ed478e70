@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "00000IdempotencyUn000000000000000"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                            expr {
+                              str: "33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+                            }
+                          }
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

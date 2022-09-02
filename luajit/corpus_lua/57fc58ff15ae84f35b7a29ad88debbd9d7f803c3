@@ -1,0 +1,632 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "file:write"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "file:write"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "\377\377"
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                  }
+                                  expr {
+                                  }
+                                  expr {
+                                    func {
+                                      body {
+                                        list {
+                                          list {
+                                            names {
+                                              firstName: ""
+                                            }
+                                            ellipsis: "\001\000\000\005"
+                                          }
+                                        }
+                                        block {
+                                          chunk {
+                                            last {
+                                              stat {
+                                                return {
+                                                  exprList {
+                                                    expr {
+                                                      func {
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    expr {
+                                                      false: 4
+                                                    }
+                                                    expr {
+                                                      func {
+                                                        body {
+                                                          list {
+                                                            list {
+                                                              names {
+                                                                firstName: ""
+                                                              }
+                                                              ellipsis: "\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355"
+                                                            }
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    lastExpr {
+                                                      table {
+                                                        list {
+                                                          firstField {
+                                                          }
+                                                          fields {
+                                                            field {
+                                                            }
+                                                            sep {
+                                                              semicolon: 5832704
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  lastExpr {
+                                    func {
+                                      body {
+                                        block {
+                                          chunk {
+                                            last {
+                                              stat {
+                                                return {
+                                                  exprList {
+                                                    expr {
+                                                      func {
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    expr {
+                                                      false: 4
+                                                    }
+                                                    expr {
+                                                      func {
+                                                        body {
+                                                          list {
+                                                            list {
+                                                              names {
+                                                                firstName: ""
+                                                              }
+                                                              ellipsis: "\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355\355"
+                                                            }
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    lastExpr {
+                                                      table {
+                                                        list {
+                                                          firstField {
+                                                          }
+                                                          fields {
+                                                            field {
+                                                            }
+                                                            sep {
+                                                              semicolon: 5832704
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "file:write"
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "\377\377"
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                      list {
+                                                        names {
+                                                          firstName: ""
+                                                        }
+                                                        ellipsis: "\001\000\000\005"
+                                                      }
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                        last {
+                                                          stat {
+                                                            return {
+                                                              exprList {
+                                                                expr {
+                                                                }
+                                                                expr {
+                                                                  ellipsis: 2
+                                                                }
+                                                                expr {
+                                                                }
+                                                                expr {
+                                                                  func {
+                                                                    body {
+                                                                      block {
+                                                                        chunk {
+                                                                          last {
+                                                                            stat {
+                                                                              return {
+                                                                                exprList {
+                                                                                  expr {
+                                                                                  }
+                                                                                  expr {
+                                                                                    prefExpr {
+                                                                                      expr {
+                                                                                        table {
+                                                                                          list {
+                                                                                            firstField {
+                                                                                              name {
+                                                                                                name: ""
+                                                                                                expr {
+                                                                                                  str: "\377\377\377\377"
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                            fields {
+                                                                                              field {
+                                                                                                name {
+                                                                                                  name: "\377\377\377\377"
+                                                                                                  expr {
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                              sep {
+                                                                                                comma: 4
+                                                                                              }
+                                                                                            }
+                                                                                            lastSep {
+                                                                                              semicolon: 2097152
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                  expr {
+                                                                                    nil: 4
+                                                                                  }
+                                                                                  expr {
+                                                                                    table {
+                                                                                      list {
+                                                                                        firstField {
+                                                                                          expr {
+                                                                                            nil: 4
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                  expr {
+                                                                                  }
+                                                                                  expr {
+                                                                                  }
+                                                                                  expr {
+                                                                                    true: 2097152
+                                                                                  }
+                                                                                  expr {
+                                                                                    nil: 4
+                                                                                  }
+                                                                                  lastExpr {
+                                                                                    nil: 4
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                lastExpr {
+                                                                  ellipsis: 4
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          semicolon: true
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              lastExpr {
+                                                func {
+                                                  body {
+                                                    block {
+                                                      chunk {
+                                                        last {
+                                                          stat {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  names: "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+                                  lastName: "file:write"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                  }
+                                  expr {
+                                    prefExpr {
+                                      expr {
+                                        table {
+                                          list {
+                                            firstField {
+                                              name {
+                                                name: ""
+                                                expr {
+                                                  str: "\377\377\377\377"
+                                                }
+                                              }
+                                            }
+                                            fields {
+                                              field {
+                                                name {
+                                                  name: "\377\377\377\377"
+                                                  expr {
+                                                  }
+                                                }
+                                              }
+                                              sep {
+                                              }
+                                            }
+                                            lastSep {
+                                              semicolon: 2097152
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                          expr {
+                                            nil: 4
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                  }
+                                  expr {
+                                  }
+                                  expr {
+                                    true: 2097152
+                                  }
+                                  expr {
+                                    nil: 4
+                                  }
+                                  lastExpr {
+                                    nil: 4
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      expr {
+                        prefExpr {
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                  name {
+                                    name: ""
+                                    expr {
+                                      str: "\377\377\377\377"
+                                    }
+                                  }
+                                }
+                                fields {
+                                  field {
+                                    name {
+                                      name: "\377\377\377\377"
+                                      expr {
+                                      }
+                                    }
+                                  }
+                                  sep {
+                                  }
+                                }
+                                lastSep {
+                                  semicolon: 2097152
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        nil: 4
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              expr {
+                                nil: 4
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                      }
+                      expr {
+                      }
+                      expr {
+                        true: 2097152
+                      }
+                      expr {
+                      }
+                      lastExpr {
+                        nil: 4
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\001\003"
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "file:write"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\377\377"
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

@@ -1,0 +1,62 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "{"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 8460120751666626560
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "\377\377\377\377\377\377\377\005"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+    semicolon: true
+  }
+}

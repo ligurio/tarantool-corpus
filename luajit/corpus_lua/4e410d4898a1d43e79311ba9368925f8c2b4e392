@@ -1,0 +1,132 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                    ellipsis: "..."
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: ""
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                }
+                                                              }
+                                                              stat {
+                                                                stat {
+                                                                  func {
+                                                                    name {
+                                                                      firstName: ""
+                                                                      lastName: "999999999+99999999999999999"
+                                                                    }
+                                                                    body {
+                                                                      list {
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          break: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  lastName: "999999999+99999999999999999"
+                                }
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  break: 512
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

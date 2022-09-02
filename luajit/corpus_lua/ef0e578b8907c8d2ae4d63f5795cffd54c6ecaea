@@ -1,0 +1,84 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                          list {
+                            firstField {
+                              exprDouble {
+                                leftExpr {
+                                }
+                                rightExpr {
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    false: 4194304000
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 4194304000
+                              }
+                            }
+                            lastSep {
+                              semicolon: 4194304000
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 4194304000
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            false: 67108864
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: 8104338779448566125
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "2"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\3776"
+          }
+          expr {
+          }
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

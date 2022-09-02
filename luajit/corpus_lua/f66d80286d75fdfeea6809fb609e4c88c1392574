@@ -1,0 +1,50 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: 0
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                lastSep {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

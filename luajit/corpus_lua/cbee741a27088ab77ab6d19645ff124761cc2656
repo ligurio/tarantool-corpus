@@ -1,0 +1,208 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+            }
+          }
+          expr {
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      comma: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                            }
+                            varNext {
+                              name: "\245"
+                            }
+                            varNext {
+                              name: "\372"
+                            }
+                            varNext {
+                              name: "=="
+                            }
+                            varNext {
+                              exprName {
+                                prefix {
+                                  expr {
+                                    number: 4
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                      semicolon: false
+                    }
+                    last {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\242\017\000\000\000\000ic"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              number: 8796093022208
+                            }
+                            expr {
+                            }
+                            expr {
+                              prefExpr {
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      exprName {
+                                        prefix {
+                                        }
+                                        name: "\006\000\000\000"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                name: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                                              }
+                                              varNext {
+                                                name: "\245"
+                                              }
+                                              varNext {
+                                                name: "\372"
+                                              }
+                                              varNext {
+                                                name: "=="
+                                              }
+                                              varNext {
+                                                exprName {
+                                                  prefix {
+                                                    expr {
+                                                      number: 4
+                                                    }
+                                                  }
+                                                  name: ""
+                                                }
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              number: 8796093022208
+                            }
+                            expr {
+                              true: 4294967289
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\242\017\000\000\000\000ic"
+                                  }
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+  }
+}

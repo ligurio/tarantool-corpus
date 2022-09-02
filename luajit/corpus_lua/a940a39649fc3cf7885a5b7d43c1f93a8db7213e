@@ -1,0 +1,16 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "debug.sethook"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

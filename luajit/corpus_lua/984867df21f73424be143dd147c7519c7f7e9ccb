@@ -1,0 +1,48 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: ";"
+          lastName: ""
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: ""
+                names: "\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360\360"
+              }
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  break: 2097152
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2097152
+    }
+  }
+}

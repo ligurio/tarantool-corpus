@@ -1,0 +1,34 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  var {
+                    exprName {
+                      prefix {
+                        expr {
+                          prefExpr {
+                            var {
+                            }
+                          }
+                        }
+                      }
+                      name: "\210"
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 2147483648
+          }
+        }
+      }
+    }
+  }
+}

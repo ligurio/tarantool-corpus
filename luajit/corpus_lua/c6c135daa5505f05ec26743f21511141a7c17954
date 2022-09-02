@@ -1,0 +1,141 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                func {
+                  body {
+                    block {
+                      chunk {
+                        stat {
+                          stat {
+                            list {
+                              varList {
+                                var {
+                                  expr {
+                                    prefix {
+                                    }
+                                    expr {
+                                      prefExpr {
+                                      }
+                                    }
+                                  }
+                                }
+                                varNext {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        exprName {
+                                          prefix {
+                                          }
+                                          name: ""
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                    }
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                    }
+                                    name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+                                  }
+                                }
+                                varNext {
+                                  expr {
+                                    prefix {
+                                    }
+                                    expr {
+                                      prefExpr {
+                                        var {
+                                          exprName {
+                                            prefix {
+                                            }
+                                            name: ""
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                      var {
+                                        exprName {
+                                          prefix {
+                                            expr {
+                                              true: 1056964608
+                                            }
+                                          }
+                                          name: ""
+                                        }
+                                      }
+                                    }
+                                    name: "?"
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                    }
+                                    name: "\"\"\"\"\"\"\"\"chunk {\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n            expr {\n              prefix {\n              }\n              expr {\n                prefExpr {\n                }\n              }\n            }\n          }\n          varNext {\n            expr {\n              prefix {\n                var {\n                  exprName {\n                    prefix {\n                    }\n                    name: \"\"\n                  }\n                }\n              }\n              expr {\n              }\n            }\n          }\n          varNext {\n            exprName {\n              prefix {\n              }\n              name: \"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\"\n            }\n          }\n          varNext {\n            name: \"0\"\n          }\n          varNext {\n            exprName {\n              prefix {\n                var {\n                  expr {\n                    prefix {\n                    }\n                    expr {\n                      prefExpr {\n                      }\n                    }\n                  }\n                }\n              }\n              name: \"?\"\n            }\n          }\n          varNext {\n            exprName {\n              prefix {\n              }\n              name: \"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\"\n            }\n          }\n          varNext {\n          }\n        }\n        exprList {\n          expr {\n            prefExpr {\n              expr {\n                func {\n                  body {\n                    block {\n                      chunk {\n                        stat {\n                          stat {\n                            list {\n                              varList {\n                                var {\n                                  expr {\n                                    prefix {\n                                    }\n                                    expr {\n                                      prefExpr {\n                                      }\n                                    }\n                                  }\n                                }\n                                varNext {\n                                  expr {\n                                    prefix {\n                                      var {\n                                        exprName {\n                                          prefix {\n                                          }\n                                          name: \"\"\n                                        }\n                                      }\n                                    }\n                                    expr {\n                                    }\n                                  }\n                                }\n                                varNext {\n                                  exprName {\n                                    prefix {\n                                    }\n                                    name: \"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\"\n                                  }\n                                }\n                                varNext {\n                                  expr {\n                                    prefix {\n                                    }\n                                    expr {\n                                      prefExpr {\n                                        var {\n                                          expr {\n                                            prefix {\n                                            }\n                                            expr {\n                                              prefExpr {\n                                              }\n                                            }\n                                          }\n                                        }\n                                      }\n                                    }\n                                  }\n                                }\n                                varNext {\n                                  exprName {\n                                    prefix {\n                                      var {\n                                        expr {\n                                          prefix {\n                                          }\n                                          expr {\n                                            prefExpr {\n                                            }\n                                          }\n                                        }\n                                      }\n                                    }\n                                    name: \"?\"\n                                  }\n                                }\n                                varNext {\n                                  exprName {\n                                    prefix {\n                                    }\n                                    name: \"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\\\"\"\n                                  }\n                                }\n                                varNext {\n                                }\n                              }\n                              exprList {\n                                expr {\n                                  prefExpr {\n                                    expr {\n                                      func {\n                                        body {\n                                          block {\n                                            chunk {\n                                              stat {\n                                                stat {\n                                                }\n                                              }\n                                        \"      last {\n                                                stat {\n                                                  break: 4096\n                                                }\n                                              }\n                                            }\n                                          }\n                                        }\n                                      }\n                                    }\n                                  }\n                                }\n                                lastExpr {\n                                }\n                              }\n                            }\n                          }\n                        }\n                        last {\n                          stat {\n                            break: 4096\n                          }\n             \"\"\"\"           }\n                 \"\"\"\"\"\"\"\"\"     }\n                    }\n                  }\n                }\n              }\n            }\n          }\n          lastExpr {\n          }\n        }\n      }\n    \"}\n  }\n}\n"
+                                  }
+                                }
+                                varNext {
+                                }
+                              }
+                              exprList {
+                                expr {
+                                  prefExpr {
+                                    expr {
+                                      func {
+                                        body {
+                                          block {
+                                            chunk {
+                                              stat {
+                                                stat {
+                                                }
+                                              }
+                                              last {
+                                                stat {
+                                                  break: 4096
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                lastExpr {
+                                }
+                              }
+                            }
+                          }
+                        }
+                        last {
+                          stat {
+                            break: 4096
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

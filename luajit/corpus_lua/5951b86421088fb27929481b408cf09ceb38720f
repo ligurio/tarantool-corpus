@@ -1,0 +1,93 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      number: 2
+                    }
+                    rightExpr {
+                      table {
+                        list {
+                          firstField {
+                            name {
+                              name: "]"
+                              expr {
+                              }
+                            }
+                          }
+                          fields {
+                            field {
+                            }
+                            sep {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  name {
+                    name: "]"
+                    expr {
+                    }
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      ellipsis: 3604224
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

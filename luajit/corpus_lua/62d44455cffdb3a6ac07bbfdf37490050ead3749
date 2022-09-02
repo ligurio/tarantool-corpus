@@ -1,0 +1,56 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 8192
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        prefExpr {
+                          expr {
+                            func {
+                              body {
+                                block {
+                                  chunk {
+                                    last {
+                                      stat {
+                                      }
+                                      semicolon: true
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 8192
+          }
+        }
+      }
+    }
+  }
+}

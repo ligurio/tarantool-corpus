@@ -1,0 +1,36 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          expr {
+            nil: 38
+          }
+          expr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  expr {
+                    prefExpr {
+                      var {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

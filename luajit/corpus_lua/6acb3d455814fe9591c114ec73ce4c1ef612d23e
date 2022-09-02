@@ -1,0 +1,37 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    prefExpr {
+                      var {
+                        name: "os.date"
+                      }
+                    }
+                  }
+                }
+                lastSep {
+                  comma: 61
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            nil: 4
+          }
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

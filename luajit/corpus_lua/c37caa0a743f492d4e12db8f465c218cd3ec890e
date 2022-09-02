@@ -1,0 +1,54 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "coroutine.!wrap"
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                true: 2818048
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

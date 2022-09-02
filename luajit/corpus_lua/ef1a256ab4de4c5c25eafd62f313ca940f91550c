@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\377\377"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\200\377\377\377\377\377\377\377"
+            }
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                name: "\216"
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

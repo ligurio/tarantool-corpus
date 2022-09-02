@@ -1,0 +1,176 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "a+b"
+          names: "file:write"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+                names: ":"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "a+b"
+                      names: "\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030\030"
+                      lastName: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                    list {
+                                      names {
+                                        firstName: ""
+                                        names: ":"
+                                      }
+                                    }
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "file:write"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "file:write"
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "#"
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      localFunc {
+                                                        name: "z"
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    semicolon: true
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        number: 448639558400
+                      }
+                      lastExpr {
+                        number: 1969775360
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

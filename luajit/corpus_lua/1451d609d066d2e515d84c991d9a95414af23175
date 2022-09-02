@@ -1,0 +1,50 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "7F"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "7F"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ".7F"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

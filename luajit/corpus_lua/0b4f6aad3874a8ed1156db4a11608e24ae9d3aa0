@@ -1,0 +1,137 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  str: "!"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\177_newindex"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "\177_newindex"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: "\177_newindex"
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                  last {
+                                                    stat {
+                                                      return {
+                                                        exprList {
+                                                          expr {
+                                                            table {
+                                                              list {
+                                                                firstField {
+                                                                  exprDouble {
+                                                                    leftExpr {
+                                                                    }
+                                                                    rightExpr {
+                                                                      prefExpr {
+                                                                        expr {
+                                                                          prefExpr {
+                                                                            expr {
+                                                                              prefExpr {
+                                                                                var {
+                                                                                  exprName {
+                                                                                    prefix {
+                                                                                      expr {
+                                                                                        false: 1953259359
+                                                                                      }
+                                                                                    }
+                                                                                    name: ""
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          lastExpr {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,45 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

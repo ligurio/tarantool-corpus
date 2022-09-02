@@ -1,0 +1,29 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "_VERSION"
+          }
+          varNext {
+            name: ""
+          }
+          varNext {
+            name: "_VERSION"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

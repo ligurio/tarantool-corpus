@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+        }
+        exprList {
+          expr {
+            number: 1065151889408
+          }
+          expr {
+          }
+          expr {
+            str: ""
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,162 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                      func {
+                        body {
+                          block {
+                            chunk {
+                              last {
+                                stat {
+                                  return {
+                                    exprList {
+                                      expr {
+                                        table {
+                                          list {
+                                            firstField {
+                                            }
+                                            fields {
+                                              field {
+                                                expr {
+                                                  func {
+                                                    body {
+                                                      list {
+                                                        ellipsis: "$"
+                                                      }
+                                                      block {
+                                                        chunk {
+                                                          last {
+                                                            stat {
+                                                              return {
+                                                                exprList {
+                                                                  expr {
+                                                                    table {
+                                                                      list {
+                                                                        firstField {
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                            expr {
+                                                                              func {
+                                                                                body {
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      last {
+                                                                                        stat {
+                                                                                          return {
+                                                                                            exprList {
+                                                                                              expr {
+                                                                                                table {
+                                                                                                  list {
+                                                                                                    firstField {
+                                                                                                    }
+                                                                                                    fields {
+                                                                                                      field {
+                                                                                                      }
+                                                                                                      sep {
+                                                                                                      }
+                                                                                                    }
+                                                                                                    fields {
+                                                                                                      field {
+                                                                                                        exprDouble {
+                                                                                                          leftExpr {
+                                                                                                          }
+                                                                                                          rightExpr {
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                      sep {
+                                                                                                      }
+                                                                                                    }
+                                                                                                    lastSep {
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                              lastExpr {
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          sep {
+                                                                          }
+                                                                        }
+                                                                        fields {
+                                                                          field {
+                                                                          }
+                                                                          sep {
+                                                                            semicolon: 0
+                                                                          }
+                                                                        }
+                                                                        lastSep {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                  lastExpr {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                            semicolon: true
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              sep {
+                                              }
+                                            }
+                                            fields {
+                                              field {
+                                              }
+                                              sep {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      lastExpr {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

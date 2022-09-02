@@ -1,0 +1,116 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 0
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    false: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 1536
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  name: "debug.getupvalue"
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  str: "io"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                    last {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            number: 1536
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,25 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            ellipsis: "\026\000\000\000"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

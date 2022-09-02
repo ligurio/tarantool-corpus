@@ -1,0 +1,20 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            number: 2251799813685248
+          }
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

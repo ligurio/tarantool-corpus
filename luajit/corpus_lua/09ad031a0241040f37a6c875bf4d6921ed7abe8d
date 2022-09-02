@@ -1,0 +1,40 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            ellipsis: 2097152
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+              }
+            }
+          }
+          expr {
+            str: "\377"
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

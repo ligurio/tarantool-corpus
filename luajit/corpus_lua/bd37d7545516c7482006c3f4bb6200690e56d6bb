@@ -1,0 +1,77 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "\363\223\031\336\"j0\364"
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            name: "\000\000\000\000\000\000\000\000"
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 5373952
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\000\000"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\000\013"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            str: "\001"
+          }
+        }
+      }
+    }
+  }
+}

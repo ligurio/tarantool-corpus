@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            name: "LiteRunt"
+          }
+          varNext {
+            name: ""
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                list {
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            number: 0
+          }
+          expr {
+          }
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 3026478
+    }
+    semicolon: true
+  }
+}

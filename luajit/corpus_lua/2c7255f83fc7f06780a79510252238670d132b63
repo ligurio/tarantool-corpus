@@ -1,0 +1,43 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                        expr {
+                          prefExpr {
+                            expr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+    semicolon: true
+  }
+}

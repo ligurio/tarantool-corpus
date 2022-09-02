@@ -1,0 +1,32 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 53248
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: 134217728
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

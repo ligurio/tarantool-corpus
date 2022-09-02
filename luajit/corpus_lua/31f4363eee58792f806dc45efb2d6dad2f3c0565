@@ -1,0 +1,47 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                    exprName {
+                      prefix {
+                        expr {
+                          prefExpr {
+                            var {
+                            }
+                          }
+                        }
+                      }
+                      name: "\210"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2147483648
+    }
+  }
+}

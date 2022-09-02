@@ -1,0 +1,52 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            true: 4194304000
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      number: 691489734656
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            number: 0
+          }
+          expr {
+            true: 2883584
+          }
+          expr {
+            true: 2883584
+          }
+          expr {
+            ellipsis: 123
+          }
+          expr {
+            true: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

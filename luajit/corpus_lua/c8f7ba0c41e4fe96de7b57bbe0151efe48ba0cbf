@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "file:write"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "debug.debug"
+          lastName: "debug.getlocal"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

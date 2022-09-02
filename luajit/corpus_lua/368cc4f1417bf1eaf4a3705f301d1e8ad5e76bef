@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "Sint2"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

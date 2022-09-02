@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "debug.traceback"
+          }
+          varNext {
+            name: "debug.traceback"
+          }
+          varNext {
+            name: "debug.traceback"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  expr {
+                    prefExpr {
+                      expr {
+                        prefExpr {
+                          expr {
+                            prefExpr {
+                              var {
+                                expr {
+                                  prefix {
+                                    expr {
+                                      prefExpr {
+                                        expr {
+                                          ellipsis: 2147483648
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

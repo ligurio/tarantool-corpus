@@ -1,0 +1,49 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "{...}"
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  false: 4194304000
+                }
+              }
+              name: "\3776"
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        number: 108256586325760
+                      }
+                      rightExpr {
+                        ellipsis: 1073741824
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

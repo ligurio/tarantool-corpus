@@ -1,0 +1,241 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            nil: 2
+          }
+          expr {
+            nil: 8192
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        func {
+                          name {
+                            firstName: ""
+                            lastName: "debug.getuservalue"
+                          }
+                          body {
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              expr {
+                                prefix {
+                                }
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                      }
+                                      fields {
+                                        field {
+                                        }
+                                        sep {
+                                          comma: 4
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            varNext {
+                              expr {
+                                prefix {
+                                }
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                        exprDouble {
+                                          leftExpr {
+                                            number: 70368744177664
+                                          }
+                                          rightExpr {
+                                          }
+                                        }
+                                      }
+                                      fields {
+                                        field {
+                                        }
+                                        sep {
+                                          comma: 4
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              false: 0
+                            }
+                            lastExpr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                              lastName: "debug.getuservalue"
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: false
+                                      }
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                expr {
+                                                  prefix {
+                                                  }
+                                                  expr {
+                                                    table {
+                                                      list {
+                                                        firstField {
+                                                        }
+                                                        fields {
+                                                          field {
+                                                          }
+                                                          sep {
+                                                            comma: 4
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              varNext {
+                                                expr {
+                                                  prefix {
+                                                  }
+                                                  expr {
+                                                    table {
+                                                      list {
+                                                        firstField {
+                                                          exprDouble {
+                                                            leftExpr {
+                                                              number: 70368744177664
+                                                            }
+                                                            rightExpr {
+                                                            }
+                                                          }
+                                                        }
+                                                        fields {
+                                                          field {
+                                                          }
+                                                          sep {
+                                                            comma: 4
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                false: 0
+                                              }
+                                              lastExpr {
+                                                func {
+                                                  body {
+                                                    block {
+                                                      chunk {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            nil: 133
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

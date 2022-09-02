@@ -1,0 +1,71 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "string.char"
+          lastName: "f"
+        }
+        body {
+          list {
+            ellipsis: "string.char"
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        ellipsis: 0
+                      }
+                      lastExpr {
+                        number: -360535360305889280
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  name {
+                    name: ""
+                    expr {
+                      number: 2954361355555045376
+                    }
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

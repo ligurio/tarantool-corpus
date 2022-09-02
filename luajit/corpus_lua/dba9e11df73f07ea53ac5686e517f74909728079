@@ -1,0 +1,76 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "ipairs"
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "ipairs"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                }
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "ipairs"
+                      }
+                      varNext {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        true: 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

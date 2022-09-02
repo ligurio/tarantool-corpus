@@ -1,0 +1,26 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            ellipsis: "math.ceil"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+    semicolon: true
+  }
+}

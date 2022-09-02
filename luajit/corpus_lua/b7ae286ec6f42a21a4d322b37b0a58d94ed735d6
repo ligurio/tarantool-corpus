@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "Sint6"
+          names: "Sint6"
+          names: "Sintint6"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

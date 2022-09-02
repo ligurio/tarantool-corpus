@@ -1,0 +1,112 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            func {
+              body {
+                list {
+                  ellipsis: "cfg"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                    exprName {
+                                      prefix {
+                                        var {
+                                          name: "coroutine.wrap"
+                                        }
+                                      }
+                                      name: ""
+                                    }
+                                  }
+                                }
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                          exprList {
+                            expr {
+                            }
+                            lastExpr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "cfg"
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                expr {
+                                                  prefix {
+                                                    var {
+                                                      exprName {
+                                                        prefix {
+                                                          var {
+                                                            name: "coroutine.wrap"
+                                                          }
+                                                        }
+                                                        name: ""
+                                                      }
+                                                    }
+                                                  }
+                                                  expr {
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            exprList {
+                                              expr {
+                                              }
+                                              lastExpr {
+                                                false: 536870912
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      semicolon: false
+                    }
+                    last {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

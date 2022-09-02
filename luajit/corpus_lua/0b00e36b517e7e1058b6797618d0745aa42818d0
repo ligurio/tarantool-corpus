@@ -1,0 +1,20 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "Sint3"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

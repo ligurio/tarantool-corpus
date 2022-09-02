@@ -1,0 +1,219 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        exprName {
+                          prefix {
+                            expr {
+                              ellipsis: 3014656
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                      varNext {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            false: 0
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        func {
+                          body {
+                            list {
+                              list {
+                                names {
+                                  firstName: "N\001\003oEf\377\377\377fects"
+                                }
+                                ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                              }
+                            }
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    list {
+                                      varList {
+                                        var {
+                                        }
+                                      }
+                                      exprList {
+                                        lastExpr {
+                                          prefExpr {
+                                            expr {
+                                              nil: 1702390086
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                last {
+                                  stat {
+                                    return {
+                                      exprList {
+                                        lastExpr {
+                                          true: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: ""
+                    }
+                    ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                  }
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                            }
+                            varNext {
+                              expr {
+                                prefix {
+                                }
+                                expr {
+                                  false: 0
+                                }
+                              }
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                              func {
+                                body {
+                                  list {
+                                    list {
+                                      names {
+                                        firstName: "N\001\003oEf\377\377\377fects"
+                                      }
+                                      ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                                    }
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                              }
+                                              varNext {
+                                                expr {
+                                                  prefix {
+                                                  }
+                                                  expr {
+                                                    false: 0
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                                prefExpr {
+                                                  expr {
+                                                    nil: 1702390086
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              lastExpr {
+                                                true: 0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                        break: 0
+                      }
+                      semicolon: false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

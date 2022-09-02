@@ -1,0 +1,15 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "file:write"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

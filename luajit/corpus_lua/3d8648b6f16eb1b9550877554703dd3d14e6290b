@@ -1,0 +1,143 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                  ellipsis: "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              name: "__unm"
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            lastExpr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                name: "__unm"
+                                              }
+                                            }
+                                            exprList {
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              lastExpr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                      ellipsis: "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                        stat {
+                                                          stat {
+                                                          }
+                                                        }
+                                                        last {
+                                                          stat {
+                                                            return {
+                                                              exprList {
+                                                                lastExpr {
+                                                                  nil: 50331648
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

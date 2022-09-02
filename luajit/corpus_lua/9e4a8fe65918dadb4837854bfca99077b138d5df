@@ -1,0 +1,40 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: "\336\336\336\336\336\336\336\336\336\336\336\336\336"
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "-"
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "string.char"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

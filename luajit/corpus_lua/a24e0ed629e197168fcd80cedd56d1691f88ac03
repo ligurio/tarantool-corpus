@@ -1,0 +1,129 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+            prefExpr {
+            }
+          }
+          expr {
+            false: 1024
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    false: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 4
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "!"
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              str: "!"
+                            }
+                            expr {
+                              number: 0
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                                  }
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                str: "!"
+                                              }
+                                              expr {
+                                                ellipsis: 0
+                                              }
+                                              expr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                      ellipsis: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              lastExpr {
+                                                ellipsis: 0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                              ellipsis: 0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

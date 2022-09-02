@@ -1,0 +1,107 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "D"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                    number: 177
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          break: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              break: 1819374336
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            exprDouble {
+                                              leftExpr {
+                                                table {
+                                                }
+                                              }
+                                              rightExpr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            semicolon: 4194304000
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 50688
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "_E"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+  }
+}

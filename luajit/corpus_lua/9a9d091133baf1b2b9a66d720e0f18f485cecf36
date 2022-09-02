@@ -1,0 +1,60 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ".7F"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ".F"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                            expr {
+                              prefExpr {
+                                var {
+                                  name: "&"
+                                }
+                              }
+                            }
+                          }
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

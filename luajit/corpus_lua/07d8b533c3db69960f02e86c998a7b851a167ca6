@@ -1,0 +1,54 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  name: "Bofiofile:flle:flushol"
+                }
+              }
+              name: "\026\000\000\000"
+            }
+          }
+          varNext {
+            name: "table.pack"
+          }
+          varNext {
+            name: "table.pack"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "\n\000\200\000\000\000\000\000le"
+                }
+              }
+              name: "\026\000\000\000"
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  ellipsis: 805306368
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            nil: 805306368
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

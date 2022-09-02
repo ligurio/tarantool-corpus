@@ -1,0 +1,167 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      table {
+                        list {
+                          firstField {
+                            name {
+                              name: ""
+                              expr {
+                                prefExpr {
+                                  var {
+                                    name: "string.format"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: "i~"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                            var {
+                              expr {
+                                prefix {
+                                }
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                        name {
+                                          name: ""
+                                          expr {
+                                            prefExpr {
+                                              var {
+                                                name: "string.format"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          name: "i~"
+                        }
+                      }
+                    }
+                    name: "i~"
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                      }
+                      lastSep {
+                        comma: 44
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            name: "i~"
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            true: 7300096
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

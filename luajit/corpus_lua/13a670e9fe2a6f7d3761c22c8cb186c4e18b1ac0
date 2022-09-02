@@ -1,0 +1,151 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\377\377\377\377"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    func {
+                                      name {
+                                        firstName: "math.exp"
+                                        names: "math.exp"
+                                        lastName: "then"
+                                      }
+                                      body {
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                                list {
+                                                  varList {
+                                                    var {
+                                                      exprName {
+                                                        prefix {
+                                                          expr {
+                                                            true: 2124654
+                                                          }
+                                                        }
+                                                        name: ""
+                                                      }
+                                                    }
+                                                  }
+                                                  exprList {
+                                                    lastExpr {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                stat {
+                                  stat {
+                                  }
+                                }
+                                stat {
+                                  stat {
+                                    func {
+                                      name {
+                                        firstName: ""
+                                        names: "math.exp"
+                                        names: "then"
+                                      }
+                                      body {
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  semicolon: false
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        func {
+                          name {
+                            firstName: ""
+                            names: "math.exp"
+                          }
+                          body {
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

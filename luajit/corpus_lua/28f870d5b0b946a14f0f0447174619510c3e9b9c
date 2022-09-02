@@ -1,0 +1,726 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        expr {
+                          prefix {
+                            var {
+                            }
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    expr {
+                      true: 536870912
+                    }
+                  }
+                }
+              }
+              expr {
+                str: "\000\000\000\000"
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\00052"
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                      }
+                                    }
+                                    expr {
+                                      prefExpr {
+                                        var {
+                                          expr {
+                                            prefix {
+                                            }
+                                            expr {
+                                              prefExpr {
+                                                var {
+                                                  expr {
+                                                    prefix {
+                                                      var {
+                                                        exprName {
+                                                          prefix {
+                                                          }
+                                                          name: ""
+                                                        }
+                                                      }
+                                                    }
+                                                    expr {
+                                                      prefExpr {
+                                                        expr {
+                                                          prefExpr {
+                                                            var {
+                                                              expr {
+                                                                prefix {
+                                                                  var {
+                                                                  }
+                                                                }
+                                                                expr {
+                                                                  prefExpr {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                true: 536870912
+                              }
+                            }
+                          }
+                        }
+                        expr {
+                          prefExpr {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                  }
+                                }
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      expr {
+                                        prefix {
+                                          var {
+                                            expr {
+                                              prefix {
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  var {
+                                                    expr {
+                                                      prefix {
+                                                        var {
+                                                          name: "\000\000]\000"
+                                                        }
+                                                      }
+                                                      expr {
+                                                        prefExpr {
+                                                          var {
+                                                            expr {
+                                                              prefix {
+                                                                var {
+                                                                  expr {
+                                                                    prefix {
+                                                                      var {
+                                                                      }
+                                                                    }
+                                                                    expr {
+                                                                      prefExpr {
+                                                                        var {
+                                                                          exprName {
+                                                                            prefix {
+                                                                            }
+                                                                            name: "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              expr {
+                                                                false: 1969775360
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        expr {
+                                          true: 536870912
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    nil: 1744830720
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+                str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            true: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              name: "\000\00052"
+            }
+          }
+          varNext {
+            name: "function"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 34
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "1"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\000\000\000\000"
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        expr {
+                          prefix {
+                            var {
+                            }
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    expr {
+                      true: 536870912
+                    }
+                  }
+                }
+              }
+              expr {
+                str: "\000\000\000\000"
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\00052"
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                      }
+                                    }
+                                    expr {
+                                      prefExpr {
+                                        var {
+                                          exprName {
+                                            prefix {
+                                              expr {
+                                                number: 4
+                                              }
+                                            }
+                                            name: ""
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                true: 536870912
+                              }
+                            }
+                          }
+                        }
+                        expr {
+                          prefExpr {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                  }
+                                }
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      expr {
+                                        prefix {
+                                          var {
+                                            expr {
+                                              prefix {
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  var {
+                                                    expr {
+                                                      prefix {
+                                                        var {
+                                                          name: "\000\000]\000"
+                                                        }
+                                                      }
+                                                      expr {
+                                                        prefExpr {
+                                                          var {
+                                                            expr {
+                                                              prefix {
+                                                                var {
+                                                                  expr {
+                                                                    prefix {
+                                                                      var {
+                                                                      }
+                                                                    }
+                                                                    expr {
+                                                                      prefExpr {
+                                                                        var {
+                                                                          exprName {
+                                                                            prefix {
+                                                                            }
+                                                                            name: "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                              expr {
+                                                                false: 1969775360
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        expr {
+                                          true: 536870912
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    nil: 1744830720
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              expr {
+                str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\000]\000"
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            exprName {
+                              prefix {
+                                expr {
+                                  number: 4
+                                }
+                              }
+                              name: ""
+                            }
+                          }
+                        }
+                        expr {
+                          prefExpr {
+                            var {
+                              exprName {
+                                prefix {
+                                  expr {
+                                    number: 4
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    nil: 1744830720
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "\000\000\000\000"
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                        var {
+                        }
+                      }
+                      expr {
+                        prefExpr {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                  expr {
+                                    prefix {
+                                    }
+                                    expr {
+                                      prefExpr {
+                                        var {
+                                          expr {
+                                            prefix {
+                                              var {
+                                                name: "\000\000]\000"
+                                              }
+                                            }
+                                            expr {
+                                              prefExpr {
+                                                var {
+                                                  expr {
+                                                    prefix {
+                                                      var {
+                                                      }
+                                                    }
+                                                    expr {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              expr {
+                                true: 536870912
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 4
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

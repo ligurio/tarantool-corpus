@@ -1,0 +1,90 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: ""
+                            names: "\035\000"
+                          }
+                        }
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: "d"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  prefExpr {
+                    var {
+                      expr {
+                        prefix {
+                        }
+                        expr {
+                          func {
+                            body {
+                              block {
+                                chunk {
+                                  stat {
+                                    stat {
+                                    }
+                                    semicolon: true
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: "\035\000\000\000"
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            str: ""
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 6841336
+    }
+    semicolon: true
+  }
+}

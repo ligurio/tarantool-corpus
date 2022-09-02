@@ -1,0 +1,67 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      func {
+                        body {
+                          block {
+                            chunk {
+                              last {
+                                stat {
+                                  return {
+                                    exprList {
+                                      expr {
+                                        table {
+                                          list {
+                                            firstField {
+                                            }
+                                            fields {
+                                              field {
+                                                exprDouble {
+                                                  leftExpr {
+                                                  }
+                                                  rightExpr {
+                                                  }
+                                                }
+                                              }
+                                              sep {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      lastExpr {
+                                        prefExpr {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            str: "B;ool"
+          }
+        }
+      }
+    }
+  }
+}

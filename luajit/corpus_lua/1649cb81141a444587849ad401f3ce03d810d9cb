@@ -1,0 +1,137 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "Speed"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "Speed"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: ""
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        name: "\376"
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "ipairs"
+                }
+              }
+              name: "="
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "b"
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                name: "ipairs"
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

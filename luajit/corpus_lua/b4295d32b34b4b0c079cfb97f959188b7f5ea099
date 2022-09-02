@@ -1,0 +1,54 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            name: "package.loadlib"
+                          }
+                        }
+                        expr {
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                        }
+                        expr {
+                          str: "JsString"
+                        }
+                      }
+                    }
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,240 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "?"
+                }
+              }
+              expr {
+                number: -720575940379279360
+              }
+            }
+          }
+          varNext {
+            name: "\t\000"
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 32195307318018048
+              }
+            }
+          }
+          varNext {
+            name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      str: "#"
+                    }
+                  }
+                }
+              }
+              name: "\250"
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: "\377\377\377\377"
+                names: "="
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "!"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                            }
+                          }
+                          name: "("
+                        }
+                      }
+                    }
+                    exprList {
+                      expr {
+                        str: "\377\377\377"
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            true: 671088640
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "!"
+                      lastName: "{"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "{"
+                }
+              }
+              name: "{"
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                name: "{"
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

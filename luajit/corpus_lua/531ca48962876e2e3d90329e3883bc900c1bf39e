@@ -1,0 +1,143 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "Doub"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    number: 8192
+                                  }
+                                  expr {
+                                    number: 8192
+                                  }
+                                  lastExpr {
+                                    number: 8192
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          localFunc {
+                                            name: ""
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                          break: 67108864
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                    ellipsis: "\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211\211"
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                        }
+                                        semicolon: false
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                        semicolon: false
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              break: 67108864
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

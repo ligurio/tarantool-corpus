@@ -1,0 +1,34 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\037\000"
+          }
+        }
+        exprList {
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            true: 536870912
+          }
+        }
+      }
+    }
+  }
+}

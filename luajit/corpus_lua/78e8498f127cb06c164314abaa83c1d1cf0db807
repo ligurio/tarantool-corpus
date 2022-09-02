@@ -1,0 +1,56 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  name: "d"
+                }
+              }
+              expr {
+                str: "d"
+              }
+            }
+          }
+          varNext {
+            name: "d"
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

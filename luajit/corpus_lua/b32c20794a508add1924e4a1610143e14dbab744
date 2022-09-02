@@ -1,0 +1,75 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ".chunk {\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n          }\n        }\n        exprList {\n          expr {\n            table {\n              list {\n                firstField {\n                }\n              }\n            }\n          }\n          lastExpr {\n          }\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n      list {\n        varList {\n          var {\n            expr {\n              prefix {\n              }\n              expr {\n                nil: 16640\n              }\n            }\n          }\n        }\n        exprList {\n          expr {\n            ellipsis: 16640\n          }\n          expr {\n            table {\n              list {\n                firstField {\n                  expr {\n                    ellipsis: 16640\n                  }\n                }\n              }\n            }\n          }\n          expr {\n            ellipsis: 16640\n          }\n          lastExpr {\n          }\n        }\n      }\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n      localFunc {\n        name: \"...\"\n        body {\n          block {\n            chunk {\n            }\n          }\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n      func {\n        name {\n          firstName: \"\"\n          lastName: \"\"\n        }\n        body {\n          block {\n            chunk {\n            }\n          }\n        }\n      }\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n    }\n    semicolon: false\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n  }\n  stat {\n    stat {\n    }\n    semicolon: true\n  }\n  last {\n    stat {\n      return {\n        exprList {\n          expr {\n            nil: 0\n          }\n          lastExpr {\n            str: \"%\"\n          }\n        }\n      }\n    }\n  }\n}\n"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                    }
+                    body {
+                      list {
+                        ellipsis: "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+                      }
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        nil: 0
+                      }
+                      lastExpr {
+                        str: "%"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

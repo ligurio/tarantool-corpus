@@ -1,0 +1,20 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+            }
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            str: ""
+          }
+        }
+      }
+    }
+  }
+}

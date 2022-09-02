@@ -1,0 +1,121 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    expr {
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                          }
+                        }
+                        fields {
+                          field {
+                          }
+                          sep {
+                            comma: 4
+                          }
+                        }
+                        fields {
+                          field {
+                            name {
+                              name: ""
+                              expr {
+                                func {
+                                  body {
+                                    list {
+                                      ellipsis: ""
+                                    }
+                                    block {
+                                      chunk {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          sep {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 6386803
+                  }
+                }
+                lastSep {
+                  semicolon: 67108864
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

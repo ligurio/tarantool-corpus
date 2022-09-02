@@ -1,0 +1,62 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    prefExpr {
+                      var {
+                        exprName {
+                          prefix {
+                            var {
+                              exprName {
+                                prefix {
+                                  var {
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      ellipsis: 6386803
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

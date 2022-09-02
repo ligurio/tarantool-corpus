@@ -1,0 +1,197 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "Sfixed"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            false: 0
+          }
+          lastExpr {
+            number: 177
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "!"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  expr {
+                                    nil: 0
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              last {
+                stat {
+                  break: 1684107116
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        name: "\000\021"
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                ellipsis: 167772160
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                ellipsis: 167772160
+              }
+            }
+          }
+          varNext {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"$\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                ellipsis: 167772160
+              }
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            name: "\000\021"
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 255
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

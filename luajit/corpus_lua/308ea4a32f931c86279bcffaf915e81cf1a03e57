@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+          varNext {
+            name: ""
+          }
+          varNext {
+            name: "math.huge"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

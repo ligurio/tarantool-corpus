@@ -1,0 +1,38 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                name: "while"
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                name: "while"
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

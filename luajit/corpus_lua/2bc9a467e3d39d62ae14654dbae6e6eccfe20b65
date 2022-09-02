@@ -1,0 +1,261 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: "\315math"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "file:write"
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                  }
+                                  varNext {
+                                    exprName {
+                                      prefix {
+                                        var {
+                                          exprName {
+                                            prefix {
+                                              var {
+                                                exprName {
+                                                  prefix {
+                                                    var {
+                                                      expr {
+                                                        prefix {
+                                                        }
+                                                        expr {
+                                                          false: 536870912
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                  name: ""
+                                                }
+                                              }
+                                            }
+                                            name: ""
+                                          }
+                                        }
+                                      }
+                                      name: ""
+                                    }
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              exprName {
+                                prefix {
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          name: "debug.traceback"
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              exprName {
+                                prefix {
+                                  var {
+                                    expr {
+                                      prefix {
+                                      }
+                                      expr {
+                                        false: 536870912
+                                      }
+                                    }
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            lastSep {
+                              comma: 67108864
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: ""
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "repeat"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                            var {
+                              expr {
+                                prefix {
+                                }
+                                expr {
+                                  false: 536870912
+                                }
+                              }
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 175833088
+    }
+  }
+}

@@ -1,0 +1,26 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "debug.upvalueid"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

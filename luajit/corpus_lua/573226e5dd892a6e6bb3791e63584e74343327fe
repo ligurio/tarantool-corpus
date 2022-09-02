@@ -1,0 +1,78 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    expr {
+                      func {
+                        body {
+                          block {
+                            chunk {
+                              last {
+                                stat {
+                                  return {
+                                    exprList {
+                                      lastExpr {
+                                        prefExpr {
+                                          var {
+                                            expr {
+                                              prefix {
+                                              }
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      name {
+                                                        name: ""
+                                                        expr {
+                                                          false: 0
+                                                        }
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        exprDouble {
+                                                          leftExpr {
+                                                            true: 4194304000
+                                                          }
+                                                          rightExpr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "00000000000000000000"
+          names: "00000000000000000000"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "00000000000000000000"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                          last {
+                            stat {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        number: 5764607523034234879
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 425201762304
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,310 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 512
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      comma: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+          }
+          expr {
+            true: 16384
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\242\017\000\000\000\000ic"
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                  }
+                                  lastSep {
+                                    semicolon: 687865856
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                            expr {
+                              prefExpr {
+                                expr {
+                                  table {
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\242\017\000\000\000\000ic"
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                name: "a+b"
+                                              }
+                                            }
+                                            exprList {
+                                              expr {
+                                                true: 0
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                    }
+                                                    lastSep {
+                                                      comma: 4282269177
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  expr {
+                                                    table {
+                                                      list {
+                                                        firstField {
+                                                        }
+                                                        lastSep {
+                                                          semicolon: 0
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                        stat {
+                                                          stat {
+                                                            list {
+                                                              varList {
+                                                                var {
+                                                                }
+                                                              }
+                                                              exprList {
+                                                                expr {
+                                                                  true: 0
+                                                                }
+                                                                lastExpr {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        last {
+                                                          stat {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  var {
+                                                    exprName {
+                                                      prefix {
+                                                      }
+                                                      name: "\000\021"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                true: 4294967289
+                                              }
+                                              expr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                      ellipsis: "\242\017\000\000\000\000ic"
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                        last {
+                                                          stat {
+                                                            return {
+                                                              exprList {
+                                                                expr {
+                                                                }
+                                                                expr {
+                                                                  false: 16384
+                                                                }
+                                                                expr {
+                                                                  prefExpr {
+                                                                    expr {
+                                                                    }
+                                                                  }
+                                                                }
+                                                                expr {
+                                                                  func {
+                                                                    body {
+                                                                      block {
+                                                                        chunk {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                expr {
+                                                                  number: 8796093022208
+                                                                }
+                                                                expr {
+                                                                  func {
+                                                                    body {
+                                                                      list {
+                                                                        ellipsis: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                expr {
+                                                                  func {
+                                                                    body {
+                                                                      list {
+                                                                        ellipsis: "_G"
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                lastExpr {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          semicolon: true
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              number: 8798626381824
+                            }
+                            expr {
+                              true: 4294967289
+                            }
+                            expr {
+                            }
+                            lastExpr {
+                              number: 8798633881344
+                            }
+                          }
+                        }
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 4294967289
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

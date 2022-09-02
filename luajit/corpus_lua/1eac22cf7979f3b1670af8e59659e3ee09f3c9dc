@@ -1,0 +1,24 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000\000\000\000\000\000I"
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                  }
+                  name: "F"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

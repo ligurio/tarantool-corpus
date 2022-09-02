@@ -1,0 +1,49 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\377"
+          }
+          expr {
+            nil: 0
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

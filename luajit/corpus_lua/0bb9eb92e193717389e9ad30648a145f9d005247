@@ -1,0 +1,217 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    localFunc {
+                                      name: "\360"
+                                      body {
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                              }
+                                              semicolon: true
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: "__bxor"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            str: "ipairs"
+          }
+          lastExpr {
+            str: ""
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            name: "\010\000\000\000\000\000\000\000"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: ""
+          }
+          lastExpr {
+            str: "io.stdout"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "\000\000\000\000\000\000\000\017"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

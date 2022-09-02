@@ -1,0 +1,50 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "!"
+          names: "\030\030\030\030\030\030\030\030\030\030\030\030"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        func {
+                          body {
+                            list {
+                              list {
+                                names {
+                                  firstName: ""
+                                  names: "ttttttttttttttttttttttttttttttttttttttttttttttttttttt"
+                                }
+                              }
+                            }
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

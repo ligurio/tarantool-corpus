@@ -1,0 +1,94 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                    localFunc {
+                                      name: ""
+                                      body {
+                                        block {
+                                          chunk {
+                                            last {
+                                              stat {
+                                                return {
+                                                  exprList {
+                                                    lastExpr {
+                                                      func {
+                                                        body {
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                }
+                                                              }
+                                                              stat {
+                                                                stat {
+                                                                  list {
+                                                                    varList {
+                                                                      var {
+                                                                      }
+                                                                    }
+                                                                    exprList {
+                                                                      lastExpr {
+                                                                        str: "0"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                semicolon: true
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              semicolon: true
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                stat {
+                                  stat {
+                                  }
+                                }
+                                stat {
+                                  stat {
+                                  }
+                                  semicolon: true
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

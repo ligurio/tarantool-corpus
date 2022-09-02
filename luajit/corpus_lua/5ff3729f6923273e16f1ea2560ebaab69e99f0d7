@@ -1,0 +1,232 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                }
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                    }
+                    name: ""
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+            name: "0"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      prefExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "?"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                func {
+                  body {
+                    block {
+                      chunk {
+                        stat {
+                          stat {
+                            list {
+                              varList {
+                                var {
+                                  expr {
+                                    prefix {
+                                    }
+                                    expr {
+                                      prefExpr {
+                                      }
+                                    }
+                                  }
+                                }
+                                varNext {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        exprName {
+                                          prefix {
+                                          }
+                                          name: ""
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                    }
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                    }
+                                    name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+                                  }
+                                }
+                                varNext {
+                                  expr {
+                                    prefix {
+                                      expr {
+                                        func {
+                                          body {
+                                            block {
+                                              chunk {
+                                                stat {
+                                                  stat {
+                                                    list {
+                                                      varList {
+                                                        var {
+                                                        }
+                                                      }
+                                                      exprList {
+                                                        lastExpr {
+                                                          false: 0
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                      prefExpr {
+                                        var {
+                                          expr {
+                                            prefix {
+                                            }
+                                            expr {
+                                              prefExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                      var {
+                                        expr {
+                                          prefix {
+                                          }
+                                          expr {
+                                            prefExpr {
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                    name: "?"
+                                  }
+                                }
+                                varNext {
+                                  exprName {
+                                    prefix {
+                                    }
+                                    name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+                                  }
+                                }
+                                varNext {
+                                }
+                              }
+                              exprList {
+                                expr {
+                                  prefExpr {
+                                    expr {
+                                      func {
+                                        body {
+                                          block {
+                                            chunk {
+                                              stat {
+                                                stat {
+                                                }
+                                              }
+                                              last {
+                                                stat {
+                                                  break: 4096
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                lastExpr {
+                                }
+                              }
+                            }
+                          }
+                        }
+                        last {
+                          stat {
+                            break: 4096
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

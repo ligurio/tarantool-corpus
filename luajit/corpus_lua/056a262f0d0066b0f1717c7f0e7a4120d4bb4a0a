@@ -1,0 +1,146 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\t"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  name {
+                    name: ""
+                    expr {
+                      true: 1
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      func {
+                        body {
+                          block {
+                            chunk {
+                              stat {
+                                stat {
+                                  func {
+                                    name {
+                                      firstName: ""
+                                    }
+                                    body {
+                                      list {
+                                        list {
+                                          names {
+                                            firstName: ""
+                                          }
+                                          ellipsis: "1"
+                                        }
+                                      }
+                                      block {
+                                        chunk {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        true: 1
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      number: 32
+                    }
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        func {
+                          name {
+                            firstName: ""
+                          }
+                          body {
+                            list {
+                              list {
+                                names {
+                                  firstName: ""
+                                }
+                                ellipsis: "1"
+                              }
+                            }
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

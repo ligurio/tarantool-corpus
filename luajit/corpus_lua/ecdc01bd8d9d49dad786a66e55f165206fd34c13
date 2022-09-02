@@ -1,0 +1,58 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "\262"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              last {
+                stat {
+                  return {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\234"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+              last {
+                stat {
+                  return {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+}

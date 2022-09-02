@@ -1,0 +1,139 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              exprName {
+                                prefix {
+                                  var {
+                                    exprName {
+                                      prefix {
+                                        var {
+                                        }
+                                      }
+                                      name: ""
+                                    }
+                                  }
+                                }
+                                name: ""
+                              }
+                            }
+                          }
+                          exprList {
+                            lastExpr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                exprName {
+                                                  prefix {
+                                                    var {
+                                                      exprName {
+                                                        prefix {
+                                                          var {
+                                                          }
+                                                        }
+                                                        name: ""
+                                                      }
+                                                    }
+                                                  }
+                                                  name: ""
+                                                }
+                                              }
+                                            }
+                                            exprList {
+                                              expr {
+                                                func {
+                                                  body {
+                                                    block {
+                                                      chunk {
+                                                        stat {
+                                                          stat {
+                                                            list {
+                                                              varList {
+                                                                var {
+                                                                  exprName {
+                                                                    prefix {
+                                                                      expr {
+                                                                        nil: 0
+                                                                      }
+                                                                    }
+                                                                    name: ""
+                                                                  }
+                                                                }
+                                                              }
+                                                              exprList {
+                                                                expr {
+                                                                  func {
+                                                                    body {
+                                                                      block {
+                                                                        chunk {
+                                                                          last {
+                                                                            stat {
+                                                                              return {
+                                                                                exprList {
+                                                                                  lastExpr {
+                                                                                    number: 134217728
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: true
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                lastExpr {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,159 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            false: 4194304
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                                last {
+                                  stat {
+                                    return {
+                                      exprList {
+                                        expr {
+                                          func {
+                                            body {
+                                              block {
+                                                chunk {
+                                                  last {
+                                                    stat {
+                                                      return {
+                                                        exprList {
+                                                          expr {
+                                                            func {
+                                                              body {
+                                                                block {
+                                                                  chunk {
+                                                                    last {
+                                                                      stat {
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          expr {
+                                                          }
+                                                          expr {
+                                                            func {
+                                                              body {
+                                                                block {
+                                                                  chunk {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                          lastExpr {
+                                                            true: 0
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        expr {
+                                        }
+                                        expr {
+                                          func {
+                                            body {
+                                              block {
+                                                chunk {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        lastExpr {
+                                          true: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                      }
+                      expr {
+                        func {
+                          body {
+                            block {
+                              chunk {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                        true: 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,130 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            prefExpr {
+            }
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            exprDouble {
+                                              leftExpr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                    }
+                                                    fields {
+                                                      field {
+                                                      }
+                                                      sep {
+                                                        semicolon: 4194304000
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                      }
+                                                      sep {
+                                                        semicolon: 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              rightExpr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            semicolon: 4194304000
+                                          }
+                                        }
+                                        lastSep {
+                                          semicolon: 0
+                                        }
+                                      }
+                                    }
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 4194304000
+                              }
+                            }
+                            lastSep {
+                              semicolon: 0
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 4194304000
+                  }
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+  }
+}

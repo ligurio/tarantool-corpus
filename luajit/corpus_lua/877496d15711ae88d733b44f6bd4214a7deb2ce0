@@ -1,0 +1,35 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "~"
+          lastName: "~"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  name: "math"
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            table {
+            }
+          }
+          lastExpr {
+            number: 1025515520
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

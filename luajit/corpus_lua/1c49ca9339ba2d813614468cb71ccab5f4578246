@@ -1,0 +1,114 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                            }
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  lastExpr {
+                                    prefExpr {
+                                      expr {
+                                        prefExpr {
+                                          expr {
+                                            prefExpr {
+                                              expr {
+                                                prefExpr {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        prefExpr {
+                          expr {
+                            prefExpr {
+                              expr {
+                                prefExpr {
+                                  expr {
+                                    prefExpr {
+                                      expr {
+                                        prefExpr {
+                                          expr {
+                                            prefExpr {
+                                              expr {
+                                                prefExpr {
+                                                  expr {
+                                                    ellipsis: 32
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            prefExpr {
+              expr {
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

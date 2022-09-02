@@ -1,0 +1,21 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "string.dump"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

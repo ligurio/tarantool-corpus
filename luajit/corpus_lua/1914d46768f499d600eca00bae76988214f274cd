@@ -1,0 +1,33 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "file:write"
+          lastName: ")"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

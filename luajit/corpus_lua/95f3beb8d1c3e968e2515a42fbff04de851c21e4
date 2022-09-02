@@ -1,0 +1,32 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: ""
+                      names: "a+b"
+                    }
+                  }
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

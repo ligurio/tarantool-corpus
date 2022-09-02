@@ -1,0 +1,151 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                    exprName {
+                      prefix {
+                      }
+                      name: "\210"
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              name: "\210\210\210\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\341\210"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  number: 0
+                }
+              }
+              name: "?"
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                }
+              }
+              expr {
+                number: 0
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            name: ""
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                }
+              }
+              name: "\210\210"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\250}"
+            }
+          }
+          varNext {
+            name: "?"
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  true: 262144
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  var {
+                    exprName {
+                      prefix {
+                      }
+                      name: "\210"
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

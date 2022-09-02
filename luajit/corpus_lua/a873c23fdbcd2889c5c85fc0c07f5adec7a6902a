@@ -1,0 +1,358 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                            expr {
+                              false: 538976288
+                            }
+                          }
+                          expr {
+                          }
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+                        }
+                      }
+                    }
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    number: 8796093022208
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                        nil: 25344
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "__sub"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: "}"
+              }
+            }
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        prefExpr {
+                          var {
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    number: 8796093022208
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    number: 8796093022208
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                      expr {
+                        prefExpr {
+                          var {
+                            name: "\000\000\000\000\000\000\000\000"
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "math.acos"
+                    body {
+                      list {
+                        ellipsis: "math.acos"
+                      }
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+            }
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        number: 8796093022208
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 25344
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "__sub"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        prefExpr {
+                          var {
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                    }
+                    exprList {
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                              }
+                              sep {
+                                semicolon: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: "math.acos"
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          last {
+                            stat {
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

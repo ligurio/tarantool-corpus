@@ -1,0 +1,227 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 4294967289
+                }
+              }
+            }
+          }
+          expr {
+            str: "I"
+          }
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\242\017\000\000\000\000ic"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                    expr {
+                                      prefix {
+                                      }
+                                      expr {
+                                        str: "load"
+                                      }
+                                    }
+                                  }
+                                }
+                                expr {
+                                }
+                              }
+                            }
+                          }
+                          exprList {
+                            expr {
+                              ellipsis: 134217728
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            true: 16384
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: ""
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                  }
+                                  fields {
+                                    field {
+                                    }
+                                    sep {
+                                      semicolon: 4
+                                    }
+                                  }
+                                  fields {
+                                    field {
+                                      name {
+                                        name: ","
+                                        expr {
+                                        }
+                                      }
+                                    }
+                                    sep {
+                                      semicolon: 538976288
+                                    }
+                                  }
+                                  lastSep {
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                            expr {
+                              prefExpr {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        expr {
+                                          prefix {
+                                          }
+                                          expr {
+                                            str: "load"
+                                          }
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                              names: "w"
+                                            }
+                                            body {
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              str: "prepare"
+                            }
+                            expr {
+                              true: 4294967289
+                            }
+                            expr {
+                              str: "I"
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

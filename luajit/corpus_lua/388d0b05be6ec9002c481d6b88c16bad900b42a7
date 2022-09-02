@@ -1,0 +1,477 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  prefExpr {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            exprName {
+                              prefix {
+                              }
+                              name: ""
+                            }
+                          }
+                        }
+                        expr {
+                          true: 536870912
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    expr {
+                      prefix {
+                        expr {
+                          nil: 0
+                        }
+                      }
+                      expr {
+                        true: 1744830720
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                            expr {
+                              nil: 1969775360
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    expr {
+                      prefExpr {
+                        var {
+                          expr {
+                            prefix {
+                              var {
+                                exprName {
+                                  prefix {
+                                    expr {
+                                      nil: 30056
+                                    }
+                                  }
+                                  name: ""
+                                }
+                              }
+                            }
+                            expr {
+                              prefExpr {
+                                var {
+                                  name: "\2258"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    expr {
+                      prefExpr {
+                        var {
+                          expr {
+                            prefix {
+                              var {
+                              }
+                            }
+                            expr {
+                              prefExpr {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        exprName {
+                                          prefix {
+                                          }
+                                          name: "\377\377\376\377"
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                      prefExpr {
+                                        expr {
+                                          prefExpr {
+                                            var {
+                                              expr {
+                                                prefix {
+                                                  var {
+                                                    expr {
+                                                      prefix {
+                                                        var {
+                                                        }
+                                                      }
+                                                      expr {
+                                                        prefExpr {
+                                                          var {
+                                                            expr {
+                                                              prefix {
+                                                                var {
+                                                                  exprName {
+                                                                    prefix {
+                                                                      expr {
+                                                                        nil: 1969779456
+                                                                      }
+                                                                    }
+                                                                    name: ""
+                                                                  }
+                                                                }
+                                                              }
+                                                              expr {
+                                                                prefExpr {
+                                                                  var {
+                                                                    expr {
+                                                                      prefix {
+                                                                        var {
+                                                                          exprName {
+                                                                            prefix {
+                                                                              expr {
+                                                                                nil: 30056
+                                                                              }
+                                                                            }
+                                                                            name: ""
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                      expr {
+                                                                        prefExpr {
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                                expr {
+                                                  func {
+                                                    body {
+                                                      block {
+                                                        chunk {
+                                                          stat {
+                                                            stat {
+                                                            }
+                                                          }
+                                                          last {
+                                                            stat {
+                                                              return {
+                                                                exprList {
+                                                                  lastExpr {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                            semicolon: true
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+                str: "\000\000\000\000"
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\000\000]\000"
+          }
+          expr {
+            prefExpr {
+              var {
+                name: ""
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                name: "string.gmatch"
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "h"
+                }
+              }
+              expr {
+                false: 1818296320
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "\023\000\000\000"
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206\206"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            false: 134217728
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  name: "\000\000\000\000"
+                }
+              }
+              expr {
+                prefExpr {
+                  expr {
+                    prefExpr {
+                      var {
+                        name: "\2258"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\'"
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      expr {
+                        nil: 1969775360
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              expr {
+                prefExpr {
+                  var {
+                    name: "\2258"
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+}

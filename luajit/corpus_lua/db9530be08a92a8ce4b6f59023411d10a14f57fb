@@ -1,0 +1,43 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    expr {
+                      table {
+                        list {
+                          firstField {
+                            exprDouble {
+                              leftExpr {
+                                number: 562949953421312
+                              }
+                              rightExpr {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                    number: 7957695015192261990
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

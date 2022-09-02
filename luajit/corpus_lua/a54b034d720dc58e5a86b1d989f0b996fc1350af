@@ -1,0 +1,72 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  str: "math.random"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            table {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "goto"
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "\000\000\000\000\000\000\000\000"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            prefExpr {
+              expr {
+                false: 1073765632
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

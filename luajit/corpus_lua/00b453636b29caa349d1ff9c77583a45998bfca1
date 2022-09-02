@@ -1,0 +1,132 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "="
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "="
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      expr {
+                        prefExpr {
+                          var {
+                          }
+                        }
+                      }
+                    }
+                    expr {
+                      prefExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "\210\210"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "?"
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  var {
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                }
+              }
+            }
+          }
+          varNext {
+            name: ""
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+              }
+            }
+          }
+          lastExpr {
+            str: ""
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+}

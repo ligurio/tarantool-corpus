@@ -1,0 +1,36 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "%"
+          }
+          varNext {
+            name: "ipairs"
+          }
+        }
+        exprList {
+          expr {
+            nil: 22784
+          }
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+  }
+}

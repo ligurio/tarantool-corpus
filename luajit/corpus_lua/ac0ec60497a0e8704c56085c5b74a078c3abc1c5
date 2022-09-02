@@ -1,0 +1,109 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                    }
+                    name: "encode"
+                  }
+                }
+              }
+              expr {
+                number: 65536
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "W"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                      semicolon: false
+                    }
+                    last {
+                      stat {
+                        return {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "u\001\000\000\021uu"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

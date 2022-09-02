@@ -1,0 +1,25 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+            }
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

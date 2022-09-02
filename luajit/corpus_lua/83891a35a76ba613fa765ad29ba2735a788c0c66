@@ -1,0 +1,256 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                expr {
+                  str: "@"
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+            nil: 64
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            exprDouble {
+                                              leftExpr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      exprDouble {
+                                                        leftExpr {
+                                                          table {
+                                                            list {
+                                                              firstField {
+                                                              }
+                                                              fields {
+                                                                field {
+                                                                  exprDouble {
+                                                                    leftExpr {
+                                                                      table {
+                                                                        list {
+                                                                          firstField {
+                                                                            exprDouble {
+                                                                              leftExpr {
+                                                                              }
+                                                                              rightExpr {
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                          fields {
+                                                                            field {
+                                                                              exprDouble {
+                                                                                leftExpr {
+                                                                                  number: 425201762304
+                                                                                }
+                                                                                rightExpr {
+                                                                                  table {
+                                                                                    list {
+                                                                                      firstField {
+                                                                                      }
+                                                                                      fields {
+                                                                                        field {
+                                                                                          exprDouble {
+                                                                                            leftExpr {
+                                                                                              table {
+                                                                                                list {
+                                                                                                  firstField {
+                                                                                                  }
+                                                                                                  fields {
+                                                                                                    field {
+                                                                                                      exprDouble {
+                                                                                                        leftExpr {
+                                                                                                          table {
+                                                                                                            list {
+                                                                                                              firstField {
+                                                                                                              }
+                                                                                                              fields {
+                                                                                                                field {
+                                                                                                                  exprDouble {
+                                                                                                                    leftExpr {
+                                                                                                                      table {
+                                                                                                                      }
+                                                                                                                    }
+                                                                                                                    rightExpr {
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                }
+                                                                                                                sep {
+                                                                                                                  semicolon: 4194304000
+                                                                                                                }
+                                                                                                              }
+                                                                                                            }
+                                                                                                          }
+                                                                                                        }
+                                                                                                        rightExpr {
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                    sep {
+                                                                                                      comma: 0
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                            rightExpr {
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                        sep {
+                                                                                          semicolon: 4194304000
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            sep {
+                                                                              semicolon: 4194304000
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                    rightExpr {
+                                                                    }
+                                                                  }
+                                                                }
+                                                                sep {
+                                                                  comma: 0
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                        rightExpr {
+                                                        }
+                                                      }
+                                                    }
+                                                    fields {
+                                                      field {
+                                                        exprDouble {
+                                                          leftExpr {
+                                                            false: 4194304000
+                                                          }
+                                                          rightExpr {
+                                                          }
+                                                        }
+                                                      }
+                                                      sep {
+                                                        semicolon: 4194304000
+                                                      }
+                                                    }
+                                                    lastSep {
+                                                      semicolon: 4194304000
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              rightExpr {
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                            semicolon: 4194304000
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                comma: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 4194304000
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "_ENV"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "_ENV"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+  }
+}

@@ -1,0 +1,43 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  name: "&"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "&"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

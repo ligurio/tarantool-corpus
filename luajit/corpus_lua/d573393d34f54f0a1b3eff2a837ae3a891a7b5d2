@@ -1,0 +1,339 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "2"
+        }
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "."
+                    }
+                    body {
+                      list {
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "!"
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                        ellipsis: "os.rename"
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: "."
+                                }
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          func {
+                                            name {
+                                              firstName: ""
+                                              names: "2"
+                                            }
+                                            body {
+                                              list {
+                                              }
+                                              block {
+                                                chunk {
+                                                  stat {
+                                                    stat {
+                                                      func {
+                                                        name {
+                                                          firstName: ""
+                                                        }
+                                                        body {
+                                                          list {
+                                                            ellipsis: "os.rename"
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              stat {
+                                                                stat {
+                                                                  func {
+                                                                    name {
+                                                                      firstName: ""
+                                                                      names: "2"
+                                                                    }
+                                                                    body {
+                                                                      list {
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          stat {
+                                                                            stat {
+                                                                              func {
+                                                                                name {
+                                                                                  firstName: "."
+                                                                                }
+                                                                                body {
+                                                                                  list {
+                                                                                  }
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          func {
+                                                                                            name {
+                                                                                              firstName: ""
+                                                                                            }
+                                                                                            body {
+                                                                                              list {
+                                                                                                ellipsis: "lua_grammar.Chunk"
+                                                                                              }
+                                                                                              block {
+                                                                                                chunk {
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                      last {
+                                                                                        stat {
+                                                                                        }
+                                                                                        semicolon: false
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: false
+                                                                          }
+                                                                          stat {
+                                                                            stat {
+                                                                              localFunc {
+                                                                                name: ""
+                                                                                body {
+                                                                                  list {
+                                                                                    ellipsis: "os.rename"
+                                                                                  }
+                                                                                  block {
+                                                                                    chunk {
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          func {
+                                                                                            name {
+                                                                                              firstName: "."
+                                                                                            }
+                                                                                            body {
+                                                                                              list {
+                                                                                              }
+                                                                                              block {
+                                                                                                chunk {
+                                                                                                  stat {
+                                                                                                    stat {
+                                                                                                      func {
+                                                                                                        name {
+                                                                                                          firstName: ""
+                                                                                                        }
+                                                                                                        body {
+                                                                                                          list {
+                                                                                                          }
+                                                                                                          block {
+                                                                                                            chunk {
+                                                                                                              stat {
+                                                                                                                stat {
+                                                                                                                  func {
+                                                                                                                    name {
+                                                                                                                      firstName: ""
+                                                                                                                    }
+                                                                                                                    body {
+                                                                                                                      block {
+                                                                                                                        chunk {
+                                                                                                                          last {
+                                                                                                                            stat {
+                                                                                                                              return {
+                                                                                                                                exprList {
+                                                                                                                                  lastExpr {
+                                                                                                                                    number: 512
+                                                                                                                                  }
+                                                                                                                                }
+                                                                                                                              }
+                                                                                                                            }
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                }
+                                                                                                              }
+                                                                                                            }
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                        semicolon: true
+                                                                                      }
+                                                                                      stat {
+                                                                                        stat {
+                                                                                          func {
+                                                                                            name {
+                                                                                              firstName: ""
+                                                                                            }
+                                                                                            body {
+                                                                                              list {
+                                                                                                ellipsis: "\006\000"
+                                                                                              }
+                                                                                              block {
+                                                                                                chunk {
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                        semicolon: false
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                            semicolon: false
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      last {
+                                        stat {
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                          stat {
+                            stat {
+                              func {
+                                name {
+                                  firstName: ""
+                                  names: "2"
+                                }
+                                body {
+                                  list {
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            false: 8
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          expr {
+            false: 10752
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

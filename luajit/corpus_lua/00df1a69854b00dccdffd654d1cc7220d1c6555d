@@ -1,0 +1,39 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\377"
+          }
+          varNext {
+            name: "\377"
+          }
+          varNext {
+            name: "os.rename"
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

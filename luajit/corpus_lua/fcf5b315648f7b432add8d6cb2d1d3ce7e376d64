@@ -1,0 +1,44 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+              }
+            }
+          }
+          lastExpr {
+            true: 7929856
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036\036"
+          }
+          lastExpr {
+            str: "\036\036\036\036\036\036 {\n \036\036\036\036\036\036\036\036\036\036\036"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

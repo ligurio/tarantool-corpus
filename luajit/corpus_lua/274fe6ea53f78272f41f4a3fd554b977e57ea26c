@@ -1,0 +1,112 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            str: "\000\000\000\000"
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                exprDouble {
+                                  leftExpr {
+                                  }
+                                  rightExpr {
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 100663296
+                              }
+                            }
+                            lastSep {
+                              semicolon: 4194304000
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 4194304000
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        prefExpr {
+                          var {
+                            exprName {
+                              prefix {
+                                expr {
+                                  ellipsis: 0
+                                }
+                              }
+                              name: ""
+                            }
+                          }
+                        }
+                      }
+                      rightExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                    prefExpr {
+                                      expr {
+                                        ellipsis: 3808428032
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              sep {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 4194304000
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 33554432
+          }
+        }
+      }
+    }
+  }
+}

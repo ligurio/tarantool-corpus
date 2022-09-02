@@ -1,0 +1,42 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            false: 1024
+          }
+          expr {
+            table {
+            }
+          }
+          expr {
+            str: "."
+          }
+          expr {
+            str: "Bool"
+          }
+          expr {
+          }
+          expr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  expr {
+                    prefExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+  }
+}

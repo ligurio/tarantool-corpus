@@ -1,0 +1,193 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                }
+                                lastSep {
+                                  semicolon: 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            nil: 0
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "kkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                }
+                                lastSep {
+                                  semicolon: 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            nil: 0
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "9"
+          lastName: "String"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                }
+                                lastSep {
+                                  semicolon: 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            nil: 0
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

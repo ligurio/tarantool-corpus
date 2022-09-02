@@ -1,0 +1,70 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      expr {
+                        prefExpr {
+                          expr {
+                            true: 0
+                          }
+                        }
+                      }
+                    }
+                    name: "\000\000\000\000\0313\246\370"
+                  }
+                }
+              }
+              expr {
+                func {
+                  body {
+                    block {
+                      chunk {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

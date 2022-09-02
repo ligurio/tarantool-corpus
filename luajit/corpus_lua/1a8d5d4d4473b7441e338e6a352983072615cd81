@@ -1,0 +1,172 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "nil"
+          names: "\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: "nil"
+                      names: "\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230\230"
+                    }
+                    body {
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    name: "a+b"
+                                  }
+                                  varNext {
+                                    exprName {
+                                      prefix {
+                                        expr {
+                                          table {
+                                            list {
+                                              firstField {
+                                                expr {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      name: ""
+                                    }
+                                  }
+                                }
+                                exprList {
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              stat {
+                stat {
+                  func {
+                    name {
+                      firstName: ""
+                      lastName: "a+b"
+                    }
+                    body {
+                      block {
+                        chunk {
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        number: 0
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "a+b"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            number: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

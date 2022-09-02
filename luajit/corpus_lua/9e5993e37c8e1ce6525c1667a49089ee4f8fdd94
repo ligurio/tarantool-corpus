@@ -1,0 +1,141 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  prefExpr {
+                    var {
+                      expr {
+                        prefix {
+                        }
+                        expr {
+                          func {
+                            body {
+                              list {
+                              }
+                              block {
+                                chunk {
+                                  stat {
+                                    stat {
+                                      list {
+                                        varList {
+                                          var {
+                                          }
+                                          varNext {
+                                            exprName {
+                                              prefix {
+                                                expr {
+                                                  prefExpr {
+                                                    var {
+                                                      expr {
+                                                        prefix {
+                                                        }
+                                                        expr {
+                                                          func {
+                                                            body {
+                                                              list {
+                                                                ellipsis: ""
+                                                              }
+                                                              block {
+                                                                chunk {
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              name: ""
+                                            }
+                                          }
+                                        }
+                                        exprList {
+                                          expr {
+                                            prefExpr {
+                                            }
+                                          }
+                                          lastExpr {
+                                            table {
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                    semicolon: true
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 0
+          }
+          expr {
+            nil: 4193845248
+          }
+          expr {
+            nil: 16318464
+          }
+          expr {
+            prefExpr {
+              expr {
+                ellipsis: 0
+              }
+            }
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

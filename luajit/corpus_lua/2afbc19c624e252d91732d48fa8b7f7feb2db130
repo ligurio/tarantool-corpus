@@ -1,0 +1,181 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+        body {
+          list {
+            ellipsis: "~"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  name: "0.3E2"
+                }
+              }
+              expr {
+                true: 16
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 134217728
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                        false: 67108863
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 50593791
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 7680
+                  }
+                }
+                lastSep {
+                  comma: 16
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                        false: 16
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 67108863
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 7680
+                  }
+                }
+                lastSep {
+                  comma: 16
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "coroutine.wrap"
+          lastName: "~"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

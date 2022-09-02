@@ -1,0 +1,234 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 4294950393
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      comma: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\242\017\000\000\000\000ic"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                            }
+                          }
+                          exprList {
+                            expr {
+                              true: 0
+                            }
+                            expr {
+                              true: 0
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                  }
+                                  fields {
+                                    field {
+                                    }
+                                    sep {
+                                    }
+                                  }
+                                  lastSep {
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                            expr {
+                              prefExpr {
+                                var {
+                                  name: "\242\017@\000\000\000ic"
+                                }
+                              }
+                            }
+                            expr {
+                              true: 0
+                            }
+                            expr {
+                              true: 4294967289
+                            }
+                            expr {
+                              true: 4294967289
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    ellipsis: "\242\017@\000\000\000ic"
+                                  }
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          break: 4294967289
+                                        }
+                                        semicolon: true
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            true: 16384
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\242\017\000\000\000\000ic"
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              table {
+                                list {
+                                  firstField {
+                                  }
+                                  lastSep {
+                                    comma: 4294967289
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              number: 8796093022208
+                            }
+                            expr {
+                              prefExpr {
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                      }
+                                      lastSep {
+                                        comma: 4294967289
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              str: "\000\000\000\000"
+                            }
+                            expr {
+                              str: "\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237\237"
+                            }
+                            expr {
+                              str: "\242\017@\000\000\000ic"
+                            }
+                            expr {
+                              str: "pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp"
+                            }
+                            lastExpr {
+                              prefExpr {
+                                var {
+                                  expr {
+                                    prefix {
+                                      var {
+                                        exprName {
+                                          prefix {
+                                            expr {
+                                              nil: 2560
+                                            }
+                                          }
+                                          name: ""
+                                        }
+                                      }
+                                    }
+                                    expr {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

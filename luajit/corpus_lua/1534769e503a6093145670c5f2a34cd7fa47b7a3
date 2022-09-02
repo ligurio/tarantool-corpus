@@ -1,0 +1,55 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      str: "\202\304\344\274\031\244\337\034"
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        str: "\202\304\344\274\031\244\337\034"
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 537557760
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        ellipsis: 537557760
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

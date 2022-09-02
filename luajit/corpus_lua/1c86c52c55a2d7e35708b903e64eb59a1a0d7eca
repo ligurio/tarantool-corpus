@@ -1,0 +1,26 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "or"
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        true: 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

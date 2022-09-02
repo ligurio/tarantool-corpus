@@ -1,0 +1,208 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000\000\000\000\000\000\000"
+          }
+          expr {
+            prefExpr {
+              expr {
+                str: ""
+              }
+            }
+          }
+          expr {
+            false: 0
+          }
+          expr {
+            str: "\377\377\377\377\377\377\377\377\377\377\377"
+          }
+          expr {
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "!"
+                }
+                block {
+                  chunk {
+                    last {
+                      stat {
+                        return {
+                          exprList {
+                            expr {
+                              ellipsis: 80
+                            }
+                            expr {
+                            }
+                            expr {
+                            }
+                            expr {
+                              func {
+                                body {
+                                  list {
+                                    list {
+                                      names {
+                                        firstName: "Sfixed6"
+                                      }
+                                    }
+                                  }
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                ellipsis: 0
+                                              }
+                                              expr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                      ellipsis: "!"
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                        last {
+                                                          stat {
+                                                            return {
+                                                              exprList {
+                                                                expr {
+                                                                  ellipsis: 0
+                                                                }
+                                                                expr {
+                                                                }
+                                                                expr {
+                                                                }
+                                                                expr {
+                                                                  func {
+                                                                    body {
+                                                                      list {
+                                                                        list {
+                                                                          names {
+                                                                            firstName: "Sfixed6"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                      block {
+                                                                        chunk {
+                                                                          last {
+                                                                            stat {
+                                                                              return {
+                                                                                exprList {
+                                                                                  expr {
+                                                                                  }
+                                                                                  expr {
+                                                                                  }
+                                                                                  expr {
+                                                                                    ellipsis: 0
+                                                                                  }
+                                                                                  expr {
+                                                                                  }
+                                                                                  expr {
+                                                                                    func {
+                                                                                      body {
+                                                                                        list {
+                                                                                          ellipsis: "\000\000\000\000\000\000\000\000"
+                                                                                        }
+                                                                                        block {
+                                                                                          chunk {
+                                                                                            last {
+                                                                                              stat {
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                  expr {
+                                                                                    str: ""
+                                                                                  }
+                                                                                  lastExpr {
+                                                                                    str: ""
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                                expr {
+                                                                  str: ""
+                                                                }
+                                                                lastExpr {
+                                                                  str: ""
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                func {
+                                                  body {
+                                                    list {
+                                                    }
+                                                    block {
+                                                      chunk {
+                                                        last {
+                                                          stat {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                                str: ""
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                              str: ""
+                            }
+                            lastExpr {
+                              str: ""
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                      }
+                    }
+                    name: "debug"
+                  }
+                }
+              }
+              name: "debug"
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 4194304
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                          }
+                          name: "debug"
+                        }
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            false: 0
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            false: 14
+          }
+        }
+      }
+    }
+  }
+}

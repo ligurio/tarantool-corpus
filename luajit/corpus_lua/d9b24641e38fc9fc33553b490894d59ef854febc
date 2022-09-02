@@ -1,0 +1,159 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "google.protobuf.Any"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "google.protobuf.Any"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      table {
+                        list {
+                          firstField {
+                          }
+                          fields {
+                            field {
+                              name {
+                                name: ""
+                                expr {
+                                  prefExpr {
+                                    var {
+                                      expr {
+                                        prefix {
+                                        }
+                                        expr {
+                                          table {
+                                            list {
+                                              firstField {
+                                              }
+                                              fields {
+                                                field {
+                                                  name {
+                                                    name: ""
+                                                    expr {
+                                                      prefExpr {
+                                                        var {
+                                                          expr {
+                                                            prefix {
+                                                            }
+                                                            expr {
+                                                              table {
+                                                                list {
+                                                                  firstField {
+                                                                  }
+                                                                  fields {
+                                                                    field {
+                                                                      exprDouble {
+                                                                        leftExpr {
+                                                                        }
+                                                                        rightExpr {
+                                                                          table {
+                                                                            list {
+                                                                              firstField {
+                                                                                name {
+                                                                                  name: ""
+                                                                                  expr {
+                                                                                    prefExpr {
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                              fields {
+                                                                                field {
+                                                                                }
+                                                                                sep {
+                                                                                  comma: 538976288
+                                                                                }
+                                                                              }
+                                                                              lastSep {
+                                                                                comma: 32512
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                    sep {
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                                sep {
+                                                  comma: 0
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            sep {
+                              semicolon: 4194304000
+                            }
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            number: 8104338779448566125
+          }
+        }
+      }
+    }
+  }
+}

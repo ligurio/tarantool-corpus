@@ -1,0 +1,119 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  expr {
+                    prefExpr {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                                expr {
+                                  prefix {
+                                  }
+                                  expr {
+                                    prefExpr {
+                                      expr {
+                                        prefExpr {
+                                          expr {
+                                            prefExpr {
+                                              var {
+                                                expr {
+                                                  prefix {
+                                                  }
+                                                  expr {
+                                                    prefExpr {
+                                                      var {
+                                                        expr {
+                                                          prefix {
+                                                          }
+                                                          expr {
+                                                            prefExpr {
+                                                              expr {
+                                                                prefExpr {
+                                                                  var {
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "2"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

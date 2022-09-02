@@ -1,0 +1,117 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "a+b"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            false: 4194304
+                          }
+                        }
+                      }
+                      varNext {
+                        name: ""
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                          }
+                          name: "\016\000\000\000\000\000\000\000"
+                        }
+                      }
+                      varNext {
+                        exprName {
+                          prefix {
+                            var {
+                              expr {
+                                prefix {
+                                  var {
+                                    exprName {
+                                      prefix {
+                                      }
+                                      name: "\002\000\000\000\000\000\000\000"
+                                    }
+                                  }
+                                }
+                                expr {
+                                  false: 4194304
+                                }
+                              }
+                            }
+                          }
+                          name: ""
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        false: 536870912
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2
+    }
+    semicolon: true
+  }
+}

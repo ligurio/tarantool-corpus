@@ -1,0 +1,45 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            list {
+              names {
+                firstName: ""
+              }
+              ellipsis: "lua_grammar.LuaBloc"
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+          }
+          expr {
+            nil: 2
+          }
+          expr {
+          }
+          expr {
+          }
+          expr {
+            nil: 133
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

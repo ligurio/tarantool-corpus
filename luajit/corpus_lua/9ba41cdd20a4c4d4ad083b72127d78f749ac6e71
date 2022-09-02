@@ -1,0 +1,65 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "`"
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            true: 32
+          }
+          lastExpr {
+            nil: 64512
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\376\377NoSideEffects\377\377"
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "`"
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            true: 32
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,32 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\211"
+          }
+          expr {
+          }
+          expr {
+            str: "Bool"
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 0
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

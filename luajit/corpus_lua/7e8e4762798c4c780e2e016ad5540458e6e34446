@@ -1,0 +1,32 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            prefExpr {
+              expr {
+                prefExpr {
+                  expr {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              expr {
+                nil: 0
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            str: "Z\303"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "string.packsize"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: false
+  }
+}

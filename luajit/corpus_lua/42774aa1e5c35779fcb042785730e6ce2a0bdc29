@@ -1,0 +1,107 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 32
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "os.geetnv"
+          names: "os.geetnv"
+          names: "\377\377\377\377\377\377\016\203"
+          lastName: "%"
+        }
+        body {
+          list {
+            ellipsis: "\001\000\000("
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      lastExpr {
+                        table {
+                          list {
+                            firstField {
+                            }
+                            lastSep {
+                              semicolon: 0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      number: 0
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            str: "%"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

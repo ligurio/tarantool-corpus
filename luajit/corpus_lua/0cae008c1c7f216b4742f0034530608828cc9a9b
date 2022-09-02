@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "Sint6"
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  func {
+                    body {
+                      list {
+                        ellipsis: "4"
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: "os.time"
+                                body {
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "\340"
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "os.time"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+      return {
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "os.clock"
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 2105376
+    }
+  }
+}

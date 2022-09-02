@@ -1,0 +1,113 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: ""
+                          }
+                          ellipsis: "3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+                        }
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  block {
+                                    chunk {
+                                      last {
+                                        stat {
+                                          return {
+                                            exprList {
+                                              expr {
+                                                false: 1024
+                                              }
+                                              expr {
+                                                table {
+                                                }
+                                              }
+                                              expr {
+                                                str: "."
+                                              }
+                                              expr {
+                                                str: "Bool"
+                                              }
+                                              expr {
+                                                number: 0
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  expr {
+                                                    prefExpr {
+                                                      var {
+                                                        expr {
+                                                          prefix {
+                                                          }
+                                                          expr {
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                              expr {
+                                              }
+                                              lastExpr {
+                                                prefExpr {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                        semicolon: false
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          last {
+                            stat {
+                              break: 256
+                            }
+                            semicolon: true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  break: 256
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

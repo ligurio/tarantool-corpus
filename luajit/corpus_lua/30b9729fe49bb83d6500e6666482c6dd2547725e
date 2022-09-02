@@ -1,0 +1,74 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    semicolon: 16
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                        str: "$"
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 67108863
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        prefExpr {
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 7680
+                  }
+                }
+                lastSep {
+                  comma: 16
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

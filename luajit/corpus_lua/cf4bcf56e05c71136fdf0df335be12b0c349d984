@@ -1,0 +1,67 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "x"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "Bool"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            nil: 6503680
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444"
+          names: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "io.stdout"
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        list {
+                          varList {
+                            var {
+                              name: "io.stdout"
+                            }
+                            varNext {
+                            }
+                          }
+                          exprList {
+                            expr {
+                              func {
+                                body {
+                                  block {
+                                    chunk {
+                                      stat {
+                                        stat {
+                                          list {
+                                            varList {
+                                              var {
+                                                name: "io.stdout"
+                                              }
+                                              varNext {
+                                                exprName {
+                                                  prefix {
+                                                  }
+                                                  name: "/"
+                                                }
+                                              }
+                                            }
+                                            exprList {
+                                              expr {
+                                                number: 39
+                                              }
+                                              expr {
+                                                nil: 16
+                                              }
+                                              expr {
+                                                number: 39
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                nil: 16
+                                              }
+                                              expr {
+                                              }
+                                              expr {
+                                                ellipsis: 16
+                                              }
+                                              lastExpr {
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                      stat {
+                                        stat {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            expr {
+                            }
+                            expr {
+                              false: 4
+                            }
+                            expr {
+                              true: 16
+                            }
+                            expr {
+                              nil: 4
+                            }
+                            expr {
+                            }
+                            expr {
+                            }
+                            lastExpr {
+                            }
+                          }
+                        }
+                      }
+                    }
+                    stat {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            false: 4
+          }
+          expr {
+            true: 16
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      break: 4
+    }
+    semicolon: false
+  }
+}

@@ -1,0 +1,46 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      var {
+                      }
+                    }
+                    expr {
+                      number: 16252928
+                    }
+                  }
+                }
+              }
+              expr {
+                ellipsis: 0
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "\000\000\000\000\000\000\000\000"
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+  }
+}

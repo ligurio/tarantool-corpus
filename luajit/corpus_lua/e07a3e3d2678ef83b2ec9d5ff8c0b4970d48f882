@@ -1,0 +1,117 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "a+b"
+        }
+        body {
+          list {
+            ellipsis: "9"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "a+b"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        nil: 4
+                      }
+                      expr {
+                        table {
+                          list {
+                            firstField {
+                              name {
+                                name: ""
+                                expr {
+                                }
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: ""
+                                  expr {
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 1900544
+                              }
+                            }
+                            fields {
+                              field {
+                                name {
+                                  name: "a+b"
+                                  expr {
+                                  }
+                                }
+                              }
+                              sep {
+                                semicolon: 1900544
+                              }
+                            }
+                          }
+                        }
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+    semicolon: false
+  }
+}

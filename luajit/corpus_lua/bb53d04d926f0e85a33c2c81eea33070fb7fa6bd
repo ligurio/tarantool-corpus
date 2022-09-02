@@ -1,0 +1,78 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 512
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            nil: 4
+          }
+          expr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: "\377"
+                    }
+                  }
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                    last {
+                      stat {
+                      }
+                      semicolon: true
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            nil: 4294967292
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

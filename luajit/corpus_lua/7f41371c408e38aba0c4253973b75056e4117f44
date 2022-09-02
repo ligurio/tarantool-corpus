@@ -1,0 +1,32 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                    expr {
+                      func {
+                        body {
+                          block {
+                            chunk {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  name: ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

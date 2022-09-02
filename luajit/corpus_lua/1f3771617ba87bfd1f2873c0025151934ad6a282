@@ -1,0 +1,96 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        name: "os.exit"
+                      }
+                      varNext {
+                        name: "Bool"
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        true: 2097152
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                        name: ":"
+                      }
+                      varNext {
+                      }
+                      varNext {
+                        expr {
+                          prefix {
+                          }
+                          expr {
+                            prefExpr {
+                              var {
+                                exprName {
+                                  prefix {
+                                  }
+                                  name: "\377\377\377\377\377\377\377\377"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "debug.setlocal"
+        body {
+          list {
+            list {
+              names {
+                firstName: "debug.setlocal"
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

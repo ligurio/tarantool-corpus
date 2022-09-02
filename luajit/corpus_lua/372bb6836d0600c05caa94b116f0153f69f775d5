@@ -1,0 +1,97 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                        }
+                        fields {
+                          field {
+                            expr {
+                              str: "Doub"
+                            }
+                          }
+                          sep {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      table {
+                        list {
+                          firstField {
+                            expr {
+                              table {
+                              }
+                            }
+                          }
+                          fields {
+                            field {
+                              expr {
+                              }
+                            }
+                            sep {
+                            }
+                          }
+                          fields {
+                            field {
+                            }
+                            sep {
+                              semicolon: 6386803
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                  }
+                }
+                lastSep {
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

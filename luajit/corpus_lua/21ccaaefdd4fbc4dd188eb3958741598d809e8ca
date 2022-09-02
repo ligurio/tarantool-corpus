@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            func {
+              body {
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            nil: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

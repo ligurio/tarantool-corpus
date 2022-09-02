@@ -1,0 +1,22 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            number: 8192
+          }
+          lastExpr {
+            number: 8192
+          }
+        }
+      }
+    }
+  }
+}

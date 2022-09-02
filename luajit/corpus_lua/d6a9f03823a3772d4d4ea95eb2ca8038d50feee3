@@ -1,0 +1,62 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "io.tmpfile"
+        body {
+          list {
+            ellipsis: "33333333333333333333333333333333333333"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            name: ";"
+          }
+        }
+        exprList {
+          expr {
+            true: 0
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

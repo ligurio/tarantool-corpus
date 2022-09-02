@@ -1,0 +1,42 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "\004"
+          }
+        }
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    true: 0
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      str: "\034\000\000\000"
+                    }
+                  }
+                  sep {
+                    comma: 63
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

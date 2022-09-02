@@ -1,0 +1,109 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                nil: 4160749567
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            number: 35184372088832
+          }
+          lastExpr {
+            number: 425201762304
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 425201762304
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            number: 35184372088832
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                nil: 4160749567
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            number: 425201762304
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "a+b"
+        }
+        body {
+          list {
+            ellipsis: "Bool"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

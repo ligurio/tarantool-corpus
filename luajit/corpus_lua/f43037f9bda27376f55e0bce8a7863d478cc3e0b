@@ -1,0 +1,182 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                  localFunc {
+                    name: "\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017\017"
+                    body {
+                      list {
+                        ellipsis: "loadfile"
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    exprName {
+                                      prefix {
+                                      }
+                                      name: "\035\000\000\000"
+                                    }
+                                  }
+                                  varNext {
+                                    expr {
+                                      prefix {
+                                      }
+                                      expr {
+                                        ellipsis: 1044250624
+                                      }
+                                    }
+                                  }
+                                  varNext {
+                                  }
+                                }
+                                exprList {
+                                  expr {
+                                    ellipsis: 2883584
+                                  }
+                                  expr {
+                                    func {
+                                      body {
+                                        list {
+                                          ellipsis: "\377\377\377\367"
+                                        }
+                                        block {
+                                          chunk {
+                                            last {
+                                              stat {
+                                                return {
+                                                  exprList {
+                                                    expr {
+                                                      func {
+                                                        body {
+                                                          list {
+                                                            ellipsis: "\377\377\377\367"
+                                                          }
+                                                          block {
+                                                            chunk {
+                                                              last {
+                                                                stat {
+                                                                  return {
+                                                                    exprList {
+                                                                      lastExpr {
+                                                                        nil: 0
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    lastExpr {
+                                                      nil: 0
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  expr {
+                                    func {
+                                      body {
+                                        list {
+                                          list {
+                                            names {
+                                              firstName: ""
+                                            }
+                                            ellipsis: "io.open"
+                                          }
+                                        }
+                                        block {
+                                          chunk {
+                                            stat {
+                                              stat {
+                                                list {
+                                                  varList {
+                                                    var {
+                                                      exprName {
+                                                        prefix {
+                                                          expr {
+                                                            str: "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"
+                                                          }
+                                                        }
+                                                        name: ""
+                                                      }
+                                                    }
+                                                  }
+                                                  exprList {
+                                                    lastExpr {
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                            last {
+                                              stat {
+                                                return {
+                                                  exprList {
+                                                    lastExpr {
+                                                      number: 0
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                        nil: 1560281088
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 4294967289
+    }
+    semicolon: true
+  }
+}

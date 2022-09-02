@@ -1,0 +1,134 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "~xprList {\n          lastExpr {\n            table {\n              list {\n                firstField {\n                }\n                fields {\n                  field {\n                    name {\n                      name:-\"\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\\377\"\n                      expr {\n                        table {\n                          list {\n                            firstField {\n                            }\n                            fields {\n                              field {\n                                name {\n                   "
+        body {
+          list {
+            ellipsis: "\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243\243"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                      }
+                      varNext {
+                      }
+                    }
+                    exprList {
+                      lastExpr {
+                        true: 4278192128
+                      }
+                    }
+                  }
+                }
+              }
+              last {
+                stat {
+                  break: 8223488
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+          }
+          varNext {
+            name: "qqqqqqqqqqqqqqqqqqqqqq"
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  number: 0
+                }
+              }
+              expr {
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                expr {
+                  nil: 6488064
+                }
+              }
+              expr {
+                false: 0
+              }
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                }
+                lastSep {
+                  comma: 1048576
+                }
+              }
+            }
+          }
+          lastExpr {
+            str: "&"
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                      expr {
+                        true: 2105376
+                      }
+                    }
+                    expr {
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+}

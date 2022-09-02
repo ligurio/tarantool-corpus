@@ -1,0 +1,75 @@
+chunk {
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            ellipsis: 0
+          }
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "\t"
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: 114350870233120
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                      }
+                    }
+                  }
+                  sep {
+                    semicolon: 0
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      number: 32
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      number: 32
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+}

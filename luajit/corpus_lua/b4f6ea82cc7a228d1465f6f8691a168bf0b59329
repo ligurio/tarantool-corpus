@@ -1,0 +1,147 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    fields {
+                      field {
+                        name {
+                          name: ""
+                          expr {
+                            table {
+                              list {
+                                firstField {
+                                  expr {
+                                    table {
+                                      list {
+                                        firstField {
+                                        }
+                                        fields {
+                                          field {
+                                            name {
+                                              name: ""
+                                              expr {
+                                                table {
+                                                  list {
+                                                    firstField {
+                                                      expr {
+                                                        table {
+                                                          list {
+                                                            firstField {
+                                                            }
+                                                            fields {
+                                                              field {
+                                                                name {
+                                                                  name: ""
+                                                                  expr {
+                                                                    nil: 4
+                                                                  }
+                                                                }
+                                                              }
+                                                              sep {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                    lastSep {
+                                                      comma: 13828096
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                          sep {
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                lastSep {
+                                  semicolon: 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      sep {
+                        semicolon: 0
+                      }
+                    }
+                    fields {
+                      field {
+                      }
+                      sep {
+                      }
+                    }
+                    lastSep {
+                      comma: 67108864
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            func {
+              body {
+                list {
+                  ellipsis: "#\230\177\270\2401f\324"
+                }
+                block {
+                  chunk {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

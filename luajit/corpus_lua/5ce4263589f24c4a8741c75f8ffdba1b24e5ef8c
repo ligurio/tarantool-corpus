@@ -1,0 +1,23 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "Sint64"
+          names: "__call"
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+  }
+}

@@ -1,0 +1,30 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  name {
+                    name: ""
+                    expr {
+                      false: 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            str: "%"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

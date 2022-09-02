@@ -1,0 +1,118 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "\031"
+        }
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 2251799813685248
+              }
+            }
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: "io.flush"
+                      expr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        true: 37120
+                      }
+                      rightExpr {
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    number: 2251799813685248
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          lastName: "u\001\000\000\021uu"
+        }
+        body {
+          list {
+            list {
+              names {
+                firstName: "["
+              }
+            }
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,22 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "0"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 83886080
+    }
+    semicolon: true
+  }
+}

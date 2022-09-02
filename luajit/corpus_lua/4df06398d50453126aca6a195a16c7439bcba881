@@ -1,0 +1,73 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 4
+          }
+          expr {
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    number: 206158430208
+                  }
+                }
+                fields {
+                  field {
+                  }
+                  sep {
+                    comma: 4
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      false: 4194304
+                    }
+                  }
+                  sep {
+                    comma: 4
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      false: 4194304
+                    }
+                  }
+                  sep {
+                    comma: 4
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            ellipsis: 0
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

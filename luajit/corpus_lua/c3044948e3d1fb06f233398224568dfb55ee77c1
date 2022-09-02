@@ -1,0 +1,130 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000]\000"
+          }
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      expr {
+                        prefix {
+                          var {
+                            expr {
+                              prefix {
+                                var {
+                                }
+                              }
+                              expr {
+                                prefExpr {
+                                  var {
+                                    expr {
+                                      prefix {
+                                        var {
+                                          name: "\000\000\000\000"
+                                        }
+                                      }
+                                      expr {
+                                        prefExpr {
+                                          var {
+                                            expr {
+                                              prefix {
+                                                var {
+                                                  name: "else"
+                                                }
+                                              }
+                                              expr {
+                                                prefExpr {
+                                                  var {
+                                                    expr {
+                                                      prefix {
+                                                        var {
+                                                        }
+                                                      }
+                                                      expr {
+                                                        prefExpr {
+                                                          var {
+                                                            expr {
+                                                              prefix {
+                                                                var {
+                                                                }
+                                                              }
+                                                              expr {
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        expr {
+                          number: 137977921536
+                        }
+                      }
+                    }
+                  }
+                  expr {
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    var {
+                      exprName {
+                        prefix {
+                        }
+                        name: ""
+                      }
+                    }
+                  }
+                  expr {
+                    prefExpr {
+                      var {
+                        expr {
+                          prefix {
+                            var {
+                            }
+                          }
+                          expr {
+                            prefExpr {
+                              expr {
+                                false: 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

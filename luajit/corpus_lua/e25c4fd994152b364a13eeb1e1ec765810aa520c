@@ -1,0 +1,25 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            str: "\000\000\000\000"
+          }
+          expr {
+            true: 0
+          }
+          lastExpr {
+            str: "\000\000\000\000"
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

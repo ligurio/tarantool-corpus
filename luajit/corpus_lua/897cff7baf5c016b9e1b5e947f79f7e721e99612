@@ -1,0 +1,64 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  table {
+                    list {
+                      firstField {
+                      }
+                      fields {
+                        field {
+                        }
+                        sep {
+                        }
+                      }
+                      lastSep {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "."
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  str: "\377"
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "."
+          }
+          lastExpr {
+            ellipsis: 167772160
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

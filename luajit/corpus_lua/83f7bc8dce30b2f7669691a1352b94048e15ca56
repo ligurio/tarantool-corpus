@@ -1,0 +1,127 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "?"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            expr {
+              prefix {
+              }
+              expr {
+                prefExpr {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                          exprDouble {
+                            leftExpr {
+                              number: 35321811042320
+                            }
+                            rightExpr {
+                              prefExpr {
+                                expr {
+                                  table {
+                                    list {
+                                      firstField {
+                                      }
+                                      fields {
+                                        field {
+                                          name {
+                                            name: ";"
+                                            expr {
+                                              number: 9007336693694480
+                                            }
+                                          }
+                                        }
+                                        sep {
+                                          comma: 4294967289
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        fields {
+                          field {
+                            name {
+                              name: ";"
+                              expr {
+                                number: 35321811042320
+                              }
+                            }
+                          }
+                          sep {
+                            comma: 16777215
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                nil: 11567
+              }
+            }
+          }
+          varNext {
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 4
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      localFunc {
+        name: ""
+        body {
+          list {
+            ellipsis: "."
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

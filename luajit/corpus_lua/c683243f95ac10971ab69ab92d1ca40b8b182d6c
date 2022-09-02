@@ -1,0 +1,95 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                func {
+                  body {
+                    list {
+                      list {
+                        names {
+                          firstName: ""
+                          names: "y"
+                        }
+                      }
+                    }
+                    block {
+                      chunk {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                  }
+                  expr {
+                    func {
+                      body {
+                        list {
+                          list {
+                            names {
+                              firstName: ""
+                              names: "y"
+                            }
+                          }
+                        }
+                        block {
+                          chunk {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          lastExpr {
+            prefExpr {
+              var {
+                name: "fals"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

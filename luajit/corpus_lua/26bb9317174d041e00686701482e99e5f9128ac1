@@ -1,0 +1,133 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                expr {
+                  prefExpr {
+                    var {
+                      expr {
+                        prefix {
+                        }
+                        expr {
+                          func {
+                            body {
+                              list {
+                                list {
+                                  names {
+                                    firstName: ""
+                                  }
+                                  ellipsis: ""
+                                }
+                              }
+                              block {
+                                chunk {
+                                  last {
+                                    stat {
+                                      return {
+                                      }
+                                    }
+                                    semicolon: true
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+            prefExpr {
+              var {
+                expr {
+                  prefix {
+                    expr {
+                    }
+                  }
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    table {
+                      list {
+                        firstField {
+                          expr {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        prefExpr {
+                          var {
+                            expr {
+                              prefix {
+                                expr {
+                                }
+                              }
+                              expr {
+                                table {
+                                  list {
+                                    firstField {
+                                      expr {
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+    }
+    semicolon: true
+  }
+}

@@ -1,0 +1,48 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        exprName {
+                          prefix {
+                            var {
+                            }
+                          }
+                          name: "coroutine.status"
+                        }
+                      }
+                    }
+                    name: "coroutine.status"
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+    }
+  }
+}

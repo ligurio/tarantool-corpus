@@ -1,0 +1,19 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "os.clock"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+}

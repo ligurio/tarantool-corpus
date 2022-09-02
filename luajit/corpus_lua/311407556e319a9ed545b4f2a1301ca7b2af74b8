@@ -1,0 +1,35 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            func {
+              body {
+                list {
+                  ellipsis: "?"
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            true: 0
+          }
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

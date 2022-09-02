@@ -1,0 +1,30 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "repeat"
+          names: "repeat"
+        }
+        body {
+          block {
+            chunk {
+              last {
+                stat {
+                  return {
+                    exprList {
+                      expr {
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

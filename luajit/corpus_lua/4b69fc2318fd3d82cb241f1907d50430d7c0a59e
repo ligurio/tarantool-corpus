@@ -1,0 +1,37 @@
+chunk {
+  stat {
+    stat {
+      func {
+        name {
+          firstName: "__cl"
+          lastName: "__call"
+        }
+        body {
+          list {
+            ellipsis: "and"
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+                semicolon: true
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      break: 3866624
+    }
+  }
+}

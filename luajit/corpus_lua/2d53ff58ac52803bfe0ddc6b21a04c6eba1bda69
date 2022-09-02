@@ -1,0 +1,121 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            table {
+            }
+          }
+          expr {
+            false: 16384
+          }
+          expr {
+            prefExpr {
+              expr {
+                table {
+                  list {
+                    firstField {
+                    }
+                    lastSep {
+                      comma: 4294967289
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            func {
+              body {
+                list {
+                  list {
+                    names {
+                      firstName: ""
+                      names: "\316"
+                    }
+                  }
+                }
+                block {
+                  chunk {
+                    stat {
+                      stat {
+                        func {
+                          name {
+                            firstName: "\372"
+                          }
+                          body {
+                            list {
+                              list {
+                                names {
+                                  firstName: ""
+                                  names: "\316"
+                                  names: "\242\017\000\000\000\000ic"
+                                  names: "\242\017\000\000\000\000ic"
+                                }
+                              }
+                            }
+                            block {
+                              chunk {
+                                stat {
+                                  stat {
+                                  }
+                                  semicolon: true
+                                }
+                                last {
+                                  stat {
+                                  }
+                                  semicolon: true
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    last {
+                      stat {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            number: 8798626381824
+          }
+          expr {
+            true: 4294967289
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      false: 4294967289
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

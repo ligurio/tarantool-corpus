@@ -1,0 +1,44 @@
+chunk {
+  stat {
+    stat {
+      localFunc {
+        name: "file:writ\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000e"
+        body {
+          block {
+            chunk {
+              stat {
+                stat {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+              }
+              name: ""
+            }
+          }
+        }
+        exprList {
+          expr {
+          }
+          expr {
+            nil: 5505024
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

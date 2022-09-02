@@ -1,0 +1,189 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "Bool"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+            nil: 60701952
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            name: ""
+          }
+        }
+        exprList {
+          lastExpr {
+            true: 3026432
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+          names: "Bool"
+          lastName: "Bool"
+        }
+        body {
+          list {
+            ellipsis: ""
+          }
+          block {
+            chunk {
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "Bool"
+                      }
+                    }
+                    exprList {
+                      expr {
+                        nil: 6496256
+                      }
+                      lastExpr {
+                        nil: 60701952
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  localFunc {
+                    name: ""
+                    body {
+                      list {
+                        list {
+                          names {
+                            firstName: ""
+                          }
+                        }
+                      }
+                      block {
+                        chunk {
+                          stat {
+                            stat {
+                              list {
+                                varList {
+                                  var {
+                                    name: "Bool"
+                                  }
+                                }
+                                exprList {
+                                  expr {
+                                  }
+                                  lastExpr {
+                                    nil: 6503680
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          stat {
+                            stat {
+                              localFunc {
+                                name: ""
+                                body {
+                                  list {
+                                    list {
+                                      names {
+                                        firstName: ""
+                                      }
+                                    }
+                                  }
+                                  block {
+                                    chunk {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            semicolon: true
+                          }
+                          last {
+                            stat {
+                              return {
+                                exprList {
+                                  lastExpr {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                semicolon: true
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: "Bool"
+                      }
+                    }
+                    exprList {
+                      expr {
+                        nil: 6503680
+                      }
+                      lastExpr {
+                        nil: 60686397
+                      }
+                    }
+                  }
+                }
+                semicolon: false
+              }
+              stat {
+                stat {
+                  list {
+                    varList {
+                      var {
+                        name: ""
+                      }
+                    }
+                    exprList {
+                      expr {
+                        true: 6503680
+                      }
+                      lastExpr {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

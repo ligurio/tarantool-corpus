@@ -1,0 +1,124 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: ""
+          }
+          varNext {
+            expr {
+              prefix {
+              }
+              expr {
+                number: 8
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      false: 538968064
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    name {
+                      name: ""
+                      expr {
+                        ellipsis: 2099249152
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 25344
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        prefExpr {
+                          expr {
+                            ellipsis: 0
+                          }
+                        }
+                      }
+                      rightExpr {
+                        ellipsis: 1024
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 1752457581
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                        str: "\377"
+                      }
+                      rightExpr {
+                        ellipsis: 2568487
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 67044351
+                  }
+                }
+                fields {
+                  field {
+                    exprDouble {
+                      leftExpr {
+                      }
+                      rightExpr {
+                        ellipsis: 1024
+                      }
+                    }
+                  }
+                  sep {
+                    comma: 1752457581
+                  }
+                }
+                lastSep {
+                  comma: 52480
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

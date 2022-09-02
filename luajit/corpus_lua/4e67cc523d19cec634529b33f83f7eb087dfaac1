@@ -1,0 +1,66 @@
+chunk {
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                    }
+                    rightExpr {
+                      true: 268435456
+                    }
+                  }
+                }
+                fields {
+                  field {
+                    expr {
+                      table {
+                        list {
+                          firstField {
+                          }
+                          fields {
+                            field {
+                              expr {
+                                table {
+                                  list {
+                                    firstField {
+                                    }
+                                    lastSep {
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            sep {
+                            }
+                          }
+                          lastSep {
+                          }
+                        }
+                      }
+                    }
+                  }
+                  sep {
+                  }
+                }
+                lastSep {
+                  semicolon: 0
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            str: "math.ult"
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+}

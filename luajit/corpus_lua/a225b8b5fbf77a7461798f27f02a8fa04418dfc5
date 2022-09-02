@@ -1,0 +1,88 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\000\000\000\000"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\000\000\000\000"
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "Idempotenc"
+          }
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: false
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\000\000\000\000"
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+              }
+              name: "\000\000\000\000"
+            }
+          }
+        }
+        exprList {
+          expr {
+            str: "Idempotenc"
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+    semicolon: true
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            nil: 0
+          }
+          lastExpr {
+            str: "\377"
+          }
+        }
+      }
+    }
+  }
+}

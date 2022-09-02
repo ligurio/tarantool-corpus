@@ -1,0 +1,24 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            name: "return"
+          }
+        }
+        exprList {
+          expr {
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      break: 0
+    }
+  }
+}

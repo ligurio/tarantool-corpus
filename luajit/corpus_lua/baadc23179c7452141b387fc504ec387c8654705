@@ -1,0 +1,112 @@
+chunk {
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+    }
+  }
+  stat {
+    stat {
+    }
+    semicolon: true
+  }
+  stat {
+    stat {
+      func {
+        name {
+          firstName: ""
+        }
+        body {
+          list {
+            ellipsis: "\000\000\000\000\000\000\000\000"
+          }
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      prefExpr {
+                        var {
+                          exprName {
+                            prefix {
+                            }
+                            name: "Z\303"
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            true: 2097152
+          }
+          expr {
+            nil: 4193845248
+          }
+          expr {
+            prefExpr {
+              var {
+                exprName {
+                  prefix {
+                  }
+                  name: "Z\303"
+                }
+              }
+            }
+          }
+          expr {
+          }
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  exprDouble {
+                    leftExpr {
+                      prefExpr {
+                        var {
+                          exprName {
+                            prefix {
+                            }
+                            name: "Z\303"
+                          }
+                        }
+                      }
+                    }
+                    rightExpr {
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    semicolon: false
+  }
+}

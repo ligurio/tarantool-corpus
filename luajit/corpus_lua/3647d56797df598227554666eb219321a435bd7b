@@ -1,0 +1,66 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  name: "i\252pairs"
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            exprName {
+              prefix {
+                var {
+                  exprName {
+                    prefix {
+                      var {
+                        name: "i\252pairs"
+                      }
+                    }
+                    name: ""
+                  }
+                }
+              }
+              name: ""
+            }
+          }
+          varNext {
+            expr {
+              prefix {
+                var {
+                  name: "iari\252ps"
+                }
+              }
+              expr {
+              }
+            }
+          }
+        }
+        exprList {
+          lastExpr {
+            str: "\340"
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      localFunc {
+        name: "pref"
+        body {
+          block {
+            chunk {
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+chunk {
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+            exprName {
+              prefix {
+                var {
+                  expr {
+                    prefix {
+                    }
+                    expr {
+                      prefExpr {
+                      }
+                    }
+                  }
+                }
+              }
+              name: "\250"
+            }
+          }
+        }
+        exprList {
+          expr {
+            ellipsis: 16640
+          }
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    ellipsis: 16640
+                  }
+                }
+              }
+            }
+          }
+          expr {
+            ellipsis: 16640
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  stat {
+    stat {
+      list {
+        varList {
+          var {
+          }
+        }
+        exprList {
+          expr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    ellipsis: 16640
+                  }
+                }
+              }
+            }
+          }
+          lastExpr {
+          }
+        }
+      }
+    }
+  }
+  last {
+    stat {
+      return {
+        exprList {
+          lastExpr {
+            table {
+              list {
+                firstField {
+                  expr {
+                    ellipsis: 16640
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
