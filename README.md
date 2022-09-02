@@ -11,7 +11,7 @@ $ cmake --build build/ --parallel 8 --target lua_fuzzer
 
 ```
 $ git clone https://github.com/ligurio/test-corpus
-$ ./build/test/fuzz/lua_fuzzer/lua_fuzzer -reduce_inputs=1 -mutate_depth=20 -print_final_stats=1 -report_slow_units=5 -use_value_profile=1 -artifact_prefix="luajit-" -print_pcs=1 -reload=1 -jobs=8 -dict=./test-corpus/luajit.dict test-corpus/luajit/corpus_lua/
+$ ./build/test/fuzz/lua_fuzzer/lua_fuzzer -reduce_inputs=1 -mutate_depth=20 -print_final_stats=1 -report_slow_units=5 -use_value_profile=1 -artifact_prefix="luajit-" -print_pcs=1 -reload=1 -jobs=8 -dict=./test-corpus/luajit.dict test-corpus/luajit/protobuf/
 ```
 
 ### How-to merge corpuses
