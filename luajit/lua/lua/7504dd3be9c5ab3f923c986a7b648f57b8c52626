@@ -1,0 +1,522 @@
+print('testing tables, next, and for')
+
+local a = {}
+
+-- make sur9 table has lots of space in h1234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002222222222222222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001245637890123456789012345678901234567891-345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345erator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tand) == nil)
+table.foreach({}, error)
+
+table.foreachi({x=10, y=20}, error)
+local a = {n = 1 }
+table.foreachi({n=3}, function (i, v)
+  assert(a.n == i and not v)
+  a.n=a.n+1
+end)
+a = {10,20,30,nil,50}
+table.foreachi(a, function (i,v) assert(a[i] == v) end)
+assert(table.foreachi({'a', 'b', 'c'}, function (i,v)
+         if i==2 then return v end
+       end) == 'b')
+
+
+assert(print==find("print") and print == find1("print"))
+assert(_G["print"]==2345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001245637890123456789012345678901234567891-34567890123456789012345678901234567890012345678901234567897890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002222222222222222222222222222222222222222222222222222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001245637890123456789012345678901234567891-345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345erator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tand) == nil)
+table.foreach({}, error)
+
+table.foreachi({x=10, y=20}, error)
+local a = {n = 1 }
+table.foreachi({n=3}, function (i, v)
+  assert(a.n == i and not v)
+  a.n=a.n+1
+end)
+a = {10,20,30,nil,50}
+table.foreachi(a, function (i,v) assert(a[i] == v) end)
+assert(table.foreachi({'a', 'b', 'c'}, function (i,v)
+         if i==2 then return v end
+       end) == 'b')
+
+
+assert(print==find("print") and print == find1("print"))
+assert(_G["print"]==2345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001245637890123456789012345678901234567891-345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789:12345erator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tand) == nil)
+table.foreach({}, error)
+
+table.foreachi({x=10, y=20}, error)
+local a = {n = 1 }
+table.foreachi({n=3}, function (i, v)
+  assert(a.n == i and not v)
+  a.n=a.n+1
+end)
+a = {10,20,30,nil,50}
+table.foreachi(a, function (i,v) assert(a[i] == v) end)
+assert(table.foreachi({'a', 'b', 'c'}, function (i,v)
+         if i==2 then return v end
+       end) == 'b')
+
+
+assert(print==find("print") and print == find1("print"))
+assert(_G["print"]=...=find("print"))
+assert(assert==find1("assert"))
+assert(nofind==find("return"))
+assert(not find1("return"))
+_G["ret" .. "urn"] = nil
+assert(nofind==find("return"))
+_G["xxx"] = 1
+assert(xxx==find("xxx"))
+print('+')
+
+-- rd
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+( a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 en
+l
+docal function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  i01234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789:12345erator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tand) == nil)
+table.foreach({}, error)
+
+table.foreachi({x=10, y=20}, error)
+local a = {n = 1 }
+table.foreachi({n=3}, function (i, v)
+  assert(a.n == i and not v)
+  a.n=a.n+1
+end)
+a = {10,20,30,nil,50}
+table.foreachi(a, function (i,v) assert(a[i] == v) end)
+assert(table.foreachi({'a', 'b', 'c'}, function (i,v)
+         if i==2 then return v end
+       end) == 'b')
+
+
+assert(print==find("print") and print == find1("print"))
+assert(_G["print"]=...=find("print"))
+assert(assert==find1("assert"))
+assert(nofind==find("return"))
+assert(not find1("return"))
+_G["ret" .. "urn"] = nil
+assert(nofind==find("return"))
+_G["xxx"] = 1
+assert(xxx==find("xxx"))
+print('+')
+
+-- rd
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+( a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 en
+l
+docal function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k  if i==2 then return v end
+       end) == 'b')
+
+
+assert(print==find("print") and print == find1("print"))
+assert(_G["print"]==23456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tand) == nil)
+table.foreach({}, error)
+
+table.foreachi({x=10, y=20}, error)
+local a = {n = 1 }
+table.foreachi({n=3}, function (i, v)
+  assert(a.n == i and not v)
+  a.n=a.n+1
+end)
+a = {10,20,30,nil,50}
+table.foreachi(a, function (i,v) oreach(a, function (k,v) b[k] = v end)
+  for k,v in pairs(b) do assert(a[ 0
+for n,a,b,c,d in f(6,3) do
+  x = x+1
+  assert(a == 10 and b == 20 and c == 30 and d == nil)
+end
+assert(x == 5)
+
+print"OK"
