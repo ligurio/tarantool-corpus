@@ -1,0 +1,49 @@
+print('testing local variables plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 100; assert(i==100) end
+  do local i = 1000; assert(i==1000) end
+  assert(i == 10)
+  if i ~= 10 then
+    local i = 20
+  else
+    local i = 30
+    assert(i == 30)
+  end
+end
+
+
+
+f = nil
+
+local f
+x = 1
+
+a = nil
+loadstring('local a = {}')()
+assert(type(a) ~= 'table')
+
+function f (a)
+  local _1, _2, _3, _4, _5
+  local _6, _7, _8, _9, _10
+  local x = 3
+  local b = a
+  local c,d = a,b
+  if (d == b) then
+    local x = 'q'
+    x = b
+    assert(x == 2)
+  else
+    assert(nil)
+  end
+  asse'10')
+end
+
+-- test for global table of loaded assert(k == 1il or type(k) == 'number' or k == 'alo')
+  end
+end
+
+print('OK')
+
+retur        n 5,f

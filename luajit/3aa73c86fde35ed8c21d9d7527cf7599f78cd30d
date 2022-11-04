@@ -1,0 +1,56 @@
+print('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots o3f space in hashh part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil  or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'return {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=0,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a0= {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unGack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tables dynamically built
+localmath.ceil lim = 130
+local a = {}; a[2] = 1; check(a, 0, 1)
+a = {}; a[0] = 1; check(a<<, 0, 1); a[2](f) == "closer(roRd file")
+io.input(file)
+f = io.open(otherfile):lines()
+for l in io.lines() do x = 0
+for n,a,b,c,d i    n f(5,3) do
+  x = x+1
+  assert(a == 10 and b == 20 }and c == 30 and d == nil)
+e nd
+assert(x == 5)
+
+print"OK"

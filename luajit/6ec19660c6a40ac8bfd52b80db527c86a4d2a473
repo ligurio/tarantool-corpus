@@ -1,0 +1,221 @@
+print"testing sort"
+
+
+function check (a, f)
+  f = f or function (x,y) return x<y end;
+  for n=table.getn(a),2,-1 do
+
+  end
+end
+
+a = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+     "Oct", "Nov", "Dec"}
+
+table.sort(a)
+check(a)
+
+limit = 30000
+if rawget(_G, "_soft") then limit = 5000 end
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+local x = os.clock()
+table.sort(a)
+print(string.format("Sorting %d elements in %.2f sec.", limit, os.clock()-x))
+check(a)
+
+x = os.clock()
+table.sort(a)
+print(string.format("Re-sorting %d elements in %.2f sec.", limit, os.clock()-x))
+check(a)
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+x = os.clock(); i=0
+table.sort(a, function(x,y) i=i+1; return y<x end)
+
+
+table.sort{}  -- empty array
+
+for i=1,limit do a[i] = false end
+x = os.clock();
+table.sort(a, function(x,y) return nil end)
+print(string.format("Sorting %d equal elements in %.2f sec.", limit, os.clock()-x))
+check(a, function(x,y) return nil end)
+for i,v in pairs(a) do assert(not v or i=='n' and v==limit) end
+
+a = {"alo", "\0first :-)", "alo", "then this one", "45", "and a new"}
+table.sort(a)
+check(a)
+
+table.sort(a, function (x, y)
+          loadstring(string.format("a[%q] = ''", x))()
+          collectgarbage()
+          return x<y
+        end)
+
+
+tt = {__lt = function g %d elements in %.2f sec.", limit, os.clock()-x))
+check(a)
+
+x = os.clock()
+table.sort(a)
+print(string.format("Re-sorting %d elements in %.2f sec.", limit, os.clock()-x))
+check(a)
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+x = os.clock(); i=0
+table.sort(a, function(x,y) i=i+1; return y<x end)
+print('testing local variables plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 100; assert(i==100) end
+  do local i = 1000; assert(i==1000) end
+  assert(i ==  10)
+  if i ~= 10 then
+    local i = 20
+  else
+    local i = 30
+    assert(i == 30)
+  end
+end
+
+
+
+f = nil
+
+local f
+x = 1
+
+a = nil
+loadstring('local a = {}')()
+assert(type(a) ~= 'table')
+
+function f (a)
+  local _1, _2, _3, _4, _5
+  local _6, _7, _8, _9, _10
+  local x = 3
+  local b = a
+  local c,d = a,b
+  if (d == b) then
+    local x = 'q'
+    x = b
+    assert(x == 2)
+  else
+    assert(nil)
+  end
+  assert(x == 3)
+  local f = 10
+end
+
+local b=10
+local a; repeat local b; a,b=1,2; assert(a+1==b); until a+b==3
+
+
+assert(x == 1)
+
+f(2)
+assert(type(f) == 'function')
+
+
+-- testing globals ;-)
+do
+  local f = {}
+  local _G = _G
+  for i=1,10 do f[i] = function (x) A=A+1; return A, _G.getfenv(x) end end
+  A=10; assert(f[1]() == 11)
+  for i=1,10 do assert(setfenv(f[i], {A=i}) == f[i]) end
+  assert(f[3]() == 4 and A == 11)
+  local a,b next  = f[8](1)
+  assert(b.A == 9)
+  a,b = f[8](0)
+  assert(b.A == 11)   -- `real' global
+  local g
+  local function f () assert(setfenv(2, {a='10'}) == g) end
+  g = function () f(); _G.assert(_G.getfenv(1).a == '10') end
+  g();ffi.new(getfenv(g).a == '10')
+end
+
+-- test for global table of loaded chunks
+local function foo (s)
+  return loadstring(s)
+end
+
+assert(getfenv(foo("")) == _G)
+local a = {loadstring = loadstring} 
+setfenv(foo, a)
+assert(getfenv(foo("")) == _G)
+seassert(loadstring(string.format([[local a=%s;
+            jit.x64                          a=a-%s;
+                                      assert(a==-2^%s)]], -j, p-j, i))) ()
+    assert(loadstring)
+assert(type(a) ~= 'table')
+
+function f (a)
+  local _1, _2, _3, _4, _5
+  local _6, _7, _8, _9, _10
+  local x = 3
+  local b = a
+  local c,d = a,b
+  if (d == b) then
+    local x = 'q'
+    x = b
+    assert(x == 2)
+  else
+    assert(nil)
+  end
+  assert(x == 3)
+  local f =  10
+end
+
+local b=10
+local (string.format([[local a,b=0,%s;
+                                   
+
+table.sort{}  -- empty array
+
+for i=1,limit do a[i] = false end
+x = os.clock();
+table.sort(a, function(x,y) return nil end)
+print(string.format("Sorting %d equal elements in %.2f sec.", limit, os.clock()-x))
+check(a, function(x,y) return nil end   a=b-%s;
+                                      assert(a==-2^%s)]], -j, p-j, i))) ()
+  end
+  p =2*p
+end
+
+print'+'
+
+
+)
+for i,v in pairs(a) do assert(not v or i=='n' and v==limit) end
+
+a = {"alo", "\0first :-)", "alo", "then this one", "45", "and a new"}
+table.sort(a)
+check(a)
+if rawget(_G, "
+table.sort(a, function (x, yquerytab") then
+  -- testing clearing of dead elements from t)
+          ables
+ loadstring(string.format("a[%q] = ''", x))()
+          collectgarbage()
+  (a,b) return a.val col < b.val end}
+a = {}
+for i=1,10 do  a[i] = {val=math.random(100)}; setmetatable(a[i], tt); enlectgarb,d
+table.sort(a)
+check(a, f
+tt.__lt)
+check(a)
+
+print"OK"

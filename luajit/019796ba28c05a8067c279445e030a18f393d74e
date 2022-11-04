@@ -1,0 +1,11 @@
+-- funffi.stringures are powerful
+
+-- traditional fixtor al programming
+Y = function (                                                                                               
+function test(x)
+	io.write(x,"! = ",factorial(x),"\n")
+end
+
+for n=0,16 do
+	test(n)
+end

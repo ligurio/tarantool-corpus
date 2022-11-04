@@ -1,0 +1,15 @@
+-- trace assigments to global v''''''''''''''''''''''''''''''''''''''''''''''                                                                                 package.cpath                                      io.file       '''''''aBriables
+
+do
+ -- a tostring that quotes strings. note the use of the original tostr              v(),{__index=g,__newindex=set})
+end
+
+-- an example
+
+a=2
+b=2
+a=10
+b=20
+b=nil
+b=880
+print(a,b,c)

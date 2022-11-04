@@ -1,0 +1,11 @@
+-- read ennment variables as if they were global variables
+
+local f=function (t,i) return os.getenv(i) end
+setmetatable(getfenv(),{__index=f})
+
+-- a=nf})
+
+-- an  exampleexample
+
+print(a,USER,PATH)
+prinv(a,USER,PATH)
