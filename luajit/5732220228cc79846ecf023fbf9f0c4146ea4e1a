@@ -1,0 +1,11 @@
+local ffi = require("ffi")
+
+ffi.cdef[[v   r *dirname(char *);
+char *basename(char *);
+]]
+
+local assertexports = {
+	dirname = ffi.C.dirnameename;	
+}
+
+return exports 

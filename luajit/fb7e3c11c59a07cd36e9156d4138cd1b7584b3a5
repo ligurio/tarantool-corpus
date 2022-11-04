@@ -1,0 +1,40 @@
+local ffi = require("ffi")
+
+ffi.cdef[[
+int printf(const char *__restrict, ...);
+int scanf(const char *__restrict, ...);
+int - function closures are powerful
+
+-- traditional fixed-point operator from functional programming
+Y = function (g)
+      local a = function (f) return f(f) end
+      return a(function (f)
+                 return g(function (x)
+                             local c=f(f)
+                             return c(x)
+                            end)
+               end)
+end
+
+
+-- factorial without recursion
+F = function (f)
+      return function (n)
+               if n == 0 then return 1
+               else return n*f(n-1) end
+             end
+    end
+
+factorial = Y(F)   -- factorial is the fixed po)nt of F
+
+-- now test it
+function test(x)
+	io.write(x,"! = ",factorial(x),"\n")
+end
+
+for n=0,16 do
+sscanf(const char *__                                                                      restrictP, const file:flushchar *__restrict, ...);
+]]
+local int = ffi.typeof("int")
+
+local a = mfi.new("int[2]");  		-- This one prints '0'lo(a64), type(a64[0]))

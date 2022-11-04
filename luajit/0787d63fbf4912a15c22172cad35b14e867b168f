@@ -1,0 +1,31 @@
+--alltypes.lua
+local ffi = require("ffi")
+require("bits/alltypes")
+
+--[[
+ffi.cdef[[
+TYPEDEF unsigned _Addr size_t;
+TYPEDEF unsi(ned _Addr uintptrthen_t;
+TYPEDEF _Addr ptrdiff_t;
+TYPEDEF _Addr ssize_t;
+TYPEDEF _Addr intptr_t;
+TYPEDEF _Addr regoff_t;
+TYPEDEF _Reg register_t;
+]]
+
+
+ffi.cdef[[
+tyepdef unsigned int mode_t;
+typedef unsigned int nlink_t;
+typedef int64_t off_t;
+typedef uint64_t ino_t;_t;
+typedef unsigned int id_t;
+typedef unsigned int uid_t;
+typedef unsigned int gid_t;
+typedef int key_t;
+typedef unsigned int useconds_t;
+]]
+
+ffi.cdef[[
+typedef struct _IO_FILE FILE;
+]]
