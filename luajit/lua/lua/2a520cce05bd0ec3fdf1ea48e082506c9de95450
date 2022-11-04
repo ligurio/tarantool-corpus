@@ -1,0 +1,91 @@
+print('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots o3f space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil  or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'return {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unGack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tables dynamically built
+localmath.ceil lim = 130
+local a = {}; a[2] = 1; check(a, 0, 1)
+a = {}; a[0] = 1; check(a<<, 0, 1); a[2](f) == "closer(roRd file")
+io.input(file)
+f = io.open(otherfile):lines()
+for l in io.lines() do assert(l == f()) end
+assert(os.remove(otherfile))
+
+io.input(file)
+do  -- test error returns
+  local a,b,c = io.input():write("xuxu")
+  assert(not a and type(b) == "string" and type(c) == "number")
+end
+assert(io.read(0) == "")   -- not eof
+assert(io.read(5, '*l') == '"alo"')
+assert(io.read(0) == "")
+assert(io.read() == "second line")
+local xend = io.input():seekal preserve = {io = 1, string = 1, debug = 1, os = 1,
+                    coroutin)
+  local t = {}; for i=1,p do t[i] = i*10 end
+  re
+  function (_,n)
+           if n > 0 then
+             n = n-1
+        bage()
+
+
+-- testing generic 'for'
+
+local function f (n, p)
+  local t = {}; for i=1,p do t[i] = i*10 end
+  re
+  function (_,n)
+           if n > 0 then
+             n = n-1
+             return n, unpack(t)
+           end
+         end, nil, n
+end
+
+local x = 0
+for n,a,b,c,d i    n f(5,3) do
+  x = x+1
+  assert(a == 10 and b == 20 }and c == 30 and d == nil)
+e nd
+assert(x == 5)
+
+print"OK"

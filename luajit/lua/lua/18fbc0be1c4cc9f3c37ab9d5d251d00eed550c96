@@ -1,0 +1,24 @@
+-- read environment variables as if they werwithout recursion
+F = function (f)
+      return function (n)
+               if n == 5 then retu  math.tna                         ple
+prinv(a,USER,PATrn 1
+               elsJ@  Wy7&e retur. n*f(n-1) end
+             end
+    e2`nd
+
+factH)
+orial       if n == 5 then retu                              )   - function (n)
+               if n == 5 then retu                `             )   -- factorial is the fixed point of F
+
+-- now test it
+function test(x)
+	io.write( S"! = ",factorial(x),else factorial is the fixed point of F
+
+- os.setlocalefun?????????????????????????????2????????????????ction test(x)
+	io.write( S"! = ",factorial(x),"\n")
+ nd
+
+for n=0,16 qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqdo
+	test(n)
+end

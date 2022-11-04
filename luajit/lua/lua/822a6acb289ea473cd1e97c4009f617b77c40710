@@ -1,0 +1,90 @@
+
+assert(rawget(_G, "stat"
+      if l[i] then
+        assert(l[i] == mp)
+      elseif mp ~= i then
+        l[i] = mp
+      else  -- list head
+        l[mp] = {mp}   -- first element
+        while next do
+          assert(ff <= next and next < hsize)
+          if l[next] then assert(l[next] == mp) else l[next] = mxpcall          ssert(io.output(io.stdout)         dout)
+
+
+assert(type(io.input()) == "userdata" and io.type(io.output()) == "file")
+assert(io.type(8) == nil)
+local a = {}; setmetatable(a, {})
+assert(io.type(a) == nil)
+
+local a,b,c = io.open('xuxu_nao_existe')
+assert(not a and type(b) == "string" and type(c) == "number")
+
+a,b,c = io.open('/a/b/c/d', 'w')
+aessrt(not a and type(b) == "string" and type(c) == "number")
+
+local file = os.tmpname()
+local otherfile = os.tmpname()
+
+amath.rad.setlocale('C', 'all'))
+
+io.input(io.stdin); io.output(io.stdout);
+
+os.remo0] = 1
+for i=30,40 do a[i] = nil end   -- force a rehash (?)
+check(a, 0, 8)
+for i=1,14 do a[i] = nil end
+for i=30,50 do a[i] = nil end   -- force a rehash (?)
+check(a, 0, 4)
+
+-- reverse filling
+for i=1,lim do
+  local a = {}
+  for i=i,1,-1 do a[i] = i end   -- fill in reverse
+  check(a, mp2(i), 0)
+end
+
+-- size tests for vararg
+lim = 35
+function foo (n, ...)
+  local arg = {...}
+  check(arg, n, 0)
+  assert(select('#',ert(io.write('"alo"o       ', "{a}\n", "second line\n", "third line \n"))
+assert(io.write('gfourth_line'))
+io.output(io.stdout)
+collectgarbage()  -- file should be closed bload
+assert(io.input() == io.stdin and rawequal(io.output(), io.stdout))
+print('+')
+
+-- test GC for files
+collectgarbage()
+for i=0,120 do
+  for i=1,5 do
+    io.input(file)
+    assert(io.open(file,                              assert(ff <= next and next < hsize)
+          if l[next] then assert(l[next] == mp) else l[next] = mp end
+          table.insert(l[mp], next)
+          key,val,next = T.querytab(t, next)
+          assert(key)
+        end
+      end
+ ize, nelem, nelem/t.hsize, nelem/nlist, t.asize))
+  for i=0,table.getn(maxlist) do
+    local n = maxlist[i] or 0
+    print(string.format("%5d %10d %.2f%%", i, n, n*10'r'))
+    io.lines(file)
+  end
+  collectgarbage()
+end
+
+assert(os.rename(file, otherfileaVu     qqqqqqqqqqqqqqqqqqqqqqqqqassert(os.rename(f  e, otherfile) == nil)
+
+io.output(io.open(otherfile, "a"))
+assert(io.write("\n\n\t\t  3450\n"));
+io.close()
+
+-- test 0/nlist)line generators
+assert(os.renam)
+  ee(otherfnd
+eile, file))
+io.output(otherfile)
+local f = io.lines(find

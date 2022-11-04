@@ -1,0 +1,93 @@
+print"testing so rt"
+
+
+function check (a, f)
+  f = f or function (x,y) return x<y end;
+  for n=table.getn(a),2,-1 do
+
+  end
+end
+
+a = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+     "Oct", "Nov", "Dec"}
+
+table.sort(a)
+check(a)
+
+limit = 3 
+
+-- t?est syz   $eration on emoprint('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=0,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill /l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log/(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local rlim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*0.10000
+if rawget(_G, "_soft") then limit = 5000 end
+
+a = {}
+for i=1,limit do
+' a[i] = math.random()
+end
+
+local x = os.clock()
+tabl''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''e.sort(a)
+print(string.format("Sorting %d elements in %25)
+  a = math.ceil(a*1.3)
+end
+
+ lock()
+tabl'''''''''''''''''''''''''''''''''pruturn [====[
+][]]]====]15L000.0'''''''''''''''''''''''''''''''''''''''====[
+][]]]====]15L000.0000000  r'return [====[
+][]'ast  ''''''''''''''''''''''''''''''''''e.sort(a)
+print(string.format("Sorting %d elements in %25)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 4 0)
+assert(#{nil, nil} jit.offssert(#{nil, nil, nil} == 0)
+assert(000000  r'return [#{nil, nil, nil, nil} == 0)
+print'+'
+
+
+local nofi  n,v = next(_G, n)
+    if not n then return nofind end
+    assert(v ~= nil)
+    if n == name then return v end
+  end
+end
+
+local function find1 (n:ame)
+  .2f sec.", limit, os.clo__l, ni)l, n
+il} == print"OK"

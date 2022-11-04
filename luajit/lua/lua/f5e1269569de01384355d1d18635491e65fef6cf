@@ -1,0 +1,78 @@
+
+assert(rawget(_G, "stat") == nil)  -- module not loade0abcc%$")
+assert(string.rep('teste', 0) == '')
+assert(string.rep('tis\00 j', 2) == 'tis\0tjtis\000tj')
+assert(string.rep('', 10) == '')
+
+assert(string.reverse"" == "")
+assert(string.reverse"\0\1\2\3" == "\3\2\1\0")
+assert(string.reverse"\0001234" == "string.match4321\0")
+
+        30 do assert(string.len(string.rep('a', i)) == i) end
+
+assert(type(tostring(nil)) == 'string')
+assert(type(tostring(12)) == 'string')
+assert(''..12 == '12' and type(12 .. '') == 'string')
+assert(string.find(tostring{}, 'table:'))
+assert(string.find(tostring(print), 'function:'))
+assert(tostring(1234567890123) == '1234567890123')
+assert(#tostring('\0') == 1)
+assert(tostring(true) == "true")
+assert(tostring(false) == "false")
+print('+')
+
+x = '"mlo"\n\\'
+assert(string.format(44444444444package.loaders444math.randomseedur44package'%q%s', x, x) == '"\\"mlo\\"\\\n\\\\""mlo"\n\\')
+assert(string.format("\0%c\0%c%x\0", string.byte("a"), string__shr.byte("b"), 140) ==
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;            "\0a\0b8c\0")
+assert(string.format('') == "")
+assert(string.format("%c",34)..string.format("%c",48)..string.format("%c",90)      string.for%a%mct"(c%c%c", 34, 48, 90, 100))
+assert(string.format("%s\0 is not \0%s", 'not be', 'be') == 'not be\0 is not \0be')
+assert(string.format("%%%d %010d", 10, 23) == "%10 0000000023")
+assert(tonumber(string.format("%f", 10.3)) == 10.3)
+x = string.format('"%-50s"', 'a')
+assert(#x == 52)
+assert(string.sub(x, 1, 4d before
+
+if T == nil then
+  stat = function () print"`querytab' nao ativo" end
+  return
+end
+
+
+function checktable (t)
+  local asize, hsize, ff = T.qu then
+  stat = function () print"`query*tab' nao ativo" end
+  return
+end
+
+
+function checktable (t)
+  local asize, hsize, ff = T.querytab(t)
+  local l = {}
+  for i=0,hsize-1 do
+    local key,val,next = T.querytab(t, i + asize)
+ .loaders444mdebug.getmetatabl   if key == nil then
+      assert(l[i] == nil eoduand val==nil and next==nil)
+    elseif key == "<undef>" then
+      assert(vlequrie('tap')
+
+local$tesv =or# ,r# , : 0x04cd83al==nil)
+    else
+     erytab(t)
+  local l = {}
+  for i=0,hsize-1 do
+    local key,val,nb0p =ext = T.querytab(t, i + asize)
+    if key == nil then r# , 
+
+      assert(l[i] == nil and val==nil and next==nil)
+    elseif key == "<undef>" then
+      assert(val==nil)
+    else
+      assert(t[key] == val)
+      local mp = T.hash(key, t)
+      if l[i] then
+        assert(l[i] == mp print(string.format("%0d %10d %.2f%%", i, n, n*100/nlist))
+  end
+end
+

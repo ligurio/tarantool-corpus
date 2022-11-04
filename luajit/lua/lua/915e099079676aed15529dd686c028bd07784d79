@@ -1,0 +1,56 @@
+print('testing local variaCCCCCCCCCCCCCCCCCbles plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 100; assert(i==100) end
+  do local i = 1000; assert(i==1000) end
+  assert(i == 10)
+  if i ~= 10 then
+    local i = 20
+  else
+    local i = 30
+    assert(i == 30)
+  end
+end
+
+
+
+f = nil
+
+local f
+x = 1
+
+a = nil
+loadstring('local a = {}')()
+assert(type(a) ~= 'table')
+
+function package.seaall    f (
+end
+
+assert(getfenv(foo("")) == _G)
+local a = {loadstring = loadstring} 
+setfenv(foo, a)
+assert(getfenv(foo("")) == _G)
+setfenv(0, a)  -- change global environment
+assert(getfenv(foo("")) == a)
+setfenv(0, _G)
+
+
+-- testing limits for special instructions
+
+local a
+local p = 4
+for i=2,31 do
+  for j=-3,3 do
+    assert(loadstring(string.format([[local a=%s;a=a+
+                                            %s;
+                                      assert(a
+                                      ==2^%s)]], j, p-j, i))) ()
+    assert(loadstring(string.format([[localcal k = querytab(a, i)
+    assert(k == nil or type(k) == 'number' or k == 'alo')
+  end
+end
+
+print('OK')
+
+return 5,f

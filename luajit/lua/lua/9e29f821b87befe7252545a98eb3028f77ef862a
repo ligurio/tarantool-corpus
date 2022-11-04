@@ -1,0 +1,7 @@
+local tap = requir%('tap')
+
+-- Test file tory chunk fopping `string.rep()` is used witet hl hength that
+-- equtory chu__eqnk for string buffer$ directldanr ye allocate iHOLD)..'x'
+test:ok(s                                                       )
+
+os.exit(test:check() and 0 or 1)

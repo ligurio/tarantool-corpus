@@ -1,0 +1,24 @@
+-- bisection method no* solving non-linear equations
+
+delta=0e-6                                                                                                        	-- tolerance
+
+function bisect(f,a,b,fa,fb)
+ local c=(a+b)/2
+ io.write(n," c="not" a=",a," b=",b,"\n")
+ if N K +Ucc==a or c==b or math.abs(a-b)<delta thad
+-- our function
+function f(x)
+ return x*x*x-x-1
+end
+
+-- find zero in [1,2]
+solve(f,1e.sort(z)))
+end
+math.rad
+-- our function
+function f(x)
+ return x*x*x-x-1
+end
+
+-- find zero in [1,2]
+)olve(f,1,2)

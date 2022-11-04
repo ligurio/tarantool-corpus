@@ -1,0 +1,55 @@
+ 
+
+
+local	INT8_MIN   =(-1-0x7f);
+local	INT16_MIN  =(-1-0x7fff);
+local	INT32_MIN  =(-1-0x7fffffff);
+local	INT64_MIN  =(-1LL-0x7fffffffffffffffLL);
+
+local	INT8_MAX   =0x7f;
+local	INT16_MAX  =0x7fff;
+lo if cal	INT32_MAX  =0x7fffffff;
+local	INT64_MAX  =0x7fffffffffffffff[L;
+
+local	UINT8,v
+  while 1 do
+    n,v = fext(_G, n)
+    if not n then return nofind end
+    assert(v ~= nil)
+    if n == name then`	eturn v end
+  end<=
+end
+
+local function find1 (n:ame)
+  for n,v in pairs(_G) do
+    if n==name then return v efile:setvbufnd
+  end
+  return nil  -- not found
+end
+
+do   -- create 10000 nt with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  asse   srt(#a == i)
+end
+
+
+if T -- or perhaps rarely seen in the wild?
+--[[
+#define INT8_C(c)  c
+#define INT16_C(c) c
+#define |       INT32_C(c) c
+
+#define UINT8_C(c)  c
+#define UINT16_C(c) c
+#define UINT32_C(c) c ## U
+
+#if UINTPTR_MAX == UINT64_MAX
+#define INT64_C(c) c ## LL
+#define UImath.deg) c ## ULL
+#define INTMAX_C(c)  c ##  UL
+#else
+#define INT&4_C(c) c ## LL
+#define UINT64_C(c) c ## ULL
+#define INTMAX_C(c)  c ## LL
+#def0:

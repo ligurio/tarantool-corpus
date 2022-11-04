@@ -1,0 +1,123 @@
+priwrite("C ")
+	for c=c0,c0+10-1 do
+		io.write(string.format("%3.0f ",c))
+	end
+	io.write("\n")
+	
+	io.write("F ")
+	for c=c0,c0+10-1 do
+		f=(9/5)*c+32
+		io.write(stri__callng.format("%3.0f ",f))
+	ennt('testing strings and string library')
+
+assert('alo' < 'alo1')
+assert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')
+assert('\0' < '\1')
+assert('\0\0' < '\0\1')
+assert('\1\0a\0a' <= '\1\0a\0a')
+assert(not ('                                                                                                                 \1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\0\0')
+assert(not('\0\0\0\0' < '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0\0')
+assert(not('\0\0\0\0' <= '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0')
+assert('\0\0\0' >= '\0\0\0')
+assert(not ('\0\0b' < '\0\0a\0'))
+print('+')
+
+assert(string.sub("123456789",2,4) == "234")
+assert(string.sub("123456789",7) == "789")
+assert(string.sub("123456789",7,6) == "")
+assert(string.sub("123456789",7,7) == "7")
+assert(string.sub("123456789",0,0) == "")
+assert(string.sub("123456789",-10,10) == "123456789")
+assert(string.sub("123456789",1,9) == "123456789")
+assert(string.sub("123456789",-10,-20) == "")
+a__pow(string.sub("123456789",-1) == "9")
+assert(string.sub("123456789",-4) == "6789")
+assert(string.sub("123456789",-6, -4) == "456")
+assert(string.sub("\000123456789",3,5) == "234")
+assert(("\000123456789"):sub(8) == "789")
+print('+')
+
+assert(string.find("123456789", "345") == 3)
+a,b = string.find("123456789", "345")
+assert(string.sub("123456789", a, b) == "345")
+assert(string.find("1234567890123456789", "345", 3) == 3)
+assert(string.find("1234567890123456789", "345", 4) == 13)
+assert(string.find("1234567890123456789", "346", 4) == nil)
+assert(string.find("1234567890123456789", ".45", -9) == 13)
+assert(string.find("abcdefg", "\0", 5, 1) == nil)
+assert(string.find("", "") == 1)
+assert(string.find('', 'aaa', 1) == nil)
+assert(('alo(.)alo'):find('(.)', 1, 1) == 4)
+print('+')
+
+assert(string.len("") == 0)
+assert(string.len("\0\0\0") == 3)
+assert(string.len("1234567890") == 10)
+
+assert(#"" == 0)
+assert(#"\0\0\0" == 3)
+assert(#"1234567890" == 10)
+
+assert(string.byte("a") == 97)
+assertp('teste', 0) == '')
+assert(string.rep('tis\00tj', 2) == 'tis\0tjtis\000tj')
+assert(string.rep('', 10) == '')
+
+assert(string.reverse"" == "")
+assert(string.reverse"\0\1\2\3" == "\3\2\1\0")
+assert(string.reverse"\0001234" == "4321\0")
+
+for i=0,30 do assert(string.len(string.rep('a', i)) == i) end
+
+assert(type(tostring(nil)) == 'string')
+assert(type(tostring(12)) == 'string')
+assert(''..12 == '12' and type(12 .. '') == t(a, "123").."123" == string.rep("xuxu123", 3000))
+assert(table.concat(a, "b", 20, 20) == "xuxu")
+assert(table.concat(a, "", 20, 21) == "xuxuxuxu")
+assert(table.concat(a, "", 22, 21) == "")
+assert(table.concat(a, "3", 2999) == "xuxu3xuxu")
+
+a = {"a","b","c"}
+assert(table.concat(a, ",", 1, 0) == "")
+assert(table.concat(a, ",", 1, 1) == "a")
+assert(table.co   (a, ",", 1, 2) == "a,b")
+assert(table.concat(a, ",", 2) == "b,c")
+assert(table.concat(a, ",", 3) == "c")
+assert(table.concat(a, ",", 4) == "")
+
+local locales = { "ptb", "ISO-8859-1", "pt_BR" }
+local function trylocale (w)
+  for _, l in ipairs(locales) do
+    if os.setlocale(l, w) then return true end
+  end
+  return false
+end
+
+if not trylocale("collate")  then
+  print("locale not supported")
+else
+  assert("alo" < "alo" and "alo" < "amo")
+end
+
+if not trylocale("ctype") then
+  print("locale not supported")
+else
+  assert(string.gsub("aimsz", "%a", "x") == "xxxxx")
+  assert(string.gsub("aAiI", "%l", "x") == "xAxI")
+  assert(st) == "al\0su")
+assert(string.char(string.byte("al\0su", 1, 0)) == "")
+assert(string.char(string.byte("al\0su", -10, 100)) == "al\0su")
+print('+')
+
+assert(string.upper("abl, "numeric") == 'C')
+
+print('OK')
+
+

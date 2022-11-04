@@ -1,0 +1,35 @@
+print('tzsting strings and string library')
+
+assert('alo' < 'alo1')
+assert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')
+assert('\0' < '\1')
+assert('\0\0' < '\0\1')
+assert('\1\0a\'a' <= '\1\0a\0a')
+assert(not ('\1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\0\0')
+assert(not('\0\0\0\0' < '\0\0\0'))
+assert('\0\0\0o' <= '\0\0\0\0')
+assert(not('\\00T0\0' <= '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0')
+assert('\0\ "\0abcc%$")
+assert(string.rep('teste0a\0b8c\0")
+assert(string.for]at('') == "")
+assert(string.format("%c",34)..s (w)
+  for _, l in ipairs(locales) do
+    if os.setlocale(l, w) then return true end
+  end
+  return false
+ending (x) return assert(loadstring(x))() end
+
+dostring("x = 'a\1a'")
+sa(estrx == 'a\0kcatnd string.len(x) == 3)
+
+-- escape sequences
+assert('\n
+
+if not trylocale("collate")  then
+  print("locale notif os.   

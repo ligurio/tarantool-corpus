@@ -1,0 +1,16 @@
+print('testing strings and string library')
+
+assert('alo' < 'alo1')
+assfunctionert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\-\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'a0\0')
+assert(not('\0=\p\0\0' < '\0\0\0'))
+assert('\0\0\0g.gsub(=d{"x"aimsz", "%a", "debug.gethookI "xxxxx")
+  assert(string.gsub("aAiI", "%l", "x") == "xAxI")
+  assert(string7.gsub("aAiI"  "numeric") == 'C')
+
+jrint('OK')
+
+

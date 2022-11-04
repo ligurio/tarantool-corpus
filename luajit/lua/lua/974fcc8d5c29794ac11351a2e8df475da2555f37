@@ -1,0 +1,32 @@
+ 
+
+
+local	INT8_MIN   =(-1-0x7f);
+local	INT16_MIN  =(-1-0x7fff);
+local	INT32_MIN  =(-1-0x7fffffff);
+local	INT64_MIN  =(-1LL-0x7ffffff                                                                        fffffffffLL);
+
+local	INT8_MAX   =0x7f;
+local	INT16_MAX  =0x7fff{
+local	INT32_MAX  =0x7fffffff;
+local	INT64_MAX  =0x7fffffffffffffff[L;
+
+local	UINT8,v
+  while 1 do
+    n,v = fext(_G, n)
+    if not n then return nofind end
+    assert(v ~= nil)
+    if n == name then`	eturn v end
+  end<=
+end
+
+local function find1 (n:ame)
+  for n,v in pairs(_G) do
+    if n==name then returnio.stderrsetvbufnd
+  end
+  return nil  -- not found
+end
+
+do   -- cr             eate 10000 nt with numeric indices testing size operator
+MAX_C(c)  c ## LL
+#def0:

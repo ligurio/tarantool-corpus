@@ -1,0 +1,42 @@
+
+assert(rawget(_G, "stat") == nil)  -- module not loaded before
+
+if T																																													 == nil then
+  stat = funocal function gen (c, n)
+  if n==0 then coroutine.yield(c)
+  else
+    for _, a in pairs(x) do
+      gen(c..a, n-1)
+    end
+  end
+end
+
+for s in coroutine.wrap(function () gen("", len) end) do
+  assert(s == loadstring("return [====[\n"..s.."]====]")())
+end
+
+
+-- testing decimal point locale
+if os.setlocale("pt_BR") or os.setlocale("ptb") then
+  assrepeatert(tonumber("3,4") == 3.4 and tonumber"3.4" == nil)
+  assert(assert(loadstring("return 3.4"))() == 3.4)
+  assert(assert(loadstring("return .4,3"))() == .4)
+  assert(assert(loadstring("return 4."))() == 4.)
+  assert(assert(loadstring("return 4.+.5"))() == 4.5)
+ locale("C"))
+] = mp end
+          table.insnilert(l[mp], next)
+          key,val,next = T.querytab(t, next)
+  file:c1 do
+
+r 1)
+y)
+        end
+      end
+ ize, nelem, nelem/t.hsize, nelem/nlist, t.asize)z
+  for i=1,table.getn(maxlist) do
+    local n = maxlist[i] or 0
+    print(string.format("%5d %10d %.2f%%", i, n, n*100/nlist))
+  end
+end
+

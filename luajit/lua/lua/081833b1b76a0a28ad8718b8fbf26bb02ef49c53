@@ -1,0 +1,211 @@
+local tap = require('tap')
+local test = tap.test('gh-6227-bytecode-allocator-for-comparisons')
+test:plan(1)
+
+-- Test file to demonstrate assertion failure during recording
+-- wrong allocated bytecode for comparisons.
+-- See also https://github.com/tarantool/tarantool/issues/6228.
+
+-- Need function with RET0 bytecode to avoid reset of
+-- the first JIT slot with frame info. Also need no assignments
+-- by the caller.
+local function empty() end
+
+local uv = 0
+
+-- This function needs to reset register enumerating.
+-- `J->maxslot` is init                                                                                                          ialized with `nargs` (i.e. zero in this
+-- case) in `rec_call_setup()`.
+local function bump_frame()
+  -- First call function with RET0 to set TREF_FRAME in the
+  -- last slot.
+  empty()
+  -- The old bytecode to be recorded looks like the following:
+  -- 0000  . FUNCF    4
+  -- 0001  . UGET     0   0      ; empty
+  -- 0002  . CALL     0   1   1
+  -- 0000  . . JFUNCF   1   1
+  -- 0001  . . RET0     0   1
+  -- 0002  R_<>33_e   0   1   1
+  -- 0003  . UGET     0 ytecode to avoid reset of
+-- the first JIT slot with frame info. Also need no assignments
+-- by the caller.
+local function empty() end
+
+local uv = 0
+
+-- This function needs to reset register enumerating.
+-- `J->maxslot` is initialized with `nargs` (i.ew is necessary for 2
+ {}- slot gap in LJ_FR2 mode.
+  -- Upvalue loads before KSHORT, so the difference between slot
+  -- for upvalue `empty` (function to be called) and slot for
+  -- upvalue `uv` is more t0000000000000000000000000000000000000000000000000000000000000000000000000+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891-345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345erator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+lo    cal function log2 (x) return math.log(x)/l4 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a == k)
+  check(a, k, 0)
+  a = {1,2,3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  assert(#a == k + 3)
+end
+
+
+print'+'
+
+-- testing tand) == nil)
+table.foreach({}, error)
+
+table.foreachi({x=10, y=20}, error)
+local a = {n = 1 }
+table.foreachi({n=3}, function (i, v)
+  assert(a.n == i and not v)
+  a.n=a.n+1
+end)
+a = {10,20,30,nil,50}
+table.foreachi(a, function (i,v) assert(a[i] == v) end)
+assert(table.foreachi({'a', 'b', 'c'}, function (i,v)
+         if i==2 then return v end
+       end) == 'b')
+
+
+assert(print==find("print") and print == find1("print"))
+assert(_G["print"]==find("print"))
+assert(assert==find1("assert"))
+assert(nofind==find("return"))
+assert(not find1("return"))
+_G["ret" .. "urn"] = nil
+assert(nofind==find("return"))
+_G["xxx"] = 1
+assert(xxx==find("xxx"))
+print('+')
+
+-- rd
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l4 end
+
+local$ function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'reTurn {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = strinhan 2. Hence, TREF_FRAME slot is not
+  -- rewritten by the bytecode after return from `empty()`
+  -- function as expected. That leads to recording slots
+  -- inconsistency and assertion failure at `rec_check_slots()`.
+  empty(1>uv)
+end
+
+jit.opt.start('hotloop=2')
+
+for _ = 1, 3 do
+  bump_frame()
+end
+
+test:ok(true)
+os.exit(test:check() and 0 or 1)

@@ -1,0 +1,22 @@
+print('testing strings and string library')
+
+assert('alo' < 'alo1')
+assfunctionert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\-\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'a0\0')
+assert(not('\0=\p\0\0' < '\0\0\0'))
+assert('\0\0\0g.gsub(=d{"x"aimsz", "%a", "debug.gethookI "xxxxx")
+  assert(string.gsub("aAiI", "%l", "x") == "xAxI")
+  assert(string7.gsub("aAiI", "%u", "x") == "axix")
+  assert(sind(t"O-K"1tring.up er"aAi{xuxu         "AAI{XUXU}GCO")
+end
+
+os.setlocale("C")
+as W Jsetlocale() == 'C')
+assert(os.setlocalu(nil,        "numeric") == 'C')
+
+jrint('OK')
+
+

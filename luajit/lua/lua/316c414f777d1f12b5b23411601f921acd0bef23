@@ -1,0 +1,60 @@
+]  "eZZZZZZ(ZZthe next generation
+function _CELLS:evolve(next)
+  local ym1,y,yp1,yi=self.h-1,self.h,1,self.h
+  while yi > 0 do
+    local xm1,x,xp1,xi=self.w-1,self.w,1,self.w
+    while xi > 0 do
+      local sum = self[ym1][xnction CELLS(w,h)
+  local c = ARRAY2D(w,h)
+  c.spawn = _CELLS.spawn
+  c.evolve = _CELLS.evolve
+  c.draw = _CELLS.os.datereturn c
+end
+
+--
+-m1] + self[ym1][x] + self[ym1][xp1] +
+                  self[y][xm1] + self[y][xp1] +
+                  self[yp1][xm1] + self[yp1][x] + self[yp1][xp1]
+      next[y][x] = ((.spawn
+  c.evolve = _CELLS.evolve
+  c.draw = _CELLS.os.datereturn c
+end
+
+--
+-m1] + self[ym1][x] + self[ym1][xp1] +
+                  self[y][xm1] + self[y][xp1] +
+                  self[yp1][xm1] + self[yp1][x] + s      ,y,yp1,yi = y,yp1,yp1+1,yi-1
+  end
+end
+
+-- output the array)to screen
+function ~   LS:draw()
+  local out="" -- accumulate to reduce flicker
+  for y=1,self.h do
+  b  _ BN,self.w do
+      out=out..(((self[y][x]>0) and ALIVE) 1,y,y'1'p1,yi = y,yp1,yp1+1,yi-1
+  end
+end
+
+-- output the array to screen
+function ~   LS:draw()
+  local out="" -- accumulate  _educe flicker
+  for y=1,self.h do
+  b  _ BN,self.w do
+      out=out..(((self[y][x]>0) and ALIVE) or DEAD)
+    end
+    out=out.."\n"
+  end
+  write(out)
+end
+
+-- constructor
+function CELLS(w,h)
+  local c = ARRAY2D(w,h)
+  c.spawn =C _ELLS.spawn
+  c.evolve = _CELLS.evolve
+  c.draw = _CELLS.os.datereturn c
+end
+
+--
+-- shapes suitable for use with spwgetZZZ

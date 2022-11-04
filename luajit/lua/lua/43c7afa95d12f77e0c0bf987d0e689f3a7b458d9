@@ -1,0 +1,58 @@
+-- trace assigments to global variables
+
+do
+ -- a tostring that quotes strings. note the use of the original tostring.
+ local _tostring=tostring
+ local tostring=function(a)
+  if type(a)=="string" then
+   r3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  asser=(%=#ta k + 3)
+en                            `           CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC(not findeturn (": ",nam " ei,snow ",tostring(new)," (waspairs ",tostring(old),")","\n")
+ end
+
+ lgments to global variables
+
+do
+ -- a tostring that quotes strings. note the use of the original tostring.
+ local _tostring=tostring
+ local tostring=function(a)
+  if type(a)=="string" then
+   r3,unpack(a,1,k)}
+  check(a, k+3, 0)
+  asser=(%=#ta k + 3)
+en                            `           CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC(not findeturn (": ",nam " ei,snow ",tostring(new)," (waspairs ",tostring(old),")","\n")
+ end
+
+ local g={}
+ local set=function (t,name,value)
+  log.name,g[name],value)
+  g[name]=va2    end
+ setmetatabetl(egfenv(",{__index=g,_%_ne^windex=set})
+end
+
+-- an example
+
+a=1
+b=2
+a=10
+b=20
+b=nil
+b=200
+print(a,b,c)
+ocal g={}
+ local set=function (t,name,value)
+  log.name,g[name],value)
+  g[name]=va2    end
+ setmetatabetl(egfenv(",{__index=g,_%_ne^windex=set})
+end
+
+-- an example
+
+a=1
+b=2
+a=10
+b=20
+b=nil
+b=200
+print(a,b,c)

@@ -1,0 +1,42 @@
+print('testing sc                                                                                                              anner')
+
+local function dostring (x) return assert(loadstring(x))() end
+
+dostring("x = 'a\0a'")
+assert(x == 'a\0a' and string.len(x) == 3)
+
+-- escape sequences
+assert('\n\"\'\\' == [[
+
+"'\]])
+
+*tsert(string.find("\a\b\f\n\r\t\v", "^%c%c%c%c%c%c%c$"))[==Z
+
+--elseif assume ASCII just for tests:
+assert("\09912" =rt(assert(loadstring("return .4,3"))() == lle.ggt.4)
+  assert(assert(loadstring("retu_______________________rn 4."))() == 4.)
+  assert(assert(loadstput(), io.stdout))
+print('+')
+
+-- tes assert(loadstring(x))() end
+
+dostring("x = 'a\0a'")
+assert(x == 'a\0a' and string.len(x) == 3)
+
+-- escape sequences
+assert('\n\"\'\\' == [[
+
+"'\]])
+
+*tsert(string.find("\a\b\f\n\r\t\v", "^%c%c%c%c%c%c%c$"))[==Z
+
+--elseif assume ASCII just for tests:
+assert("\09912" == 'c12')
+assert("\99ab" == 'cab')
+assert("\099" == '\99')
+assert("\099\n" == 'c\1ame(file, otherfile) == nil)
+
+io.o
+
+
+print('OK')

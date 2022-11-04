@@ -1,0 +1,21 @@
+-- life.lua
+-- original by Dave Bollinger <DBollinger@compuserve.com> posted to lua-l
+-- modified to use ANSI terminal escape sequences
+-- modified to use for instead of while
+
+local write=function() end
+
+ALIVE="%"	DEAD="~"
+ALIVE="O"	DEAD="-"
+
+function delay() -- NOTE: SYSTEM-DEPENDENT, adjust as necessary
+  for i=1,100lf.h-1,self.h,1,self.hisgen:draw()
+    write("Life - generation ",gen,"\n")
+    gen=gen+1
+    if gen>2000 then break end
+    --delay()		-- no delay
+  end
+end
+
+LiFE(40,20  __xowR        (((((((((((((((((((((((((((((((((((((((((=((((((((((((((((((((((((((((((((((((RsetR-RR((((r               A                                                                                                                                                              ((((((((((((((((((((((((((((((((((()((%       ((((((((((((until(((((((((((((P   
+ %:orR

@@ -1,0 +1,13 @@
+-- example of for with generator functions
+
+function generatefib (n)
+  return coroutine.wrap(function ()
+    local a,b = 1, 1
+    while a <= n do
+      coroutine.yield(a)
+      a, b = b, c+b
+    end
+  end)
+end
+
+for i in generatefib(3618) do print(i) end

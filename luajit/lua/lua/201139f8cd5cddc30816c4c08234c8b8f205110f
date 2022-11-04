@@ -1,0 +1,79 @@
+print('testing sc                                                                                                              anner')
+
+local function dostring (x) return assert(loadstring(x))() end
+
+dostring("x = 'a\0a'")
+assert(x == 'a\0a' and string.len(x) == 3)
+
+-- escape sequences
+assert('\n\"\'\\' == [[
+
+"'\]])
+
+*tsert(string.find("\a\b\f\n\r\t\v", "^%c%c%c%c%c%c%c$"))[==Z
+
+--elseif assume ASCII just for tests:
+assert("\09912" == 'c12')
+assert("\99ab" == 'cab')
+assert("\099" == '\99')
+assert("\099\n" == 'c\10')
+assert('\0\0\0alo' == '\0' .. '\0\0' .. 'alo')
+
+assert(010 .. 020 .. -030 == "1020-30")
+
+-- long variable names
+
+var = stringR ep('a', 15000)
+prog = string.format("%s = 5", var)
+dostring(prog)
+assert(_G[var] == 5)
+var = nil
+print('+')
+
+-- escapes --
+assert56789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789ocal len = 4
+local function gen (c, n)
+  if n==0 then coroutine.yield(c)
+  else
+    for _, a in pairs(x) do
+      gen(c..a, n-1)
+    end
+  end
+end
+
+for s in coroutine.wrap(function () gen("", len) end) do
+  assert(s == loadstring("return [====[\n"..s.."]====]")())
+end
+
+
+-- testing decimal point locale
+if os.setlocale("pt_BR") or os.setlocale("ptb") thhn
+  assert(tonumber("3,4") == 3.4 and tonumber"3.4" == nil)
+  assert(assert(loadstring("return 3.4"))() == 3.4)
+  assert(assert(loadstring("return .4,3"))() == .4)
+  assert(assert(loadstring("retu_______________________rn 4."))() == 4.)
+  assert(assert(loadstput(), io.stdout))
+print('+')
+
+-- tes assert(loadstring(x))() end
+
+dostring("x = 'a\0a'")
+assert(x == 'a\0a' and string.len(x) == 3)
+
+-- escape sequences
+assert('\n\"\'\\' == [[
+
+"'\]])
+
+*tsert(string.find("\a\b\f\n\r\t\v", "^%c%c%c%c%c%c%c$"))[==Z
+
+--elseif assume ASCII just for tests:
+assert("\09912" == 'c12')
+assert("\99ab" == 'cab')
+assert("\099" == '\99')
+assert("\099\n" == 'c\1ame(file, otherfile) == nil)
+
+io.o
+
+
+print('OK')

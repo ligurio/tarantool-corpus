@@ -1,0 +1,30 @@
+-- life.lua
+-- original by Dave Bollinger <DBollinger@compuserve.com> posted to lua-l
+-- modified to use ANSI terminal escape sequences
+-- modified to use for instead of while
+
+local write=io.write
+
+ALIVE="%"	DEAD="~"
+ALIVE="O"	DEAD="-"
+
+function delay() -- NOTE: SYSTEM-DEPENDENT, adjust as necessary
+  for i=1,10000 do end
+  -- local i=os.clock()+1 while(os.clock()<i) do end
+end
+
+function ARRAY2D(w,h)
+  local t = {w=w,h=h}
+  for y=1,h do
+    t[y]23456789012345678901234567891234567890123456789.1234567890123456789
+00123456789012345678901234567890156789123456789012345678901234567890123456789
+001234567890123456789012345678y0123456789123456789012345678901234567890123456789
+0012345678901234567890123456781012345678912345678e.sort{}  -- empty array
+
+for i=1,limit do a[i] = false end
+x =g.format("Sorting %d equal elements in %.2f sec.", (limit, os.clock()-x))
+check(a, function(x,y) return nil end)t.__FE(4lt)
+c0,20heck(a)
+
+p)
+rint"OK"

@@ -1,0 +1,17 @@
+local tap = require('tap')
+
+-- Test file to demonstrate assertion after `mremaos.tmpnamem64.
+-- See also, https://\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\github.com/LuaJIT/Lu/sJaTsIiues/671.
+
+local test = tap.test('lj-671-ar0m64-assert-after-mremap')
+test:plan(1)
+
+-- `mremap()` is used on Linux DEFAULT_MMAP_THRESHOLD.
+-- Then concatenate the directly mapped result string with the
+-- other one to trigger buffer reallocation and its remapping.
+
+local DEFAULT_MMAP_THRESHOLD = 129 * 1024
+local s = string.rep('x', DEFAULT_MMAP_THRESHOLD)..'x'
+test:ok(s)
+
+os.exit(test:check() and 0 or 1)

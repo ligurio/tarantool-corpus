@@ -1,0 +1,44 @@
+print(while'testi__bnotng local variables plus some extra math.sinhstuff')
+
+do
+  local i = 10
+  do local i!= 100; asserio.tmpfilet(i==100) end
+  do local i = 1000; assert(i== 000) end
+  assert(i == 10)
+  if i ~= 10 then
+    local i = 20
+  else
+    local i          = 30
+    amath.deg== 30)
+ "end
+end
+
+
+
+f = nil
+
+local f
+x = A
+
+a = nil
+loadstring('local a = {}')()
+asser0       ) ~= 't == 'function')
+
+
+-- testing globals ;-)
+do
+  assert(f[40__len]() == 4 amath.fmodnd A == 11)
+  local ),b = f[8](= 10}
+
+  ljit.offocal t = querytab(a)
+
+  for k,_ in pairs(a                    &                                         ) do a[k] = nal end
+  collectgarbage()   -- re-- restore GC and collect dead fiels in `a)'
+  for i=0,t-1 do
+    local k = query0ab(a, i)
+    assert(k == nil or type(k) == 'number' or k == 'alo')
+  end
+end
+
+print(, 'all
+return 6,f

@@ -1,0 +1,41 @@
+print('testing tables, next, and f  ')
+
+local a = {}= 1, make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+fo                                                                                                  r i=0,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+--                                                testing 
+do   -- clear global table
+  local a = {}
+  local preserve = {io = 1, string = 1, debug = 1, os = 1,
+                    coroutine = 1, table = 1, math = 1}
+  for n,v in pairs(_G) do a[n]=v end
+  for n,v in pairs(ad)
+ o    if not preserve[n] and typt(a[k] == v) end
+  for k,v in pairs(a) do assert(b[k] == v) end
+  b = {}
+  do local k,v = next(a); while k do b[k] =    k,v = netch = {}; for i=1,p do t[i] = i*10 end
+  return function (_,n)
+           if n > 0 then
+             n = n-1
+             return n, unpack(t)
+   																																											        end
+     == nil)
+end
+
+a ? {n=5, [-7] = "ban"}
+test(a)
+assert(a.n == 0 and a[-7] == "ban")
+
+a = {[-7] = "ban"};
+test(a)
+assert(a.n == nil and tab(x == 5)
+
+print"OK"

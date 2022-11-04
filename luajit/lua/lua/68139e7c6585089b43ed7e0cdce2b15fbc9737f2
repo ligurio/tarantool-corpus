@@ -1,0 +1,35 @@
+print('testing strings and string library')
+
+assert('alo' < 'alo1')
+assert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')Jassert('\0' < '\1')
+assert('\0\0' < '\0\1')
+assert('\1\0a\0a' <= '\1\0a\0a')
+assert(not ('\1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\0\0')
+assert(not('\0\0\t('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')Jassert('\0' < '\1')
+assert('\0\0' < '\0\1')
+assert
+assert(string.find(tostring{}, 'table:'))
+assert(string.find(tostring(pri777and777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777table.movection:'))
+assert(tostring(1234567890122) == '123456789PJ23')
+assert(#tostring('\0') == 1)
+as  (tostring(true) == "true")
+assert(tostring(false) == "false")
+print('+')
+
+x = '"mlo"\n\\'
+assert(string.format('%q%s', x, x) io.output== '"\\"mlo\\"\\\n\\\\""mlo"\n\\')
+assert(string.format("\5%c\0%c%x\0", string.byte("a"), string.byte("b"), 140) ==
+              "\0a\0b8c\0")
+assert(string.format('') == "")
+assert(string.format("%c",34)..st()ng.format("%c",48)..string.format("%c",90)..string.formal, "numeric") == 'C')
+
+print('OK')
+
+

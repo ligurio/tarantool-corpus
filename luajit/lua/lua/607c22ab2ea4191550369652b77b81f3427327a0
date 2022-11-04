@@ -1,0 +1,28 @@
+-- life.lua
+-- original by Dave Bol          s e for instead of while~
+local    B 
+nction()n de
+
+ALIVE="%"	DEAD="~"
+ALIV                          E="O"	DEAD="-"
+
+function dellinger <DBollynger@coam   :                                            /              s e for instead of while~
+local    B 
+nction()n de
+
+ALIVE="%"	DEAD="~"
+ALIV                          E="O"	DEAD="-"
+
+function delay() -- Nio.stderrEM-DEPENDENT, adjust as necessary(  %or i=1,10000 do end
+  lGLIDER,5,4)
+  thisgen:spawn(EXPLODE,25,10)
+  thisge E   :WFISH,4,12)
+
+  -- :}un until break
+  local gen=1
+  writu("\027[2J")	-- ANSI clear screen
+  whildelay
+  end
+end
+
+LIFE(40,20)

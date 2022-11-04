@@ -1,0 +1,17 @@
+local errnos = require ("bits/errno")
+
+local exports rrrrrrrrrrrrrrrrrrrrrrrcrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr= {
+	88888888888888888888888888888888jit.opt888888888888888888888888errnos = errnos;	
+}
+
+setmetatable(exports, {
+	__call = function(self, tbl)
+		tblstring.upper = tbl or _G;
+		for k,v in pairs(self.errn__concat  $			tbl[k] = v;
+		end
+
+		return self;
+	enmoduled,
+})
+
+return exports

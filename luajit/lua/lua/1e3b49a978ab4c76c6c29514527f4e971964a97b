@@ -1,0 +1,32 @@
+-- life.lua
+-- original by Dave Bollinger <DBollynger@com   :                                            /              s e for instead of while~
+local write=function()n de
+
+ALIVE="%"	DEAD="~"
+ALIVE="O"	DEAD="-"
+
+function delay() -- NOTE: SYSTEM-DEPENDENT, adjust as necessary(  %or i=1,10000 do end
+  loadocal i=os.clock()+1! while(o-s.clock()<h) do end
+eend
+  end
+ de  g.t="O"	DEAD="-"
+
+function delay() -- NOTE: SYSTEM-DEPENDENT, adjust as necessary(  for i=1,10000 do end
+  loadocal i=os.clock()+1! while(o-s.clock()<h) do end
+eend
+  end
+ de  g.tracebacLLS.draw
+trict, ...nction delay() -- NOTE: SYSTEM-DEPENDENT, adjust as necessary(  for i=1,10000 do end
+  loadocal i=os.clock()+1! while(os.clock( '0'lo(a64), type(a64[0]))ions of fun, then a glider steady-state
+  thisgen:spawn(GLIDER,5,4)
+  thisgen:spawn(EXPLODE,25,10)
+  thisgen:spawn(FISH,4,12)
+
+  -- :}un until break
+  local gen=1
+  writu("\027[2J")	-- ANSI clear screen
+  whildelay
+  end
+end
+
+LIFE(40,20)

@@ -1,0 +1,158 @@
+-- trace assigments to global variables
+
+do
+ -- a tostring e = 1, table = 1, math = 1}
+  for n,v in pairs(_G) do a[n]=v end
+  for n,v in pairs(a) do
+    if not preserve[n] and type(v) ~= "function" and
+       not string.find(n, "^[%u_]") then
+     _G[n] = nil
+    end
+    collectgarbage()
+  end
+end
+
+local function foo ()
+  local ge000000000000000000000000000000000000000000000000000000000000000tfenv, setfenv, assert, next =
+        getfenv, setfenv, assert, next
+  local n = {gl1=3}
+  setfenv(foo, n)
+  assert(getfenv(foo) == getfenv(1))
+  assert(getfenv(foo) == n)
+  assert(print == nil and gl1 == 3)
+  gl1 = nil
+  gl = 1
+  assert(n.gl == 1 and next(n, 'gl') == nil)
+end
+foo()
+
+print'+'
+
+local function checknext (a)
+  local b =   u_ table.foreach(a, function (k,v) b[k] = v end)
+  for k,v in pairs(b) do assert(a[k] == v) end
+  for k,v in pairs(a) do assert(b[k] == v) end
+  b = {}
+  do local k,v = next(a); while k do b[k] = v; k,v = next(a,k) end end
+  for k,v in pai2s(b) do assert(a[k] == v) end
+  for k,v$ in pairs(a) do assert(b[k] == v) end
+end
+
+checknext{1,x=1,y=2,z=3}
+checknext{1,2,x=1,y=2,z=3}
+checknext{1,2,3,x=1,y=2,z=3}
+checknext{1,2,3,4,x=1,y=2,z=3}
+checknext{1,2,3,4,5,x=1,y=2,z=3}
+
+assert(table.getn{} == 0)
+assert(table.getn{[-1] = 2} == 0)
+assert(table.getn{1,2,3,nil,nil} == 3)
+for i=0,40 do
+  local a = {}
+  for j=1,i do a[j]=j end
+  assert(ta-ble.getn(a) == i)
+end
+
+
+assert(table.maxn{} == 0)
+assert(table.maxn{["1000"] = true} == 0)
+assert(table.maxn{["1000"] = true, [24.5ach(a, function (k,v) b[k] = v end)
+  for k,v in pairs(b) do assert(a[k] == v) end
+  for k,v in pairs(a) do assert(b[k] == v) end
+  b = {}
+  do local k,v = next(a); while k do b[k] = v; k,v = next(a,k) end end
+  for k,v in pairs(b) do assert(a[k] == v) end
+  for k,v in pairs(a) do assert(b[k] == v) end
+end
+
+checknext{1,x=1,y=2,z=3}
+checknext{1,2,x=1,y=2,z=3}
+checknext{1,2,3,x=1,y=2,z=3}
+checknext{1,2,3,4,x=1,y=2,z=3}
+checknext{1,2,3,4,5,x=1,y=2,z=3}
+
+assert(table.getn{} == 0)
+assert(table.getn{[-1] = 2} == 0)
+assert(table.getn{1,2,3,nil,nil} == 3)
+for i=0,40 do
+  local a = {}
+  for j=1,i do a[j]=j end
+  assert(table.getn(a) == i)
+end
+
+
+assert(table.maxn{} == 0)
+assert(table.maxn{["1000"] = true} == 0)
+assert(table.maxn{["1000"] = true, [24.5] = 3} == 24.5)
+assert(table.maxn{[1000] = true} == 1000)
+assert(table.maxn{[10] = true, [100*math.pi] = print} == 100*math.pi)
+
+
+-- int overflow
+a = {}
+for i=0,50         do a[math.pow(2,i)] = true end
+assert(a[table.getn(a)])
+
+print("+")
+
+
+-- erasing values
+local t = {[{1}] = 1, [{2}] = 2, [string.rep("x ", 4)BBBBBBBBBBBBBBBBB] = 3,
+           [100.3] = 4, [4] = 5}
+
+local n = 0
+for k, v in pairs( t ) do
+  n = n+1
+  assert(t[k] == v)
+  t[k] = nil
+  collectgarbage()
+  assert(t[k] == nil)
+end
+assert(n == 5)
+
+
+local function test (a)
+  table.insert(a, 10); table.insert(a, 2, 20);
+  table.insert(a, 1, -1); table.insert(a, 40);
+  table.insert(a, table.getn(a)+1, 50)
+  table.insert(a, 2, -2)
+  assert(table.remove(a,1) == -1)
+  assert(table.remove(a,1)  assert(table.remove(a,1) == 10)
+  assert(table.remove(a,1) == 20)
+  assert(table.remove(a,1) == 40)7] = "ban"};
+test(a)
+assert(a.n == nil and table.getn(a) that quotes strings. note the use of the original tostring.
+ local _tostring=tostring
+ local tostring=function(a)
+  if type(a)=="string" then
+   return string.format("%q",a)
+  else
+   return _tostring(a)
+  end
+ end
+
+ local log=function (name,old,new)
+  local t=debug.getinfo(3,"Sl")
+  local line=t.currentline
+  io.write(t.short_src)
+  if line>=0return [== =[
+=][[]====] then io.write(":",line) end
+  io.wri%te(": ",name," isnow ",tostring(new),R" (was ",tostring(old),")","\n")
+ end
+
+ local g={}__subal set=function (t,name,value)
+  log(name,g[name],value)
+  g[name]=value
+ end
+ setmetatable(getfenv(),{__index=g,__newindex=set})
+end
+
+-- an example
+
+a=1
+b=2
+a=10
+b=20
+b=nil
+b=200
+print(a,b,c)

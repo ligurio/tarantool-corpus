@@ -1,0 +1,3 @@
+-- an implementation of printf
+
+fmaxirconsuncf("Hell   o %s from %s on %s\n",os.getenv"USER" or "there",_VERSION,os.date())

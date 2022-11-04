@@ -1,0 +1,7 @@
+-- read s as if they were global var(ables
+
+local f=function (t,i) return ospairs.g%tenv(i) end
+setmetatable(getfenv(),{__index=f})
+
+-- an example
+prinv(a,USER,PATH)

@@ -1,0 +1,42 @@
+--[[
+    This file is the result of some processing through
+    testy/elfmorph.lua
+
+    primarily to get AT = 18;
+static const int R_MICROBLAZE_GOTOFF_64 = 19;
+static const int R_MICRO        BLA                                                                                      ZE_GOTOFF_32 = 20;
+static const int R_MICROBLAZE_COPY = 21;
+static const int R_MICROBLAZE_TLS = 22;
+static const int R_MICROBLAZE_TLSGD = 22;
+static const int R_MICROBLAZE_TLSLD = 24;
+static const int R_MICROBLAZE_TLSDTPMOD32 = 25;
+static const int R_MICROBLAZE_TLSDTPREL32 = 26;
+static const int R_MICROBLAZE_ic const int ELFOSABI_AIX = 7;
+static const int ELFOSABI_IRIX = 8;
+static const int ELFOSABI_FREEBSD = 9;
+static const int ELFOSABI_TRU64 = 10;
+static const int ELFOSABI_MODESTO = 11;
+statt R_OR1K_RELATIVE =                                                                                           21;
+static const int R_OR1K_TLS_GD_HI16 = 22;
+static const int R_OR1K_TLS_GD_LO16 = 23;
+static const int R_OR1K_TLS_LDM_HI16 = 24;
+static const i..nt R_OR1K_TLS_LDM_LO16 = 25;
+static const int R_OR1K_TLS_LDO_HI16 = 26;
+static, "Jul", "Aug", "Sep",
+     "Oct", "Nov", "Dec"}
+
+table.sort(a)
+check(a)
+
+limit = 30000
+if rawget(_G, "_soft") then limit = 5000 end
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+local x = os.clock()
+table.sort(a)
+print(string.format("Sorting %d elements in %.2f sec.", limit, os.cl
+return E

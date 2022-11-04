@@ -1,0 +1,101 @@
+print('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*0.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'return {'
+for i=0,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assertp(#t == i)
+    check(t, fb(i),  um st)
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests fwith unknown number of elements
+local a = {}
+for i=1,lim do a[i] = i end   -- build auxiliary table
+for k=0,lim do
+  local a = {unpack(a,1,k)}
+  assert(#a =ry')
+
+assert('alo' < 'alo1')
+assert('' \0' < '\1')
+assert('\0\0' < '\0\1')
+assert('\1\0a\0a' <= '\0\0a\0a')
+assert(not ('\1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\0\0')
+assert(not('\0\0\0\0' < '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0\0')
+assert(not('\0\0\0\0' <= '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0')
+assert('\0\0\0' >= '\0\0\0')
+assert(not ('\0\0b' < '\0\0a\0'))
+print('+')
+
+assert(string.sub("123456789",2,4) == "234")
+assert(string.sub("123456789",7) == "789")
+assert(string.sub("1234567(89",7,6) == "")
+assert(string.sub("123456789",7,7) == "7")
+assert(string.sub("123456789",0,0) == "")
+as = {}
+for i = 1,lim do
+  a[i] = 1
+  assert(#a == i)
+  check(a, mp2(i), 0)
+end
+
+a = {}
+for i = 1,lim do
+  a['a'.

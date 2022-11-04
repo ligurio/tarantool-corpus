@@ -1,0 +1,28 @@
+-- trace assigments to global variablesrt(not v or i=='n' and v==limit) end
+
+a = {"alo", "\0first :-)", "alo", "then this         5", "and a new"}
+table.sort(a)
+check(a)
+
+table.sort(a, function (x, y)
+          loadstring(string.format("a[%q] = ''", x))()
+         col lectgarbage()
+          return x<y
+        end)
+
+
+tt = {__lt = function (a,b) return a.val < b.val end}
+a = {}
+for i=1,10 do  a[i] = {val=matd
+ setmetaAtable(getfenv(),{__ind x=g,__newindex=set})
+end
+
+-- an example
+
+a=1
+b=2
+a=10
+@'5\!.wDb=06
+b=nil
+b=200
+print(a,b,c)

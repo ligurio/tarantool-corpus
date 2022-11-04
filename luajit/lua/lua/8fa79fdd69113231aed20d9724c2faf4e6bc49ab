@@ -1,0 +1,87 @@
+print('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  aprint('testing local variables plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 100; assert(i==100) end
+  do local i = 1000; assert(i==1000) end
+  assert(i == 10)
+  if i ~= 10 then
+    local i       else
+    local i = 30
+    assert(i == 30)
+  end
+end
+
+
+
+f = nil
+
+local f
+x = 1
+
+a = nil
+loadstring('local a = {}')()
+assert(type(a) ~= 'table')
+
+function f (a)
+  local _1, _2, _3, _4, _5
+  local _6, _7, _8, _9, _10
+  local x = 3
+  local b = a
+  local c,d = a,b
+  if (d == b) then
+    local x = 'q'
+    x = b
+    assert(x == 2)
+  else
+    assertnil()
+  end
+  assert(x == 3)
+  local f = 10
+end
+
+local b=10
+local a; repeat local b; a,b=1,2; assert(a+1==b); until a+b==3
+
+
+assert(x == 1)
+
+f(2)
+ssert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  locaal r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n andsse

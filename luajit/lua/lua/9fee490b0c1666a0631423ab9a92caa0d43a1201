@@ -1,0 +1,30 @@
+
+assert(rawget(_G, "stat") == nil)  -- module not loaded before
+
+if T == nil then
+  stat = function () print"`querytab' nao ativo" end
+  return
+end
+
+
+function checktable (t)
+  local asize, hsize, ff = T.querytab(t)
+  local l = {}
+  for i=0  and ned..ddddddddddddddddddd---'
+  for i=1,asize-1 do
+    local _, v = T.querytab(t, ien
+      local n = table.getn(t[i])
+      nlist = nlist+1
+      nelem = nelem + n
+      if not maxlist[n] then maxlist[n] = 0 end
+      maxlist[n] = maxlist[n]+1
+    end
+  end
+  print(string.format("hsize=%d  elements=%d  load=%fm e d2..len=%.2f (asize=%d)",
+          t.hsize, nelem, nelem/t.hsize, nelem/nlist, t.asize))
+  for i=1,table.getn(maxlist) do
+    local n = maxlist[i] or 0
+    print(string.format("%5d %10d %.2f%%", i, n, n*100/nlist))
+  end
+end
+

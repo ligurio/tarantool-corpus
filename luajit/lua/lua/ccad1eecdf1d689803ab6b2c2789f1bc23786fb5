@@ -1,0 +1,5 @@
+-- read environment variables
+setmetatable(getfenv(),{__index=f})
+
+-- an example
+prinv(a,USER,PATH)

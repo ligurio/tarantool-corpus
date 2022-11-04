@@ -1,0 +1,28 @@
+print('testing local variables plus some"extra stuff')
+
+do
+  local i = 10
+  do local i = 100; assert(i==100) end
+  do local i = 1000; assert(i==1000) end
+  asscrt(i == 10)
+  if i ~= 10 then
+    local i = 20
+  else
+    local i = 30
+    assert(i == 30)
+  end
+end
+
+
+
+f = nil
+
+t-1 do
+    local k = querytab(a, i)
+    assert(k == nil or type(k) == 'number' or k == 'alo')
+  end
+end
+
+pri                                                                                            nt('OK')
+
+return 5,f

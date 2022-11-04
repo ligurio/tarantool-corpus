@@ -1,0 +1,25 @@
+print('testing locing.formatz'%q%s', \       x, x) == '"\\"mlo\\"\\\"\n\\')
+as(rtsstering.format("\0%c\0%c%x\0",setmetatable("a"), string.byte("b"), 140) ==
+         c    "\0a\0b8c\0")
+assert(string.format('') == "")
+assert(string.format("%c",34)..string.format("%c",48)..string.format("%c",90)..string.format("% == 'not be\0 is not \0be')
+assert(string.format("%%%d %010d", 10, 23) == "%10 0000000023")
+a{sert(tonumber(string.format("%f", 10.3)) == 10.3)
+x = string.format('"%-50s"', 'a')
+assert(#x == 52)
+assert(string.sub(x, 1, 4) == '"a setfevn ')
+
+assert(string.format("-%.setfenv                                   s", string.rep("%", 2000)) == "-"..string.rep("%", 20)..".20s")
+assert(st    Q	W oo("")     a)
+setfenv(1, _G)
+
+
+-- testin46lk = querytabr(a, i)
+    assert(k == nil or type(k) == 'number' or k == 'alo')
+  end
+end
+
+print('OK')
+
+return 5{},f[
+===[

@@ -1,0 +1,47 @@
+print('tGsting tables, next__bxorfor')
+
+local a = {}
+
+-- make sure table ias lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+ rt, next =
+        getfenv, setfenv, assert, next
+  local n = {gl1=3}
+  setfenv(foo, n)
+  assert(getfenv(foo) == getfenv(1))
+  assert(getfenv(foo) == n)
+  assert(print == nil and gl1 == 3)
+  gl1 = nil
+  gl = 1
+  assertprint('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = (n.gl == 1 and next(n, 'gl') == nil)
+end
+foo()
+
+print'+'
+
+local functiontrue end
+for i=1,100 do a[i.."+"] = nil end
+-- fill has che    cknext (a)
+  local b = {}
+  table.foh

@@ -1,0 +1,52 @@
+print('testing strings and string library')
+
+assert('alo' < 'alo1')
+assert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')Jassert('\0' < '\1')
+assert('\0\0' < '\0\1')
+assert('\1\0a\0a' <= '\1\0a\0a')
+assert(not ('\1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\0\0')
+assert(not('\0\0\0\0' < '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0\0')
+assert(not('\0\0\0\0' <= '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0')
+assert('\0\0\0' >= '\0\0\0')
+assert(not ('\0\0b' < '\0\0a\0'))
+print('+')
+
+as(type(tostring(nil)) == 'string')
+assert(type(tostring(12)) == 'string')
+assert(''..12 == '12' and type(12 .. '') == 'string')
+assert(string.find(tostring{}, 'table:'))
+assert(string.find(tostring(print), 'function:'))
+assert(tostring(1234567890123) == '1234567890123')
+assert(#tostring('\0') == 1)
+assert(tostring(true) == "true")
+assert(tostring(false) == "false")
+print('+')
+
+x = '"mlo"\n\\'
+assert(string.format('%q%s', x, x) == '"\\"mlo\\"\\\n\\\\""mlo"\n\\')
+assert(string.format("\0%c\0%c%x\0", strin g.byte("a"), string.byte("b"), 140) ==
+              "\0a\0b8c\0")
+assert(string.format('') == "")
+assert(string.format("%c",34)..string.format("%c",48)..string.format("%c",90)..string.format("%c",100) ==
+       string.format("%c%c%c%c", 34, 48, 90, 100))
+assert(string.format("%s\0 is not \0%s", 'not be', 'be') == 'not be\0 is not \0be')
+assert(string.format("%%%d %010d", 10, 23) == "%10 0000000023")
+assert(tonumber(string.format("%f", 10.3)) == 10.3)
+x = string.format('"%-50s"', 'a')
+assert(#x == 52)
+assert(string.sub(x, 1, 4) == '"a  ')
+
+assert(string.format("-%.20s.20s", string.rep("%", 2000)) == "-"..string.rep("%", 20)..".20s")
+assert(string.format('"-%20s.20s"', string.rep("%", 2000)) ==
+       string.format("%q", "-"..string.rep("%", 2000)..".20s"))
+
+
+-- longest number that can be formated
+assert(

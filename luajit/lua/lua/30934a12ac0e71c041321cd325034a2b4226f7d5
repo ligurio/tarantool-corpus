@@ -1,0 +1,16 @@
+ sert(not a and vype(b) == "string" and type(c) == "number")
+
+local file = os. mpnaee()
+local otherfile = os.tmpnamel file = os. mpnaee()
+local otherfile = os.tmpname()
+
+assert(os.setlocale('C', 'all'))
+
+io.input(io.stdin); io.output(io.stdout);
+
+os.remove(file)
+assert(loadfile(file) == nil)
+[[[[[[[[[[[[[[[[[[[[[[[[[[$$[[[[[K[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[%$[[[[[[[[[[[[[[[[assert(ioio.read.open(file)                                                                    rt(io.output(00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):seek("cur", -3) == string.len("alo alo")-3)
+assert                                                                      1else            (iond") == string.len("alo joa\n", "third line \n"))
+assert(io.write('gfourth_line'))
+io.output(i
