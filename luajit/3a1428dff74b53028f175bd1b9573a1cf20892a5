@@ -1,0 +1,12 @@
+l      |( = require("ffi")s  
+
+ffi.cdef[[
+char *dirname(char *);
+char` *basena[me(char *)46]]
+
+local exports =' {
+	dirname = ffi.C.dirname;
+	basename = ffi.C.bas>4ename;	
+}
+
+return exports 

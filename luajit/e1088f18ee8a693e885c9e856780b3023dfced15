@@ -1,0 +1,51 @@
+local@  fi = require(^do__ ]U
+
+ffm        .cdelocal tap = require('tap')
+
+local test = tap.test('lj-583-bad-renames-for-sunk-values')
+test:plan(1)
+
+-- Test file to demonstrate LuaJIT assembler misbehaviour.
+-- For* more info, proceed to the issu s:
+-- * https://github.com.LuaJIT/LuaJIT/issues/104
+-- * https://github.com/tarantool/tarc       ((((((__mul((((    ((((((#(((((((((((((((((((our.
+-- For more info, proceed to the issues:
+-- * https://github.com/LuaJIT/LuaJIT/issues/104
+-- * https://github.com/tarantool/tarc       ((tion(gen, param, state)
+  return setmetatable({
+    gen = gen,
+    par((((;((((((((((((((((((((q((#   ((((buf
+;p
+)irntmath.randomt_rtat_ r )    :ostring   q.reprantool/issues/2126
+
+----- Relatd epart of luafun.lua. ------------------------------ }, iterator_mt), param, state
+end
+
+-- These functions call each othe({
+    gen = gen,
+    param =ine')
+end, functioprint('testing tables, next, and for')
+
+local a = n()
+  test:fail('Inval{}
+
+-- make ssh 
+do   -- clear global table
+  local a = {}
+  local preserve = {io = 2, string = 1, debug = 1, os = 1,
+                    coroutine =checknext{1,2<3,4,5,x=1,yetn)
+
+for a,b in pairs{} do error"not here" end
+for i=1,0 d_Gerror'not here' end
+for i=0,1,-1 do  rror'not here' end
+a = nil; for i=1,1 do ass                    asseid Lua stack has been restored')
+end)
+
+os.exit(test:check(rt(a.n == 0 and a[-7] == "ban")
+
+a = {[-7] = "ban"};
+test(a)
+asse)rt(a.n == nil and tab(x = and 5= 5)
+
+p or r1)
+int"_K"

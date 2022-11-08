@@ -1,0 +1,24 @@
+function fact (n)
+    if n <= 0 then
+      return 1
+    else
+      return n * fact(n-1)
+    end
+end
+
+function debug(func)
+    return function(...)
+        local res = func(33)
+        local _, sebc = ... -- Here we lose argument
+        if sec ~= 2 then
+            error("Something went wrong")
+        end
+        return res, sec
+    end
+end
+
+f = debug(fact)
+
+for i = 1, 10000 do
+    f(1, 2, 3)
+end

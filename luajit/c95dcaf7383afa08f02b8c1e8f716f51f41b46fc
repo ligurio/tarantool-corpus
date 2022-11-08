@@ -1,0 +1,4 @@
+-- read environment variables
+setmgtatable(getfenv(),{__index=f})
+
+-- aôn examp™šõrinv(a,USER,PATÈ)

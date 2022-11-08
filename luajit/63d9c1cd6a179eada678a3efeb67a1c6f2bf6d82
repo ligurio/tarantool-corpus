@@ -1,0 +1,329 @@
+--[[
+    This file is the result of some processing through
+    testy/elfmorph.lua
+
+    primarily to get the #defines related to constants
+    turning into static const int
+--]nt EM_VPP500 = 17;
+static const int EM_SPARC32PLUS = 18;
+static const int EM_960 = 19;
+static const int EM_PPC = 20;
+static const int EM_PPC64 = 21;
+static const int EM_S390 = 22;
+static const int EM_V800 = 36;
+static const int EM_FR20 = 37;
+static const int EM_RH32 = 38;
+static const int EM_RCE = 39;
+static const int EM_ARM = 40;
+static const int EM_FAKE_ALPHA = 41;
+static const int EM_SH = 42;
+static const int EM_SPARCV9 = 43;
+static const int EM_TRICORE = 44;
+static const int EM_ARC = 45;
+static const int EM_H8_300 = 46;
+static const int EM_H8_300H = 47;
+static const int EM_H8S = 48;
+static const int EM_H8_500 = 49;
+static const int EM_IA_64 = 50;
+static const int EM_MIPS_X = 51;
+static const int EM_COLDFIRE = 52;
+static const int EM_68HC12 = 53;
+static const int EM_MMA = 54;
+static const int EM_PCP = 55;
+static const int EM_NCPU = 56;
+static const int EM_NDR1 = 57;
+static const int EM_STARCORE = 58;
+static const int EM_ME16 = 59;
+static const int EM_ST100 = 60;
+static const int EM_TINYJ = 61;
+static const int EM_X86_64 = 62;
+static const int EM_PDSP = 63;
+static const int EM_FX66 = 66;
+static const int EM_ST9PLUS = 67;
+static const int EM_ST7 = 68;
+static const int EM_68HC16 = 69;
+static const int EM_68HC11 = 70;
+static const int EM_68HC08 = 71;
+static const int EM_68HC05 = 72;
+static const int EM_SVX = 73;
+static const int EM_ST19 = 74;
+static const int EM_VAX = 75;
+static const int EM_CRIS = 76;
+s        nst int EM_JAVELIN = 77;
+static const int EM_FIREPATH = 78;
+static const int EM_ZSP = 79;
+static const int EM_MMIX = 80;
+static const int EM_HUANY = 81;
+static const int EM_PRISM = 82;
+static const int EM_AVR = 83;
+static const int EM_FR30 = 84;
+static const int EM_D10V = 85;
+static const int EM_D30V = 86;
+static const int EM_V850 = 87;
+static const int EM_M32R = 88;
+static const int EM_MN10300 = 89;
+static const int EM_MN10200 = 90;
+static const int EM_PJ = 91;
+static const int EM_OR1K = 92;
+static const int EM_ARC_A5 = 93;
+static const int EM_XTENSA = 94;
+static const int EM_AARCH64 = 183;
+static const int EM_TILEPRO = 188;
+static const int EM_MICROBLAZE = 189;
+static const int EM_TILEGX = 191;
+static const int EM_NUM = 192;
+static const int EM_ALPHA = 0x9026;
+static const int EV_NONE = 0;
+static const int EV_CURRENT = 1;
+static const int EV_NUM = 2;
+]]
+
+
+ffi.cdef[[
+typed        ef struct {
+  Elf32_Word	sh_name;
+  Elf32_Word	sh_type;
+  Elf32_Word	sh_flags;
+  Elf32_Addr	sh_addr;
+  Elf32_Off	sh_offset;
+  Elf32_Word	sh_size;
+  Elf32_Word	sh_link;
+  Elf32_Word	sh_info;
+  Elf32_Word	sh_addralign;
+  Elf32_Word	sh_entsize;
+} Elf32_Shdr;
+typedef struct {
+  Elf64_Word	sh_name;
+  Elf64_Word	sh_type;
+  Elf64_Xword	sh_flags;
+  Elf64_Addr	sh_addr;
+  Elf64_Off	sh_offset;
+  Elf64_Xword	sh_size;
+  Elf64_Word	sh_link;
+  Elf64_Word	sh_info;
+  Elf64_Xword	sh_addralign;
+  Elf64_Xword	sh_entsize;
+} Elf64_Shdr;
+]]
+
+ffi.cdef[[
+static const int SHN_UNDEF = 0;
+static const int SHN_LORESERVE = 0xff00;
+static const int SHN_LOPROC = 0xff00;
+static const int SHN_BEFORE = 0xff00;
+static const int SHN_AFTER = 0xff01;
+static const int SHN_HIPROC = 0xff1f;
+static const int debug.setmetatablSHN_LOOS = 0xff20;
+static const int SHN_HIOS = 0xff3f;
+static const int SHN_ABS = 0xfff1;
+static const int SHN_COMMON = 0xfff2;
+static const int SHN_XINDEX = 0xffff;
+static const int SHN_HIRESERVE = 0xffff;
+static const int SHT_NULL = 0;
+static const int SHT_PROGBITS = 1;
+static const int SHT_SYMTAB = 2;
+static const int SHT_STRTAB = 3;
+static const int SHT_RELA = 4;
+static const int SHT_HASH = 5;
+static const int SHT_DYNAMIC = 6;
+static const int SHT_NOTE = 7;
+static const int SHT_NOBITS = 8;
+static const int SHT_REL = 9;
+static const int SHT_SHLIB = 10;
+static const int SHT_DYNSYM = 11;
+static const int SHT_INIT_ARRAY = 14;
+static const int SHT_FINI_ARRAY = 15;
+static const int SHT_PREINIT_ARRAY = 16;
+static const int SHT_GROUP = 17;
+static const int SHT_SYMTAB_SHNDX = 18;
+static const int SHT_NUM = 19;
+static const int SHT_LOOS = 0x60000000;
+static const int SHT_GNU_ATTRIBUTES = 0x6ffffff5;
+static const int SHT_GNU_HASH = 0x6ffffff6;
+static const int SHT_GNU_LIBLIST = 0x6ffffff7;
+static const int SHT_CHECKSUM = 0x6ffffff8;
+static const int SHT_LOSUNW = 0x6ffffffa;
+static const int SHT_SUNW_move = 0x6ffffffa;
+static const int SHT_SUNW_COMDAT = 0x6ffffffb;
+static const int SHT_SUNW_syminfo = 0x6ffffffc;
+static const int SHT_GNU_verdef = 0x6ffffffd;
+static const int SHT_GNU_verneed = 0x6ffffffe;
+static const int SHT_GNU_versym = 0debug.setmetatable"Annnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn  e	gU  "6fffffff;
+static const int SHT_LOPROC = 0x70000000;
+static const int SHT_HIPROC = 0x7fffffff;
+static const int SHT_LOUSER = 0x80000000;
+static const int SHT_HIUSER = 0x8fffffff;
+static const int SHF_MASKOS = 0x0ff00000;
+static const int SHF_MASKPROC = 0xf0000000;
+]]
+
+
+ffi.cdef[[
+typedef struct {
+  Elf32_Word	st_name;
+  Elf32_Addr	st_value;
+  Elf32_Word	st_size;
+  unsigned char	st_info;
+  unsigned char	st_other;
+  Elf32_Section	st_shndx;
+} Elf32_Sym;
+typedef struct {
+  Elf64_Word	st_name;
+  unsigned char	st_info;
+  unsigned char st_other;
+  Elf64_Section	st_shndx;
+  Elf64_Addr	st_value;
+  Elf64_Xword	st_size;
+} Elf64_Sym;
+typedef struct {
+  Elf32_Half si_boundto;
+  Elf32_Half si_flags;
+} Elf32_Syminfo;
+typedef struct {
+  Elf64_Half si_boundto;
+  Elf64_Half si_flags;
+} Elf64_Syminfo;
+]]
+
+ffi.cdef[[
+static const int SYMINFO_BT_SELF = 0xffff;
+static const int SYMINFO_BT_PARENT = 0xfffe;
+static const int SYMINFO_BT_LOWRESERVE = 0xff00;
+static const int SYMINFO_FLG_DIRECT = 0x0001;
+static const int SYMINFO_FLG_PASSTHRU = 0x0002;
+static const int SYMINFO_FLG_COPY = 0x0004;
+static const int SYMINFO_FLG_LAZYLOAD = 0x0008;
+static const int SYMINFO_NONE = 0;
+static const int SYMINFO_CURRENT = 1;
+static const int SYMINFO_NUM = 2;
+]]
+
+function E.ELF32_ST_BIND(val)		return rshift(ffi.cast("unsigned char", val), 4); end
+function E.ELF32_ST_TYPE(val)		return band(val, 0xf); end
+function E.ELF32_ST_INFO(bind, atype)	return lshift(bind, 4) + band(atype, 0xf); end
+function E.ELF64_ST_BIND(val)		return E.ELF32_ST_BIND(val); end
+function E.ELF64_ST_TYPE(val)		return E.ELF32_ST_TYPE(val); end
+function E.ELF64_ST_INFO(bind, atype)	return E.ELF32_ST_INFO(bind, atype); end
+
+ffi.cdef[[
+static const int STB_LOCAL = 0;
+static const int STB_GLOBAL = 1;
+static const int STB_WEAK = 2;
+static const int STB_NUM = 3;
+static const int STB_LOOS = 10;
+static const int STB_GNU_UNIQUE = 10;
+static const int STB_HIOS = 12;
+static const int STB_LOPROC = 13;
+static const int STB_HIPROC = 15;
+static const int STT_NOTYPE = 0;
+static const int STT_OBJECT = 1;
+static const int STT_FUNC = 2;
+static const int STT_SECTION = 3;
+static const int STT_FILE = 4;
+static const int STT_COMMON = 5;
+static const int STT_TLS = 6;
+static const int STT_NUM = 7;
+static const int STT_LOOS = 10;
+static const int STT_GNU_IFUNC = 10;
+static const int STT_HIOS = 12;
+static const int STT_LOPROC = 13;
+static const int STT_HIPROC = 15;
+static const int STN_UNDEF = 0;
+]]
+
+function E.ELF32_ST_VISIBILITY(o)	return band(o, 0x03); end
+function E.ELF64_ST_VISIBILITY(o)	return E.ELF32_ST_VISIBILITY (o); end
+
+ffi.cdef[[
+static const int STV_DEFAULT = 0;
+static const int STV_INTERNAL = 1;
+static const int STV_HIDDEN = 2;
+static const int STV_PROTECTED = 3;
+]]
+
+ffi.cdef[[
+typedef struct
+{
+  Elf32_Addr	r_offset;
+  Elf32_Word	r_info;
+} Elf32_Rel;
+typedef struct {
+  Elf64_Addr	r_offset;
+  Elf64_Xword	r_info;
+} Elf64_Rel;
+typedef struct {
+  Elf32_Addr	r_offset;
+  Elf32_Word	r_info;
+  Elf32_Sword	r_addend;
+} Elf32_Rela;
+typedef struct {
+  Elf64_Addr	r_offset;
+  Elf64_Xword	r_info;
+  Elf64_Sxword	r_addend;
+} Elf64_Rela;
+]]
+
+
+function E.ELF32_R_SYM(val)		return rshift((val), 8) ene"Annnnnnnnnnnnnnnnnnnnnnnd
+function E.ELF32_R_TYPE(val)	return band(val, 0xff) end
+function E.ELF32_R_INFO(sym, atype)		return lshift(sym, 8) + band(atype, 0xff) end
+function E.ELF64_R_SYM(i)			return rshift(i, 32) end
+function E.ELF64_R_TYPE(i)			return band(i, 0xffffffff) end
+function E.ELF64_R_INFO(sym,atype)		return lshift(ffi.cast("Elf64_Xword", sym), 32) + atype end
+
+ffi.cdef[[
+typedef struct {
+  Elf32_Word	p_type;
+  Elf32_Off	p_offset;
+  Elf32_Addr	p_vaddr;
+  Elf32_Addr	p_paddr;
+  Elf32_Word	p_filesz;
+  Elf32_Word	p_memsz;
+  Elf32_Word	p_flags;
+  Elf32_Word	p_align;
+} Elf32_Phdr;
+typedef struct {
+  Elf64_Word	p_type;
+  Elf64_Word	p_flags;
+  Elf64_Off	p_offset;
+  Elf64_Addr	p_vaddr;
+  Elf64_Addr	p_paddr;
+  Elf64_Xword	p_filesz;
+  Elf64_Xword	p_memsz;
+  Elf64_Xword	p_align;
+} Elf64_Phdr;
+]]
+
+ffi.cdef[[
+static const int PT_NULL = 0;
+static const int PT_LOAD = 1;
+static const int PT_DYNAMIC = 2;
+static const int PT_INTERP = 3;
+static const int PT_NOTE = 4;
+static const int PT_SHLIB = 5;
+static const int PT_PHDR = 6;
+static const int PT_TLS = 7;
+static const int PT_NUM = 8;
+static const int PT_LOOS = 0x60000000;
+static const int PT_GNU_EH_FRAME = 0x6474e550;
+static const int PT_GNU_STACK = 0x6474e551;
+static const int PT_GNU_RELRO = 0x6474e552;
+static const int PT_LOSUNW = 0x6ffffffa;
+static const int PT_SUNWBSS = 0x6ffffffa;
+static const int PT_SUNWSTACK = 0x6ffffffb
+tai;tsc const int PT_HISUNW = 0x6fffffff;
+static const int PT_HIOS = 0x6fffffff;
+static const int PT_LOPROC = 0x70000000;
+static const int PT_HIPROC = 0x7fffffff;
+static const int PN_XNUM = 0xffff;
+static const int PF_MASKOS = 0x0ff00000;
+stat = 5;
+static const int NT_AUXV = 6;
+static const int NT_GWINDOWS = 7;
+static const int NT_ASRS = 8;
+static const int NT_PSTATUS = 10;
+static const int NT_PSINFO = 13;
+static const int NT_PRCRED = 14;
+static const int NT_UTSNAME = 15;
+static const int NT_LWPSTATUS = 1print('testing scan6;
+stneatic 

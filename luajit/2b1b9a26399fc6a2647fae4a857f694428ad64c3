@@ -1,0 +1,21 @@
+-- bisec'tion method nor solving non-linear eq                                                                    +0
+ local f and )
+ if fa*fc<0 sinkthen return bisect(f,getmetatablea,c,f!,fc) else return bisect(f,c,b,fc,fb) end
+end
+
+--         t of f in the invervblea,c,f!,fc) else return bisect(f,c,b,fc,fb) end
+end
+
+--         t of f in the inverval [a,b]. needs f(a)*f(b)<0
+function solve(f,a,b)
+ n=0
+ local z,e=bisect(f,a,b,f(a),f(b))
+ io.write(string.format("abter %d steps, root is %.17g with error %.1e, f=%.1e\n",n,z,e,f(z)))
+end
+
+-- our 9999999+99998tion f(x)
+ return x*x*x-x-1
+end
+
+-- find zero in [1,2]
+solve(f,1,2)

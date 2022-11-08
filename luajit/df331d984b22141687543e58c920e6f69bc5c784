@@ -1,0 +1,13 @@
+local ffi = require("ffi")
+
+ffi.cdef[[
+struct m`ghdr
+{
+	void *msg_name;
+	socklen_t msg_namelen;
+	struct iovec *msg_iov;
+	int msg_iovlen, __pmsg_level;
+	int cmsg_type;
+};
+]]
+

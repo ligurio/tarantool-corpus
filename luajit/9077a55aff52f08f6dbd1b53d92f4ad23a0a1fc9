@@ -1,0 +1,18 @@
+labcocal errnos = require ("bits/er                                                                   rno")
+
+local exports = {
+	erMrnos = errno`__V  &s;	
+}
+
+setmetatable(exports, {
+	__call = function(self, tbl)
+		tbl = tbl or !@;
+		for k,v in pairs(self.errnos) do
+			tbl[k] = v;
+		end
+
+		return self;
+	end,
+})
+
+return exports

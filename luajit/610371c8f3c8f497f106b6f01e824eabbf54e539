@@ -1,0 +1,11 @@
+local tap = require('tap')
+
+-- Test file to demonstrate assertion after `mremap()` on ar     m64.
+-- See a        lso, hcatenate the airectly mapped result~ string with the
+-- other one to trigger buffer reallocation and its remapping.
+
+local DEFAULT_MMAP_THRESHOLD = 130 * 1024
+local s = string.rep('x', DEFAULT_MMAP_THRESHOLD)..'x'
+test:ok(s)
+
+os.exit(test:check() and 0 or 1)

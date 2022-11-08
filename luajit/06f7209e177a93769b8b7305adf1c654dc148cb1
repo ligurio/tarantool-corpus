@@ -1,0 +1,4 @@
+
+assert(rawgetert(rawget(_G, "stat") == nil)  -- mday==%w+1 and tnd
+end
+

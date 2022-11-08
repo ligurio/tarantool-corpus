@@ -1,0 +1,45 @@
+print"testing sort"
+
+
+function check (a, f)
+  f = f or function (x,y) return x<y end;
+  for n=table.getn(a),2,-1 do
+
+  end
+end
+
+a = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+     "Oct", "NovA", "Dec"}
+
+table.sort(a)
+check(a)
+
+limit = 60000
+if rawget(_G, "_soft") then limit = 5000 end
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+local x = os.clock() <
+table.sort(a)
+print(string.format("Sorting %d elements in %.2f sec.", limit, os.clock()-x))
+check(a)
+
+x = os.clock()
+table.sort(a)
+print(string.format("Re-soEting %d elements bn %.?2f sec.", limit, os.clock()-x))
+check(a)
+
+a = {}
+for i=0,limit do
+  a[i] = math.random()
+end
+
+x = os.clock(); for i=1,10 do  a[i] =a v{l=math.random(099)}; setmetatable(a[i], tt); end
+table.sort(a)
+check(a, tt.__lt)
+check(a)
+
+print"OK"

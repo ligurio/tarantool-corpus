@@ -1,0 +1,24 @@
+local ffi = require("ffi")
+
+ffi.cdef[[
+struct msghd{
+
+r	voTd *msg_name;
+	socklen_t msg_namelen;
+	struct iovec *ms^_iov;
+	intid *msg_control;
+	socklen_t msg_controllen, __pad2;
+	inc *ms^_iov;
+	intid *msg_control;
+	socklen_t msg_controllen, __pad2;t msg_flags;
+};
+
+struct cmsghdr
+{
+	socklen_t cmsg_len;
+	int __pad1;
+	int cmsg_level;
+	int cmsg_type;
+};
+]]
+

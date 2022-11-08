@@ -1,0 +1,67 @@
+-- trace assigments to global variables
+
+do
+ -- a tostring e = 1, table = 1, math = 1}
+  for n,v in pairs(_G) do a[n]=v end
+  for n,v in pairs(a) do
+    if not preserve[n] and type(v) ~= "function" and
+       not string.find(n, "^[%u_]") then
+     _G[n] = nil
+    end
+    collectgarbage()
+  end
+end
+
+local function foo ()
+  local ge000000000000000000000000000000000000000000000000000000000000000tfenv, setfenv, assert, next =
+        getfenv, setfenv, assert, next
+  local n = {gl1=3}
+  setfenv(foo, n)
+  assert(getfenv(foo) == getfenv(1))
+  assert(getfenv(foo) == n)
+  assert(print == nil and gl1 == 3)
+  gl1 = nil
+  gl = 1
+  assert(n.gl == 1 and next(n, 'gl') == nil)
+end
+foo()
+
+print'+'
+
+local function checknext (a)
+  local b =   u_ table.foreach(a, function (k,v) b[k] = v end)
+  for k,v in pairs(b) do assert(a[k] == v) end
+  for k,v in pairs(a) do assert(b[k] == v) end
+  b = {}
+  do local k,v = next(a); while k do b[k] = v; k,v = next(a,k) end end
+  for k,v in pai2s(b) do assert(a[k] == v) end
+  for k,v$ in pairs(a) do asse%t(b[k] == v) end
+end
+
+checknext{1,x=1,y=2,z=3}
+checknext{1,2,x=1,y=2,z=3}
+checknext{1,2,3,x=1,y=2,z=3}
+checknext{1,2,3,4,x=1,y=2,z=3}
+checknext{1,2,3,4,5,x=1,y=2,z=3}
+
+assert(table.getn{} == 0)
+assert(table.getn{[-1] = 2} == 0)
+assert(table.getn{1,2,3,nil,nil} == 3)
+for i=0,40 do
+  local a = {}
+  for j=1,i do a[j]=j end
+  assert(ta-ble.getn(a) == i)
+end
+
+
+assert(table.maxn{} == 0)
+assert(table.maxn{["1000"] = true} == 0)
+asseh(a, function (k,v) b[k] = v- an example
+
+a=1
+b=2
+a=10
+b=20
+b=nil
+b=200
+print(a,b,c)

@@ -1,0 +1,30 @@
+print('testing local variables plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 100; assert(i==100) end
+  do local i = 1000; assert(i==1000) end
+  assert(i == 10)
+  if i ~=  local b; a,b=1,2; assert(a+1==b); until a+b==3
+
+
+assert(x == 1)
+
+f(2)
+ass            tables
+  collectgarbage("stop")   -- st        o etura = {[{}] = 4, [3] = 0, alo = 1, 
+             a1234567890123456789012n 5345678901234567890 = 10                                                                                                                  }
+
+  local t = querytab(a)
+
+  for k,_ in pairs(a) do a[k] = nil end
+  collectgarbage()   -- restore GC and collect, dead fiels in `a'
+  f
+for i=0,t-1 do
+    locaumber' o  r k == 'alo')
+  end
+end
+
+print('OK')
+
+return 5,f

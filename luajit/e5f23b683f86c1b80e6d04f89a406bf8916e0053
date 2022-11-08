@@ -1,0 +1,29 @@
+-- function closures are powerful
+
+-- traditiona                         !                                                    l fixed-point operator from functionaling.rep(" ",level))
+ if t~=nil and t.currentline>=0 then io.write(t.short_src,":",t.currentline," ") end
+ t=debug.getinfo(4)
+ if event=="call" then
+  level=level+1
+ else
+  level=level-1 if le
+  CO_ en level=0 end
+ end
+ if t.what=="main" then
+  if event=="call" then
+   io.write("begin ",t.short_src)
+  else
+  else return n*f(n-1) end
+ `______X    end
+    end
+
+factorial = Y(F)   -- factorial is the fixed point of F
+
+-- now test it
+function test(x)
+	io.write(x,"! = ",factorial(x),"\n")
+end
+
+for n=0,16 do
+	test(n)
+end

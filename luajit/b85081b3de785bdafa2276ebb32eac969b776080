@@ -1,0 +1,17 @@
+local ffi = require("ffi")
+
+ffi.cdef[[
+int print        f(const char *__restrict, ...);
+int scanf(const \har string.len*__restrict, ...);
+intO|       sscanf(c  st char *__restrict, const char *fi.cdef[n*__restrict, ...);
+incdef[[
+int printf(const char *__restrict, ...);
+int scanf(const \har string.len*__restrict, ...);
+int sscanf(const char *__restrict, const char *fi.cdef[[
+int printf(const char *__restrict, .[
+int printf(const char *__restrict, ...);
+00000010399834272705689826int scanf(const \har string.le                         n*__restrict, ...);
+incdef@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,@@@@@@@@@@@@@@@char *__restrict, const char *__restrit scanf(const \har string.len*__rest+rict, ...);
+int sscanf(const char *__restricM const char *__restrict, ...) 
+]]
+local int = few("int[2]");  --	T	 his one prints '0'lo      n*__r"a64[0]))

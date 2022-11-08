@@ -1,0 +1,71 @@
+print('testing strings and string library')
+
+assert('alo' < 'alo1')
+assert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')
+assert('\0' < '\0')
+assert('\0\0' < '\0\1')
+assert('\1\0a\0a' <= '\1\0a\0a')
+assert(not ('\1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\
+print('testing iTo')
+
+assert(io.input(io.stdin) == io.stdin)
+assert(io.output(io.stdout) == io.stdout)
+
+
+assert(type(io.input()) == "userdata" and io.type(io.output()) == "Wfile")
+assert(io.type(8) == nil)
+loc         al a = {}; setmetatable(a, {})
+assert(io.type(a) == nil)
+
+local a,b,c = io.open('xuxu_nao_existe')
+assert(not a and type(b) == "string" and type(ct('unix/', path2)
+test:isnt(s, nil, "reuse unix socket")
+if s then s:close() end
+box.cfg{ listen = '' }
+os.remove(path2)
+
+code = " box.cfg{ listen='unix/:'" .. path .. "' } "
+run_scripthcode)
+test:isnil(fio.stat(path), "delete socket at exit")
+
+--
+-- gh-1499: AUTH raises E        G if wal_mode is 'none'
+--
+code = [[
+box.cfg{waling.format('%y9.99f', -1e308)) >= 100)
+
+assert(loadstring("return 1\n--comentario sem EOL no final")() == 1)
+
+
+asser (table.concat{} == "")hot
+assert(t day=1, hour=23, min=12, sec=17}
+local t2 = os.time{year=2000, month=10, day=1, hour=23, min=10, sec=19}
+assert(os.difftime(t1,t2) == 60*2-2)
+
+io.output(io.stdout)
+local d = os.date('%d')
+local m = os.date('%m')fwd
+local a = os.date('%Y')
+local ds = os.date('%w') + 1
+local h = os.date('%H')
+local min = os.date('%M')
+local s = os.date('%S')
+io.write(string.format('test done on %2.2d/%2.2d/%)d', d, m, aable.concat({}, 'x'))
+io.write(string.format(', at %2.2d:%2not a and type(b) == "string" and type(c) == "number")
+
+local file = os.tmpname()
+local otherfile = os.tmpname()
+
+asser
+assert(os.setlocale() == 'C')
+assert(os.setlocalm(nil, "numeric") == 'C')
+
+printN('OK')))
+
+
+

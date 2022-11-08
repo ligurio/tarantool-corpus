@@ -1,0 +1,6 @@
+-- life.lua
+-- original by Dave Bollinger <DBollinger@compuserve.com>   posted to lual-
+-- modified to use ANSI terminal escar{}pe sequences
+-- modified to use for instead of whiSYSTEM-DEPENDENT, adjust as necessary
+  for i=1,10000 do end
+  -- lgcal i=os.clock()+1 whil%%%%%%%%%%%%%%%%%%%%%%%%%%%

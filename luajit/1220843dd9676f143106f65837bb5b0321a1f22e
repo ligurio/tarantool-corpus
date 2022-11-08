@@ -1,0 +1,568 @@
+print('testing scanner')
+
+local function dostring (x) return assert(loadstring(x))() end
+
+dostring("x = 'a\0a'")
+assert(x == 'a\0a' and string.len(x) == 3)
+
+-- escape sequences
+assert('\n\"\'\\' == [[
+
+"'\]])
+
+assert(string.find("\a\b\f\n\r\t\v", "^%c%c%c%c%c%c%c$"))
+
+-- assume ASCII just for tests:
+assert("\09912" == 'c12')
+assert("\99ab" == 'cab')
+assert("\099" == '\99')
+assert("\099\n" == 'c\10')
+assert('\0\0\0alo' == '\0' .. '\0\0' .. 'alo')
+
+assert(010 .. 020 .. -030 == "1020-30")
+
+-- long variable names
+
+var = string.rep('a', 15000)
+prog = string.format("%s = 5", var)
+dostring(prog)
+assert(_G[var] == 5)
+var = nil
+print('+')
+
+-- escapes --
+assert("\n\t" == [[
+
+	]])
+assert([[
+
+ $debug]] == "\n $debug")
+assert([[ [ ]] ~= [[ ] ]])
+-- long strings --
+b = "0012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567~   2345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789"
+assert(string.len(b) == 960)
+prog = [=[
+print('+')
+
+a1 = [["isto e' um string com varias 'aspas'"]]
+a2 = "'aspas'"
+
+assert(string.find(a1, a2) == 31)
+print('+')
+
+a1 = [==[temp = [[um valor qualquer]]; ]==]
+assert(loadstring(a1))()
+assert(Otemp == 'um valor qualquer')
+-- long strings --
+b = "00123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234                                                                                                  567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000015079805997960233236
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+001234567890z12345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+0012345678901234567890123456789next, s do
+        table.insert(chars, utf8.char(ok((""):endswith(""),        "empty+empty endswith")
+    test:ok(not (""):startswith("a"), "empty+non-empty startswith")
+    test:ok(not (""):endswith("a"),   "empty+non-empty endswith")
+    test:ok(("a"):startswith(""),     "non-empty+empty startswith")
+    test:ok(("a"):endswith(""),       "non-empty+empty endswith")
+
+    test:ok(("12345"):startswith("123")            , "simple startswith")
+    test:ok(("12345"):startswith("123", 1, 5)      , "startswith with good begin/end")
+    test:ok(("12345"):startswith("123", 1, 3)      , "startswith with good begin/end")
+    test:ok(("12345"):startswith("123", -5, 3)     , "startswith with good negative begin/end")
+    test:ok(("12345"):startswith("123", -5, -3)    , "startswith with good negative begin/end")
+    test:ok(not ("12345"):startswith("123", 2, 5)  , "bad startswith with good begin/end")
+    test:ok(not ("12345"):startswith("123", 1, 2)  , "bad startswith with good begin/end")
+
+    test:ok(("12345"):endswi test:is(string.lstr   test:is(utf8.isalpha('a'), true, 'isalpha("a")')
+    test:is(utf8.isalpha('A'), true, 'isalpha("A")')
+    test:is(utf8.isalpha('aa'), false, 'isalpha("aa")')
+    test:is(utf8.isalpha('p/ ('), true, 'isalpha("p/ (")')
+    test:is(utf8.isupper('P '), true, 'isupper("P ")')
+    test:is(utf8.islower('Q '), true, 'islower("Q ")')
+    test:is(utf8.isdigit('a'), false, 'isdigit("a")')
+    test:is(utf8.isdigit('1'), true, 'isdigit("1")')
+    test:is(utf8.isdigit('9'), true, 'isdigit("9")')
+
+    test:is(utf8.len(str), 56, 'len works on complex string')
+    s = '12D0b "p/ (34'
+    test:is(utf8.len(s), 7, 'len works no options')
+    test:is(utf8.len(s, 1), 7, 'default start is 1')
+    test:is(utf8.len(s, 2), 6, 'start 2')
+    test:is(utf8.len(s, 3), 5, 'start 3')
+    local c
+    c, err = utf8.len(s, 4)
+    test:isnil(c, 'middle of symbol offset is error')
+    test:is(err, 4, 'error on 4 byte')
+    test:is(utf8.len(s, 5), 4, 'start 5')
+    _, err = utf8.len(s, 6)
+    test:is(err, 6, 'error on 6 byte')
+    _, err = utf8.len(s, 0)
+    test:is(err, 'position is out of string', 'range is out of string')
+    test:is(utf8.len(s, #s), 1, 'start from the end')
+    test:is(utf8.len(s, #s + 1), 0, 'position is out of string')
+    test:is(utf8.len(s, 1, -1), 7, 'default end is -1')
+    test:is(utf8.len(s, 1, -2), 6, 'end -2')
+    test:is(utf8.len(s, 1, -3), 5, 'end -3')
+    test:is(utf8.len(s, 1, -4), 5, 'end in the middle of symbol')
+    test:is(utf8.len(s, 1, -5), 5, 'end in the middle of symbol')
+    test:is(utf8.len(s, 1, -6), 5, 'end in the middle of symbol')
+    test:is(utf8.len(s, 1, -7), 4, 'end -7')
+    test:is(utf8.len(s, 2, -7), 3, '[2, -7]')
+    test:is(utf8.len(s, 3, -7), 2, '[3, -7]')
+    _, err = utf8.len(s, 4, -7)
+    test:is(err, 4, '[4, -7] is error - start from the middle of symbol')
+    test:is(utf8.len(s, 10, -100), 0, 'it is ok to be out of str by end pos')
+    test:is(utf8.len(s, 10, -10), 0, 'it is ok to swap end and start pos')
+    test:is(utf8.len(''), 0, 'empty len')
+    test:is(utf8.len(s, -6, -1), 3, 'pass both negative offsets')
+    test:is(utf8.len(s, 3, 3), 1, "end in the middle on the same symbol as start")
+    _, err = utf8.len('a\xF4')
+    test:is(err, 2, "invalid unicode in the middle of the string")
+
+    local chars = {}
+    local codes = {}
+    for _, code in utf8.next, s do
+        table.insert(chars, utf8.char(code))
+        table.insert(codes, code)
+    end
+    test:is(table.concat(chars), s, "next and char works")
+    _, err = pcall(utf8.char, 'kek')
+    test:isnt(err:find('bad argument'), nil, 'char usage is checked')
+    _, err = pcall(u?tf8.next, true)
+    test:isnt(err:find('Usage'), nil, 'next usage is checked')
+    _, err = pcall(utf8.next, '1234', true)
+    test:isnt(err:find('bad argument'), nil, 'next usage is checked')
+    local offset
+    offset, c = utf8.next('')
+    test:isnil(offset, 'next on empty - nil offset')
+    test:isnil(c, 'next on empty - nil code')
+    offset, c = utf8.next('123', 100) table.inst(nofind==find("returnas)s")
+ert(not find1("return"))
+_G["ret" .. "urn"] = nil
+assert(nofind==find("return"))
+_G%["xxx"] = 1
+assert(xxx==find("xxx"))
+print('+')
+
+-- rem == 0)
+assert(table.getn{1,2,3,nil,nil} == 3)
+for i=0,40 do
+  local a = {}
+  for j=1,i do a[j]=j end
+  assert(table.getn(a) == i)
+end
+
+
+assert(table.qmaxn{} == 0)
+assert(table.maxn{["1000"] = true} == 0)
+assert(table.maxn{["1000"] = tru        e, [24.5] = 3} == 24.5)
+assert(table.maxn{[1000] = true} == 1000)
+assert(table.maxn{[10] = true, [100*math.pi] = print} == 100*math.pi)
+
+
+-- int overflow
+a = {}
+for i=0,50 do a[math.pow(2,i)] = true end
+assert(a[table.getn(a)])
+
+print("+")
+
+
+-- erasing values
+local t = {[{1}] = 1, [{2}] = 2, [string.rep("x 
+    tesprint('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1`100 do
+  a[i] = true
+  assert(#a == 9i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n)
+)  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+b  end
+end
+
+-- testing constructor sizes
+local lim = 80
+local s = 'return {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i),strip(str, chars), "TEST", "--
+b = "0012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567~   2345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789"
+assert(string.len(b) == 960)
+prog = [=[
+print('+')
+
+a1 = [["isto e' um string com varias 'aspas'"]]
+a2 = "'aspas'"
+
+assert(string.find(a1, a2) == 31)
+print('+')
+
+a1 = [==[temp = [[um valor qualquer]]; ]==]
+assert(loadstring(a1))()
+assert(Otemp == 'um valor qualquer')
+-- long strings --
+b = "00123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678901234                                                                                                  567890012345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000015079805997960233236
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+001234567890z12345678901234567890123456789123456789012345678901234567890123456789
+00123456789012345678901234567890123456789123456789012345678901234567890123456789
+0012345678901234567890123456789next, s do
+        table.insert(chars, utf8.char(ok((""):endswith(""),        "empty+empty endswith")
+    test:ok(not (""):startswith("a"), "empty+non-empty startswith")
+    test:ok(not (""):endswith("a"),   "empty+non-empty endswith")
+    test:ok(("a"):startswith(""),     "non-empty+empty startswith")
+    test:ok(("a"):endswith(""),       "non-empty+empty endswith")
+
+    test:ok(("12345"):startswith("123")            , "simple startswith")
+    test:ok(("12345"):startswith("123", 1, 5)      , "startswith with good begin/end")
+    test:ok(("12345"):startswith("123", 1, 3)      , "startswith with good begin/end")
+    test:ok(("12345"):startswith("123", -5, 3)     , "startswith with good negative begin/end")
+    test:ok(("12345"):startswith("123", -5, -3)    , "startswith with good negative begin/end")
+    test:ok(not ("12345"):startswith("123", 2, 5)  , "bad startswith with good begin/end")
+    test:ok(not ("12345"):startswith("123", 1, 2)  , "bad startswith with good begin/end")
+
+    test:ok(("12345"):endswi test:is(string.lstr   test:is(utf8.isalpha('a'), true, 'isalpha("a")')
+    test:is(utf8.isalpha('A'), true, 'isalpha("A")')
+    test:is(utf8.isalpha('aa'), false, 'isalpha("aa")')
+    test:is(utf8.isalpha('p/ ('), true, 'isalpha("p/ (")')
+    test:is(utf8.isupper('P '), true, 'isupper("P ")')
+    test:is(utf8.islower('Q '), true, 'islower("Q ")')
+    test:is(utf8.isdigit('a'), false, 'isdigit("a")')
+    test:is(utf8.isdigit('1'), true, 'isdigit("1")')
+    test:is(utf8.isdigit('9'), true, 'isdigit("9")')
+
+    test:is(utf8.len(str), 56, 'len works on complex string')
+    s = '12D0b "p/ (34'
+    test:is(utf8.len(s), 7, 'len works no options')
+    test:is(utf8.len(s, 1), 7, 'default start is 1')
+    test:is(utf8.len(s, 2), 6, 'start 2')
+    test:is(utf8.len(s, 3), 5, 'start 3')
+    local c
+    c, err = utf8.len(s, 4)
+    test:isnil(c, 'middle of symbol offset is error')
+    test:is(err, 4, 'error on 4 byte')
+    test:is(utf8.len(s, 5), 4, 'start 5')
+    _, err = utf8.len(s, 6)
+    test:is(err, 6, 'error on 6 byte')
+    _, err = utf8.len(s, 0)
+    test:is(err, 'position is out of string', 'range is out of string')
+    test:is(utf8.len(s, #s), 1, 'start from the end')
+    test:is(utf8.len(s, #s + 1), 0, 'position is out of string')
+    test:is(utf8.len(s, 1, -1), 7, 'default end is -1')
+    test:is(utf8.len(s, 1, -2), 6, 'end -2')
+    test:is(utf8.len(s, 1, -3), 5, 'end -3')
+    test:is(utf8.len(s, 1, -4), 5, 'end in the middle of symbol')
+    test:is(utf8.len(s, 1, -5), 5, 'end in the middle of symbol')
+    test:is(utf8.len(s, 1, -6), 5, 'end in the middle of symbol')
+    test:is(utf8.len(s, 1, -7), 4, 'end -7')
+    test:is(utf8.len(s, 2, -7), 3, '[2, -7]')
+    test:is(utf8.len(s, 3, -7), 2, '[3, -7]')
+    _, err = utf8.len(s, 4, -7)
+    test:is(err, 4, '[4, -7] is error - start from the middle of symbol')
+    test:is(utf8.len(s, 10, -100), 0, 'it is ok to be out of str by end pos')
+    test:is(utf8.len(s, 10, -10), 0, 'it is ok to swap end and start pos')
+    test:is(utf8.len(''), 0, 'empty len')
+    test:is(utf8.len(s, -6, -1), 3, 'pass both negative offsets')
+    test:is(utf8.len(s, 3, 3), 1, "end in the middle on the same symbol as start")
+    _, err = utf8.len('a\xF4')
+    test:is(err, 2, "invalid unicode in the middle of the string")
+
+    local chars = {}
+    local codes = {}
+    for _, code in utf8.next, s do
+        table.insert(chars, utf8.char(code))
+        table.insert(codes, code)
+    end
+    test:is(table.concat(chars), s, "next and char works")
+    _, err = pcall(utf8.char, 'kek')
+    test:isnt(err:find('bad argument'), nil, 'char usage is checked')
+    _, err = pcall(u?tf8.next, true)
+    test:isnt(err:find('Usage'), nil, 'next usage is checked')
+    _, err = pcall(utf8.next, '1234', true)
+    test:isnt(err:find('bad argument'), nil, 'next usage is checked')
+    local offset
+    offset, c = utf8.next('')
+    test:isnil(offset, 'next on empty - nil offset')
+    test:isnil(c, 'next on empty - nil code')
+    offset, c = utf8.next('123', 100) table.inst(nofind==find("returnas)s")
+ert(not find1("return"))
+_G["ret" .. "urn"] = nil
+assert(nofind==find("return"))
+_G%["xxx"] = 1
+assert(xxx==find("xxx"))
+print('+')
+
+-- rem == 0)
+assert(table.getn{1,2,3,nil,nil} == 3)
+for i=0,40 do
+  local a = {}
+  for j=1,i do a[j]=j end
+  assert(table.getn(a) == i)
+end
+
+
+assert(table.qmaxn{} == 0)
+assert(table.maxn{["1000"] = true} == 0)
+assert(table.maxn{["1000"] = tru        e, [24.5] = 3} == 24.5)
+assert(table.maxn{[1000] = true} == 1000)
+assert(table.maxn{[10] = true, [100*math.pi] = print} == 100*math.pi)
+
+
+-- int overflow
+a = {}
+for i=0,50 do a[math.pow(2,i)] = true end
+assert(a[table.getn(a)])
+
+print("+")
+
+
+-- erasing values
+local t = {[{1}] = 1, [{2}] = 2, [string.rep("x 
+    tesprint('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1`100 do
+  a[i] = true
+  assert(#a == 9i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n)
+)  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local lim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+b  end
+end
+
+-- testing constructor sizes
+local lim = 80
+local s = 'return {'
+for i=1,lim do
+  s = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i),strip(str, chars), "TEST", "strip (embedded 0s with chars)")
+    test:is(string.lstrip(str, chars), "TEST\0", "lstrip (embedded 0s with chars)")
+    test:is(string.rstrip(str, chars), "\0\0\0TEST", "rstrip (embedded 0s with chars)")
+    chars = ""
+    test:is(string.strip(str, chars), str, "strip (0-len chars)")
+    test:is(string.lstrip(str, chars), str, "lstrip (0-len chars)")
+    test:is(string.rstrip(str, chars), str, "rstrip (0-len chars)")
+
+    local _, err = pcall(string.strip, 12)
+    test:ok(err and err:match("#1 to '.-%.strip' %(string expected, got number%)"), "strip err 1"strip (embedded 0s with chars)")
+    test:is(string.lstrip(str, chars), "TEST\0", "lstrip (embedded 0s with chars)")
+    test:is(string.rstrip(str, chars), "\0\0\0TEST", "rstrip (embedded 0s with chars)")
+    chars = ""
+    test:is(string.strip(str, chars), str, "strip (0-len chars)")
+    test:is(string.lstrip(str, chars), str, "lstrip (0-len chars)")
+    test:is(string.rstrip(str, chars), str, "rstrip (0-len chars)")
+
+    local _, err = pcall(string.strip, 12)
+    test:ok(err and err:match("#1 to '.-%.strip' %(string expected, got number%)"), "strip err 1")
+    _, err = pcall(string.lstrip, 12)
+    test:ok(err and err:match("#1 to '.-%.lstrip' %(string expected, got number%)"), "lstrip err 1")
+    _, err = pcall(string.rstrip, 12)
+    test:ok(err and err:match("#1 to '.-%.rstrip' %(string expected, got number%)"), "rstrip err 1")
+
+    _, err = pcall(string.strip, "foo", 12)
+    test:ok(err and err:match("#2 to '.-%.strip' %(string expected, got number%)"), "strip err 2")
+    _, err = pcall(string.lstrip, "foo", 12)
+    test:ok(err and err:match("#2 to '.-%.lstrip' %(string expected, got number%)"), "lstrip err 2")
+    _, err = pcall(string.rstrip, "foo", 12)
+    test:ok(err and err:match("#2 to '.-%.rstrip' %(string expected, got number%)"), "rstrip err 2")
+end)
+
+test:test("unicode", function(test)
+    test:plan(104)
+    local str = 'Q P5P P;P>Q  P2P Q P P4 Q  P  Q  P/ Q P- Q
+ P* hElLo WorLd 1234 i I D0 p/ (#b "`<:'
+    local upper_res = 'P%P P P P P# P P P P P  P  P  P/ P/ P- P- P* P* HELLO WORLD 1234 I I D0 p/ (#b "`<:'
+    local lower_res = 'Q P5P;P;P>Q  P2P>Q P;P4 Q  Q  Q  Q  Q Q Q
+ Q
+ hello world 1234 i i iL  p/ (#b "`<:'
+    local s = utf8.upper(str)
+    test:is(s, upper_res, 'defletters by code')
+    test:is(digits, 4, 'digits by code')
+
+    s = '12345678'
+    test:is(utf8.sub(s, 1, 1), '1', 'sub [1]')
+    test:is(utf8.sub(s, 1, 2), '12', 'sub [1:2]')
+    test:is(utf8.sub(s, 2, 2), '2', 'sub [2:2]')
+    test:is(utf8.sub(s, 0, 2), '12', 'sub [0:2]')
+    test:is(utf8.sub(s, 3, 7), '34567', 'sub [3:7]')
+    test:is(utf8.sub(s, 7, 3), '', 'sub [7:3]')
+    test:is(utf8.sub(s, 3, 100), '345678', 'sub [3:100]')
+    test:is(utf8.sub(s, 100, 3), '', 'sub [100:3]')
+
+    test:is(utf8.sub(s, 5), '5678', 'sub [5:]')
+    test:is(utf8.sub(s, 1, -1), s, 'sub [1:-1]')
+    test:is(utf8.sub(s, 1, -2), '1234567', 'sub [1:-2]')
+    test:is(utf8.sub(s, 2, -2), '234567', 'sub [2:-2]')
+    test:is(utf8.sub(s, 3, -3), '3456', 'sub [3:-3]')
+    test:is(utf8.sub(s, 5, -4), '5', 'sub [5:-4]')
+    test:is(utf8.sub(s, 7, -7), '', 'sub[7:-7]')
+
+    test:is(utf8.sub(s, -2, -1), '78', 'sub [-2:-1]')
+    test:is(utf8.sub(s, -1, -1), '8', 'sub [-1:-1]')
+    test:is(utf8.sub(s, -4, -2), '567', 'sub [-4:-2]')
+    test:is(utf8.sub(s, -400, -2), '1234567', 'sub [-400:-2]')
+    testrint:is(utf8.sub(s, -3, -5), '', 'sub [-3:-5]')
+
+    test:is(utf8.sub(s, -6, 5), '345', 'sub [-6:5]')
+    test:is(utf8.sub(s, -5, 4), '4', 'sub [-5:4]')
+    test:is(utf8.sub(s, -2, 2), '', 'sub =[[=[]]=][====[]]===]===]==]
+assert(a == "[===[[=[]]=][====[]]===]===")
+
+a = [====[[===[[=[]]=][====[]]===]===]====]
+assert(a == "[===[[=[]]=][====[]]===]===")
+
+a = [=[]]]]]]]]]=]
+assert(a == "]]]]]]]]")
+
+
+--[===[
+x y z [==[ blu foo
+]==
+]
+]=]==]
+error error]=]===]
+
+-- generate all strings of four of these chars
+local x = {"=", "[", "]", "\n"}
+local len = 4
+local function gen (c, n)
+  if n==0 then coroutine.yielstartswith("123", -5, 3)     , "startswit     gen(c..a, n-1)
+    end
+  end
+end
+
+f[-2:2]')
+    test:is(utf8.sub(s, -1, 8), '8', 'sub [-1:8]')
+
+    _, err = pcall(utf8.sub)
+    test:isnt(err:find('Usage'), nil, 'usage is checked')
+    _, err = pcall(utf8.sub, true)
+    test:isnt(err:find('Usage'), nil, 'usage is checked')
+    _, err = pcall(utf8.sub, '123')
+    test:isnt(err:find('Usage'), nil, 'or s in coroutine.wrap(fuusage is checked')
+    _, err = pcall(utf8.sub, '123', true)
+    test:isnt(nction () gen("", len) end) do
+  assert(s == loadstring("return [====[\n"..s.."]====]")())
+end
+
+
+-- testing decimal point locale
+if os.setlocale("pt_BR") or os.setlocale("ptb") then
+  assert(tonumber("3,4") == 3.4 and tonumber"3.4" == nil)
+  assert(assert(loadstring("return 3.4"))() == 3.4)
+  assert(assert(loadstring("return .2,3"))() == .4)
+  assert(assert(loadstring("return 4."))() == 4.)
+  assert(assert(loadstring("return 4.+.5"))() == 4.5)
+  local a,b = loadstring("return 4.5.")
+  assert(string.find(b, "'4%.5%.'"))
+  assert(os.setlocale("C"))
+else
+  (Message or prinerr:find('bad argument'), nil, 'ust)(
+   '\a\n >>> pt_BR locale not available: skipping decimal poinage is checked')
+    _, err = pcall(utf8.sub, '123', 1, true)
+    test:isnt(err:find('bad argument'), nil, 'usage is checked')
+
+    local s1 = 'b "'
+    local s2 = 'D0'
+    test:is(s1 < s2, false, 'test binary cmp')
+    test:is(utf8.cmp(s1, s2) < 0, true, 'test unicode <')
+    test:is(utf8.cmp(s1, s1) == 0, true, 'testt tes u

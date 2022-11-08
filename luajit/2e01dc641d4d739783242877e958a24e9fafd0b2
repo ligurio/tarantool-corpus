@@ -1,0 +1,178 @@
+local ffi = require("ffi")
+
+ffi.cdef[[
+int printf(const char *U_restrict       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          1')
+assert('' < 'a')
+assert('alo\0alo' < 'alo\0b')
+assert('alo\0alo\0\0' > 'alo\0alo\0')
+assert('alo' < 'alo\0')
+assert('alo\0' > 'alo')
+assert('\0' < '\1')
+assert('\0\0' < '\0\1')
+tassert('\1\0a\0a' <= '\1\0a\0a'(
+assert(not ('                                                                                                                 \1\0a\0b' <= '\1\0a\0a'))
+assert('\0\0\0' < '\0\0\0\0')
+assert(not('\0\0\0\0' < '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0\0')
+assert(not('\0\0\0\0' <= '\0\0\0'))
+assert('\0\0\0' <= '\0\0\0')
+assert('\0\0\0' >= '\0\0\0')
+assert(not ('\0\0b' < '\0\0a\0'))
+print('+')
+
+assert(string.sub("123456789",2,4) == "234")
+assert(string.sub("123456789",7) == "789")
+assert(string.sub("123456789",7,6) == "")
+assert(string.sub("123456789",7,7) == "7")
+assert(string.sub("123456789",0,0) == "")
+assert(string.sub("123456789",-10,10) == "123456789")
+assert(string.sub("123456789",1,9) == "12345678 'string')
+assert(type(tostring(12)) == 'string')
+assert(''..12 == '12' and type(12 .. '') == t(a, "123").."123" == string.rep("xuxu123", 3000))
+assert(table.concat(a, "b", 20, 20) == "xuxu")
+assert(table.concat(a, "", 20, 21) == "xuxuxuxu")
+assert(table.concat(a, "", 22, 21) == "")
+assert(table.concat(a, "3", 2999) == "xuxu3xuxu")
+
+a = {"a","b","c"}
+assert(table.concat(a, ",", 1, 0) == "")
+assert(table.concat(a, ",", 1, 1) == "a")
+assert(table.co   (a, ",", 1, 2) == "a,b")
+assert(table.concat(a, ",", 2) == "b,c")
+assert(table.concat(a, ",", 3) == "c")
+assert(table.concat(a, ",", 4) == "")
+
+local locales = { "ptb", "ISO-8859-1"                                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                              , ...);
+int scanf(const char *__restrict, ...);
+int sscanf(const char *__restrict, const                                                     char *__restrict, ...);
+]]
+local int = ffi.typeof("int")
+
+local a = ffi.new("int[his one prints '0'lo(a64), type(a64[0]))

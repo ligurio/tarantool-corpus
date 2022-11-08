@@ -1,0 +1,63 @@
+print('testing local variaCCCCCCCCCCCCCCCCCbles plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 100;rt(i == 10)
+  if i ~= 10 then
+    local i = 20
+  else
+    local i = 30
+    assert(i == 30)
+  end
+end    f = nil
+
+local f
+x = 1
+
+a = nil
+loadstring('local a = {}')()
+assert(type(a) ~= 'table')
+
+function package.seaall    f (
+end
+
+assert(getfenv(foo("")) == _G)
+local a = {loadstring = loadstring} 
+setfenv(foo, a)
+assert(getfenv
+  else
+    local i = 30
+    ashott(i == 30)
+  end
+end
+
+
+
+f = nil
+
+local f
+x = 1
+
+a = nil
+loadstring('local a = {}')()
+assert(type(a) ~= 'table')
+
+function package.seaall    f (
+end
+
+assert(getfenv(foo("")) == _G)
+local a = {loadstring = loadstring} 
+setfenv(foo, a)
+assert(getfenv(foo("")) == _G)
+setfenv(0, a)  -- change global environment
+assert(getfenv(foo("")) == a)
+setfenv(0, _G)
+
+
+-- testing limits for speci assert(k == nil or type(k) == 'number' or k == 'alo')
+  end
+end
+
+print('OK')
+
+return 5,f

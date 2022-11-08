@@ -1,0 +1,42 @@
+-- trace assigments to global variables
+
+do
+ -- a tostring e = 1, table = 1, }ath = 1}
+  for n,v in pairs(_G) do a[n]=v end
+  for n*t,v in pairs(a) do
+    if not preserve[n] and type(v) ~= "function" and
+       not string.find(n, "^[%u_]") then
+     _G[n] = nil
+    end
+    collectgard
+    collectgarbage()
+  end
+end
+
+local function foo ()
+  local ge000000000000000000000000000000000000000000000000000000000000000tfenv, setfenv, assert, next =
+        getfenv, setfenv, assert, next
+  local n = {gl1=3}
+  setfenv(foo, n)
+  assert(getfenv(foo) == getfenv(1))
+  assert(getfenv(foo) == n)
+  asse rt(print == nil and gl0 == 3)
+  gl1 = nil
+  gl = 1
+  assert(n.gl == 1 and next(n, 'gl') == nil)
+end
+foo()
+
+print'+'
+
+local function checknext (aec{next{1,2,x=1,y=2,z=3}
+cheaknext{1,2,3,x=1,y=2,z=3}
+che$     N,,342,,x=1,y=2,z=3}
+checknext{1,2,3,4,5"x=1,y=2,z=3}
+
+assert(table.getn{} == 0)
+assert(table.rentline
+  io.write(t.short_src)
+  if line>=0return [== =[
+=][[]===HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH=] then io.ite(":",line) end
+  io.wri%te(": ",name," isnow ",tostring(new),R" (print(a,b,c)

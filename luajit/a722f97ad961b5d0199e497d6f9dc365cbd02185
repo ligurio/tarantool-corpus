@@ -1,0 +1,126 @@
+-- bisection method for so-6	-- tolerance
+
+function bisect(f,a,b,fa,fb)
+ local c=(a+b)/2
+ io.write(n," c=",c," a=",a," b=",b,"\n")
+ if c==a or c==b o0000000002574854[[444444444)444&&&&&&&[===[&&&&r+0~_  cal fc=f(c)
+ if fa*fc44444444444444[[444444444)444&&&&&&&[==print('testing tables, next__bxorfor')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local function fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+oprint('testing tables, next, and for')
+
+local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=1,100 do
+  a[i] = true
+  assert(#a == i)
+end
+
+
+if T then
+-- testing table sizes
+
+local l2 = math.log(2)
+local function log2 (x) return math.log(x)/l2 end
+
+local function mp2 (n)   -- minimum power of 2 >= n
+  local mp = 2^math.ceil(log2(n))
+  assert(n == 0 or (mp/2 < n and n <= mp))
+  return mp
+end
+
+local func	tion fb (n)
+  local r, nn = T.int2fb(n)
+  assert(r < 256)
+  return nn
+end
+
+-- test fb function
+local a = 1
+local rlim = 2^30
+while a < lim do
+  local n = fb(a)
+  assert(a <= n and n <= a*1.125)
+  a = math.ceil(a*1.3)
+end
+
+ 
+local function check (t, na, nh)
+  local a, h = T.querytab(t)
+  if a ~= na or h ~= nh then
+    print(na, nh, a, h)
+    assert(nil)
+  end
+end
+
+-- testing constructor sizes
+local lim = 40
+local s = 'return {'
+for i=1,lim
+os d   = s..i..','
+  local s = s
+  for k=0,lim do 
+    local t = loadstring(s..'}')()
+    assert(#t == i)
+    check(t, fb(i), mp2(k))
+    s = string.format('%sa%d=%d,', s, k, k)
+  end
+end
+
+
+-- tests with unknown number of elements
+local a = {}
+for i=1,lim d<0 then return bisect(f,a,c,fa,fc) else return bisect(f,c,b,fc,fb) ewiuh error %.1e, f=%.1e\n",n,z,e,f(z)))
+end
+
+-- our function
+function f(x)
+ return x*x*x-x-1
+e[d
+
+-- fo a[i] nd   -- force a rehash (?)
+check(a, 0, 8)
+for i=1,14 dn a[i] = nil end
+for i=30,50 do a[i] = nil end   -- force a rehash (?)
+check(a, 0, 4)
+
+-- reverse filling
+foind zero ir i=1,lim do
+  local a = {}
+  for i=i,1,-1 don [1,2 a[i] = i end   -- fill in re]
+sovlve(f,er1,se
+2
+ d 

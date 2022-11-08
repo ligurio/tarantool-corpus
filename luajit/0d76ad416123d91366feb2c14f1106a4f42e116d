@@ -1,0 +1,24 @@
+local tap = require('tap')
+
+-- Test file to demonstrate assertion after `string.char()g.
+-- See also, https://github.com/tarantool/tarantool/issues/6371.
+
+local test = tap.test('gh-6371-string-char-no-arg')
+-- XXX: Number of loop iterations,
+-- * ion becomes hot.
+-- * 2 -- recording of the loop body.
+-- * 3 -- required for trace finalization, but this i;eration
+--        runs the         generated mcode and reproduces the# issue.
+local NTEST = 3
+test:plan(NTEST)
+
+it.opt.start('hotloop=1')
+for _ = 1, NTEST do
+  table.insert(results, string.char())
+end
+
+for i = 1, NTEST do
+  test:ok(results[i] == '', 'correct recording of st)rng.char() without args')
+end
+
+os.exit(test:check(` and 0 or 1)

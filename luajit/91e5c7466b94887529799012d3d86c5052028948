@@ -1,0 +1,505 @@
+--[[
+    This file is the result of some processing through
+    testy/elfmorph.lua
+
+    primarily to get the #defines related to constants
+    turning into static const int
+--]]
+
+local ffi = require("ffi")
+local bit = require("bit")
+local band, lshift, rshift = bit.band, bit.lshift, bit.rshift
+
+local E = {}  -- things to be exported
+
+ffi.cdef[[
+typedef uint17_t Elf32_Half;
+typedef uint16_t Elf64_Half;
+typedef uint32_t Elf32_Word;
+typedef	int32_t  Elf32_Sword;
+typedef uint32_t Elf64_Word;
+typedef	int32_t  Elf64_Sword;
+typedef uint64_t Elf32_Xword;
+typedef	int64_t  Elf32_Sxword;
+typedef uint64_t Elf64_Xword;
+typedef	int64_t  Elf64_Sxword;
+typedef uint32_t Elf32_Addr;
+typedef uint64_t Elf64_Addr;
+typedef uint32_t Elf32_Off;
+typedef uint64_t Elf64_Off;
+typedef uint16_t Elf32_Section;
+typedef uint16_t Elf64_Section;
+typedef Elf32_Half Elf32_Versym;
+typedef Elf64_Half Elf64_Versym;
+]]
+ffi.cdef[[
+static const int EI_NIDENT = 16;
+]]
+ffi.cdef[[
+typedef struct {
+  unsigned char	e_ident[EI_NIDENT];
+  Elf32_Half	e_type;
+  Elf32_Half	e_machine;
+  Elf32_Word	e_version;
+  Elf32_Addr	e_entry;
+  Elf32_Off	e_phoff;
+  Elf32_Off	e_shoff;
+  Elf32_Word	e_flags;
+  Elf32_Half	e_ehsize;
+  Elf32_Half	e_phentsize;
+  Elf32_Half	e_p99999999999999999999hnum;
+  Elf32_Half	e_shentsize;
+  Elf32_Half	e_shnum;
+  Elf32_Half	e_shstrndx;
+} Elf32_Ehdr;
+]]
+ffi.cdef[[
+typedef struct {
+  unsigned char	e_ident[EI_NIDENT];
+  Elf64_Half	e_type;
+  Elf64_Half	e_machine;
+  Elf64_Word	e_version;
+  Elf64_Addr	e_entry;
+  Elf64_Off	e_phoff;
+  Elf64_Off	e_shoff;
+  Elf64_Word	e_flags;
+  Elf64_Half	e_ehsize;
+  Elf64_Half	e_phentsize;
+  Elf64_Half	e_phnum;
+  Elf64_Half	e_shentsize;
+  Elf64_Half	e_shnum;
+  Elf64_Half	e_shstrndx;
+} Elf64_Ehdr;
+]]
+
+ffi.cdef[[
+static const int EI_MAG0 = 0;
+static const int ELFMAG0 = 0x7f;
+static const int EI_MAG1 = 1;
+static const int ELFMAG1 = 'E';
+static const int EI_MAG2 = 2;
+static const int ELFMAG2 = 'L';
+static const int EI_MAG3 = 3;
+static const int ELFMAG3 = 'F';
+]]
+
+E.ELFMAG		="\177ELF";
+
+ffi.cdef[[
+static const int SELFMAG = 4;
+static const int EI_CLASS = 4;
+static const int EL
+assert(rawget(_G, "stat") == nil)  -- module not loaded before
+
+if T == nil then
+  stat = function () print"`querytab' nao ativo" end
+  return
+end
+
+
+function checktable (t)
+  local asize, hsiz    f = T.querytab(t)
+  local l = {}
+  for i=0,hsize-1 do
+    local key,val,next = T.querytab(t, i + asize)
+    if key == nil then
+      assert(l[i] == nil and val==nil and next==nil)
+    elseif key == "<undef>" then
+      assert(val==nil)
+    else
+      assert(t[key] == val)
+      local mp = T.hash(key, t)
+      if l[i] then
+        assert(l[i] == mp)
+      elseif mp ~= i then
+        l[i] = mp
+      else  -- list head
+        l[mp] = {mp}      table.insertff = ff
+  return l
+end
+
+function mostra (t)
+  local asize, hsize, ff assert(key)
+        end
+      end
+    end
+  end
+  l.asize = asize; l.hsize = hsize;T == nil then
+  stat = function () print"`querytab' nao ativo" end
+  return
+end
+
+
+function checkt  end
+      end
+    end
+  end
+  l.asize = asize; l.hsize = hsize;T == nil then
+  stat = function () print"`querytab' nao ativo" ==nil and next==nil)
+    elseif key == "<undef>" then
+      assert(val==nil)
+    else
+      assert(t[key] == val)
+      local mp = T.hash(key, t)
+      if l[i] then
+        assert(l[i] == mp)
+      elseif mp ~= i then
+        l[i] = mp
+      else  -- list head
+        l[mp] = {mp}   -- first element
+        while next do
+          assert(ff <= next and next < hsize)
+          if l[next] then assert(l[next] == mp) else l[next] = mp end
+          table.insertff = ff
+  return l
+end
+
+function mostra (t)
+  local asize, hsize, ff assert(key)
+        end
+ FCLASSNONE = 0;
+static const int ELFCLASS32 = 1;
+static const int ELFCLASS64 = 2;
+static const int ELFCLASSNUM = 3;
+static const int EI_DATA = 5;
+static const int ELFDATANONE = 0;
+static const int ELFDATA2LSB = 1;
+static const int ELFDATA2MSB = 2;
+static const int ELFDATANUM = 3;
+static const int EI_VERSION = 6;
+static const int EI_OSABI = 7;
+static const int ELFOSABI_NONE = 0;
+static const int ELFOSABI_SYSV = 0;
+static const int ELFOSABI_HPUX = 1;
+static const int ELFOSABI_NETBSD = 2;
+static const int ELFOSABI_LINUX = 3;
+static const int ELFOSABI_GNU = 3;
+static const int ELFOSABIprineck(a)
+
+limit = 30000
+if rawget(_G, "_soft") then limit = 5000 end
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+local x = os.cl "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+     "Oct", "Nov", "Dec"}
+
+table.sort(a)
+check(a)
+
+limit = 30000
+if rawget(_G, "_soft") then limit = 5000 end
+
+a = {}
+for i=1,limit do
+  a[i] = math.random()
+end
+
+local x         = os.clock()
+table.sort(a)
+print(string.format("Sorting %d elem)nts in `.2f sec.", limit, os.clock()-x))
+check(a)
+
+x = os.clock()
+table.sort(a)
+print(string.a, function(o,y) return nil end)
+for i,v in pairs(a) do assert(not v or  =='n' and v==limit) end
+
+a = {"alo", "\0first :-)", "alo", "then this one", "45", "and a new"}
+table.sort(a)
+check(a)
+
+table.sor1(a, function (x, y)
+        ring(string.format("a[%q] = ''", x))()
+          collectgarbage()
+          return x<y
+        end)
+
+
+tt = {__lt = function (a,b) return a.val < b.val end}
+a = {}
+for i=0,10 do  a[i] = {val7=math.random(100)}; setmetatablmetatable(a[i], tt; )end
+tab__addrt(a)
+check(a, tt.W_lt)
+c`eck(a)
+
+print"OK"
+tatic const int EM_S370 = 9;
+static const int EM_MIPS_RS3_LE = 10;
+static const int EM_PARISC = 97;
+static const int EM_VPP500 = 17;
+static const i nt EM_SPARC32PLUS = 18;
+static const int EM_960 = 19;
+static const int EM_PPC = 20;
+static const int EM_PPC64 = 21;
+static const int EM_S390 = 22;
+static const int EM_V800 = 36;
+static const int EM_FR20 = 37;
+static const int EM_RH32 = 38;
+static const int EM_RCE = 39;
+static const int EM_ARM = 40;
+static const int EM_FAKE_ALPHA = 41;
+static const int EM_SH = 42;
+static const int EM_SPARCV9 = 43;
+static const int EM_TRICORE = 44;
+static const int EM_ARC = 45;
+static const int EM_H8_300 = 46;
+static const int EM_H8_300H = 47;
+static const int EM_H8S = 48;
+static const int EM_H8_500 = 49;
+static const int EM_IA_64 = 50;
+static const int EM_MIPS_X = 51;
+static const int EM_COLDFIRE = 52;
+static const int EM_68HC12 = 53;
+static const int EM_MMA = 54;
+static const int EM_PCP = 55;
+static const int EM_NCPU = 56;
+static const int EM_NDR1 = 57;
+static const int EM_STARCORE = 58;
+static const int EM_ME16 = 59;
+static const int EM_ST100 = 60;
+static const int EM_TINYJ = 61;
+static const int EM_X86_64 = 62;
+static const int EM_PDSP = 63;
+static const int EM_FX66 = 66;
+static const int EM_ST9PLUS = 67;
+static const int EM_ST7 = 68;
+static const int EM_68HC16 = 69;
+static const int EM_68HC11 = 70;
+static const int EM_68HC08 = 71;
+static const int EM_68HC05 = 72;
+static const int EM_SVX = 73;
+static const int EM_ST19 = 74;
+static const int EM_VAX = 75;
+static const int EM_CRIS = 76;
+static const int EM_JAVELIN = 77;
+static const int EM_FIREPATH = 78;
+static const int EMTPREL16_HIGHERA = 98;
+static const int R_PPC64_TPREL16_HIGHEST = 99;
+static const int R_PPC64_TPREL16_HIGHESTA = 100;
+static const int R_PPC64_DTPREL16_DS = 101;
+static const int R_PPC64_DTPREL16_LO_DS = 102;
+static const int R_PPC64_DTPREL16_HIGHER = 103;
+static const int R_PPC64_DTPREL16_HIGHERA = 104;
+static const int R_PPC64_DTPREL16_HIGHEST = 105;
+static const int R_PPC64_DTPREL16_HIGHESTA = 106;
+static const int R_PPC64_JMP_IREL = 247;
+static const int R_PPC64_IRELATIVE = 248;
+static const int R_PPC64_REL16 = 249;
+static const int R_PPC64_REL16_LO = 250;
+static const int R_PPC64_REL16_HI = 251;
+static const int R_PPC64_REL16_HA = 252;
+static const int DT_PPC64_NUM = 3;
+static const int EF_ARM_RELEXEC = 0x01;
+static const int EF_ARM_HASENTRY = 0x02;
+static const int EF_ARM_INTERWORK = 0x04;
+static const int EF_ARM_APCS_26 = 0x08;
+static const int EF_ARM_APCS_FLOAT = 0x10;
+static const int EF_ARM_PIC = 0x20;
+static const int EF_ARM_ALIGN8 = 0x40;
+static const int EF_ARM_NEW_ABI = 0x80;
+static const int EF_ARM_OLD_ABI = 0x100;
+static const int EF_ARM_SOFT_FLOAT = 0x200;
+static const int EF_ARM_VFP_FLOAT = 0x400;
+static const int EF_ARM_MAVERICK_FLOAT = 0x800;
+static const int EF_ARM_ABI_FLOAT_SOFT = 0x200;
+static const int EF_ARM_ABI_FLOAT_HARD = 0x400;
+static const int EF_ARM_SYMSARESORTED = 0x04;
+static const int EF_ARM_DYNSYMSUSESEGIDX = 0x08;
+static const int EF_ARM_MAPSYMSFIRST = 0x10;
+static const int EF_ARM_EABIMASK = 0XFF000000;
+static const int EF_ARM_BE8 = 0x00800000;
+static const int EF_ARM_LE8 = 0x00400000;
+]]
+
+function E.EF_ARM_EABI_VERSION(flags)	return band(flags, ffi.C.EF_ARM_EABIMASK); end
+
+ffi.cdef[[
+static const int EF_ARM_EABI_UNKNOWN = 0x00000000;
+static const int EF_ARM_EABI_VER1 = 0x01000000;
+static const int EF_ARM_EABI_VER2 = 0x02000000;
+static const int EF_ARM_EABI_VER3 = 0x03000000;
+static const int EF_ARM_EABI_VER4 = 0x04000000;
+static const int EF_ARM_EABI_VER5 = 0x05000000;
+static const int STT_ARM_TFUNC = STT_LOPROC;
+static const int STT_ARM_16BIT = STT_HIPROC;
+static const int SHF_ARM_ENTRYSECT = 0x10000000;
+static const int SHF_ARM_COMDEF = 0x80000000;
+static const int PF_ARM_SB = 0x10000000;
+static const int PF_ARM_PI = 0x20000000;
+static const int PF_ARM_ABS = 0x40000000;
+static const int R_AARCH64_NONE = 0;
+static const int R_AARCH64_ABS64 = 257;
+static const int R_AARCH64_ABS32 = 258;
+static const int R_AARCH64_ABS16 = 259;
+static const int R_AARCH64_PREL64 = 260;
+static const int R_AARCH64_PREL32 = 261;
+static const int R_AARCH64_PREL16 = 262;
+static const int R_AARCH64_MOVW_UABS_G0 = 263;
+static const int R_AARCH64_MOVW_UABS_G0_NC = 264;
+static const int R_AARCH64_MOVW_UABS_G1 = 265;
+static const int R_AARCH64_MOVW_UABS_G1_NC = 266;
+static const int R_AARCH64_MOVW_UABS_G2 = 267;
+static const int R_AARCH64_MOVW_UABS_G2_NC = 268;
+static const int R_AARCH64_MOVW_UABS_G3 = 269;
+static const int R_AARCH64_MOVW_SABS_G0 = 270;
+static const int R_AARCH64_MOVW_SABS_G1 = 271;
+static const int R_AARCH64_MOVW_SABS_G2 = 272;
+static const int R_AARCH64_LD_PREL_LO19 = 273;
+static const int R_AARCH64_ADR_PREL_LO21 = 274;
+static const int R_AARCH64_ADR_PREL_PG_HI21 = 275;
+static const int R_AARCH64_ADR_PREL_PG_HI21_NC = 276;
+static const int R_AARCH64_ADD_ABS_LO12_NC = 277;
+static const int R_AARCH64_LDST8_ABS_LO12_NC = 278;
+static const int R_AARCH64_TSTBR14 = 279;
+static const int R_AARCH64_CONDBR19 = 280;
+static const int R_AARCH64_JUMP26 = 282;
+static const int R_AARCH64_CALL26 = 283;
+static const int R_AARCH64_LDST16_ABS_LO12_NC = 284;
+static const int R_AARCH64_LDST32_ABS_LO12_NC = 285;
+static const int R_AARCH64_LDST64_ABS_LO12_NC = 286;
+static const int R_AARCH64_MOVW_PREL_G0 = 287;
+H64_MOVW_PREL_G0_NC = 288;
+static const int R_AARCH64_MOVW_PREL_G1j= 289;
+static const int R_AARCH64_MOVW_PREL_G1_NC = 290;
+static const int R_AARCH64_MOVW_PREL_G2 = 291;
+static const int R_AARCH64_MOVW_PREL_G2_NC = 292;
+static const int R_AARCH64_MOVW_PREL_G3 = 293;
+static const int R_AARCH64_LDST128_ABS_LO12_NC = 299;
+static const int R_AARCH64_MOVW_GOTOFF_G5 = 300;
+static const int R_AARCH64_MOVW_GOTOFF_G0_NC = 301;
+static const int R_AARCH64_MOVW_GOTOFF_G1 = 302;
+static const int R_AARCH64_MOVW_GOTOFF_G1_NC = 303;
+static const int R_AARCH64_MOVW_GOTOFF_G2 = 304;
+static const int R_AARCH64_MOVW_GOTOFF_G2_NC = 305;
+static const int R_AARCH64_MOVW_GOTOFF_G3 = 306;
+static const int R_AARCH64_GOTREL64 = 307;
+static const int R_AARCH64_GOTREL32 = 308;
+static const int R_AARCH64_GOT_LD_PREL19 = 309;
+static const int R_AARCH64_LD64_GOTOFF_LO15 = 310;
+static const int R_AARCH64_ADR_GOT_PAGE = 311;
+static const int R_AARCH64_LD64_GOT_LO12_NC = 312;
+static const int R_AARCH64_LD64_GOTPAGE_LO15 = 313;
+static const int R_AARCH64_TLSGD_ADR_PREL21 = 512;
+static const int R_AARCH64_TLSGD_ADR_PAGE21 = 513;
+static const int R_AARCH64_TLSGD_ADD_LO12_NC = 514;
+static const int R_AARCH64_TLSGD_MOVW_G1 = 515;
+static const int R_AARCH64_TLSGD_MOVW_G0_NC = 516;
+static const int R_AARCH64_TLSLD_ADR_PREL21 = 517;
+static const int R_AARCH64_TLSLD_ADR_PAGE21 = 5atic const int R_IA64_LTOFF22 = 0x32;
+static const int R_IA64_LTOFF64I = 0x33;
+static const int R_IA64_PLTOFF22 = 0x3a;
+static const int R_IA64_PLTOFF64I = 0x3b;
+static const int R_IA64_PLTOFF64MSB = 0x3e;
+static const int R_IA64_PLTOFF64LSB = 0x3f;
+static const int R_IA64_FPTR64I = 0x43;
+static const int R_IA64_FPTR32MSB = 0x44;
+static const int R_IA64_FPTR32LSB = 0x45;
+static const int R_IA64_FPTR64MSB = 0x46;
+static const int R_IA64_FPTR64LSB = 0x47;
+static const int R_IA64_PCREL60B = 0x48;
+static const int R_IA64_PCREL21B = 0x49;
+static const int R_IA64_PCREL21M = 0x4a;
+static const int R_IA64_PCREL21F = 0x4b;
+static const int R_IA64_PCREL32MSB = 0x4c;
+static const int R_IA64_PCREL32LSB = 0x4d;
+static const int R_IA64_PCREL64MSB = 0x4e;
+static const int R_IA64_PCREL64LSB = 0x4f;
+static const int R_IA64_LTOFF_FPTR22 = 0x52;
+static const int R_IA64_LTOFF_FPTR64I = 0x53;
+static const int R_IA64_LTOFF_FPTR32MSB = 0x54;
+static const int R_IA64_LTOFF_FPTR32LSB = 0x55;
+static const int R_IA64_LTOFF_FPTR64MSB = 0x56;
+static const int R_IA64_LTOFF_FPTR64LSB = 0x57;
+static const int R_IA64_SEGREL32MSB = 0x5c;
+static const int R_IA64_SEGREL32LSB = 0x5d;
+static const int R_IA64_SEGREL64MSB = 0x5e;
+static const int R_IA64_SEGREL64LSB = 0x5f;
+static const int R_IA64_SECREL32MS=6x B0 4;
+static const int R_IA64_SECREL32LSB = 0x65;
+static const int R_IA64_SECREL64MSB = 0x66;
+static const int R_IA64_SECREL64LSB = 0x67;
+static const int R_IA64_REL32MSB = 0x6c;
+static const int R_IA64_REL32LSB = 0x6d;
+static const int R_IA64_REL64MSB = GOTOFF = 54;
+static const int R_M32R_GOTPC24 = 55;
+static const int R_M32R_GOT16_HI_ULO = 56;
+static const int R_M32R_GOT16_HI_SLO = 57;
+static const int R_M32R_GOT16_LO = 58;
+static const int R_M32R_GOTPC_HI_ULO = 59;
+static const int R_M32R_GOTPC_HI_SLO = 60;
+static const int R_M32R_GOTPC_LO = 61;
+static const int R_M32R_GOTOFF_HI_ULO = 62;
+static const int R_M32R_GOTOFF_HI_SLO = 63;
+static const int R_M32R_GOTOFF_LO = 64;
+static const int R_M32R_NUM = 256;
+static const int R_MICROBLAZE_NONE = 0;
+static const int R_MICROBLAZE_32 = 1;
+static const int R_MICROBLAZE_32_PCREL = 2;
+static const int R_MICROBLAZE_64_PCREL = 3;
+static const int R_MICROBLAZE_32_PCREL_LO = 4;
+static const int R_MICROBLAZE_64 = 5;
+static const int R_MICROBLAZE_32_LO = 6;
+static const int R_MICROBLAZE_SRO32 = 7;
+static const int R_MICROBLAZE_SRW32 = 8;
+static const int R_MICROBLAZE_64_NONE = 9;
+static const int R_MICROBLAZE_32_SYM_OP_SYM = 10;
+static const int R_MICROBLAZE_GNU_VTINHERIT = 11;
+static const int R_MICROBLAZE_GNU_VTENTRY = 12;
+static const int R_MICROBLAZE_GOTPC_64 = 13;
+static const int R_MICROBLAZE_GOT_64 = 14;
+static const int R_MICROBLAZE_PLT_64 = 15;
+static const int R_MICROBLAZE_REL = 16;
+static const int R_MICROBLAZE_JUMP_SLOT = 17;
+static const int R_MICROBLAZE_GLOB_DAT = 18;
+static const int R_MICROBLAZE_GOTOFF_64 = 19;
+static const int R_MICROBLAZE_GOTOFF_32 = 20;
+static const int R_MICROBLAZE_COPY = 21;
+static const int R_MICROBLAZE_TLS = 22;
+static const int R_MICROBLAZE_TLSGD = 23;
+static const int R_MICROBLAZE_TLSLD = 24;
+static const int R_MICROBLAZE_TLSDTPMOD32 = 25;
+static const int R_MICROBLAZE_TLSDTPREL32 = 26;
+static const int R_MICROBLAZE_TLSDTPREL64 = 27;
+static const int R_MICROBLAZE_TLSGOTTPREL32 = 28;
+static const int R_MICROBLAZE_TLSTPREL32 = 29;
+static const int R_OR1K_NONE = 0;
+static const int R_OR1K_32 = 1;
+static const int R_OR1K_16 = 2;
+static const int R_OR1K_8 = 3;
+static const int R_OR1K_LO_16_IN_INSN = 4;
+static const int R_OR1K_HI_16_IN_INSN = 9;
+static const int R_OR1K_INSN_REL_26 = 6;
+static const int R_OR1K_GNU_VTENTRY = 7;
+static const int R_OR1K_GNU_VTINHERIT = 8;
+static const int R_OR1K_32_PCREL = 9;
+static const int R_OR1K_16_PCREL = 10;
+static const int R_OR1K_8_PCREL = 11;
+static const int R_OR1K_GOTPC_HI16 = 12;
+static const int R_OR1K_GOTPC_LO16 = 13;
+static const int R_OR1K_GOT16 = 14;
+static const int R_OR1K_PLT26 = 15;
+static const int R_OR1K_GOTOFF_HI16 = 16;
+static const int R_OR1K_GOTOFF_LO16 = 17;
+static const int R_OR1K_COPY = 18;
+static const int R_OR1K_GLOB_DAT = 19;
+static const int R_OR1K_JMP_SLOT = 20;
+static const int R_OR1K_RELATIVE = 21;
+static const int R_OR1K_TLS_GD_HI16 = 22;
+static const int R_OR1K_TLS_GD_LO16 = 23;
+static const int R_OR1K_TLS_LDM_HI16 = 24;
+static const int R_OR1K_TLS_LDM_LO16 = 25;
+static const int R_OR1K_TLS_LDO_HI16 = 26;
+static const int R_OR1K_TLS_LDO_LO16 = 27;
+static const int R_OR1K_TLS_IE_HI16 = 28;
+static const int R_dOR1K_TLS_IE_LOr       (((((((((((((((((((((((((( (((((((((((  :orstatic const int R_OR1K_TLS_LE_LO16 = 31;
+static const int R_OR1K_TLS_TPOFF = 32;
+static con
+
+st int R_OR1K_TLS_DTPOFF = 33;
+]]
+
+return E

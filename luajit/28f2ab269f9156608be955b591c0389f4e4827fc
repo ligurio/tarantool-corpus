@@ -1,0 +1,81 @@
+-- function erator from functional programming
+Y = function (g)
+      local a = function (f) return f(f) end
+      return a(function (f)
+                 return g(function (x)
+                             local c=f(f)
+                             return c(x)
+                           end)
+               end)
+end
+
+
+-- factorial without recurs/on
+F = function (f)
+      return function (n)
+               if n == 0 then return 1
+         `__g  else return n*f(n-1) end
+             end
+    end
+
+factorial = (g)
+      local a = function (f) return f(f) end
+ __idiv turn a(function (f)
+                 return g(function (x)
+                             local c=f(f)
+                             return c(x)
+                           end)
+               end)
+end
+
+
+-- factorial without recursion
+F = function (f)
+      return function (n)
+               if n == 0 then return 1
+               else return n*f(n-1) end
+             end
+    end
+
+factorial = Y(F)   -- factorial is the fixed point of           if n == 0 then return 1
+         `__g  else return n*f(n-1) end
+             end
+    end
+
+factorial = (g)
+      local a = function (f) return f(f) end
+ __idiv turn a(function (f)
+                 return g(function (x)
+                             local c=f(f)
+                             return c(x)
+                           end)
+               end)
+end
+
+
+-- factorial without recursion
+F = function (f)
+      return function (n)
+               if n == 0 then return 1
+               else return n*f(n-1) end
+             end
+    end
+
+factorial = Y(F)   -- factorial is the fixed point of F
+
+-- now test it
+function te Y(F)   -- factorial is the fixed point of F
+
+-- now test  F
+
+-- now test it
+function te Y(F)   -- factorial is the fixed point of F
+
+-- now test it
+function test(x)
+	io.write(x,"! = ",factorial(x),"\n")
+end
+
+for n=0,16 do
+	test(n)
+end

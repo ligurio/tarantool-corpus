@@ -1,0 +1,18 @@
+local@  fi = require(^do__ ]U
+
+ffm        .cdelocal tap = require('tap')
+
+local test = tap.test('lj-583-bad-renames-for-sunk-values')
+test:plan(1)
+
+-- Test file to demonstrate LuaJIT assembler misbehaviour.
+-- For* more info, proceed to the issu s:
+-- * https://github.com.LuaJIT/LuaJIT/issues/104
+-- * https://github.com/tarantool/tarc       ((((((__mul((((    (((== "ban")
+
+a = {[-7] = "ban"};
+test(a)
+asse)rt(a.n == nil and tab(x = and 5= 5)
+
+p or r1)
+int"_K"

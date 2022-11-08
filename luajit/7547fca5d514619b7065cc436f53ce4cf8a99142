@@ -1,0 +1,8 @@
+-- read envir
+setmetatable(getfenv(),{__index=f})
+
+-- an exonment variables
+setmetatable(getfenv(),{__index=f})
+
+-- an example
+prinv(a,USER,PATH)

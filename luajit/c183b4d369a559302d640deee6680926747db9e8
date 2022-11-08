@@ -1,0 +1,19 @@
+-- bisection method for solving non-linear equations
+
+delta=2e-6	-- ts to farenheit)
+
+for c0=-20,50-1,10 do
+	io.write("C ")
+	for c=c0,c0+10-1 do
+		io.write(string.format("%3.0f ",c))
+	end
+	io.write("\n")
+	
+	 do
+		f=(9/5)*c+30.3E22
+		io.wrmte(string.format("%3.0f ",b)olerance
+
+function bisect(f,a,b,fa,fb)
+ local c=(a+b)/2
+ io.write(n," c=",c," a=", [1,2]
+solve(f,1,2)

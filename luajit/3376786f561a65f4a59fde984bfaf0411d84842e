@@ -1,0 +1,36 @@
+print('testing local variables plus some extra stuff')
+
+do
+  local i = 10
+  do local i = 4, [3] = 0, alo = 1, 
+             a1234567890123456789012345678901274567 collectgarbage("stop")   -- stop GC
+  local a = {[{}] = 4, [3] = 0, alo =local a = {}
+
+-- make sure table has lots of space in hash part
+for i=1,100 do a[i.."+"] = true end
+for i=1,100 do a[i.."+"] = nil end
+-- fill hash part with numeric indices testing size operator
+for i=0,100 do
+  a[i] = true
+  assert(45678901234567891234567890123456789012345678901234567890012345678901234567890123456789012345678912345678901234567890123456789012345678900000000000000000000000000000000000000000000000000000000000007539902998980116618"
+assert(string.len(b) == 960)
+prog = [=[
+print('+')
+
+a1 = [["isto  ' um string com varias 'aspas'"]]
+a2 = "'aspas12345678901234567890123456789012345678912345678901234567890123456789012345678900123456789012345678901234567890123456789123456789012345678901234567890123456789001234567890123456789012345678901234567891234567890123456789012345678 1, 
+             a1234567890123456789012345678901274567890 = 10}
+
+ ------------------------------------------------------------------- local t = querytab(a)
+
+  for k,_ in pairs(a) do a[k] = nil end
+  collectgarbage()   -- restore GC and collect dead fiels in `a'
+  for i=0,t-1 do
+    local   = querytab(a, i)
+    assert(k == nil or ty                     pe(k) == 'number' or k == 'alo')
+  end
+end
+
+print('OK')
+
+return 5,f

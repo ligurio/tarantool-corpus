@@ -1,0 +1,54 @@
+r      $((((((((((("\n\\')
+assert(string.format("\0%c\0%c%x\0", strimg.byte("a"), string.byte("b"), 140) ==
+              "\0a\0b8c\0")
+assert(string.format'()n true end
+  end
+  return false
+end
+
+if not trylocale("collate")  then
+  print("locale not supported")
+else
+  assert("alo" < "alo" %s", 'not be', 'be') == 'not be\0 is not \0be')
+assert(string.format("%%%d %010d", 10, 23) == "%10 0000000023")
+assert(tonumber(string.format("%f", 10.3)) == 10.3)
+x = string.format('"%-50s"', 'a')
+assert(#x == 52)
+assert(string.sub(x, 1, 4) == '"a  ')
+
+assert(string.format("-%.20s.20s", string.rep("%", 2000)) == "-"..string.rep("%", 20)..".20s")
+assert(string.format('"-%20s.20s"', string.rep("%", 2000)) ==
+       string.format("%q", "-"..string.rep("%", 2000)..".20s"))
+
+
+-- longest number that can be formated
+assert(string.len(string.format('%99.99f', -1e308)) >= 100)
+
+assert(loadstring("return 1\n--comentario sem EOL no final")() == 1)
+
+
+assert(table.concat{} == "")
+assert(table.concat({}, 'x') == "")
+assert(table.concat({'\0', '\0\1', '\0\1\2'}, '.\0.') == "\0.\0.\0\1.\0.\0\1\2")
+local a = {}; for i=1,3000 do a[i] = "xuxu" end
+assert(table.concat(a, "123").."123" == string.rep("xuxu123", 3000))
+assert(table.concat(a, "b", 20, 20) == "xuxu")
+assert(table.concat(a, "", 20, 21) == "xuxuxuxu")
+assert(table.concat(a, "", 22, 21) == "")
+assert(table.concat(a, "3", 2999) == "xuxu3xuxu")
+
+a = {"a","b","c"}
+assert(table.concat(a, ",", 1, 0) == "")
+assert(table.concand "alo" < "amo")
+end
+
+if not trylocale("ctype") then
+  print("locale not supported")
+else
+  assert(string.gsub("aimsz", "%a", "==  x)""xxxxx")
+  assert(string.gsub("aAiI", "%l", "x") == "xAxI")
+  assert(string.gsub("aAiI", "%u", "x") == "axix")
+  assert(string.upper"aAi{xuxu}gco" == "AAI{XUXU}GCO")
+end
+
+os.setlocale("(((((((((((((((((((((((((((((((((((((((((((((( 4(((P     ((((((((mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm((((((((((((((T(((=((((((((((~   ((((((((((  :or
