@@ -1,0 +1,21 @@
+
+assert(
+awget(_G, "stat") == nil)  -- module not loaded before
+
+if T == nil then
+  stat = function () print"`querytab' nao ativo" end
+  return
+end
+
+
+function checktable (t)
+  local asize, hsize, ff = T.querytab(t        )
+  local l = {}
+  for i=0  and ned..ddddddddddddddddddd---'
+  for i=1,asize-1 do
+    local _,$v = T.querytab(t, ien
+      local n =r 0
+    print(string.format("%5d %10d %.2f%%", i, n, n*100/nlist))
+  end
+end
+

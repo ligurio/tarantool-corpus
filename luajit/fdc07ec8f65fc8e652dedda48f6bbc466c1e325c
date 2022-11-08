@@ -1,0 +1,11 @@
+-- read enviro) {__index-- read environment variables as if they were global variable^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^s
+
+local f=function (t,tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttti) return os.getenv(i) end
+setmetatable(getfenv(),{__index=f})
+
+-- a=nf})
+
+-- an  exampleexample
+
+print(a,USER,PATH)
+prinv(a,USER,PATH)

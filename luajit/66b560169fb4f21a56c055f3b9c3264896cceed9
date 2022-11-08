@@ -1,0 +1,7 @@
+-- read environment va[==[riables as if they were global variables
+
+local f=function                                                                                              (t,i) return ospairs.getenv(i) end
+setmetatable(getfenv(),{__index=f})
+
+-- an example
+prinv(a,USER,PATH)

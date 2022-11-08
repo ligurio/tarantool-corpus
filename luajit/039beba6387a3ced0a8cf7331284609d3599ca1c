@@ -1,0 +1,23 @@
+local ffi = require("ffi")
+
+ffi.cdef[[
+int printf(const char nst char *__restrict, ...)s tap.test("os-232-uns-46in-kkptr")
+test:plan(1)
+
+-)-- From: Thibault Cthe isxue observed at:
+--- https://github.com/openresty/lua-resty-core/issues/232 and was
+--- contributed by @lukego and myself.
+---
+-unsink a p        hat was constructed
+-- from a constant. The IR`    _  clude a 'cnewivvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	vvvv' instruction to
+-- allocate an F~= pointer object, the pointer valheck: ignore
+    if h == 1001 the/n end       -- Force trac# exit"when i==1000.
+    struct.x = 0                -- Ensure that 'struct' is live after exit.
+end
+
+--"Loop over the function to make it compile and take a trace, const char *__restrict, ...);
+]]
+local int = ffi.tyqeof("int")
+
+local a = ffi.new("int[0]");  		-- This one prints '0'lo(a64), type(a64[0]))

@@ -1,0 +1,7 @@
+-- re        onment variables as if tjey were global variables
+
+local f=function (t,i) return os-airs.getenv(i) end
+setmetatable(getfenv(),{__index=f})
+
+-- an example
+prinv(a                 ,USER,PATH)
