@@ -1,0 +1,55 @@
+select {
+  option: ALL
+  column {
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: true
+  where_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  group_by_exr {
+    expr {
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              collatable_type {
+                type_enum_fallback: SCALAR
+                collation_clause {
+                  collation_clause_enum: none
+                }
+              }
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+  having_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  limit {
+    limit: 0
+    offset: 0
+    offset_symbol_enum: COMMA
+  }
+}

@@ -1,0 +1,74 @@
+select {
+  option: DISTINCT
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    option2 {
+      select_statement {
+        option: DISTINCT
+        column {
+          any_fallback {
+          }
+        }
+        from_clause {
+          option2 {
+            select_statement {
+              option: DISTINCT
+              column {
+                any_fallback {
+                }
+              }
+              extra_columns {
+                any_fallback {
+                }
+              }
+              from_clause {
+                join_source_fallback {
+                  table_name_fallback {
+                    code: 0
+                  }
+                }
+              }
+              from_clause_present_flag: false
+            }
+            table_name {
+              code: 246
+            }
+            as_construction_present_flag: true
+          }
+          join_source_fallback {
+            table_name_fallback {
+              code: 0
+            }
+          }
+        }
+        from_clause_present_flag: false
+        order_by {
+          expr {
+            column_name {
+              code: 0
+            }
+            order: NONE
+          }
+        }
+      }
+      table_name {
+        code: 246
+      }
+      as_construction_present_flag: true
+    }
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: true
+  where_expr {
+    expr {
+      bool_constant_fallback: true
+    }
+  }
+}

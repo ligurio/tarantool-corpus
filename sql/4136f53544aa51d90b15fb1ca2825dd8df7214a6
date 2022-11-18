@@ -1,0 +1,42 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 8192
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum: INTEGER
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum: UNSIGNED
+        type_enum_fallback: DOUBLE
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 16384
+      }
+      type {
+        type_enum: NUMBER
+        type_enum_fallback: INTEGER
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+select {
+  option: ALL
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: true
+  group_by_exr {
+    expr {
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              collatable_type {
+                type_enum: STRING
+                type_enum_fallback: TEXT
+              }
+              type_enum_fallback: NUMBER
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 4177526784
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+      constraints {
+        nullable {
+          nullable_enum: NULLABLE
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

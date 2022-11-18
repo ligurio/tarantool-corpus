@@ -1,0 +1,115 @@
+select {
+  option: DISTINCT
+  column {
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_column_from_table {
+      code: 0
+    }
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 1
+      }
+    }
+  }
+  from_clause_present_flag: false
+  group_by_exr {
+    expr {
+      binary_operator_expression {
+        left_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        binary_operator: PLUS
+        right_operand {
+          func {
+            unary_operator_expression_fallback {
+              unary_operator: IS_NOT_NULL
+              term {
+                constant_fallback {
+                  value: 1953264973
+                  type {
+                    special_type_enum: ARRAY
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+          constant_fallback {
+            value: 30399297484750848
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+  having_expr {
+    expr {
+      compare {
+        left_operand {
+          func {
+            unary_operator_expression_fallback {
+              unary_operator: IS_NOT_NULL
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: DOUBLE
+            }
+          }
+        }
+        comporator: LESS
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      bool_constant_fallback: false
+    }
+  }
+  limit {
+    limit: 0
+    offset_symbol_enum: COMMA
+  }
+}

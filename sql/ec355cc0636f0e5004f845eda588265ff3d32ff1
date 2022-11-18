@@ -1,0 +1,99 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: UUID
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        collatable_type {
+          type_enum: SCALAR
+          type_enum_fallback: SCALAR
+        }
+        type_enum_fallback: VARBINARY
+      }
+      constraints {
+        named_constraint {
+          foreign_key_clause {
+            table_name {
+              code: 0
+            }
+            column_name {
+              code: 0
+            }
+            extra_column_names {
+              code: 0
+            }
+            extra_column_names {
+              code: 0
+            }
+            extra_column_names {
+              code: 4
+            }
+            extra_column_names {
+              code: 0
+            }
+            extra_column_names {
+              code: 0
+            }
+            extra_column_names {
+              code: 0
+            }
+            extra_column_names {
+              code: 0
+            }
+            extra_column_names {
+              code: 4
+            }
+            match_full: true
+          }
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        nullable {
+          nullable_enum: NOT_NULL
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

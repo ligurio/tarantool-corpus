@@ -1,0 +1,111 @@
+select {
+  option: ALL
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    option2 {
+      select_statement {
+        option: ALL
+        column {
+          select_column_expression {
+            expression {
+              binary_operator_expression {
+                left_operand {
+                  constant_fallback {
+                    value: 0
+                    type {
+                      type_enum_fallback: BOOLEAN
+                    }
+                  }
+                }
+                binary_operator: MULTIPLY
+                right_operand {
+                  constant_fallback {
+                    value: 0
+                    type {
+                      special_type_enum: ANY
+                      type_enum_fallback: UNSIGNED
+                    }
+                  }
+                }
+              }
+              unary_operator_expression_fallback {
+                unary_operator: NOT
+                term {
+                  constant_fallback {
+                    value: 4398046445568
+                    type {
+                      type_enum_fallback: BOOLEAN
+                    }
+                  }
+                }
+              }
+            }
+          }
+          any_fallback {
+          }
+        }
+        from_clause {
+          join_source_fallback {
+            table_name_fallback {
+              code: 0
+            }
+          }
+        }
+        from_clause_present_flag: true
+        limit {
+          limit: 0
+          offset_symbol_enum: OFFSET
+        }
+      }
+      as_construction_present_flag: true
+    }
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: true
+  where_expr {
+    expr {
+      bool_constant_fallback: true
+    }
+  }
+  group_by_exr {
+    expr {
+      binary_operator_expression {
+        left_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: UUID
+            }
+          }
+        }
+        binary_operator: MULTIPLY
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: UNSIGNED
+            }
+          }
+        }
+      }
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+}

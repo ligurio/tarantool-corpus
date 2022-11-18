@@ -1,0 +1,38 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: UUID
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 72057594037927935
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

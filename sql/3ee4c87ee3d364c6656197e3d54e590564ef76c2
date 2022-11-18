@@ -1,0 +1,104 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum: BOOLEAN
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 536870912
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        nullable {
+          nullable_enum: NULLABLE
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 536870912
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        nullable {
+          nullable_enum: NULLABLE
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

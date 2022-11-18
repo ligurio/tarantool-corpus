@@ -1,0 +1,178 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 320
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 16384
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum: UUID
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 576791072
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 17151
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 66
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 32
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+}

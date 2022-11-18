@@ -1,0 +1,193 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 32834
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: UUID
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 327680
+      }
+      type {
+        type_enum: BOOLEAN
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1819242306
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1819242306
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 2097152
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 17151
+      }
+      type {
+        type_enum_fallback: INTEGER
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 2105344
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 5
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 327680
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 25344
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1819242306
+      }
+      type {
+        type_enum_fallback: VARBINARY
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: VARBINARY
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 5
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 5
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 2097152
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 6488064
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

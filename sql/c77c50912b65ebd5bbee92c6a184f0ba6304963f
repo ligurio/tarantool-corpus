@@ -1,0 +1,66 @@
+select {
+  option: NONE
+  column {
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  where_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  group_by_exr {
+    expr {
+      binary_operator_expression {
+        left_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        binary_operator: BINARY_AND
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+  limit {
+    limit: 262144
+    offset_symbol_enum: COMMA
+  }
+}

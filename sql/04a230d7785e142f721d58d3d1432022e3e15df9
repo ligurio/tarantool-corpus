@@ -1,0 +1,108 @@
+select {
+  option: DISTINCT
+  column {
+    select_column_expression {
+      expression {
+        unary_operator_expression_fallback {
+          unary_operator: NOT
+          term {
+            constant_fallback {
+              value: 0
+              type {
+                collatable_type {
+                  type_enum: TEXT
+                  type_enum_fallback: SCALAR
+                }
+                type_enum_fallback: DOUBLE
+              }
+            }
+          }
+        }
+      }
+    }
+    any_fallback {
+    }
+  }
+  extra_columns {
+    select_column_expression {
+      expression {
+        unary_operator_expression_fallback {
+          unary_operator: NOT
+          term {
+            constant_fallback {
+              value: 0
+              type {
+                collatable_type {
+                  type_enum: TEXT
+                  type_enum_fallback: SCALAR
+                }
+                type_enum_fallback: DOUBLE
+              }
+            }
+          }
+        }
+      }
+    }
+    any_fallback {
+    }
+  }
+  from_clause {
+    option1 {
+      table_name {
+        code: 2304
+      }
+      as_table_name {
+        code: 512
+      }
+      indexed_enum: NOT_INDEXED
+    }
+    join_source_fallback {
+      joined_table {
+        left_join_source {
+          table_name_fallback {
+            code: 4
+          }
+        }
+        join_operator {
+          left_join {
+            natural: false
+            outer: false
+          }
+        }
+        right_join_source {
+          table_name_fallback {
+            code: 2304
+          }
+        }
+        specification {
+          using_specification {
+            column_name {
+              code: 0
+            }
+            extra_column_names {
+              code: 0
+            }
+          }
+          on_expr {
+            expr {
+              bool_constant_fallback: false
+            }
+          }
+        }
+      }
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: true
+  where_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  limit {
+    limit: 0
+    offset_symbol_enum: COMMA
+  }
+}

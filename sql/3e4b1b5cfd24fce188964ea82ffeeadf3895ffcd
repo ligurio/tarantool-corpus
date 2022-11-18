@@ -1,0 +1,62 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 100663807
+  }
+  dummy_definition {
+    type {
+      special_type_enum: ARRAY
+      type_enum_fallback: UUID
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 17151
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 2304
+  }
+  dummy_definition {
+    type {
+      collatable_type {
+        type_enum: STRING
+        type_enum_fallback: SCALAR
+      }
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                column_name {
+                  code: 0
+                }
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: DOUBLE
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

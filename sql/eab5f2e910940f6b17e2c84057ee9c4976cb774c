@@ -1,0 +1,216 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: UUID
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: INTEGER
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1819242306
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 5
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 65800
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1048576
+      }
+      type {
+        type_enum_fallback: DECIMAL
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 3840
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 5
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: VARBINARY
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 5
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1297044038
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 4
+      }
+      type {
+        type_enum_fallback: VARBINARY
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+}

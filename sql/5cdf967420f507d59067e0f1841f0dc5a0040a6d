@@ -1,0 +1,109 @@
+select {
+  option: NONE
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: true
+  where_expr {
+    expr {
+      compare {
+        left_operand {
+          predicate {
+            compare {
+              left_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+              comporator: LESS
+              right_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    special_type_enum: ARRAY
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+            bool_constant_fallback: true
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: UUID
+            }
+          }
+        }
+        comporator: GREATER
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum: UUID
+              type_enum_fallback: UUID
+            }
+          }
+        }
+      }
+      bool_constant_fallback: true
+    }
+  }
+  having_expr {
+    expr {
+      compare {
+        left_operand {
+          predicate {
+            compare {
+              left_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+              comporator: LESS
+              right_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+            bool_constant_fallback: true
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: UUID
+            }
+          }
+        }
+        comporator: LESS
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: UUID
+            }
+          }
+        }
+      }
+      bool_constant_fallback: true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

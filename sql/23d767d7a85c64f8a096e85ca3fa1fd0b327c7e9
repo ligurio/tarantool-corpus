@@ -1,0 +1,41 @@
+select {
+  option: DISTINCT
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  where_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  group_by_exr {
+    expr {
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              collatable_type {
+                type_enum_fallback: SCALAR
+                collation_clause {
+                  collation_clause_enum: unicode_sv_s1
+                }
+              }
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+}

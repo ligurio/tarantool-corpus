@@ -1,0 +1,30 @@
+select {
+  option: ALL
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  group_by_exr {
+    expr {
+      unary_operator_expression_fallback {
+        unary_operator: IS_NULL
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+}

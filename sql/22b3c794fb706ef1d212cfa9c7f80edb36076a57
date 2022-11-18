@@ -1,0 +1,31 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        collatable_type {
+          type_enum: SCALAR
+          type_enum_fallback: SCALAR
+          collation_clause {
+            collation_clause_enum: unicode_ci
+          }
+        }
+        type_enum_fallback: UNSIGNED
+      }
+    }
+  }
+  engine {
+    engine_enum: vinyl
+  }
+}

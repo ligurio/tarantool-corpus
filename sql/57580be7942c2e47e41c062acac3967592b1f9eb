@@ -1,0 +1,99 @@
+select {
+  option: DISTINCT
+  column {
+    select_column_expression {
+      expression {
+        unary_operator_expression_fallback {
+          unary_operator: NOT
+          term {
+            constant_fallback {
+              value: 0
+              type {
+                type_enum: INTEGER
+                type_enum_fallback: BOOLEAN
+              }
+            }
+          }
+        }
+      }
+    }
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      joined_table {
+        left_join_source {
+          table_name_fallback {
+            code: 0
+          }
+        }
+        join_operator {
+        }
+        right_join_source {
+          table_name_fallback {
+            code: 0
+          }
+        }
+        specification {
+          on_expr {
+            expr {
+              compare {
+                left_operand {
+                  constant_fallback {
+                    value: 0
+                    type {
+                      collatable_type {
+                        type_enum_fallback: SCALAR
+                      }
+                      type_enum_fallback: BOOLEAN
+                    }
+                  }
+                }
+                comporator: LESS
+                right_operand {
+                  constant_fallback {
+                    value: 0
+                    type {
+                      type_enum_fallback: BOOLEAN
+                    }
+                  }
+                }
+              }
+              bool_constant_fallback: false
+            }
+          }
+        }
+      }
+      table_name_fallback {
+        code: 170926138
+      }
+    }
+  }
+  from_clause_present_flag: false
+  having_expr {
+    expr {
+      compare {
+        left_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        comporator: GREATER
+        right_operand {
+          constant_fallback {
+            value: 1099511627776
+            type {
+              special_type_enum: ARRAY
+              type_enum_fallback: INTEGER
+            }
+          }
+        }
+      }
+      bool_constant_fallback: false
+    }
+  }
+}

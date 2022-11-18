@@ -1,0 +1,129 @@
+select {
+  option: DISTINCT
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  where_expr {
+    expr {
+      compare {
+        left_operand {
+          constant_fallback {
+            value: 33619968
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        comporator: LESS_EQUAL
+        right_operand {
+          column_name {
+            code: 538968064
+          }
+          constant_fallback {
+            value: 18446462598732840960
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      bool_constant_fallback: true
+    }
+  }
+  group_by_exr {
+    expr {
+      binary_operator_expression {
+        left_operand {
+          constant_fallback {
+            value: 33619968
+            type {
+              type_enum: DECIMAL
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        binary_operator: MINUS
+        right_operand {
+          predicate {
+            compare {
+              left_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+              comporator: LESS_EQUAL
+              right_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+            bool_constant_fallback: false
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: DOUBLE
+            }
+          }
+        }
+      }
+    }
+  }
+  having_expr {
+    expr {
+      compare {
+        left_operand {
+          constant_fallback {
+            value: 0
+            type {
+              collatable_type {
+                type_enum_fallback: SCALAR
+              }
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        comporator: LESS_EQUAL
+        right_operand {
+          column_name {
+            code: 538968064
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: DOUBLE
+            }
+          }
+        }
+      }
+      bool_constant_fallback: true
+    }
+  }
+}

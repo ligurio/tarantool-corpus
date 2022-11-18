@@ -1,0 +1,52 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: DOUBLE
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 33
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 2
+      }
+      type {
+        type_enum_fallback: DECIMAL
+      }
+      constraints {
+        named_constraint {
+          constraint_name {
+            code: 0
+          }
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

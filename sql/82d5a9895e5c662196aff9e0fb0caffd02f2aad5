@@ -1,0 +1,88 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+      constraints {
+        named_constraint {
+          primary_key {
+          }
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: IS_NOT_NULL
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: MINUS
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

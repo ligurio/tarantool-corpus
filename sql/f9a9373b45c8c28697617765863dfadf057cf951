@@ -1,0 +1,49 @@
+select {
+  option: ALL
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    option2 {
+      select_statement {
+        option: ALL
+        column {
+          any_column_from_table {
+            code: 150
+          }
+          any_fallback {
+          }
+        }
+        from_clause {
+          join_source_fallback {
+            table_name_fallback {
+              code: 4
+            }
+          }
+        }
+        from_clause_present_flag: false
+      }
+      as_construction_present_flag: true
+    }
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  having_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  order_by {
+    expr {
+      column_name {
+        code: 4
+      }
+      order: ASCENDING
+    }
+  }
+}

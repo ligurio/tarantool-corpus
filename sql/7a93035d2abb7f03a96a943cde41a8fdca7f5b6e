@@ -1,0 +1,160 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: NUMBER
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 9
+      }
+      type {
+        collatable_type {
+          type_enum_fallback: TEXT
+        }
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        collatable_type {
+          varchar {
+            integer: 0
+          }
+          type_enum_fallback: SCALAR
+        }
+        type_enum_fallback: BOOLEAN
+      }
+      constraints {
+        named_constraint {
+          constraint_name {
+            code: 0
+          }
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            binary_operator_expression {
+              left_operand {
+                constant_fallback {
+                  value: 336169817088
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+              binary_operator: PLUS
+              right_operand {
+                constant_fallback {
+                  value: 336169817088
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+            unary_operator_expression_fallback {
+              unary_operator: NO_OPERATOR
+              term {
+                column_name {
+                  code: 4145
+                }
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: INTEGER
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 16384
+      }
+      type {
+        collatable_type {
+          type_enum_fallback: TEXT
+        }
+        type_enum_fallback: NUMBER
+      }
+      constraints {
+        nullable {
+          nullable_enum: NULLABLE
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        named_constraint {
+          constraint_name {
+            code: 0
+          }
+          primary_key {
+          }
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

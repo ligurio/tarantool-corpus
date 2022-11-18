@@ -1,0 +1,36 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      collatable_type {
+        type_enum: TEXT
+        type_enum_fallback: SCALAR
+      }
+      type_enum_fallback: NUMBER
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 1207959552
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        collatable_type {
+          type_enum: TEXT
+          type_enum_fallback: SCALAR
+        }
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 148992
+  }
+  dummy_definition {
+    type {
+      type_enum: BOOLEAN
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 9216
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                column_name {
+                  code: 0
+                }
+                constant_fallback {
+                  value: 7664973082568228866
+                  type {
+                    special_type_enum: ANY
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                func {
+                  unary_operator_expression_fallback {
+                    unary_operator: PLUS
+                    term {
+                      constant_fallback {
+                        value: 0
+                        type {
+                          type_enum_fallback: BOOLEAN
+                        }
+                      }
+                    }
+                  }
+                }
+                constant_fallback {
+                  value: 7664973082568228866
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

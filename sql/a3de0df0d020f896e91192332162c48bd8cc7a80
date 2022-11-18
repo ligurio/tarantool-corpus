@@ -1,0 +1,17 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      collatable_type {
+        type_enum_fallback: SCALAR
+      }
+      type_enum_fallback: BOOLEAN
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

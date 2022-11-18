@@ -1,0 +1,36 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      special_type_enum: MAP
+      type_enum_fallback: NUMBER
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        special_type_enum: ARRAY
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: DECIMAL
+      }
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

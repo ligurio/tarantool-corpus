@@ -1,0 +1,103 @@
+select {
+  option: ALL
+  column {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  where_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  group_by_exr {
+    expr {
+      unary_operator_expression_fallback {
+        unary_operator: IS_NULL
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: NUMBER
+            }
+          }
+        }
+      }
+    }
+  }
+  having_expr {
+    expr {
+      compare {
+        left_operand {
+          func {
+            binary_operator_expression {
+              left_operand {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: NUMBER
+                  }
+                }
+              }
+              binary_operator: PLUS
+              right_operand {
+                constant_fallback {
+                  value: 18446744073709551606
+                  type {
+                    special_type_enum: ANY
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: NUMBER
+                  }
+                }
+              }
+            }
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: NUMBER
+            }
+          }
+        }
+        comporator: EQUAL
+        right_operand {
+          column_name {
+            code: 0
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: UUID
+            }
+          }
+        }
+      }
+      bool_constant_fallback: false
+    }
+  }
+  order_by {
+    expr {
+      column_name {
+        code: 0
+      }
+      order: ASCENDING
+    }
+  }
+}

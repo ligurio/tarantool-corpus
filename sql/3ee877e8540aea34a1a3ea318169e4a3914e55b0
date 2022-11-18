@@ -1,0 +1,179 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: UUID
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+      foreign_key {
+        column_name {
+          code: 0
+        }
+        reference {
+          table_name {
+            code: 0
+          }
+          column_name {
+            code: 0
+          }
+          match_full: true
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+      foreign_key {
+        column_name {
+          code: 0
+        }
+        reference {
+          table_name {
+            code: 0
+          }
+          column_name {
+            code: 0
+          }
+          match_full: true
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+      foreign_key {
+        column_name {
+          code: 0
+        }
+        reference {
+          table_name {
+            code: 0
+          }
+          column_name {
+            code: 0
+          }
+          match_full: true
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+  options {
+    table_constraint {
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+      foreign_key {
+        column_name {
+          code: 0
+        }
+        reference {
+          table_name {
+            code: 0
+          }
+          column_name {
+            code: 0
+          }
+          match_full: true
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    table_constraint {
+      primary_key {
+        column_name {
+          code: 0
+        }
+      }
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    table_constraint {
+      primary_key {
+        column_name {
+          code: 0
+        }
+      }
+      unique_fallback {
+        column_name {
+          code: 0
+        }
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+}

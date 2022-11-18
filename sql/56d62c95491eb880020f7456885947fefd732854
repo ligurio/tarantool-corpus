@@ -1,0 +1,99 @@
+create_table {
+  if_not_exists: false
+  table_name {
+    code: 65024
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: DECIMAL
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 43520
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 4
+      }
+      type {
+        type_enum_fallback: UUID
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum: UUID
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 4
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 111
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 111
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 2
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  engine {
+    engine_enum: vinyl
+  }
+}

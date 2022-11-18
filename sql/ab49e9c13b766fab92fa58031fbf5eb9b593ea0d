@@ -1,0 +1,33 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: DOUBLE
+    }
+  }
+  options {
+    column_definition {
+      column_name {
+        code: 0
+      }
+      type {
+        collatable_type {
+          type_enum: TEXT
+          type_enum_fallback: TEXT
+        }
+        type_enum_fallback: BOOLEAN
+      }
+    }
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: NUMBER
+      }
+    }
+  }
+}

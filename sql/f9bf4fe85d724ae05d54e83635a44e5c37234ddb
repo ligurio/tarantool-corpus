@@ -1,0 +1,104 @@
+select {
+  option: DISTINCT
+  column {
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_fallback {
+    }
+  }
+  from_clause {
+    join_source_fallback {
+      table_name_fallback {
+        code: 1
+      }
+    }
+  }
+  from_clause_present_flag: false
+  group_by_exr {
+    expr {
+      binary_operator_expression {
+        left_operand {
+          constant_fallback {
+            value: 1953264973
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        binary_operator: PLUS
+        right_operand {
+          func {
+            unary_operator_expression_fallback {
+              unary_operator: IS_NOT_NULL
+              term {
+                constant_fallback {
+                  value: 1953264973
+                  type {
+                    type_enum: DECIMAL
+                    type_enum_fallback: BOOLEAN
+                  }
+                }
+              }
+            }
+          }
+          constant_fallback {
+            value: 2147483648
+            type {
+              type_enum_fallback: DOUBLE
+            }
+          }
+        }
+      }
+      unary_operator_expression_fallback {
+        unary_operator: MINUS
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+  having_expr {
+    expr {
+      compare {
+        left_operand {
+          func {
+            unary_operator_expression_fallback {
+              unary_operator: IS_NOT_NULL
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+        comporator: LESS
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      bool_constant_fallback: true
+    }
+  }
+}

@@ -1,0 +1,146 @@
+create_table {
+  if_not_exists: true
+  table_name {
+    code: 0
+  }
+  dummy_definition {
+    type {
+      type_enum_fallback: DOUBLE
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        special_type_enum: ARRAY
+        type_enum_fallback: UUID
+      }
+      constraints {
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 7453010373643563850
+                  type {
+                    type_enum_fallback: DOUBLE
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        nullable {
+          nullable_enum: NULLABLE
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 725849473024
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      constraints {
+        named_constraint {
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 0
+                  type {
+                    type_enum_fallback: UUID
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 1852637184
+      }
+      type {
+        type_enum_fallback: BOOLEAN
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+      constraints {
+        named_constraint {
+          foreign_key_clause {
+            table_name {
+              code: 0
+            }
+            column_name {
+              code: 0
+            }
+            match_full: true
+            delete_rule {
+              rule: SET_NULL
+            }
+          }
+          unique_fallback {
+          }
+        }
+        default_expression {
+          expression {
+            unary_operator_expression_fallback {
+              unary_operator: NOT
+              term {
+                constant_fallback {
+                  value: 7453010373643563850
+                  type {
+                    type_enum_fallback: DOUBLE
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  options {
+    column_definition_fallback {
+      column_name {
+        code: 0
+      }
+      type {
+        type_enum_fallback: DOUBLE
+      }
+    }
+  }
+  engine {
+    engine_enum: memtx
+  }
+}

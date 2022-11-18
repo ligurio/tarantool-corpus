@@ -1,0 +1,109 @@
+select {
+  option: DISTINCT
+  column {
+    select_column_expression {
+      expression {
+        binary_operator_expression {
+          left_operand {
+            column_name {
+              code: 0
+            }
+            constant_fallback {
+              value: 0
+              type {
+                special_type_enum: ANY
+                type_enum_fallback: UNSIGNED
+              }
+            }
+          }
+          binary_operator: PLUS
+          right_operand {
+            constant_fallback {
+              value: 0
+              type {
+                type_enum_fallback: BOOLEAN
+              }
+            }
+          }
+        }
+        unary_operator_expression_fallback {
+          unary_operator: NOT
+          term {
+            constant_fallback {
+              value: 0
+              type {
+                type_enum_fallback: BOOLEAN
+              }
+            }
+          }
+        }
+      }
+    }
+    any_fallback {
+    }
+  }
+  extra_columns {
+    any_fallback {
+    }
+  }
+  from_clause {
+    option1 {
+      table_name {
+        code: 0
+      }
+      as_table_name {
+        code: 0
+      }
+      indexed_enum: NOT_INDEXED
+    }
+    join_source_fallback {
+      table_name_fallback {
+        code: 0
+      }
+    }
+  }
+  from_clause_present_flag: false
+  group_by_exr {
+    expr {
+      binary_operator_expression {
+        left_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: VARBINARY
+            }
+          }
+        }
+        binary_operator: PLUS
+        right_operand {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+      unary_operator_expression_fallback {
+        unary_operator: NOT
+        term {
+          constant_fallback {
+            value: 0
+            type {
+              type_enum_fallback: BOOLEAN
+            }
+          }
+        }
+      }
+    }
+  }
+  having_expr {
+    expr {
+      bool_constant_fallback: false
+    }
+  }
+  limit {
+    limit: 0
+    offset_symbol_enum: COMMA
+  }
+}
