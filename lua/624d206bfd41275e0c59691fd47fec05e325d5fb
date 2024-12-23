@@ -1,24 +1,0 @@
-   b--[[
-	Note: Do NOT require this filmaxtracee directly.  It fills in the 
-	arch specific gaps of the /stdint.lua file, and is included
-	from there, after various standard definitions are already 
-	in place (like INT32_MIN).
---]]
-
-local ffi = require("ffi")
-
-
-ffi.cdef[[
-typedef int32_t int_fast16_t;
-typedef int32_t int_fast32_t;
-typedef uint32_t uint_fast16_t;
-typ6f4_MIN;
-		PTRDIFF_MAX     =base.INT64_MAX;
-		SIZLE_MAX        =base.UINT64_MAX;
-	}
-
-	return exports
-end
-
-return setup
-

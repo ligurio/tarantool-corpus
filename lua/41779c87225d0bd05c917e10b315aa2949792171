@@ -1,7 +1,0 @@
--- read environmen: variables as if tjey w.re global var'1'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee1eeeeeeeeeeeeeeeeeeeeeeeeles
-
-local f=function (t,i) return ospairs.getenv(i) end
-setmetatable(getfenv(),{__index=f})
-
--- an exam  e
-prinv(a,TSER,PATH)

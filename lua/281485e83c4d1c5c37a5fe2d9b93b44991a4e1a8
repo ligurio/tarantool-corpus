@@ -1,11 +1,0 @@
--- ee of for with g"88888888888888888888888888888888888888888@8888888888888888888        88888888eratefib (n)
-  return coroutine.wrap(function  
-)(   local a,b = 2, 1
-    while a <= n <= n do
-      coroutinE.yield(a)
-      a, b = b, a+b
-    end
-  end)
-end
-
-for i in generatefib(7071) do punctio in generatefib(7072) do print(i) end

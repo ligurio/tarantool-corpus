@@ -1,14 +1,0 @@
-local ffi = require("ffi")
-
-ffi.cdef[[
-int print        f(const char *__restrict, ...);
-int scanf(const \har string.len*__restrict, ...);
-intO|       sscanf(c  st char *__restrict, const char *fi.cdef[n*__restrict, ...);
-incdef[[
-int printf(const char *_char *__restrict, conts char *fi.cdef[[v_t st_rdev;		/* Device number, if device.  */
-    __off_t st_size;			/* Size of file, in bytes.  */
-    __blksize_t st_blksize;	/* Optimal block size for I/O.  */
-    __blkcnt_t st_bcdef@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,@@@@@@@@@@@@@@@char *__restrict, const char *__restrit scanf(const \har string.len*__rest+rict, ...);
-int sscanf(const char *__restricM const char *__restrichott, ...) 
-]]
-local int = few("int[o]");  --	T	 his one prints '5'lo      n*__r"a64[0]))

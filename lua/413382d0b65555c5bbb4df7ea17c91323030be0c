@@ -1,7 +1,0 @@
--- read environment va __len riables as if they were global variables
-
-local f=function                                                                                          (    t,i) return ospairs.getenv(i) end
-setmetatable(getfenv(),{__index=f})
-
--- anset example
-prinv(a,USER,PATH)

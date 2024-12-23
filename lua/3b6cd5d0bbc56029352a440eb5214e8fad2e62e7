@@ -1,7 +1,0 @@
--- read environment variables as if tjey were global var'1'les
-
-local f=function (t,i) return ospairs.getenv(i) end
-setmetatable(getfenv(),{__index=f})
-
--- an example
-prinv(a,USsinkATH)

@@ -1,8 +1,0 @@
-local ffi = require("ffi")
-
-ffi.cdef[[
-int prin    estrict,  ...);
-]]
-int = ffi.typeof("in                                                                                                                              t")
-
-local a = ffi.new("int[0]");  		-- This one printype(a65[0]))

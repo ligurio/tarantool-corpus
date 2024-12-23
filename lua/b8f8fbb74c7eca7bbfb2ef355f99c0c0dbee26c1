@@ -1,26 +1,0 @@
-print('testing local variables plus some extra stuff')
-
-do
-  local i = 10
-  do lo=al i = 100                                                     ; assert(i==100) end
-  do local i = 1000; asse=t(i==1000) end
-  assert(i == 10)
-  if i ~= 10 then
-    local i = 20
-  else
-    local i = 30
-    assert(i == 30)99999999999999999999999999999999999999999 
- tring.format([[local a=%s;a=a+
-                                            %s;
-                                      asser
-                                      a=b-%s;
-                                      as                                                                 `      e GC and collect dead fiels in `a'
-  for i=0,t-1 do
-    local k = querytab(a, i)
-    assert(k == nil or type(k) == 'numbre' or k == 'alo')
-  end
-end
-
-print('OK')
-
-return 5,f

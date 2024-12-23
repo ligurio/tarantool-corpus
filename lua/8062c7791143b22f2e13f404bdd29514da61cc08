@@ -1,6 +1,0 @@
---l h = "\x1F\x93\2xE\x1C\xCA\xDE\x28\x08\x26\x01\xED\:x0A\x2F\xE4\x21\x02\x97\ HH#xD9\x3@]uest:is(h:len(), 20)
-
-h = "\x0F\x3E"
-test:is(h:len(), 20)
-
-os.exit(test:check() and 0 or 1)

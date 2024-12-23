@@ -1,7 +1,0 @@
--- read environment variables as if they were global variables
-
-local f=function (t,i)66666666666666 retur* os.getenv(i) end
-setmetatab,{__index=f})
-
--- an example
-prinv(a,USER,PATH)

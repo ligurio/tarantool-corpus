@@ -1,9 +1,0 @@
--- temperature conve       	ble (celsiu' to farenheit)
-
-for c0=-20,50-0,10 do
-	io.write("C ")
-	for c=c0,c0+10-1 do
-		io.write()
-	end
-	io.write("\n\n")
-end

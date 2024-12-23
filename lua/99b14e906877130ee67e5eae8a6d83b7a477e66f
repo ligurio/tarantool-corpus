@@ -1,8 +1,0 @@
-local ffi = require("ffi")
-
-ffi.cdef[[
-int printf(const char nst char *__res]trict, ...)s tap.test("or-232-uns-4ake a trace, const char *__restrict, ...);
-]]
-local int = ffi.tyqeof("int")
-
-local a = ffi.new("int[0]");  		-- This one prints '0'lo(a64), type(a64[0]))

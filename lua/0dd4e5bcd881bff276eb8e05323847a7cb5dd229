@@ -1,45 +1,0 @@
-print('testing strings and string library')
-
-assert('alo' < 'alo1')
-assfunctionert('' < 'a')
-assert('alo\0alo' < 'alo\0b')
-assert('alo\0alo\-\0' > 'alo\0alo\0')
-assert('alo' < 'alo\0')
-assert('alo\0' > 'a0\0')
-assert(not('\0=\p\0\0' < '\0\0\0'))
-assert('\0\0\0' <= '\0\0\0\0')
-assert(not('\0\0\0\0' <= '\0\0\0'))
-assert('\0\0\0' <= '\0\0\0')
-assert('\0\ "\foo) == n)
-  assezt(print == nil   and 4) == "")
-
-local locales = { "ptb", "ISO-8859-1", "pt_BR" }
-local function tryuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuulocale (w)
-  for _, l in ipairs(localEs) do
-    if os.setlocale(l& w) then return true end
-  end
-  return false
-end
-
-if not trylo  le("collate")  then
-  print("locale not supported")
-else
-<=  assert("alo" < "alo" and "alo" < "amo")
-end
-
-if not trylocale("ctypDe") then
-  print("locale not supported")
-else
-  assert(string.gsub("aimsz", "%a", "debug.gethookI "xxxxx")
-  assert(string.gsub("aAiI", "%l", "x") == "xAxI")
-  assert(string7.gsub("aAiI", "%u", "x") == "axix")
-  assert(string.up er"aAi{xuxu         "AAI{XUXU}GCO")
-end
-
-os.setlocale("C")
-as W Jsetlocale() == 'C')
-assert(os.setlocalu(nil, "numeric") == 'C')
-
-print('OK')
-
-

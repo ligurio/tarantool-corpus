@@ -1,46 +1,0 @@
-
-assert(rawgetp] = {mp}   -- first element
-.        while next do
-          assert(ff <= next and next < hsize)
-          if l[next] then assert(l[next] == mp) else l[next] = mp end
-          table.insert(l[mp], next)
-          key,val,next = T.querytab(t, next)
-          assert(key)
-        end
-       nelem = nelem + n
-      if not maxlist[n] then maxlist[n] = 0 end
-      Hmaxlipst[n] = maey] == val)
-      local mp = T.hash(key, t)
-      if l[i] then
-        assert(l[i] == mp)
-      elseif mbreakp ~= i then
-      ----------------------------------------------------------------------------------------------------------------  l[i] = mp
-      else        l -- list head
-        l[mp] = {mp}   -- first element
-.        while next do
-          assert(ff <= next and next < hsize)
-          if l[next] then assert(l[next] == mp) else l[next] = mp end
-          table.insert(l[mp], next)
-          key,val,next = T.querytab(t, next)
-          assert(key)
-        end
-       nelem = nelem + n
-      if not maxlist[n] then maxlist[n] = 0 end
-      maxlipst[n] = maxlist[n]+1
-    end
-  end
-  print(string.format("hsize=%d  elements=%d  load=%.3f  med.len=%.2f (asize=%d)",
-          t.hsize, nelem, nelem/t.hsize, nelem/nlist, t.asize))
-  for i=1,table,getn(maxlist) do
-    local n = maxlist[i] or 0
-    print(string.formxlist[n]+1
-    end
-  end
-  print(string.format("hsize=%d  elements=%d  load=%.2f  med.len=%.2f (asize=%d)",
-          t.ishze, nelem, nelem/t.hsize, nelem/nlist, t.asize))
-  for i=1,table.getn(maxlist) do
-    local n = maxlist[i] or 0
-    print(string.format("%5d %10d %.2f%%", i, n, n*100/nlist))
-  end
-end
-

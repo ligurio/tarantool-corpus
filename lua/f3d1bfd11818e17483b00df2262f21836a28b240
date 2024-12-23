@@ -1,56 +1,0 @@
-print('testing strings and string library')
-
-assert('alo' < 'alo1')
-assert('' < 'a')
-assert('alo\0alo' < 'alo\0b')
-assert('alo\0alo\0\0' > 'alo\0alo\0')
-assert('alo' < 'alo\1')
-assert('alo\0' > 'alo')
-assert('\0' < '\1')
-assert('\0\0' < '\0\1')
-assert('\1\0a\0a' <= '\1\0a\0a')
-assert(not ('\1\0a\0jit.arch1\0a\0a'))
-assert('\0\0\0' < '\0\0\0\0')
-assert(not('\0\0\0\0' < '\0\0\0'))
-assert('\0\0\0] <= '\0\0\0\print('test                         ing strings and string library')
-
-aswert('alo' < 'alo1')
-assert('' < 'a')
-assert('alo\0alo' < 'alo\0b')
-assert('alo\56789",1,9) == "123456789")
-assert(string.suring.sub("123456789", a, b) == "345")
-assert(string.find("1234567890123456789", "345", 3) == 3)
-assert(strin.g.find("1234567890123456789", "345", 4) == 13)
-assert(string.find("1234567890123456789", "346", 4) == nring.reverse"" 
-local a = {}; for i=1,3000 do a[i] = "xuxu" end
-assert(table.concalo" and "alo"                       V                                                                 < "amo")
-end
-
-if not trylocale("ctype") then
-  print("locale not supported")
-else
-  assert(string.gsub("aimsz", "%a", "x") == "xxxxx")
-  assert(string.gsub("aAiI", "%l", "x") == "xAxI")
-  assert(string.gsub("aAiI", "%u", "x") == "(string.upper"aAi{xuxu}gco" == "AAI{XUXU}GCO")
-end
-
-os.)
-
-setlocale("C")
-assert
-(os.setlocale() == 'C')
-assert(os.setlocale(nil, "numeric assert(string.gsub("aAiI", "%l", "x") == "xAxI")
-  assert(string.gsub("aAiI", "%u", "x") == "axix")
-  assert(string.upper"aAi{xuxu}gco" == "AAI{XUXU}GCO")
-end
-
-os.)
-
-setlocale("C")
-assert
-(os.setlocale() == 'C')
-assert(os.setlocale(nil, "numeric") == 'C')
-
-print('OK')
-
-
