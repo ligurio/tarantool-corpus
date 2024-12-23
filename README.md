@@ -3,22 +3,15 @@
 ```sh
 $ git clone https://github.com/tarantool/tarantool
 $ cd tarantool
+$ git clone https://github.com/ligurio/tarantool-corpus test/static
 $ CC=clang CXX=clang++ cmake -S . -B build -G Ninja -DENABLE_FUZZER=ON -DENABLE_UB_SANITIZER=ON
-$ cmake --build build/ --parallel 8 --target lua_fuzzer
+$ cmake --build build/ --parallel --target fuzzers
 ```
 
 ### How-to run
 
-Structure-aware fuzzing:
-
 ```
-$ git clone https://github.com/ligurio/test-corpus
-$ ./build/test/fuzz/lua_fuzzer/lua_fuzzer -reduce_inputs=1 -mutate_depth=20 -print_final_stats=1 -report_slow_units=5 -use_value_profile=1 -artifact_prefix="luajit-" -print_pcs=1 -reload=1 -jobs=8 -dict=./test-corpus/luajit.dict test-corpus/luajit/protobuf/
-```
-
-```
-$ git clone https://github.com/ligurio/test-corpus
-$ ./build/test/fuzz/luaL_loadbuffer_fuzzer -reduce_inputs=1 -mutate_depth=20 -print_final_stats=1 -report_slow_units=5 -use_value_profile=1 -artifact_prefix="luajit-" -print_pcs=1 -reload=1 -only_ascii=1 -dict=./test-corpus/luajit.dict test-corpus/luajit/lua/lua
+$ ctest -L fuzzing
 ```
 
 ### How-to merge corpuses
@@ -53,11 +46,3 @@ Show code coverage for a single function with a name `http_parser`:
 ```sh
 $ llvm-cov show ./build/src/tarantool -instr-profile=default.profdata -name=http_parser
 ```
-
-<!--
-https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md#visualizing-coverage
-https://clang.llvm.org/docs/SourceBasedCodeCoverage.html
-https://llvm.org/docs/CoverageMappingFormat.html
-https://github.com/google/fuzzing/issues/41#issuecomment-1031942660
-https://google.github.io/oss-fuzz/advanced-topics/code-coverage/#generate-code-coverage-reports
--->
