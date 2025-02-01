@@ -11,7 +11,7 @@ $ cmake --build build/ --parallel --target fuzzers
 ### How-to run
 
 ```
-$ ctest -L fuzzing
+$ ctest --test-dir build -L fuzzing
 ```
 
 ### How-to merge corpuses
