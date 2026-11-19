@@ -1,0 +1,70 @@
+# Dictionary for test/fuzz/xrow_update_fuzzer.
+#
+# The input is a MessagePack value [tuple, [[opcode, field, args...], ...]].
+# Entries below are the MessagePack headers, the update operation opcodes
+# (encoded as a fixstr of length 1) and JSON paths used as field identifiers.
+
+# MessagePack array and map headers.
+"\x90"
+"\x91"
+"\x92"
+"\x93"
+"\x94"
+"\xdc"
+"\xdd"
+"\xde"
+"\xdf"
+
+# MessagePack strings and binaries.
+"\xa0"
+"\xa1"
+"\xa2"
+"\xa3"
+"\xa4"
+"\xc4"
+"\xd9"
+"\xda"
+
+# MessagePack integers, floats, booleans and nil.
+"\x00"
+"\x01"
+"\x7f"
+"\xcc"
+"\xcd"
+"\xce"
+"\xcf"
+"\xd0"
+"\xd1"
+"\xd2"
+"\xd3"
+"\xca"
+"\xcb"
+"\xc0"
+"\xc2"
+"\xc3"
+
+# Decimal extension (MP_DECIMAL == 1).
+"\xd4\x01"
+
+# Update operation opcodes.
+"\xa1="
+"\xa1+"
+"\xa1-"
+"\xa1&"
+"\xa1|"
+"\xa1^"
+"\xa1!"
+"\xa1#"
+"\xa1:"
+
+# JSON paths used as field identifiers.
+"[1]"
+"[2]"
+"[3]"
+"1"
+"2"
+"3"
+"-1"
+"1.a"
+"[1][1]"
+"[2][0]"
