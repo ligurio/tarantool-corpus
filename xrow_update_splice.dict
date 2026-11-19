@@ -1,0 +1,32 @@
+# Dictionary for test/fuzz/xrow_update_splice_fuzzer.
+#
+# The input is a MessagePack value
+# [string_or_varbinary, [offset, cut_length, paste], ...].
+
+# Array headers.
+"\x92"
+"\x91"
+"\x93"
+
+# MessagePack strings and binaries.
+"\xa0"
+"\xa1"
+"\xa2"
+"\xc4"
+"\xd9"
+
+# Integers and their edge values.
+"\x00"
+"\x01"
+"\x7f"
+"\xff"
+"\xd0\x80"
+"\xd1\x80\x00"
+"\xd2\x80\x00\x00\x00"
+"\xd3\x80\x00\x00\x00\x00\x00\x00\x00"
+"\xce\x7f\xff\xff\xff"
+"\xcf\x00\x00\x00\x00\xff\xff\xff\xff"
+
+# Common paste values.
+"abc"
+"ABC"
